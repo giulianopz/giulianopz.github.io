@@ -1,3 +1,29 @@
 .current {
-    color: green;
+    font-weight: bold;
+}
+
+footer {
+    text-align: center;
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    height: 2.5rem;
+    font-size: small;
+}
+
+nav {
+    margin-right: 2vw;
+    margin-top: 2vw;
+    text-align: right;
+}
+
+#webaddress {
+    text-align: center;
+    position: absolute;
+    color: #11118e;
+    font-family: Monaco, Menlo, monospace, sans-serif;
+}
+
+#webaddress a {
+    text-decoration: none;
 }

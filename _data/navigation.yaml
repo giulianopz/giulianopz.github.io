@@ -2,3 +2,9 @@
   link: /
 - name: About
   link: /about.html
+- name: Email
+  link: mailto:panzironi.giuliano@gmail.com
+- name: GPG
+  link: /gpg.html
+- name: GitHub
+  link: https://github.com/giulianopz
