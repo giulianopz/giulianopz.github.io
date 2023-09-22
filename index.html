@@ -1,0 +1,15 @@
+---
+title: home
+layout: default
+permalink: /
+---
+
+<h3>Latest Posts</h3>
+
+<ul>
+  {% for post in site.posts %}
+  <li>
+    <div> [ {{ post.date | date_to_string }} ] <a href="{{ post.url }}"> {{ post.title }}</a></div>
+  </li>
+  {% endfor %}
+</ul>
