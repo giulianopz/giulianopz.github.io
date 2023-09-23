@@ -8,3 +8,5 @@
   link: /gpg.html
 - name: GitHub
   link: https://github.com/giulianopz
+- name: RSS
+  link: /feed.xml

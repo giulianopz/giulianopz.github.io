@@ -18,10 +18,10 @@
 # You can create any custom variable you would like, and they will be accessible
 # in the templates via {{ site.myvariable }}.
 
-title: webblog
+title: giulianopz's weblog
+description: "A metaphorical fugue on minds and machines in the spirit of Douglas R. Hofstadter"
 email: panzironi.giuliano@gmail.com
 footer: The site is powered by Jekyll.
-description: "A metaphorical fugue on minds and machines in the spirit of Douglas R. Hofstadter"
 
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "https://giulianopz.github.io" # the base hostname & protocol for your site, e.g. http://example.com
