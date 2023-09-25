@@ -9,6 +9,14 @@ footer {
     font-size: medium;
 }
 
+pre {
+    font-size: x-large;
+    border: 2px dotted #ddd;
+    width: fit-content;
+    padding-right: 10px;
+    padding-left: 10px;
+}
+
 hr {
     border: dashed 0.5px rgba(219, 219, 219, 0.9);
     margin-bottom: 25px;
