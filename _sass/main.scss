@@ -39,26 +39,32 @@ nav {
     text-decoration: none;
 }
 
-a {
-    text-decoration: none;
-}
-
-
 body {
     background-color: black;
     color: white;
     font-size: large;
 }
 
-a:link {
-    color: white;
+a {
+    text-decoration: none;
+}
+
+a:hover {
+    background-color: whitesmoke;
+    color: black;
 }
 
 a:visited {
     color: white;
 }
 
-a:hover {
+.visited:hover {
+    background-color: whitesmoke;
+    color: black;
+}
+
+
+a:link {
     color: white;
 }
 
@@ -66,6 +72,11 @@ a:focus {
     color: white;
 }
 
-a:active {
+a.active {
     color: white;
+}
+
+
+a:not(.active):hover {
+    color: black;
 }
