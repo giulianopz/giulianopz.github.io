@@ -81,6 +81,11 @@ a:not(.active):hover {
     color: black;
 }
 
+blockquote {
+    border: dashed 3px plum;
+    padding: 20px;
+}
+
 /**
  * Code and syntax highlighting
  * see: https://github.com/b2a3e8/jekyll-theme-console/blob/master/_sass/base.scss
