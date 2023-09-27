@@ -75,7 +75,7 @@ Finally, when done you can stop the SOCKS proxy by running on Termux:
 pkill sshd
 ```
 
-## TLDR
+## TL;DR
 
 You can use your Android phone as a SOCKS proxy to bypass a VPN filtering your network traffic on your laptop. Once both devices are properly configured, you can open Firefox with a specific profile set to use the SOCKS proxy to access the internet with a single script like the following:
 ```bash
@@ -83,7 +83,8 @@ You can use your Android phone as a SOCKS proxy to bypass a VPN filtering your n
 
 # To pass the password as an argument to ssh below, install `sshpass`:
 # $ sudo apt-get install sshpass
-# Please, remember that providing a password on the command line as plain text implies the risk of the password being captured in the user's shell history.
+# Please, remember that providing a password on the command line as 
+# plain text implies the risk of the password being captured in the user's shell history.
 # So, consider other options to automate the ssh login.
 
 set -e
@@ -103,7 +104,7 @@ PWD=$2
 
 nohup sshpass -p $PWD ssh -D 1337 -q -C -N -f root@IP -p 8022 -o StrictHostKeyChecking=no
 
-firefox -P $NEW_PROFILE_NAME >/dev/null 2>&1
+firefox -P $NEW_PROFILE_NAME >/dev/null 2>&1 &
 ```
 
 ---
