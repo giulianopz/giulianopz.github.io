@@ -8,7 +8,8 @@ Hi, thanks for stopping by!
 
 I'm Giuliano, a tiny little programmer. Once a linguist.
 
-You may find me in other corners of the web:
+My cv is [here](https://giulianopz.github.io/cv/).
+
 <div id="webaddress">
 <a href="https://github.com/giulianopz" class="fab fa-github"></a>
 | <a href="https://www.linkedin.com/in/giuliano-panzironi/" class="fab fa-linkedin"></a>
@@ -23,4 +24,3 @@ You may find me in other corners of the web:
 <br>
 <br>
 
-My cv is [here](https://giulianopz.github.io/cv/).
