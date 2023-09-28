@@ -4,11 +4,9 @@ title: About
 ---
 # About
 
-Hi, glad to see you!
+Hi, thanks for stopping by!
 
 I'm Giuliano, a tiny little programmer. Once a linguist.
-
-You can find my cv [here](https://giulianopz.github.io/cv/).
 
 You may find me in other corners of the web:
 <div id="webaddress">
@@ -22,3 +20,7 @@ You may find me in other corners of the web:
 | <a href="https://www.goodreads.com/user/show/168807725-giuliano-panzironi" class="fa-brands fa-goodreads"></a>
 | <a href="https://www.youtube.com/@giuliano.panzironi" class="fa-brands fa-youtube"></a>
 </div>
+<br>
+<br>
+
+My cv is [here](https://giulianopz.github.io/cv/).
