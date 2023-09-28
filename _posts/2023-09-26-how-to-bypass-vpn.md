@@ -96,7 +96,7 @@ fi
 
 IP=$1
 PWD=$2
-PROFILE_NAME=$3
+PROFILE=$3
 
 nohup sshpass -p $PWD ssh -D 1337 -q -C -N -f root@$IP -p 8022 -o StrictHostKeyChecking=no
 
