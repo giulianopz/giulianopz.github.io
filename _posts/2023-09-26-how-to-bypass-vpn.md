@@ -85,26 +85,22 @@ You can use your Android phone as a SOCKS proxy to bypass a VPN filtering your n
 # $ sudo apt-get install sshpass
 # Please, remember that providing a password on the command line as 
 # plain text implies the risk of the password being captured in the user's shell history.
-# So, consider other options to automate the ssh login.
+# So, please consider other options to automate the ssh login process.
 
 set -e
  
-if [ -z "$1" ]
-  then
-   echo "no IP provided" && exit 1
-fi
-
-if [ -z "$2" ]
-  then
-    echo "no pwd provided" && exit 1
+if [ "$#" -ne 3 ]
+then
+  echo "USAGE: <script> IP PWD PROFILE" && exit 1
 fi
 
 IP=$1
 PWD=$2
+PROFILE_NAME=$3
 
-nohup sshpass -p $PWD ssh -D 1337 -q -C -N -f root@IP -p 8022 -o StrictHostKeyChecking=no
+nohup sshpass -p $PWD ssh -D 1337 -q -C -N -f root@$IP -p 8022 -o StrictHostKeyChecking=no
 
-firefox -P $NEW_PROFILE_NAME >/dev/null 2>&1 &
+firefox -P $PROFILE >/dev/null 2>&1 &
 ```
 
 ---
