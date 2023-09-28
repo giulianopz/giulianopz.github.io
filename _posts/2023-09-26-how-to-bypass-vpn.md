@@ -1,9 +1,9 @@
 ---
 layout: post
-title:  "How to Escape a Corporate VPN with an Android Phone"
+title:  "How to Bypass a Corporate VPN with an Android Phone"
 date:   2023-09-26
 categories: vpn socks proxy termux android
-permalink: /how-to-escape-corporate-vpn
+permalink: /how-to-bypass-corporate-vpn
 ---
 
 Organizations and businesses of all sizes use VPNs to provide secure access to their intranet for people working remotely without the risk of exposing their data to the internet. Using a VPN client (e.g. Pulse Secure, Cisco AnyConnect, etc.) a device's internet connection is routed through a private server rather than the user's regular internet service provider (ISP), encrypting all the data that is transferred.  
