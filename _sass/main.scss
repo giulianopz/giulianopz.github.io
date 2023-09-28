@@ -10,11 +10,15 @@ footer {
 }
 
 pre {
-    font-size: x-large;
+    font-size: 25px;
     border: 2px dotted #ddd;
     width: fit-content;
     padding-right: 10px;
     padding-left: 10px;
+}
+
+code {
+    font-family: 'Inconsolata';
 }
 
 .language-bash {
@@ -46,7 +50,8 @@ nav {
 body {
     background-color: black;
     color: white;
-    font-size: large;
+    font-size: 30px;
+    font-family: 'Inconsolata';
 }
 
 a {
