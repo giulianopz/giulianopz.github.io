@@ -24,7 +24,7 @@ First things first, naturally for this mechanism to work the pc and the phone mu
 
 Then, grab your Android phone and install Termux, a terminal emulator with a minimal GNU/Linux environment, on your phone from [F-Droid](https://wiki.termux.com/wiki/Installing_from_F-Droid).
 
-> Note: Do not install it from Google Play since that version is outdated.
+> Note: do not install it from Google Play since that version is outdated.
 
 Once installed, open the Termux app and install OpenSSH:
 ```bash
