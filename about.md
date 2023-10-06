@@ -13,7 +13,6 @@ My cv is [here](https://giulianopz.github.io/cv/).
 <div id="webaddress">
 <a href="https://github.com/giulianopz" class="fab fa-github"></a>
 | <a href="https://www.linkedin.com/in/giuliano-panzironi/" class="fab fa-linkedin"></a>
-| <a href="https://twitter.com/giulianopz" class="fab fa-twitter"></a>
 | <a rel="me" href="https://hachyderm.io/web/@giulianopz" class="fab fa-mastodon"></a>
 | <a href="https://bsky.app/profile/giulianopz.bsky.social" class="fa-solid fa-cloud"></a>
 | <a href="https://stackoverflow.com/users/9109880/giulianopz?tab=profile" class="fa-brands fa-stack-overflow"></a>
