@@ -6,15 +6,19 @@ categories: vpn socks proxy termux android
 permalink: /how-to-bypass-corporate-vpn
 ---
 
-Organizations and businesses of all sizes use VPNs to provide secure access to their intranet for people working remotely without the risk of exposing their data to the internet. Using a VPN client (e.g. Pulse Secure, Cisco AnyConnect, etc.) a device's internet connection is routed through a private server rather than the user's regular internet service provider (ISP), encrypting all the data that is transferred.  
+Organizations and businesses of all sizes use virtual private networks (VPNs) to provide secure access to their intranet for people working remotely without the risk of exposing their data to the internet. 
+
+Using a VPN client (e.g. Pulse Secure, Cisco AnyConnect, etc.) a device's internet connection is routed through a private server rather than the user's regular internet service provider (ISP), encrypting all the data that is transferred. The ISP will see that the user is sending and receiving data packets, but it won't be able to view their content.
+
+On Linux, the VPN client creates a [tap/tun interface](https://www.kernel.org/doc/Documentation/networking/tuntap.txt), a virtual network interface, where all Ethernet frames or IP packets are routed (to be encrypted) before they are sent to the VPN server through a physical network interface.
 
 This way, a company protect itself against data theft but forces its employees into having no or limited access to the resources commonly available on the internet due to the VPN filtering their traffic. Sites commonly blocked are social networks, music streaming services, any DNS name vaguely sounding suspicious, etc.
 
 Unfortunately, while programming at work behind a VPN sometimes I'm in desperate need of listening to music on YouTube: it helps me to focus on work isolating my mind from surrounding sources of distraction.
 
-An easy mechanism I found to overcome this limitation is to forward the TCP connection from the browser to my Android phone, which is happily connected to the free public internet.
+An easy mechanism I found out to overcome this limitation is to forward the TCP connection from the browser to my Android phone, which is happily connected to the internet with no restrictions.
 
-In this configuration, the phone acts as a local SOCKS proxy thanks to OpenSSH which supports [dynamic port forwarding](https://en.wikipedia.org/wiki/Port_forwarding#Dynamic_port_forwarding) (**DPF**). The browser just needs to be instructed on how to use such a proxy to access the internet.
+In this configuration, the phone acts as a local SOCKS proxy server thanks to OpenSSH which supports [dynamic port forwarding](https://en.wikipedia.org/wiki/Port_forwarding#Dynamic_port_forwarding) (**DPF**). The browser just needs to be instructed on how to use such a proxy to access the internet.
 
 ## SOCKS proxy setup
 
@@ -106,6 +110,6 @@ firefox -P $PROFILE >/dev/null 2>&1 &
 ---
 
 References:
+- [Universal TUN/TAP device driver](https://www.kernel.org/doc/Documentation/networking/tuntap.txt)
 - [Create a SOCKS proxy on a Linux server with SSH to bypass content filters](https://ma.ttias.be/socks-proxy-linux-ssh-bypass-content-filters/)
-- [How to set up SSH dynamic port forwarding on Linux](https://www.redhat.com/sysadmin/ssh-dynamic-port-forwarding)
 - [Termux Wiki. Remote access: Using the SSH server](https://wiki.termux.com/wiki/Remote_Access#Using_the_SSH_server)
