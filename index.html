@@ -8,7 +8,7 @@ permalink: /
   {% for post in site.posts %}
   <li>
     {%- assign date_format = "%Y-%m-%d" -%}
-    <div style="text-align: center;"> [ {{ post.date | date: date_format }} ] <a href="{{ post.url }}"> {{
+    <div class="list-item"> [ {{ post.date | date: date_format }} ] <a href="{{ post.url }}"> {{
         post.title }}</a></div>
   </li>
   {% endfor %}
