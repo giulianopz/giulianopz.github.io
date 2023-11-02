@@ -25,6 +25,7 @@ ul {
 
 .current {
     font-weight: bold;
+
 }
 
 #page-container {
@@ -34,7 +35,6 @@ ul {
 
 #content-wrap {
     padding-bottom: 2.5rem;
-    /* Footer height */
 }
 
 #footer {
@@ -42,14 +42,13 @@ ul {
     bottom: 0;
     width: 100%;
     height: 2.5rem;
-    /* Footer height */
 }
 
 footer {
     margin: 20px auto 15px;
     padding-top: 10px;
     text-align: center;
-    font-size: medium;
+    font-size: medium
 }
 
 pre {

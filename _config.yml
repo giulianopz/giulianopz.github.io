@@ -19,9 +19,8 @@
 # in the templates via {{ site.myvariable }}.
 
 title: giulianopz's weblog
-description: "A metaphorical fugue on minds and machines in the spirit of Douglas R. Hofstadter"
+description: "Brain dumps and small hacks"
 email: panzironi.giuliano@gmail.com
-footer: This site is powered by Jekyll.
 
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "https://giulianopz.github.io" # the base hostname & protocol for your site, e.g. http://example.com
