@@ -1,0 +1,30 @@
+- name: <antirez>
+  url: http://antirez.com
+- name: Computers are bad
+  url: https://computer.rip
+- name: Coding Horror
+  url: https://blog.codinghorror.com
+- name: Drew DeVault's blog
+  url: https://drewdevault.com/
+- name: Eli Bendersky's website
+  url: https://eli.thegreenplace.net
+- name: Fabien Sanglard's Website
+  url: https://fabiensanglard.net
+- name: Ivan on Containers, Kubernetes, and Server-Side
+  url: https://iximiuz.com
+- name: Julia Evans
+  url: https://jvns.ca
+- name: jwz
+  url: https://www.jwz.org/
+- name: null program
+  url: https://nullprogram.com
+- name: Random ASCII - tech blog of Bruce Dawson 
+  url: https://randomascii.wordpress.com
+- name: research!rsc
+  url: https://research.swtch.com
+- name: Simon Willison's Weblog
+  url: https://simonwillison.net
+- name: Filippo Valsorda
+  url: https://words.filippo.io/
+- name: Vicki Boykis
+  url: https://vickiboykis.com
