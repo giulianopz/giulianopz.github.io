@@ -1,23 +1,35 @@
+- name: Andreas Kling - I like computers!
+  url: https://awesomekling.github.io/
 - name: <antirez>
   url: http://antirez.com
+- name: Brendan Gregg's Blog
+  url: https://www.brendangregg.com/blog/
+- name: bunnie's blog
+  url: https://www.bunniestudios.com/blog/
 - name: Computers are bad
   url: https://computer.rip
 - name: Coding Horror
   url: https://blog.codinghorror.com
+- name: Dave Cheney. The acme of foolishness
+  url: https://dave.cheney.net/
 - name: Drew DeVault's blog
   url: https://drewdevault.com/
 - name: Eli Bendersky's blog
   url: https://eli.thegreenplace.net
 - name: Fabien Sanglard's blog
   url: https://fabiensanglard.net
-- name: The Pragmatic Engineer
-  url: https://blog.pragmaticengineer.com/
+- name: fasterthanli.me
+  url: https://fasterthanli.me/
+- name: Filippo Valsorda's blog
+  url: https://words.filippo.io/
 - name: Ivan on Containers, Kubernetes, and Server-Side
   url: https://iximiuz.com
 - name: Julia Evans' blog
   url: https://jvns.ca
 - name: jwz
   url: https://www.jwz.org/
+- name: Martin Kleppmann's blog
+  url: https://martin.kleppmann.com/
 - name: Matthew Garrett's blog
   url: https://mjg59.dreamwidth.org/
 - name: null program
@@ -28,7 +40,9 @@
   url: https://research.swtch.com
 - name: Simon Willison's blog
   url: https://simonwillison.net
-- name: Filippo Valsorda's blog
-  url: https://words.filippo.io/
+- name: The Pragmatic Engineer
+  url: https://blog.pragmaticengineer.com/
+- name: The Buckblog. Assorted ramblings by Jamis Buck
+  url: http://weblog.jamisbuck.org/
 - name: Vicki Boykis' blog
   url: https://vickiboykis.com
