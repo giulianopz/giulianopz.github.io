@@ -14,7 +14,7 @@
   url: https://blog.pragmaticengineer.com/
 - name: Ivan on Containers, Kubernetes, and Server-Side
   url: https://iximiuz.com
-- name: Julia Evans blog
+- name: Julia Evans' blog
   url: https://jvns.ca
 - name: jwz
   url: https://www.jwz.org/
@@ -30,5 +30,5 @@
   url: https://simonwillison.net
 - name: Filippo Valsorda's blog
   url: https://words.filippo.io/
-- name: Vicki Boykis blog
+- name: Vicki Boykis' blog
   url: https://vickiboykis.com
