@@ -6,25 +6,29 @@
   url: https://blog.codinghorror.com
 - name: Drew DeVault's blog
   url: https://drewdevault.com/
-- name: Eli Bendersky's website
+- name: Eli Bendersky's blog
   url: https://eli.thegreenplace.net
-- name: Fabien Sanglard's Website
+- name: Fabien Sanglard's blog
   url: https://fabiensanglard.net
+- name: The Pragmatic Engineer
+  url: https://blog.pragmaticengineer.com/
 - name: Ivan on Containers, Kubernetes, and Server-Side
   url: https://iximiuz.com
-- name: Julia Evans
+- name: Julia Evans blog
   url: https://jvns.ca
 - name: jwz
   url: https://www.jwz.org/
+- name: Matthew Garrett's blog
+  url: https://mjg59.dreamwidth.org/
 - name: null program
   url: https://nullprogram.com
-- name: Random ASCII - tech blog of Bruce Dawson 
+- name: Random ASCII. Tech blog of Bruce Dawson 
   url: https://randomascii.wordpress.com
 - name: research!rsc
   url: https://research.swtch.com
-- name: Simon Willison's Weblog
+- name: Simon Willison's blog
   url: https://simonwillison.net
-- name: Filippo Valsorda
+- name: Filippo Valsorda's blog
   url: https://words.filippo.io/
-- name: Vicki Boykis
+- name: Vicki Boykis blog
   url: https://vickiboykis.com
