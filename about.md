@@ -19,4 +19,4 @@ Beyond programming, [books](https://www.goodreads.com/user/show/168807725-giulia
 
 My cv is [here](https://giulianopz.github.io/cv/), in the unlikely event you need it.
 
-This blog is about random stuff I need to jot down from time to time. You can find more interesting content in my idealistic [webring](./favorites.html).
+This blog is about random stuff I need to jot down from time to time to refine my thinking. You can find more interesting content in my idealistic [webring](./favorites.html).
