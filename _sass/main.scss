@@ -8,7 +8,7 @@ div {
 }
 
 ul {
-    padding: 0;
+    list-style-type: disc;
 }
 
 @media (min-width: 1200px) {
@@ -17,10 +17,6 @@ ul {
     div {
         font-size: 2rem;
     }
-}
-
-.list-item {
-    text-align: center;
 }
 
 .current {
