@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "Full-duplex HTTP Streaming in Go"
-date:   2024-12-04
+date:   2023-12-04
 categories: full-duplex http-streaming go web-speech-api
 permalink: /full-duplex-http-streaming-in-go
 ---
