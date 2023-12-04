@@ -19,9 +19,17 @@ ul {
     }
 }
 
+div.highlighter-rouge {
+    display: flex;
+    justify-content: center;
+}
+
+code.language-plaintext {
+    color: var(--turq-med);
+}
+
 .current {
     font-weight: bold;
-
 }
 
 #page-container {
@@ -149,6 +157,7 @@ blockquote {
     --code-color-16: #1e90ff;
     --code-color-17: #800000;
     --code-color-18: #bbbbbb;
+    --turq-med: #50b7e0;
 }
 
 .lineno {

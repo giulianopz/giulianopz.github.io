@@ -24,8 +24,8 @@ email: panzironi.giuliano@gmail.com
 
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "https://giulianopz.github.io" # the base hostname & protocol for your site, e.g. http://example.com
-twitter_username: giulianopz
-github_username:  giulianopz
+
+future: true # Publish posts or collection documents with a future date.
 
 # Build settings
 theme: minima
