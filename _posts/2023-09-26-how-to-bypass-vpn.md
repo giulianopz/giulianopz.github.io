@@ -4,6 +4,7 @@ title:  "How to Bypass a Corporate VPN with an Android Phone"
 date:   2023-09-26
 categories: vpn socks proxy termux android
 permalink: /how-to-bypass-corporate-vpn
+comments_id: 1
 ---
 
 Organizations and businesses of all sizes use virtual private networks (VPNs) to provide secure access to their intranet for people working remotely without the risk of exposing their data to the internet. 

@@ -9,3 +9,10 @@ layout: default
 <script defer type="module" src="assets/js/share.js"></script>
 
 <share-on-mastodon></share-on-mastodon>
+
+</br>
+</br>
+
+{% if page.comments_id %}
+{% include comments.html issue_id=page.comments_id %}
+{% endif %}

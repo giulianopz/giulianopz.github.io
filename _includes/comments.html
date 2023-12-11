@@ -1,0 +1,117 @@
+{% assign issues_repo = site.issues_repo %}
+{% assign issue_id = include.issue_id %}
+
+<section id="comments">
+    <div class="comment-actions">
+        <a target="_blank" class="button" href="https://github.com/{{ issues_repo }}/issues/{{ issue_id }}">
+            <i class="fa fa-github"></i> Comment on GitHub</a>
+        <p><span id="comments-count"></span></p>
+    </div>
+    <div id="comments-wrapper">
+        Loading...
+    </div>
+</section>
+
+<!-- Comments script -->
+<script>
+    const commentsSection = document.getElementById('comments');
+    const commentsWrapper = commentsSection.querySelector('#comments-wrapper');
+    const commentsCount = commentsSection.querySelector('#comments-count');
+
+
+    const commentsObserver = new IntersectionObserver((entries, self) => {
+        entries.forEach((entry) => {
+            if (entry.isIntersecting) {
+                fetchComments(); // this is the important part
+                self.unobserve(entry.target);
+            }
+        });
+    }, { rootMargin: '200px 0px 0px 0px' });
+
+    commentsObserver.observe(commentsSection);
+
+    const fetchComments = async () => {
+        try {
+            const comments = await (await fetch(
+                'https://api.github.com/repos/{{ issues_repo }}/issues/{{ issue_id }}/comments'
+            )).json();
+            initRenderComments(comments);
+        } catch (e) {
+            commentsWrapper.innerHTML = `<p>Unable to retrieve the comments for this post.</p>`;
+        }
+    }
+
+    const loadScript = (src) => {
+        const scriptElement = document.createElement('script');
+        document.body.appendChild(scriptElement);
+
+        return new Promise((resolve) => {
+            scriptElement.onload = resolve;
+
+            // Important to register onload before setting src
+            scriptElement.src = src;
+        });
+    }
+
+    const commentScripts = [
+        'assets/js/marked.min.js',
+        'assets/js/purify.min.js',
+        'assets/js/dayjs.min.js',
+        'assets/js/relativeTime.js',
+    ];
+
+    // Reminder: this gets called when the viewport intersects with the comments section
+    const initRenderComments = async (comments) => {
+        if (!comments.length) {
+            commentsWrapper.innerHTML = ``;
+            commentsCount.innerHTML = `No comments yet... Be the first!`
+            return;
+        }
+
+        // Load all comment script dependencies async
+        await Promise.all(commentScripts.map((script) => loadScript(script)));
+        renderComments(comments);
+    }
+
+    const renderComments = (comments) => {
+        // load the relativeTime plugin for dayjs so we can express dates relative to now
+        dayjs.extend(dayjs_plugin_relativeTime);
+
+        commentsCount.innerText = `(${comments.length}) Comments`;
+
+        const commentsList = document.createElement('ol');
+        commentsList.className = 'comments-list';
+        commentsList.setAttribute('aria-label', 'Comments on this blog post');
+
+        commentsList.innerHTML = comments
+            .sort((comment1, comment2) => {
+                return comment1.created_at < comment2.created_at ? 1 : -1;
+            })
+            .map(comment => {
+                const datePosted = dayjs(comment.created_at).fromNow();
+                const user = comment.user;
+                const body = DOMPurify.sanitize(marked(comment.body));
+                const postedByAuthor = comment.author_association === 'OWNER';
+                const edited = comment.created_at !== comment.updated_at;
+
+                return `<li class="comment">
+                <div class="commenter">
+                    <img src="${user.avatar_url}" alt="" aria-hidden="true" class="meta avatar" />
+                    <a
+                        href="https://github.com/${user.login}"
+                        class="meta username"
+                        >${user.login}</a
+                    >
+                    <div class="meta date-posted">commented <time datetime="${comment.created_at}">${datePosted}</time></div>
+                    ${postedByAuthor ? '<span class="meta tag author-badge">Author</span>' : ''}
+                    ${edited ? `<span class="meta comment-edited">Edited</span>` : ''}
+                </div>
+                <div class="comment-body">${body}</div>
+            </li>`;
+            })
+            .join('');
+
+        commentsWrapper.innerHTML = '';
+        commentsWrapper.appendChild(commentsList);
+    }
+</script>

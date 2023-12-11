@@ -4,6 +4,7 @@ title:  "Full-duplex HTTP Streaming in Go"
 date:   2023-12-04
 categories: full-duplex http-streaming go web-speech-api
 permalink: /full-duplex-http-streaming-in-go
+comments_id: 2
 ---
 
 ### Wait! Backstory, first...
