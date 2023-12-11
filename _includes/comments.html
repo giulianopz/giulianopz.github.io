@@ -2,13 +2,14 @@
 {% assign issue_id = include.issue_id %}
 
 <section id="comments">
+    <p>Comments</p>
+    <p><span id="comments-count" style="font-size: 1.5rem;"></span></p>
+    <div id="comments-wrapper">
+        Loading...
+    </div>
     <div class="comment-actions">
         <a target="_blank" class="button" href="https://github.com/{{ issues_repo }}/issues/{{ issue_id }}">
             <i class="fa fa-github"></i> Comment on GitHub</a>
-        <p><span id="comments-count"></span></p>
-    </div>
-    <div id="comments-wrapper">
-        Loading...
     </div>
 </section>
 

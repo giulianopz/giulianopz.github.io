@@ -4,14 +4,12 @@ layout: default
 <h2>{{ page.title }}</h2>
 <p style="text-decoration: underline dotted;">{{ page.date | date_to_string }}</p>
 
-{{ content }}
-
 <script defer type="module" src="assets/js/share.js"></script>
-
 <share-on-mastodon></share-on-mastodon>
 
-</br>
-</br>
+{{ content }}
+
+<hr>
 
 {% if page.comments_id %}
 {% include comments.html issue_id=page.comments_id %}
