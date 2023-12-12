@@ -2,10 +2,10 @@
 layout: default
 ---
 <h2>{{ page.title }}</h2>
-<p style="text-decoration: underline dotted;">{{ page.date | date_to_string }}</p>
+<p style="text-decoration: underline dotted;padding-left: 0.5rem;">{{ page.date | date_to_string }}</p>
 
 <script defer type="module" src="assets/js/share.js"></script>
-<share-on-mastodon></share-on-mastodon>
+<share-on-mastodon style="padding-left: 0.5rem;"></share-on-mastodon>
 
 {{ content }}
 
