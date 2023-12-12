@@ -17,6 +17,12 @@ ul {
     div {
         font-size: 2rem;
     }
+
+    article,
+    #comments {
+        margin-left: 20%;
+        margin-right: 20%;
+    }
 }
 
 div.highlighter-rouge {
