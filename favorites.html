@@ -6,6 +6,6 @@ layout: default
 Blogs I like:
 <ul>
     {% for item in site.data.favorites %}
-    <li>- <a href="{{ item.url }}">{{ item.name | escape }}</a></li>
+    <li><a href="{{ item.url }}">{{ item.name | escape }}</a></li>
     {% endfor %}
 </ul>
