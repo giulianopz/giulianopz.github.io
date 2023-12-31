@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "Mapping Hosts and Ports to Localhost"
-date:   2023-12-16
+date:   2024-01-01
 categories: mapping hosts ports localhost
 permalink: /mapping-hosts-and-ports-to-localhost
 comments_id: 3
