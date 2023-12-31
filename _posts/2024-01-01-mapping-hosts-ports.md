@@ -1,9 +1,9 @@
 ---
 layout: post
-title:  "Mapping Hosts and Ports to Localhost"
+title:  "Mapping Hosts and Ports on Your Local Machine"
 date:   2024-01-01
 categories: mapping hosts ports localhost
-permalink: /mapping-hosts-and-ports-to-localhost
+permalink: /mapping-hosts-and-ports
 comments_id: 3
 ---
 
