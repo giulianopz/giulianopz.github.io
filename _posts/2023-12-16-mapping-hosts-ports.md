@@ -7,19 +7,17 @@ permalink: /mapping-hosts-and-ports-to-localhost
 comments_id: 3
 ---
 
-When you develop some sort of processes exchanging data over a network interface on your local environment, you often stumble upon the issues of: 
+When you develop a web application or work with processes exchanging data over a network interface on your local machine, you often stumble upon the issues of: 
 - resolving [hostnames and domain names](https://superuser.com/questions/59093/difference-between-host-name-and-domain-name) to localhost
-- mapping a source port (usually 80, the default for HTTP) to the destination port (your server is listening to)
+- and optionally, mapping a source port (usually 80, the default for HTTP) to the destination port (your server is listening to).
 
-For example, you may have a small Kubernetes cluster (e.g. [k3d](https://k3d.io)) on your machine which needs to pull images from a local image registry by its hostname (let's say `registry.io`). Vice versa, you want to push images to that registry by its name from your local machine, which does not know the registry name by default.
+For example, you may have a small Kubernetes cluster (e.g. [k3d](https://k3d.io)) on your machine which needs to pull images from a local image registry by its hostname (let's say `registry.io`). Vice versa, you want to push images to that registry by its name from your local machine, which does not know how to resolve the registry name. In both cases, the docker daemon running in your machine must be able to access the registry.
 
-//TODO kubelet
-
-> Note: you could just use `localhost:port` and skip all of the following rigmarole if you published the registry container's port, but I cherry-picked the local registry case for the sake of simplicity.
+> Note: you could just use `localhost:port` and skip all of the following rigmarole, but sometimes it's not what you want.
 
 ## Quick and Dirty Solution
 
-The quick and dirty solution for it is to add an entry to [`/etc/hosts`](https://linux.die.net/man/5/hosts) mapping a domain name to `127.0.0.1`, e.g.: 
+The quick and dirty solution for it is to add an entry to [`/etc/hosts`](https://linux.die.net/man/5/hosts) mapping a domain name to `127.0.0.1`: 
 ```bash
 $ head -n3 /etc/hosts
 127.0.0.1	localhost
@@ -46,7 +44,7 @@ server {
 }
 ```
 
-And you would be able to redirect `registry.io` to `127.0.0.1:5000`:
+And you would be able to redirect `registry.io` to `127.0.0.1:5000` (provided that you set up a [local docker registry](https://www.natarajmb.com/2021/10/kubernetes-local-development-k3d-docker/)):
 ```bash
 $ curl http://registry.io/v2/_catalog
 {"repositories":["debian","alpine"]}
@@ -56,7 +54,7 @@ This approach tends to clutter your hosts file and it's difficult to maintain in
 
 > Note: Some people prefer to directly alter the [iptables](https://www.frozentux.net/iptables-tutorial/iptables-tutorial.html) rules instead of the hosts file, but I can't see any advantages doing that (maybe because I'm not an iptables expert).
 
-## A better small hack
+## A Better Small Hack
 
 If all you need is just to make a simple HTTP call for a one-shot test, you can instruct [curl](https://everything.curl.dev/usingcurl/connections/name) to resolve a hostname to specific IP address:
 ```bash
@@ -70,23 +68,25 @@ In fact, the documentation for the flag says:
     Provide  a  custom  address  for a specific host and port pair. Using this, you can make the curl requests(s) use a specified address and prevent the otherwise normally resolved address to be used. Consider it a sort of /etc/hosts alternative provided on the command line. The port number should be the number used for the specific protocol the host will be used for. It means you need several entries if you want to provide address for the same host but different ports.
 ```
 
-It even allows you to specify a replacement name and a port number when a specific name and port number is used to connect:
+It even allows you to specify both a replacement name and a port number when a specific name and port number is used to connect:
 ```bash
 curl --connect-to registry.io:80:127.0.0.1:5000 http://registry.io/v2/_catalog
 {"repositories":["debian","alpine"]}
 ```
 
-If you want to test the behaviour of your system(s) end-to-end, you will need something more.
+But if you need to test the behaviour of your system(s) end-to-end, you will need something more.
 
 There's a free service named `lvh.me` that simply resolves itself with any subdomains you can prefix to your localhost, e.g.:
 ```bash
+$ dig +short registry.lvh.me
+127.0.0.1
 $ curl http://registry.lvh.me:5000/v2/_catalog
 {"repositories":["debian","alpine"]}
 ```
 
 It's quite popular but it has already [disappeared](https://news.ycombinator.com/item?id=27423225) in the past and nothing guaratees it will be available in the near future. Interstingly, its author ([levincook](https://github.com/levicook)) does not even mention its existence except for few tweets on its account and a [gist](https://gist.github.com/levicook/563675) he shared 13 years ago... at least, as far as I could find out about it googling around.
 
-Under the hood, it redirects any requests to your host thanks to a small DNS trick. The same functionality is offered by another free service named [localtest.me](http://readme.localtest.me/). 
+Under the hood, it redirects any requests to your machine thanks to a small DNS trick. The same functionality is provided by another free service named [localtest.me](http://readme.localtest.me/). 
 
 Luckily, you don't need any external web service if you can install on your Linux distribution the [nss-myhostname](https://man7.org/linux/man-pages/man8/nss-myhostname.8.html) package: it can resolve any subdomains of localhost to the `127.0.0.1` automatically, so that you can simply refer to a server running locally by adding `.localhost` as a suffix along with its port, e.g.:
 ```bash
@@ -94,12 +94,16 @@ $ curl http://registry.localhost:5000/v2/_catalog
 {"repositories":["debian","alpine"]}
 ```
 
-In this way everything works with zero configuration on your local environment, and so it's even better than [dnsmasq](https://www.stevenrombauts.be/2018/01/use-dnsmasq-instead-of-etc-hosts/) which requires a bit of configuration to get the same result.
+In this way (almost) everything works with zero configuration on your local environment, and so it's even better than using [dnsmasq](https://www.stevenrombauts.be/2018/01/use-dnsmasq-instead-of-etc-hosts/) which requires a bit of configuration to get the same result.
+
+That said, your are still in need of specifying the target port. You will probably need `iptables` (or `ssh`) to setup a port forwarding if that is crucial for you. 
 
 ## Low-Level Solution
 
 If you would like to redirect network packets at a lower level with your bare hands, you have (at least) two possibilities:
+
 - using [libnetfilter_queue](https://netfilter.org/projects/libnetfilter_queue/) API to hook your userspace program to a numbered netfilter queue (NFQUEUE) where packets are en-queued waiting for a verdict to progress further in the rules chain 
+
 - using [eBPF](https://who.ldelossa.is/posts/ebpf-networking-technique-packet-redirection/) or [XDP](https://www.datadoghq.com/blog/xdp-intro/) to install packet processing programs directly into the kernel itself.
 
 Both for sure come with all the intricacies you have to master when programming below the [Layer 7](https://en.wikipedia.org/wiki/OSI_model#Layer_7:_Application_layer).
