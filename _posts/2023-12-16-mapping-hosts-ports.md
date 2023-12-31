@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "Name Resolution and Network Packets Redirection on Localhost"
+title:  "Mapping Hosts and Ports to Localhost"
 date:   2023-12-16
 categories: mapping hosts ports localhost
 permalink: /mapping-hosts-and-ports-to-localhost
