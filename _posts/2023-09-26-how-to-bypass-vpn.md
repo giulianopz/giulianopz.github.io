@@ -33,9 +33,9 @@ Then, grab your Android phone and install Termux, a terminal emulator with a min
 
 Once installed, open the Termux app and install OpenSSH:
 ```bash
-pkg update
-pkg upgrade
-pkg install root-repo openssh
+$ pkg update
+$ pkg upgrade
+$ pkg install root-repo openssh
 ```
 
 Set a password for the current user by running `passwd` taking note of the password. 
@@ -64,7 +64,7 @@ root@phone-ip's password:
 Configure your browser to use the SOCKS proxy. For example, you can configure the proxy access to the internet in Firefox from the Setting menu as follows:
 
 - select "Manual proxy configuration"
-    - enter `localhost` as "SOCKS Host" and the port used above (e.g. `1337`) as "Port"
+- enter `localhost` as "SOCKS Host" and the port used above (e.g. `1337`) as "Port"
 - tick the option "Proxy DNS when using SOCKS v5"
 
 If you need to use this configuration often, you'd better off creating a specific browser profile in the Firefox Settings so that it's not necessary to constantly switch between different network configurations. A new profile can be created by passing the `-P` flag to the `firefox` command, and launching the Profile Manager:
@@ -77,7 +77,7 @@ Now, you should be able to freely surf the web.
 
 Finally, when done you can stop the SOCKS proxy by running on Termux:
 ```bash
-pkill sshd
+$ pkill sshd
 ```
 
 ## TL;DR
