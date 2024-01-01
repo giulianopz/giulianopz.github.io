@@ -8,7 +8,7 @@ Hi, thanks for stopping by!
 
 I'm Giuliano, a tiny little programmer. Once a linguist. 
 
-Computer science and linguistics may seem quite separate fields of research but they are actually intertwined in an [eternal golden braid](https://en.wikipedia.org/wiki/G%C3%B6del,_Escher,_Bach) so that there's even [people](https://link.springer.com/article/10.1007/BF01007763) thinking they can contribute to each other.
+Computer science and linguistics may seem quite separate fields of research but they are actually intertwined in an [eternal golden braid](https://en.wikipedia.org/wiki/G%C3%B6del,_Escher,_Bach): [people](https://link.springer.com/article/10.1007/BF01007763) thinking they can contribute to each other should come as no surprise.
 
 I strongly believe that anything can be learned through [deliberate practice](https://en.wikipedia.org/wiki/Practice_(learning_method)#Deliberate_practice) and
 I live by the [Hacker Ethic](https://en.wikipedia.org/wiki/Hacker_ethic), but somehow mediated by [Ivan Illich](http://www.davidtinapple.com/illich/)'s line of thought (people before computers).
