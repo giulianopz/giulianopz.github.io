@@ -153,7 +153,7 @@ I hope to offer some examples in a next blog post.
 
 ## TL;DR
 
-Editing `/etc/hosts` to test names of services running locally is a bad idea: you'd better off using it to block unwanted or malicious code on the web. The `nss-myhostname` NSS plug-in module helps you resolving local hostnames (ending with `.localhost`) with zero configuration.
+Editing `/etc/hosts` to test names of services running locally is a bad idea: you'd better off using it to block unwanted or malicious content on the web. The `nss-myhostname` NSS plug-in module helps you resolving local hostnames (ending with `.localhost`) with zero configuration.
 
 ---
 
