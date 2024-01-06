@@ -11,15 +11,18 @@
     <link rel="shortcut icon" type="image/png" href="http://www.catb.org/hacker-emblem/glider.png">
 </head>
 
-<body>
+<body class="centered">
+
     <div id="page-container">
+
         <div id="content-wrap">
             {% include navigation.html %}
             {{ content }}
         </div>
-        {%- include footer.html -%}
-    </div>
 
+        {%- include footer.html -%}
+
+    </div>
 
 </body>
 

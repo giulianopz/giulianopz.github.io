@@ -11,6 +11,7 @@ ul {
     list-style-type: disc;
 }
 
+/* desktops */
 @media (min-width: 1200px) {
 
     a,
@@ -18,12 +19,16 @@ ul {
         font-size: 2rem;
     }
 
-    article,
-    #comments {
+    pre {
+        font-size: 1.85rem;
+    }
+
+    .centered {
         margin-left: 20%;
         margin-right: 20%;
     }
 }
+
 
 div.highlighter-rouge {
     display: flex;
@@ -70,7 +75,7 @@ code {
 }
 
 hr {
-    border: dashed 0.1px whitesmoke;
+    border: solid 0.1px whitesmoke;
     margin-bottom: 25px;
 }
 
