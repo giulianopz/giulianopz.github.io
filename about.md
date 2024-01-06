@@ -2,7 +2,6 @@
 layout: default
 title: About
 ---
-# About
 
 Hi, thanks for stopping by!
 
