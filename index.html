@@ -10,9 +10,9 @@ permalink: /
   <tbody>
     {% for post in site.posts %}
     <tr>
-      <td>{%- assign date_format = "%Y-%m-%d" -%}</td>
-      <td>[{{ post.date | date: date_format }}] <a href="{{ post.url }}"> {{
-          post.title }}</a></td>
+      <td> {%- assign date_format = "%Y-%m-%d" -%} [{{ post.date | date: date_format }}]</td>
+      <td>&nbsp;</td>
+      <td> <a href="{{ post.url }}"> {{ post.title }} </a> </td>
     </tr>
     {% endfor %}
   </tbody>
