@@ -45,7 +45,7 @@ The final note in the above quote explains why WebCaptioner only worked on Googl
 
 Wrapping up: the original implementation was limited to short audio samples, but the current one has virtually no limits, being capable of transcribing also quite long audio files. It just requires an API key. You could ask for a key reserved to developers on the Chromium project [site](https://www.chromium.org/developers/how-tos/api-keys/). But the API key you need is actually built into Google Chrome, as you can see by poking your nose into the [Chromium source code](https://source.chromium.org/chromium/chromium/src/+/main:content/browser/speech/speech_recognition_engine.cc). And it's also the same for every Chrome installation (i.e. `AIzaSyBOti4mM-6x9WDnZIjIeyEU21OpBXqWBgw`), you can prove it by running the following command:
 ```bash
-strings /opt/google/chrome/chrome | grep AIzaSyBOti4mM-6x9WDnZIjIeyEU21OpBXqWBgw
+$ strings /opt/google/chrome/chrome | grep AIzaSyBOti4mM-6x9WDnZIjIeyEU21OpBXqWBgw
 ```
 
 I guess this is the same service my Google Pixel connects to when [Live Caption](https://www.androidauthority.com/live-caption-pixel-3224653/) is enabled, but I had no chance to verify it so far. 
@@ -92,67 +92,67 @@ defer pw.Close()
 
 // read audio from stdin in 1kB chunks until end of stream or error
 go func() {
-	bs := make([]byte, 1024)
-	for {
-		n, err := os.Stdin.Read(bs)
-		if n > 0 {
-			// write input chunks to the pipe
-			_, err := pw.Write(bs)
-			if err != nil {
-				panic(err)
-			}
-		} else if err == io.EOF {
-			break
-		} else if err != nil {
-			panic(err)
-		}
-	}
+    bs := make([]byte, 1024)
+    for {
+        n, err := os.Stdin.Read(bs)
+        if n > 0 {
+            // write input chunks to the pipe
+            _, err := pw.Write(bs)
+            if err != nil {
+                panic(err)
+            }
+        } else if err == io.EOF {
+            break
+        } else if err != nil {
+            panic(err)
+        }
+    }
 }()
 
 // send chunks of input to the upstream reading from the pipe
 go func() {
     req, err := http.NewRequest(http.MethodPost, url, pr)
-	if err != nil {
-		panic(err)
-	}
+    if err != nil {
+        panic(err)
+    }
 
-	rsp, err := c.Do(req)
-	if err != nil {
-		panic(err)
-	}
-	defer rsp.Body.Close()
+    rsp, err := c.Do(req)
+    if err != nil {
+        panic(err)
+    }
+    defer rsp.Body.Close()
 }()
 
 // receive transcripts from downstream
 go func() {
     req, err := http.NewRequest(http.MethodGet, url, nil)
-	if err != nil {
-		panic(err)
-	}
+    if err != nil {
+        panic(err)
+    }
 
     rsp, err := c.Do(req)
-	if err != nil {
-		panic(err)
-	}
-	defer rsp.Body.Close()
+    if err != nil {
+        panic(err)
+    }
+    defer rsp.Body.Close()
 
-	// consume JSON messages from the body until end of stream or error
-	dec := json.NewDecoder(rsp.Body)
-	for {
-		speechRecogResp := &transcription.Response{}
+    // consume JSON messages from the body until end of stream or error
+    dec := json.NewDecoder(rsp.Body)
+    for {
+        speechRecogResp := &transcription.Response{}
 
-		err = dec.Decode(speechRecogResp)
-		if err == io.EOF {
-			// singnal no more results to the receiver
-			close(out)
-			break
-		}
-		if err != nil {
-			panic(err)
-		}
+        err = dec.Decode(speechRecogResp)
+        if err == io.EOF {
+            // singnal no more results to the receiver
+            close(out)
+            break
+        }
+        if err != nil {
+            panic(err)
+        }
         // send response to the channel
-		responses <- speechRecogResp
-	}
+        responses <- speechRecogResp
+    }
 }()
 
 // loop over channel until it is closed by the sender
