@@ -29,6 +29,10 @@ ul {
     }
 }
 
+table {
+    border-collapse: separate;
+    border-spacing: 0 15px;
+}
 
 div.highlighter-rouge {
     display: flex;
