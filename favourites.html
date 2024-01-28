@@ -1,11 +1,11 @@
 ---
-title: favorites
+title: favourites
 layout: default
 ---
 
-Blogs I like:
+A few of my favourite blogs:
 <ul>
-    {% for item in site.data.favorites %}
+    {% for item in site.data.favourites %}
     <li><a href="{{ item.url }}">{{ item.name | escape }}</a></li>
     {% endfor %}
 </ul>
