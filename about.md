@@ -35,7 +35,7 @@ I usually keep track of some useful stuff about programming (paper textbooks and
   </iframe>
 </div>
 
-Beyond programming, books and music are the things that fill my space and time. I'm a slow reader and I have a taste for piling up voluminous texts on the bedside table. As to music, I qualify myself as a [scaruffian](https://www.scaruffi.com/music.html). 
+Beyond programming, books and music are the things that fill my space and time. I'm a slow reader and I have a taste for piling up voluminous texts on the bedside table. As to music, I qualify myself as a [scaruffian](https://www.scaruffi.com/music.html) audiophile. 
 
 ## Web Presence
 
