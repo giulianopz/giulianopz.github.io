@@ -17,7 +17,7 @@ My cv is [here](https://giulianopz.github.io/cv/), in the unlikely event you nee
 
 ## Personal Beliefs
 
-1. All mankind into two classes: those that only mind their own business and those that consider progress not possible if the rest of the society is not equally happy as themselves. I belong to the second ones.
+1. All mankind is divided into two classes: those that only mind their own business and those that consider progress not possible if the rest of the society is not equally happy as themselves. I belong to the second ones.
 
 2. The [hacker ethic](https://en.wikipedia.org/wiki/Hacker_ethic), mediated by [Ivan Illich](http://www.davidtinapple.com/illich/)'s line of thought (people before computers), can change the world we live in.
 
@@ -29,13 +29,13 @@ My cv is [here](https://giulianopz.github.io/cv/), in the unlikely event you nee
 
 Personal blogs are my [favourite](./favourites.html) corners of the web, they are where I learn most. They are also the motivation for running my own blog to jot down scattered thoughts, small hacks and, more generally, everything I need to remember. This is my small [digital garden](https://www.petemillspaugh.com/about#this-site).
 
-I usually keep track of useful stuff about programming (paper textbooks and online resources) I come across in a sort of [bookmarks](https://giulianopz.github.io/programming/) collection in a GitHub repo. The map below from my space on [Kinopio](https://blog.kinopio.club/) summarizes some of the most interesting things I plan to study for the rest of my mortal life:
+I usually keep track of some useful stuff about programming (paper textbooks and online resources) I come across in a sort of [bookmarks collection](https://giulianopz.github.io/programming/). The map below from my space on [Kinopio](https://blog.kinopio.club/) summarizes some of the most interesting things I plan to study for the rest of my mortal life:
 <div class="kinopio-embed" style="height: 420px; width: 100%;">
   <iframe src="https://kinopio.club/embed/?spaceId=AG0T1llADA1SFCdZtAJ1G&zoom=100" style="height: 100%; width: 100%; border: 0; border-radius: 6px;">
   </iframe>
 </div>
 
-Beyond programming, books and music are the things that fill my space and time. I'm a slow reader and I have a taste for piling up voluminous texts on the bedside table. As to music, I still like to dig into [Piero Scaruffi](https://www.scaruffi.com/music.html)'s album ratings. 
+Beyond programming, books and music are the things that fill my space and time. I'm a slow reader and I have a taste for piling up voluminous texts on the bedside table. As to music, I qualify myself as a [scaruffian](https://www.scaruffi.com/music.html). 
 
 ## Web Presence
 
@@ -43,11 +43,11 @@ Since [Twitter](https://www.theverge.com/c/23972308/twitter-x-death-tweets-histo
 
 Other places I can be found are: 
 
-- [GitHub](https://github.com/giulianopz)
+- [GitHub](https://github.com/giulianopz) (since everyone is here) 
+- [Codeberg](https://codeberg.org/giulianopz) (have to really give it a try yet)
 - [YouTube](https://www.youtube.com/channel/UCXwUDnol9_Sk8XOfQWo13Iw) (until ad-blockers are not blocked)
 - [Goodreads](https://www.goodreads.com/user/show/168807725-giuliano-panzironi) (I use it although I hate it)
-- [iFixit](https://www.ifixit.com/User/3323023/Giuliano+Panzironi)
+- [iFixit](https://www.ifixit.com/User/3323023/Giuliano+Panzironi) 
 - [Bluesky](https://bsky.app/profile/giulianopz.bsky.social) (abandoned)
-- [Codeberg](https://codeberg.org/giulianopz) (have to really give it a try yet)
-- [cohost!](https://cohost.org/gpz?page=0) (only registered)
+- [cohost!](https://cohost.org/gpz?page=0) (only registered so far)
 - [Linkedin](https://www.linkedin.com/in/giuliano-panzironi/) (mostly ghostly)
