@@ -17,7 +17,7 @@ My cv is [here](https://giulianopz.github.io/cv/), in the unlikely event you nee
 
 ## Personal Beliefs
 
-1. All mankind is divided into two classes: those that only mind their own business and those that consider progress not possible if the rest of the society is not equally happy as themselves. I belong to the second ones.
+1. All mankind is divided into two classes: those that only mind their own business and those that consider happiness not possible if the rest of the society is not equally happy as themselves. I belong to the second ones.
 
 2. The [hacker ethic](https://en.wikipedia.org/wiki/Hacker_ethic), mediated by [Ivan Illich](http://www.davidtinapple.com/illich/)'s line of thought (people before computers), can change the world we live in.
 
