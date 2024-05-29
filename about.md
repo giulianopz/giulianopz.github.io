@@ -27,7 +27,7 @@ My cv is [here](https://giulianopz.github.io/cv/), in the unlikely event you nee
 
 ## Main interests
 
-Personal blogs are my [favourite](./favourites.html) corners of the web, they are where I learn most. They are also the motivation for running my own blog to jot down scattered thoughts, small hacks and, more generally, everything I need to remember. This is my small [digital garden](https://www.petemillspaugh.com/about#this-site).
+Personal blogs are my [favourite](./favourites.html) corners of the web, they are where I learn most. They are also the motivation for running my own blog to jot down scattered thoughts, small hacks and, more generally, everything I need to remember. This is my small [digital garden](https://maggieappleton.com/garden-history).
 
 I usually keep track of some useful stuff about programming (paper textbooks and online resources) I come across in a sort of [bookmarks collection](https://giulianopz.github.io/programming/). The map below from my space on [Kinopio](https://blog.kinopio.club/) summarizes some of the most interesting things I plan to study for the rest of my mortal life:
 <div class="kinopio-embed" style="height: 420px; width: 100%;">
