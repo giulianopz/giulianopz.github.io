@@ -1,0 +1,124 @@
+- name: Andreas Kling - I like computers!
+  url: https://awesomekling.github.io/
+  type: rss
+  feed: https://awesomekling.github.io/feed.xml
+
+- name: <antirez>
+  url: http://antirez.com
+  type: rss
+  feed: http://antirez.com/rss
+
+- name: Brendan Gregg's Blog
+  url: https://www.brendangregg.com/blog/
+  type: rss
+  feed: https://www.brendangregg.com//blog/rss.xml
+
+- name: bunnie's blog
+  url: https://www.bunniestudios.com/blog/
+  type: rss
+  feed: https://www.bunniestudios.com/blog/?feed=rss
+
+- name: Coding Horror
+  url: https://blog.codinghorror.com
+  type: rss
+  feed: https://blog.codinghorror.com/rss/
+
+- name: Computers are bad
+  url: https://computer.rip
+  type: rss
+  feed: https://computer.rip/rss.xml
+
+- name: Dave Cheney. The acme of foolishness
+  url: https://dave.cheney.net/
+  type: rss
+  feed: http://dave.cheney.net/feed
+
+- name: Drew DeVault's blog
+  url: https://drewdevault.com/
+  type: rss
+  feed: https://drewdevault.com/blog/index.xml
+
+- name: Eli Bendersky's blog
+  url: https://eli.thegreenplace.net
+  type: atom
+  feed: https://eli.thegreenplace.net/feeds/all.atom.xml 
+
+- name: Fabien Sanglard's blog
+  url: https://fabiensanglard.net
+  type: rss
+  feed: https://fabiensanglard.net/rss.xml
+
+- name: fasterthanli.me
+  url: https://fasterthanli.me/
+  type: atom
+  feed: https://fasterthanli.me/index.xml
+
+- name: Filippo Valsorda's blog
+  url: https://words.filippo.io/
+  type: rss
+  feed: https://words.filippo.io/rss/
+
+- name: Ivan on Containers, Kubernetes, and Server-Side
+  url: https://iximiuz.com
+  type: rss
+  feed: https://iximiuz.com/feed.rss
+
+- name: Julia Evans' blog
+  url: https://jvns.ca
+  type: atom
+  feed: https://jvns.ca/atom.xml
+
+- name: jwz
+  url: https://www.jwz.org/
+  type: rss
+  feed: https://www.jwz.org/blog/rss
+
+- name: LOW←TECH MAGAZINE
+  url: https://solar.lowtechmagazine.com/
+  type: atom
+  feed: https://solar.lowtechmagazine.com/feeds/all-en.atom.xml
+
+- name: Martin Kleppmann's blog
+  url: https://martin.kleppmann.com/
+  type: rss
+  feed: http://feeds.feedburner.com/martinkl
+
+- name: Matthew Garrett's blog
+  url: https://mjg59.dreamwidth.org/
+  type: rss
+  feed: https://mjg59.dreamwidth.org/data/rss
+
+- name: null program
+  url: https://nullprogram.com
+  type: atom
+  feed: https://nullprogram.com/feed/
+
+- name: Random ASCII. Tech blog of Bruce Dawson 
+  url: https://randomascii.wordpress.com
+  type: rss
+  feed: https://randomascii.wordpress.com/rss
+
+- name: research!rsc
+  url: https://research.swtch.com
+  type: atom
+  feed: https://research.swtch.com/feed.atom
+
+- name: Simon Willison's blog
+  url: https://simonwillison.net
+  type: atom
+  feed: https://simonwillison.net/atom/everything/
+
+- name: The Buckblog. Assorted ramblings by Jamis Buck
+  url: http://weblog.jamisbuck.org/
+  type: rss
+  feed: hhttps://raw.githubusercontent.com/giulianopz/feedgen/main/missing/feeds/the-bucklog-essays-and-rants.xml
+
+- name: The Pragmatic Engineer
+  url: https://blog.pragmaticengineer.com/
+  type: rss
+  feed: https://blog.pragmaticengineer.com/rss/
+
+- name: Vicki Boykis' blog
+  url: https://vickiboykis.com
+  type: rss
+  feed: https://vickiboykis.com/index.xml 

@@ -1,0 +1,21 @@
+---
+layout: null
+---
+<?xml version="1.0" encoding="UTF-8"?>
+<opml version="1.0">
+
+<!-- https://opml.org/blogroll.opml -->
+
+    <head>
+        <title>feed subscriptions list for giulianopz's blogroll</title>
+        <dateCreated>2024-06-09 06:52:40 +0200</dateCreated>
+        <dateUpdated>{{ site.time | date: date_to_rfc822 }}</dateUpdated>
+    </head>
+
+    <body>
+        {% for item in site.data.blogroll %}
+        <outline text="{{ item.name | escape }}" title="{{ item.name | escape }}" type="{{ item.type }}"
+            xmlUrl="{{ item.feed }}" htmlUrl="{{ item.url }}" />
+        {% endfor %}
+    </body>
+</opml>

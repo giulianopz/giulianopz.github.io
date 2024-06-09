@@ -2,9 +2,9 @@
   link: /
 - name: About
   link: /about.html
-- name: Email
-  link: mailto:panzironi.giuliano@gmail.com
 - name: GPG
   link: /gpg.html
+- name: Blogroll
+  link: /blogroll.xml
 - name: RSS
   link: /feed.xml
