@@ -4,7 +4,7 @@
   link: /about.html
 - name: GPG
   link: /gpg.html
-- name: Blogroll
-  link: /blogroll.xml
 - name: RSS
   link: /feed.xml
+- name: Blogroll
+  link: /blogroll.xml
