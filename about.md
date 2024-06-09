@@ -25,9 +25,11 @@ My cv is [here](https://giulianopz.github.io/cv/), in the unlikely event you nee
 
 4. [If you can't fix it, you don't own it](https://www.ifixit.com/Manifesto).
 
+5. The STEM discourse is pure ideology if the rest (social sciences, humanities, arts, etc.) is lacking in your mind. A wide set of different skills (e.g. linear algebra and emotional intelligence, equally) is needed both to understand this world and to live a meaningful life. [Ludwig Wittgenstein](https://en.wikipedia.org/wiki/Ludwig_Wittgenstein) proved it in his works on language. If you are not conviced, please read the [letter](https://lore.kernel.org/lkml/b98b29cf-27d9-49e0-b10b-1848399badfd@kittens.ph/) which Hans Reiser wrote from prison.
+
 ## Main interests
 
-Personal blogs are my [favourite](./favourites.html) corners of the web, they are where I learn most. They are also the motivation for running my own blog to jot down scattered thoughts, small hacks and, more generally, everything I need to remember. This is my small [digital garden](https://maggieappleton.com/garden-history).
+Personal blogs are my [favourite](./blogroll.xml) corners of the web, they are where I learn most. They are also the motivation for running my own blog to jot down scattered thoughts, small hacks and, more generally, everything I need to remember. This is my small [digital garden](https://maggieappleton.com/garden-history).
 
 I usually keep track of some useful stuff about programming (paper textbooks and online resources) I come across in a sort of [bookmarks collection](https://giulianopz.github.io/programming/). The map below from my space on [Kinopio](https://blog.kinopio.club/) summarizes some of the most interesting things I plan to study for the rest of my mortal life:
 <div class="kinopio-embed" style="height: 420px; width: 100%;">
@@ -47,7 +49,7 @@ Other places I can be found are:
 - [Codeberg](https://codeberg.org/giulianopz) (have to really give it a try yet)
 - [YouTube](https://www.youtube.com/channel/UCXwUDnol9_Sk8XOfQWo13Iw) (until ad-blockers are not blocked)
 - [Goodreads](https://www.goodreads.com/user/show/168807725-giuliano-panzironi) (I use it although I hate it)
-- [iFixit](https://www.ifixit.com/User/3323023/Giuliano+Panzironi) 
+- [iFixit](https://www.ifixit.com/User/3323023/Giuliano+Panzironi) (fixing my humble hardware)
 - [Bluesky](https://bsky.app/profile/giulianopz.bsky.social) (abandoned)
 - [cohost!](https://cohost.org/gpz?page=0) (only registered so far)
 - [Linkedin](https://www.linkedin.com/in/giuliano-panzironi/) (mostly ghostly)
