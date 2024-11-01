@@ -2,6 +2,7 @@
 layout: post
 title:  "Before Arduino there was Lectron System 2000"
 date:   2024-11-01
+last_revision: 2024-11-02
 categories: arduino lectron-system-2000 inelco electronics
 permalink: /arduino-lectron-system-2000
 comments_id: 4
@@ -21,13 +22,13 @@ You can see a photo of it I took that day (2022/12/28, to be exact) below:
 
 I was really impressed to discover this piece of history (~1973) in the museum which closely resembled an Arduino kit in its form and its spirit. 
 
-Actually, I was expecting to find there some Arduino boards besides the beloved Olivetti typewriters. In the end, Arduino (a fork of [Wiring](https://arduinohistory.github.io/)) is primarily a product of design.
+Actually, I was expecting to find there some Arduino boards besides the beloved Olivetti typewriters. Its brand is iconic as much as Olivetti. It was even conceived at [Ivrea](https://medium.com/@danielstone/olivettis-ivrea-how-an-italian-tech-giant-built-the-world-s-most-progressive-company-town-557cb035c383), the company town where [Adriano Olivetti](https://artsandculture.google.com/story/adriano-olivetti-fondazione-adriano-olivetti/mwUhh8o5e-foJA?hl=en) was building its humanist techno-utopia. 
+
+Probably the Arduino hardware itself was not so innovative as its development environment (its IDE and CLI, its DSL to hide C++, etc.). But in the end, Arduino is primarily a product of **design**, just like the boards, shields, carriers, kits and various accessories manufactured by other companies/foundations like Raspberry Pi, Adafruit, etc.
 
 > In the true sense of the word: a sleek interface for an action to perform, where [form follows function](https://en.wikipedia.org/wiki/Form_follows_function).
 
-It was even conceived at [Ivrea](https://medium.com/@danielstone/olivettis-ivrea-how-an-italian-tech-giant-built-the-world-s-most-progressive-company-town-557cb035c383) in continuity with the humanist techno-utopia of [Adriano Olivetti](https://www.fondazioneadrianolivetti.it/en/the-foundation/adriano-olivetti/). 
-
-Furthermore, the boards and the various components and tools manufactured by Arduino (and other companies/foundations like Raspberry Pi, Adafruit, etc.) have an inner beauty which is nowadays well-recognized and which was magnifically depicted in a recent book published by No Starch Press (["Open Circuits"](https://nostarch.com/open-circuits), by Windell Oskay and Eric Schlaepfer). 
+Nowadays we have recognized a certain inner beauty in these artifacts which was also magnifically depicted in a recent book published by No Starch Press (["Open Circuits"](https://nostarch.com/open-circuits), by Windell Oskay and Eric Schlaepfer). 
 
 Nonetheless, there were no signs of all these things in the museum except for this mysterious object whose name can be read on the kit package: **Lectron Sistema 2000**.
 

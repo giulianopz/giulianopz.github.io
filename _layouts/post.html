@@ -5,8 +5,8 @@ layout: default
 <article>
 
     <h2>{{ page.title }}</h2>
-    <p style="text-decoration: underline dotted;padding-left: 0.5rem;">{{ page.date | date_to_string }}</p>
-
+    <p style="padding-left: 0.5rem;font-size: 16px;">{{ page.date | date: "%B %-d, %Y"  }} by giulianopz</p>
+    <br/>
     <script defer type="module" src="assets/js/share.js"></script>
     <share-on-mastodon style="padding-left: 0.5rem;"></share-on-mastodon>
 
