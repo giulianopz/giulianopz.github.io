@@ -55,6 +55,18 @@ And you can even buy a Lectron like [this one](https://www.ebay.it/itm/256693199
 
 ---
 
+UPDATE (2024-11-20): Massimo Banzi (Arduino co-founder), replied on HackerNews to my [submission](https://news.ycombinator.com/item?id=41972173) of the Lectron site:
+
+> As the co-founder of Arduino I can confirm this was a great inspiration for me. I learned electronics with this kit when I was 7 and it gave me also a great appreciation for design as well. The way I taught electronics to designers was also inspired by the method used in the book that came with the kit. I still have the book from my original kit. It’s an amazing tool.
+
+Some users mentioned other educational kits that I hadn't come across while doing some research on the topic:
+
+- [Denshi Block](https://en.wikipedia.org/wiki/Denshi_block)
+- [Gakken EX-System](https://en.wikipedia.org/wiki/Gakken_EX-System)
+- [Snap Circuits](https://en.wikipedia.org/wiki/Snap_Circuits)
+
+---
+
 References:
 - [Raytheon Lectron](https://en.wikipedia.org/wiki/Raytheon_Lectron) (Wikipedia)
 - [The Braun Lectron System: Retro “Circuit Dominoes”](https://makezine.com/article/maker-news/the-braun-lectron-system-retro-circuit-dominoes/) (Make:)
