@@ -55,7 +55,7 @@ And you can even buy a Lectron like [this one](https://www.ebay.it/itm/256693199
 
 ---
 
-UPDATE (2024-11-20): Massimo Banzi (Arduino co-founder), replied on HackerNews to my [submission](https://news.ycombinator.com/item?id=41972173) of the Lectron site:
+UPDATE (2024-11-20): Massimo Banzi (Arduino co-founder) replied on HackerNews to my [submission](https://news.ycombinator.com/item?id=41972173) of the Lectron site:
 
 > As the co-founder of Arduino I can confirm this was a great inspiration for me. I learned electronics with this kit when I was 7 and it gave me also a great appreciation for design as well. The way I taught electronics to designers was also inspired by the method used in the book that came with the kit. I still have the book from my original kit. It’s an amazing tool.
 
