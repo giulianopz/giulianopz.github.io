@@ -129,41 +129,41 @@ body {
     font-family: 'Inconsolata';
 }
 
+// stick to Wikipedia standard colors for links: https://en.wikipedia.org/wiki/Help:Link_color
+
 a {
     text-decoration: none;
 }
 
+
+// a normal, unvisited link
+a:link {
+    color: #3366CC;
+}
+
+// a link the user has visited
+a:visited {
+    color:#795CB2;
+}
+
+// a link when the user mouses over it
+// MUST come after a:link and a:visited
 a:hover {
     background-color: whitesmoke;
     color: black;
 }
 
-a:visited {
-    color: white;
+// a link the moment it is clicked
+// MUST come after a:hover
+a:active {
+    color: #795CB2;
 }
 
-.visited:hover {
-    background-color: whitesmoke;
-    color: black;
+a#nocolor {
+    background-color: black;
+    color: whitesmoke;
 }
 
-
-a:link {
-    color: white;
-}
-
-a:focus {
-    color: white;
-}
-
-a.active {
-    color: white;
-}
-
-
-a:not(.active):hover {
-    color: black;
-}
 
 blockquote {
     border: dashed 3px plum;
