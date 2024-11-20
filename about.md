@@ -41,15 +41,13 @@ Beyond programming, books and music are the things that fill my space and time. 
 
 ## Web Presence
 
-Since [Twitter](https://www.theverge.com/c/23972308/twitter-x-death-tweets-history-elon-musk) has been ruined by that m@th§rf$ck&r, I'm most often active on [Mastodon](https://hachyderm.io/web/@giulianopz).
-
-Other places I can be found are: 
-
-- [GitHub](https://github.com/giulianopz) (since everyone is here) 
+- [Mastodon](https://hachyderm.io/web/@giulianopz) (I'm most active here since Twitter has been ruined by that [m@th§rf$ck&r](https://www.theverge.com/c/23972308/twitter-x-death-tweets-history-elon-musk))
+- [Hacker News](https://news.ycombinator.com/user?id=giulianopz) (not really a prolific commenter/submitter, rather a front-page reader most of the time)
+- [GitHub](https://github.com/giulianopz) (the [forge](https://en.wikipedia.org/wiki/Forge_(software)) we love to [hate](https://sfconservancy.org/GiveUpGitHub/)) 
 - [Codeberg](https://codeberg.org/giulianopz) (have to really give it a try yet)
 - [YouTube](https://www.youtube.com/channel/UCXwUDnol9_Sk8XOfQWo13Iw) (until ad-blockers are not blocked)
-- [Goodreads](https://www.goodreads.com/user/show/168807725-giuliano-panzironi) (I use it although I hate it)
+- [Goodreads](https://www.goodreads.com/user/show/168807725-giuliano-panzironi) (hopefully, someone will rebuild it from scratch someday)
 - [iFixit](https://www.ifixit.com/User/3323023/Giuliano+Panzironi) (fixing my humble hardware)
-- [Bluesky](https://bsky.app/profile/giulianopz.bsky.social) (abandoned)
-- [cohost!](https://cohost.org/gpz?page=0) (only registered so far)
+- [Bluesky](https://bsky.app/profile/giulianopz.bsky.social) (abandoned, too corporate-minded)
+- [cohost!](https://cohost.org/gpz?page=0) (defunct)
 - [Linkedin](https://www.linkedin.com/in/giuliano-panzironi/) (mostly ghostly)
