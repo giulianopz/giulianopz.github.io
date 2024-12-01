@@ -2,4 +2,5 @@ TJ Holowaychuk
 Jim Teeuwen
 Con Kolivas
 dayanarps
-onathan Gillette (why the lucky stiff)
+Jonathan Gillette (why the lucky stiff)
+Denis Pushkarev (https://github.com/zloirock/core-js/blob/master/docs/2023-02-14-so-whats-next.md)
