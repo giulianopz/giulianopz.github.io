@@ -48,7 +48,7 @@ Beyond programming, books and music are the things that fill my space and time. 
 - [Hacker News](https://news.ycombinator.com/user?id=giulianopz) (not really a prolific commenter/submitter, rather a front-page reader most of the time)
 - [GitHub](https://github.com/giulianopz) (the [forge](https://en.wikipedia.org/wiki/Forge_(software)) we love to [hate](https://sfconservancy.org/GiveUpGitHub/)) 
 - [Codeberg](https://codeberg.org/giulianopz) (have to really give it a try yet)
-- [YouTube](https://www.youtube.com/channel/UCXwUDnol9_Sk8XOfQWo13Iw) (until ad-blockers are not blocked)
+- [YouTube](https://www.youtube.com/@giuliano.panzironi) (until ad-blockers are not blocked)
 - [Goodreads](https://www.goodreads.com/user/show/168807725-giuliano-panzironi) (pretending it to be barely usable)
 - [iFixit](https://www.ifixit.com/User/3323023/Giuliano+Panzironi) (fixing my humble hardware)
 

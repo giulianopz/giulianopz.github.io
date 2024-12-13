@@ -21,6 +21,18 @@
 title: giulianopz's weblog
 description: "Brain dumps and small hacks"
 email: panzironi.giuliano@gmail.com
+social:
+  name: Giuliano Panzironi
+  links:
+    - https://hachyderm.io/web/@giulianopz
+    - https://bsky.app/profile/giulianopz.bsky.social
+    - https://www.linkedin.com/in/giuliano-panzironi/
+    - https://news.ycombinator.com/user?id=giulianopz
+    - https://github.com/giulianopz
+    - https://codeberg.org/giulianopz
+    - https://www.youtube.com/@giuliano.panzironi
+    - https://www.goodreads.com/user/show/168807725-giuliano-panzironi
+    - https://www.ifixit.com/User/3323023/Giuliano+Panzironi
 
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "https://giulianopz.github.io" # the base hostname & protocol for your site, e.g. http://example.com
@@ -33,6 +45,7 @@ theme: minima
 plugins:
   - jekyll-feed
 #  - jekyll-gist
+  - jekyll-seo-tag
 
 issues_repo: giulianopz/giulianopz.github.io
 
