@@ -8,6 +8,11 @@
   type: rss
   feed: http://antirez.com/rss
 
+- name: avi blag
+  url: https://avi.im/blag/
+  type: rss
+  feed: https://avi.im/blag/index.xml
+
 - name: Brendan Gregg's Blog
   url: https://www.brendangregg.com/blog/
   type: rss
@@ -38,6 +43,11 @@
   type: rss
   feed: https://drewdevault.com/blog/index.xml
 
+- name: Eaton Phil
+  url: https://eatonphil.com/
+  type: rss
+  feed: https://notes.eatonphil.com/rss.xml
+
 - name: Eli Bendersky's blog
   url: https://eli.thegreenplace.net
   type: atom
@@ -62,6 +72,11 @@
   url: https://iximiuz.com
   type: rss
   feed: https://iximiuz.com/feed.rss
+
+- name: Jack Vanlightly
+  url: https://jack-vanlightly.com/
+  type: rss
+  feed: https://jack-vanlightly.com/blog?format=rss
 
 - name: Julia Evans' blog
   url: https://jvns.ca
@@ -103,6 +118,11 @@
   type: atom
   feed: https://research.swtch.com/feed.atom
 
+- name: samewho
+  url: https://samwho.dev/blog
+  type: rss
+  feed: https://samwho.dev/rss.xml
+
 - name: Simon Willison's blog
   url: https://simonwillison.net
   type: atom
@@ -117,6 +137,11 @@
   url: https://blog.pragmaticengineer.com/
   type: rss
   feed: https://blog.pragmaticengineer.com/rss/
+
+- name: transactional.blog
+  url: https://transactional.blog/
+  type: rss
+  feed: https://transactional.blog/feed.xml
 
 - name: Vicki Boykis' blog
   url: https://vickiboykis.com
