@@ -48,6 +48,11 @@
   type: rss
   feed: https://notes.eatonphil.com/rss.xml
 
+- name: eieio.games
+  url: https://eieio.games
+  type: atom
+  feer: https://eieio.games/feed.xml
+
 - name: Eli Bendersky's blog
   url: https://eli.thegreenplace.net
   type: atom
