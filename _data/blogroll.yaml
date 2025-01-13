@@ -103,10 +103,21 @@
   type: rss
   feed: http://feeds.feedburner.com/martinkl
 
+- name: Materialized View
+  url: https://materializedview.io/
+  type: rss
+  feed: https://materializedview.io/feed
+
 - name: Matthew Garrett's blog
   url: https://mjg59.dreamwidth.org/
   type: rss
   feed: https://mjg59.dreamwidth.org/data/rss
+
+- name: Null Bitmap by Justin Jaffray
+  url: https://buttondown.com/jaffray
+  type: rss
+  feed: https://buttondown.com/jaffray/rss
+
 
 - name: null program
   url: https://nullprogram.com
