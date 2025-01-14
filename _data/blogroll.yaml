@@ -144,6 +144,11 @@
   type: atom
   feed: https://simonwillison.net/atom/everything/
 
+- name: Tedium
+  url: https://tedium.co/
+  type: rss
+  feed: https://feed.tedium.co/
+
 - name: The Buckblog. Assorted ramblings by Jamis Buck
   url: http://weblog.jamisbuck.org/
   type: rss
