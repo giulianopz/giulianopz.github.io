@@ -1,8 +1,3 @@
-- name: Andreas Kling - I like computers!
-  url: https://awesomekling.github.io/
-  type: rss
-  feed: https://awesomekling.github.io/feed.xml
-
 - name: <antirez>
   url: http://antirez.com
   type: rss
@@ -27,11 +22,6 @@
   url: https://blog.codinghorror.com
   type: rss
   feed: https://blog.codinghorror.com/rss/
-
-- name: Computers are bad
-  url: https://computer.rip
-  type: rss
-  feed: https://computer.rip/rss.xml
 
 - name: Dave Cheney. The acme of foolishness
   url: https://dave.cheney.net/
@@ -63,20 +53,10 @@
   type: rss
   feed: https://fabiensanglard.net/rss.xml
 
-- name: fasterthanli.me
-  url: https://fasterthanli.me/
-  type: atom
-  feed: https://fasterthanli.me/index.xml
-
 - name: Filippo Valsorda's blog
   url: https://words.filippo.io/
   type: rss
   feed: https://words.filippo.io/rss/
-
-- name: Ivan on Containers, Kubernetes, and Server-Side
-  url: https://iximiuz.com
-  type: rss
-  feed: https://iximiuz.com/feed.rss
 
 - name: Jack Vanlightly
   url: https://jack-vanlightly.com/
@@ -118,16 +98,10 @@
   type: rss
   feed: https://buttondown.com/jaffray/rss
 
-
 - name: null program
   url: https://nullprogram.com
   type: atom
   feed: https://nullprogram.com/feed/
-
-- name: Random ASCII. Tech blog of Bruce Dawson 
-  url: https://randomascii.wordpress.com
-  type: rss
-  feed: https://randomascii.wordpress.com/rss
 
 - name: research!rsc
   url: https://research.swtch.com
@@ -139,11 +113,6 @@
   type: rss
   feed: https://samwho.dev/rss.xml
 
-- name: Simon Willison's blog
-  url: https://simonwillison.net
-  type: atom
-  feed: https://simonwillison.net/atom/everything/
-
 - name: Tedium
   url: https://tedium.co/
   type: rss
@@ -153,11 +122,6 @@
   url: http://weblog.jamisbuck.org/
   type: rss
   feed: hhttps://raw.githubusercontent.com/giulianopz/feedgen/main/missing/feeds/the-bucklog-essays-and-rants.xml
-
-- name: The Pragmatic Engineer
-  url: https://blog.pragmaticengineer.com/
-  type: rss
-  feed: https://blog.pragmaticengineer.com/rss/
 
 - name: transactional.blog
   url: https://transactional.blog/
