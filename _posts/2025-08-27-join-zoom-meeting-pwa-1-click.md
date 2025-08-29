@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "Join Zoom Meeting from PWA with 1-Click"
+title:  "Join Zoom Meeting from PWA with One Click"
 date:   2025-08-27
 last_revision: 2025-08-29
 categories: zoom pwa gnome mime
