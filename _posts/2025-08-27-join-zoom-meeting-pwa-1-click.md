@@ -2,7 +2,7 @@
 layout: post
 title:  "Join Zoom Meeting from PWA with One Click"
 date:   2025-08-27
-last_revision: 2025-08-29
+last_revision: 2025-09-07
 categories: zoom pwa gnome mime
 permalink: /join-zoom-meeting-pwa-1-click
 comments_id: 6
@@ -18,11 +18,12 @@ It turns out that it's not so difficult to intercept the click on the Zoom link 
 
 All you need to do is have a simple bash script:
 ```
-#!/bin/sh
+#!/bin/bash
 
+ACTION=$(echo $1 | grep -Po '(?<=zoom.us\/)(join|start)')
 ROOM_ID=$(echo $1 | grep -Po '(?<=confno=)\d+')
 PWD=$(echo $1 | grep -Po '(?<=pwd=)[\w\.]+')
-/usr/bin/firefox "https://app.zoom.us/wc/${ROOM_ID}/join?pwd=${PWD}&fromPWA=1" &>/dev/null
+/usr/bin/firefox "https://app.zoom.us/wc/${ROOM_ID}/${ACTION}?pwd=${PWD}&fromPWA=1" &>/dev/null
 ```
 
 Then, you need to create a [desktop entry](https://wiki.archlinux.org/title/Desktop_entries) for it:
