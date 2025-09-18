@@ -1,6 +1,6 @@
 ---
 layout: default
-title: pg
+title: pg_links
 ---
 
 - [pg_docs](https://www.postgresql.org/docs/current/)
