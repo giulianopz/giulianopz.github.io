@@ -67,7 +67,8 @@ code.language-plaintext {
 }
 
 .current {
-    font-weight: bold;
+   font-weight: bold;
+   color: red;
 }
 
 #page-container {
@@ -142,7 +143,7 @@ a:link {
 }
 
 // a link the user has visited
-a:visited {
+a:visited:not(.current) {
     color:#795CB2;
 }
 
@@ -159,7 +160,8 @@ a:active {
     color: #795CB2;
 }
 
-a#nocolor {
+
+a#nocolor:not(.current) {
     background-color: black;
     color: whitesmoke;
 }
@@ -171,14 +173,6 @@ blockquote {
 }
 
 .button {
-    /*     display: inline-block;
-    padding: 10px 20px;
-    text-align: center;
-    text-decoration: none; */
-    /*     border-radius: 6px;
-    outline: none;
-    transition: 0.3s; */
-    /*  border: 2px solid transparent; */
     color: #ffffff;
     background-color: black;
     font-size: 1rem;
