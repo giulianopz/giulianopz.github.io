@@ -1,6 +1,6 @@
-- name: Home
+- name: home
   link: /
-- name: About
+- name: about
   link: /about.html
 - name: pg_links
   link: /pg.html
@@ -8,5 +8,5 @@
   link: /gpg.html
 - name: RSS
   link: /feed.xml
-- name: Blogroll
+- name: blogroll
   link: /blogroll.xml
