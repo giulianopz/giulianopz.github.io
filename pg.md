@@ -14,6 +14,7 @@ title: pg_links
 - [pg_glossary](https://www.postgresql.org/docs/current/glossary.html)
 - [pg_contrib](https://www.postgresql.org/community/contributors/)
 - [pg_scripts](https://github.com/pgexperts/pgx_scripts)
+- [pg_utils](https://github.com/dataegret/pg-utils)
 - [pg_exercises](https://pgexercises.com/)
 - [pg_tips](https://www.crunchydata.com/postgres-tips)
 - [pg_mistakes](https://www.manning.com/books/postgresql-mistakes-and-how-to-avoid-them)
