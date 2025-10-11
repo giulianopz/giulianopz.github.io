@@ -2,6 +2,8 @@
   link: /
 - name: about
   link: /about.html
+- name: t8ls
+  link: /tools.html
 - name: pg_links
   link: /pg.html
 - name: GPG
