@@ -8,6 +8,7 @@ title: pg_links
 - [pg_wiki](https://wiki.postgresql.org/wiki/Main_Page)
 - [pg_config](https://postgresqlco.nf/doc/en/param/)
 - [pg_internals](https://www.interdb.jp/pg/)
+- [pg_source](https://doxygen.postgresql.org/index.html)
 - [pg_o11y](https://pgstats.ru/?version=15)
 - [pg_monitoring](https://www.postgresql.org/docs/current/monitoring.html)
 - [pg_chapter](https://www.db-book.com/online-chapters-dir/32.pdf)
