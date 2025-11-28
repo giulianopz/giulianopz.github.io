@@ -9,49 +9,35 @@
     <outline text="~jpetazzo/" title="~jpetazzo/" description="" type="rss" version="RSS" htmlUrl="http://jpetazzo.github.io" xmlUrl="http://jpetazzo.github.io/atom.xml"/>
     <outline text="★❤✰ Vicki Boykis ★❤✰" title="★❤✰ Vicki Boykis ★❤✰" description="" type="rss" version="RSS" htmlUrl="https://vickiboykis.com/" xmlUrl="https://vickiboykis.com/index.xml"/>
     <outline text="Airs – Ian Lance Taylor" title="Airs – Ian Lance Taylor" description="" type="rss" version="RSS" htmlUrl="https://www.airs.com/blog" xmlUrl="https://www.airs.com/blog/feed"/>
-    <outline text="Alvaro Herrera @ EDB" title="Alvaro Herrera @ EDB" description="" type="rss" version="RSS" htmlUrl="https://enterprisedb.com/" xmlUrl="https://www.enterprisedb.com/blog/rss/feed?author=%C3%81lvaro%20Herrera"/>
-    <outline text="Andrew Dunstan @ EDB" title="Andrew Dunstan @ EDB" description="" type="rss" version="RSS" htmlUrl="https://enterprisedb.com/" xmlUrl="https://www.enterprisedb.com/blog/rss/feed?author=Andrew%20Dunstan"/>
-    <outline text="Andrew Dunstan's PostgreSQL and Technical blog" title="Andrew Dunstan's PostgreSQL and Technical blog" description="" type="rss" version="RSS" htmlUrl="https://adpgtech.blogspot.com/" xmlUrl="https://adpgtech.blogspot.com/feeds/posts/default?alt=rss"/>
     <outline text="Andrew Kelley" title="Andrew Kelley" description="" type="rss" version="RSS" htmlUrl="https://andrewkelley.me/" xmlUrl="https://andrewkelley.me/rss.xml"/>
-    <outline text="Andy Pavlo - Carnegie Mellon University" title="Andy Pavlo - Carnegie Mellon University" description="" type="rss" version="RSS" htmlUrl="https://www.cs.cmu.edu/~pavlo/" xmlUrl="https://www.cs.cmu.edu/~pavlo//blog/feed.xml"/>
-    <outline text="ARCHIVIO GRAFTON9" title="ARCHIVIO GRAFTON9" description="" type="rss" version="RSS" htmlUrl="https://grafton9.net/blog/" xmlUrl="https://grafton9.net/blog/index.xml"/>
-    <outline text="Ardent Performance Computing" title="Ardent Performance Computing" description="" type="rss" version="RSS" htmlUrl="https://ardentperf.com" xmlUrl="https://ardentperf.com/feed/"/>
-    <outline text="Articles on gingerBill" title="Articles on gingerBill" description="" type="rss" version="RSS" htmlUrl="" xmlUrl="https://www.gingerbill.org/article/index.xml"/>
+    <outline text="Armin Ronacher's Thoughts and Writings" title="Armin Ronacher's Thoughts and Writings" description="" type="rss" version="RSS" htmlUrl="https://lucumr.pocoo.org/" xmlUrl="https://lucumr.pocoo.org/feed.atom"/>
     <outline text="Bartosz Ciechanowski" title="Bartosz Ciechanowski" description="" type="rss" version="RSS" htmlUrl="https://ciechanow.ski/" xmlUrl="https://ciechanow.ski/atom.xml"/>
-    <outline text="bdrouvot" title="bdrouvot" description="" type="rss" version="RSS" htmlUrl="https://bdrouvot.github.io" xmlUrl="https://bdrouvot.github.io/feed.xml"/>
-    <outline text="Ben Hoyt's technical writing" title="Ben Hoyt's technical writing" description="" type="rss" version="RSS" htmlUrl="https://benhoyt.com/writings/" xmlUrl="https://benhoyt.com/writings/rss.xml"/>
-    <outline text="benjojo blog" title="benjojo blog" description="" type="rss" version="RSS" htmlUrl="https://blog.benjojo.co.uk" xmlUrl="https://blog.benjojo.co.uk/rss.xml"/>
-    <outline text="Bert Hubert's writings" title="Bert Hubert's writings" description="" type="rss" version="RSS" htmlUrl="https://berthub.eu/articles/" xmlUrl="https://berthub.eu/articles/index.xml"/>
+    <outline text="Ben Hoyt" title="Ben Hoyt" description="" type="rss" version="RSS" htmlUrl="https://benhoyt.com/writings/" xmlUrl="https://benhoyt.com/writings/rss.xml"/>
+    <outline text="benjojo" title="benjojo" description="" type="rss" version="RSS" htmlUrl="https://blog.benjojo.co.uk" xmlUrl="https://blog.benjojo.co.uk/rss.xml"/>
+    <outline text="Bert Hubert" title="Bert Hubert" description="" type="rss" version="RSS" htmlUrl="https://berthub.eu/articles/" xmlUrl="https://berthub.eu/articles/index.xml"/>
+    <outline text="bitonic" title="bitonic" description="" type="rss" version="RSS" htmlUrl="http://mazzo.li" xmlUrl="https://mazzo.li/rss.xml"/>
     <outline text="Bits from Debian" title="Bits from Debian" description="" type="rss" version="RSS" htmlUrl="https://bits.debian.org/" xmlUrl="https://bits.debian.org/feeds/feed.rss"/>
-    <outline text="blag" title="blag" description="" type="rss" version="RSS" htmlUrl="https://avi.im/blag/" xmlUrl="https://avi.im/blag/index.xml"/>
-    <outline text="Blog — PlanetScale" title="Blog — PlanetScale" description="" type="rss" version="RSS" htmlUrl="https://planetscale.com/blog" xmlUrl="https://planetscale.com/blog/feed.atom"/>
-    <outline text="BonesMoses.org" title="BonesMoses.org" description="" type="rss" version="RSS" htmlUrl="https://bonesmoses.org/" xmlUrl="https://bonesmoses.org/index.xml"/>
-    <outline text="Brandur Leach | CrunchyData Blog" title="Brandur Leach | CrunchyData Blog" description="" type="rss" version="RSS" htmlUrl="https://www.crunchydata.com/blog/author/brandur-leach" xmlUrl="https://www.crunchydata.com/blog/author/brandur-leach/rss.xml"/>
-    <outline text="Brendan Gregg's Blog" title="Brendan Gregg's Blog" description="" type="rss" version="RSS" htmlUrl="http://www.brendangregg.com/blog" xmlUrl="https://www.brendangregg.com/blog/rss.xml"/>
-    <outline text="Bruce Momjian @ EDB" title="Bruce Momjian @ EDB" description="" type="rss" version="RSS" htmlUrl="https://enterprisedb.com/" xmlUrl="https://www.enterprisedb.com/blog/rss/feed?author=Bruce%20Momjian"/>
+    <outline text="brandur.org - atoms" title="brandur.org - atoms" description="" type="rss" version="RSS" htmlUrl="https://brandur.org" xmlUrl="https://brandur.org/atoms.atom"/>
+    <outline text="brandur.org - fragments" title="brandur.org - fragments" description="" type="rss" version="RSS" htmlUrl="https://brandur.org" xmlUrl="https://brandur.org/fragments.atom"/>
+    <outline text="brandur.org - sequences " title="brandur.org - sequences " description="" type="rss" version="RSS" htmlUrl="https://brandur.org" xmlUrl="https://brandur.org/sequences.atom"/>
+    <outline text="Brendan Gregg" title="Brendan Gregg" description="" type="rss" version="RSS" htmlUrl="http://www.brendangregg.com/blog" xmlUrl="https://www.brendangregg.com/blog/rss.xml"/>
     <outline text="Bruce Momjian: General Blog" title="Bruce Momjian: General Blog" description="" type="rss" version="RSS" htmlUrl="https://momjian.us/main/blogs/blog.html" xmlUrl="https://momjian.us/main/rss/blog.xml"/>
-    <outline text="bunnie's blog" title="bunnie's blog" description="" type="rss" version="RSS" htmlUrl="https://www.bunniestudios.com/blog" xmlUrl="https://www.bunniestudios.com/blog/?feed=rss"/>
-    <outline text="Casey Muratori's Blog" title="Casey Muratori's Blog" description="" type="rss" version="RSS" htmlUrl="https://caseymuratori.com/blog" xmlUrl="https://caseymuratori.com/blog_atom.rss"/>
+    <outline text="bunnie" title="bunnie" description="" type="rss" version="RSS" htmlUrl="https://www.bunniestudios.com/blog" xmlUrl="https://www.bunniestudios.com/blog/?feed=rss"/>
+    <outline text="Casey Muratori" title="Casey Muratori" description="" type="rss" version="RSS" htmlUrl="https://caseymuratori.com/blog" xmlUrl="https://caseymuratori.com/blog_atom.rss"/>
     <outline text="Cervelli nella vasca" title="Cervelli nella vasca" description="" type="rss" version="RSS" htmlUrl="https://guidovetere.nova100.ilsole24ore.com/" xmlUrl="https://guidovetere.nova100.ilsole24ore.com/feed/"/>
     <outline text="Coding Horror" title="Coding Horror" description="" type="rss" version="RSS" htmlUrl="https://blog.codinghorror.com/" xmlUrl="https://blog.codinghorror.com/rss"/>
     <outline text="command center" title="command center" description="" type="rss" version="RSS" htmlUrl="https://commandcenter.blogspot.com/" xmlUrl="https://commandcenter.blogspot.com/feeds/posts/default?alt=rss"/>
     <outline text="Confessions of a Code Addict" title="Confessions of a Code Addict" description="" type="rss" version="RSS" htmlUrl="https://blog.codingconfessions.com" xmlUrl="https://blog.codingconfessions.com/feed"/>
-    <outline text="CRAIG KERSTIENS" title="CRAIG KERSTIENS" description="" type="rss" version="RSS" htmlUrl="" xmlUrl="https://www.craigkerstiens.com/index.xml"/>
-    <outline text="Craig Kerstiens | CrunchyData Blog" title="Craig Kerstiens | CrunchyData Blog" description="" type="rss" version="RSS" htmlUrl="https://www.crunchydata.com/blog/author/craig-kerstiens" xmlUrl="https://www.crunchydata.com/blog/author/craig-kerstiens/rss.xml"/>
-    <outline text="Craig Ringer @ EDB" title="Craig Ringer @ EDB" description="" type="rss" version="RSS" htmlUrl="https://enterprisedb.com/" xmlUrl="https://www.enterprisedb.com/blog/rss/feed?author=Craig%20Ringer"/>
     <outline text="daniel.haxx.se" title="daniel.haxx.se" description="" type="rss" version="RSS" htmlUrl="https://daniel.haxx.se/blog" xmlUrl="https://daniel.haxx.se/blog/feed/"/>
     <outline text="Danluu" title="Danluu" description="" type="rss" version="RSS" htmlUrl="https://danluu.com/atom/index.xml" xmlUrl="https://danluu.com/atom.xml"/>
-    <outline text="Data Bene" title="Data Bene" description="" type="rss" version="RSS" htmlUrl="" xmlUrl="https://www.data-bene.io/en/blog.xml"/>
     <outline text="Dave Cheney" title="Dave Cheney" description="" type="rss" version="RSS" htmlUrl="https://dave.cheney.net" xmlUrl="https://dave.cheney.net/feed"/>
+    <outline text="Davide Bucci" title="Davide Bucci" description="" type="rss" version="RSS" htmlUrl="http://davbucci.chez-alice.fr/" xmlUrl="http://davbucci.chez-alice.fr/index.xml"/>
     <outline text="Devtrovert" title="Devtrovert" description="" type="rss" version="RSS" htmlUrl="https://blog.devtrovert.com" xmlUrl="https://blog.devtrovert.com/feed"/>
-    <outline text="Dian M Fay" title="Dian M Fay" description="" type="rss" version="RSS" htmlUrl="https://di.nmfay.com/" xmlUrl="https://di.nmfay.com/atom.xml"/>
-    <outline text="Dmitry.GR" title="Dmitry.GR" description="" type="rss" version="RSS" htmlUrl="https://dmitry.gr" xmlUrl="https://dmitry.gr/rss.php"/>
+    <outline text="dmitry.gr" title="dmitry.gr" description="" type="rss" version="RSS" htmlUrl="https://dmitry.gr" xmlUrl="https://dmitry.gr/rss.php"/>
     <outline text="Don't Panic" title="Don't Panic" description="" type="rss" version="RSS" htmlUrl="https://commaok.xyz/" xmlUrl="https://commaok.xyz/index.xml"/>
-    <outline text="Drew DeVault's blog" title="Drew DeVault's blog" description="" type="rss" version="RSS" htmlUrl="https://drewdevault.com" xmlUrl="https://drewdevault.com/blog/index.xml"/>
-    <outline text="eatonphil" title="eatonphil" description="" type="rss" version="RSS" htmlUrl="http://notes.eatonphil.com/" xmlUrl="https://notes.eatonphil.com/rss.xml"/>
+    <outline text="Drew DeVault" title="Drew DeVault" description="" type="rss" version="RSS" htmlUrl="https://drewdevault.com" xmlUrl="https://drewdevault.com/blog/index.xml"/>
     <outline text="eieio.games" title="eieio.games" description="" type="rss" version="RSS" htmlUrl="https://eieio.games" xmlUrl="https://eieio.games/feed.xml"/>
-    <outline text="Eli Bendersky's website" title="Eli Bendersky's website" description="" type="rss" version="RSS" htmlUrl="https://eli.thegreenplace.net/" xmlUrl="https://eli.thegreenplace.net/feeds/all.atom.xml"/>
-    <outline text="Elizabeth Christensen | CrunchyData Blog" title="Elizabeth Christensen | CrunchyData Blog" description="" type="rss" version="RSS" htmlUrl="https://www.crunchydata.com/blog/author/elizabeth-christensen" xmlUrl="https://www.crunchydata.com/blog/author/elizabeth-christensen/rss.xml"/>
+    <outline text="Eli Bendersky" title="Eli Bendersky" description="" type="rss" version="RSS" htmlUrl="https://eli.thegreenplace.net/" xmlUrl="https://eli.thegreenplace.net/feeds/all.atom.xml"/>
     <outline text="Fabien Sanglard" title="Fabien Sanglard" description="" type="rss" version="RSS" htmlUrl="https://fabiensanglard.net" xmlUrl="https://fabiensanglard.net/rss.xml"/>
     <outline text="Faultlore" title="Faultlore" description="" type="rss" version="RSS" htmlUrl="https://gankra.github.io/blah/" xmlUrl="https://faultlore.com/blah/rss.xml"/>
     <outline text="Felix Geisendörfer" title="Felix Geisendörfer" description="" type="rss" version="RSS" htmlUrl="https://blog.felixge.de/" xmlUrl="https://blog.felixge.de/rss/"/>
@@ -59,90 +45,146 @@
     <outline text="Filippo Valsorda" title="Filippo Valsorda" description="" type="rss" version="RSS" htmlUrl="https://words.filippo.io/" xmlUrl="https://words.filippo.io/rss"/>
     <outline text="flak" title="flak" description="" type="rss" version="RSS" htmlUrl="https://flak.tedunangst.com/" xmlUrl="https://flak.tedunangst.com/rss"/>
     <outline text="Francesco Sylos Labini" title="Francesco Sylos Labini" description="" type="rss" version="RSS" htmlUrl="https://francescosyloslabini.info" xmlUrl="https://francescosyloslabini.info/feed/"/>
+    <outline text="Gianluca Arbezzano - GianArb" title="Gianluca Arbezzano - GianArb" description="" type="rss" version="RSS" htmlUrl="https://gianarb.github.io/" xmlUrl="https://gianarb.it/atom.xml"/>
+    <outline text="Giap" title="Giap" description="" type="rss" version="RSS" htmlUrl="https://www.wumingfoundation.com/giap" xmlUrl="https://www.wumingfoundation.com/giap/feed"/>
+    <outline text="gingerBill" title="gingerBill" description="" type="rss" version="RSS" htmlUrl="" xmlUrl="https://www.gingerbill.org/article/index.xml"/>
     <outline text="Golang Weekly" title="Golang Weekly" description="" type="rss" version="RSS" htmlUrl="https://golangweekly.com/" xmlUrl="https://golangweekly.com/rss/"/>
-    <outline text="Greg Sabino Mullane | CrunchyData Blog" title="Greg Sabino Mullane | CrunchyData Blog" description="" type="rss" version="RSS" htmlUrl="https://www.crunchydata.com/blog/author/greg-sabino-mullane" xmlUrl="https://www.crunchydata.com/blog/author/greg-sabino-mullane/rss.xml"/>
-    <outline text="Hans-Jürgen Schönig @ CYBERTEC" title="Hans-Jürgen Schönig @ CYBERTEC" description="" type="rss" version="RSS" htmlUrl="https://www.cybertec-postgresql.com/en/author/hans-juergen_schoenig/" xmlUrl="https://www.cybertec-postgresql.com/en/author/hans-juergen_schoenig/feed"/>
-    <outline text="Jack Vanlightly" title="Jack Vanlightly" description="" type="rss" version="RSS" htmlUrl="https://jack-vanlightly.com/" xmlUrl="https://jack-vanlightly.com/blog?format=rss"/>
+    <outline text="Internals for Interns" title="Internals for Interns" description="" type="rss" version="RSS" htmlUrl="https://internals-for-interns.com/" xmlUrl="https://internals-for-interns.com/index.xml"/>
+    <outline text="Jaime Silvela - Lost Among Notes" title="Jaime Silvela - Lost Among Notes" description="" type="rss" version="RSS" htmlUrl="https://blog.silvela.org/post/" xmlUrl="https://blog.silvela.org/post/index.xml"/>
     <outline text="Joel on Software" title="Joel on Software" description="" type="rss" version="RSS" htmlUrl="https://www.joelonsoftware.com" xmlUrl="https://www.joelonsoftware.com/feed/"/>
     <outline text="journal.stuffwithstuff.com" title="journal.stuffwithstuff.com" description="" type="rss" version="RSS" htmlUrl="http://journal.stuffwithstuff.com/" xmlUrl="https://journal.stuffwithstuff.com/rss.xml"/>
     <outline text="jsbarretto" title="jsbarretto" description="" type="rss" version="RSS" htmlUrl="https://blog.jsbarretto.com" xmlUrl="https://blog.jsbarretto.com/rss.xml"/>
     <outline text="Julia Evans" title="Julia Evans" description="" type="rss" version="RSS" htmlUrl="http://jvns.ca" xmlUrl="https://jvns.ca/atom.xml"/>
     <outline text="Julio Merino (jmmv.dev)" title="Julio Merino (jmmv.dev)" description="" type="rss" version="RSS" htmlUrl="https://jmmv.dev/" xmlUrl="https://jmmv.dev/feed.xml"/>
-    <outline text="Just a Theory" title="Just a Theory" description="" type="rss" version="RSS" htmlUrl="https://justatheory.com/feed.json" xmlUrl="https://justatheory.com/feed.xml"/>
     <outline text="justine.lol" title="justine.lol" description="" type="rss" version="RSS" htmlUrl="https://justine.lol" xmlUrl="https://justine.lol/rss.xml"/>
     <outline text="jwz" title="jwz" description="" type="rss" version="RSS" htmlUrl="https://www.jwz.org/blog/" xmlUrl="https://www.jwz.org/blog/rss"/>
     <outline text="Ken Shirriff's blog" title="Ken Shirriff's blog" description="" type="rss" version="RSS" htmlUrl="http://www.righto.com/" xmlUrl="https://www.righto.com/feeds/posts/default?alt=rss"/>
     <outline text="Krebs on Security" title="Krebs on Security" description="" type="rss" version="RSS" htmlUrl="https://krebsonsecurity.com" xmlUrl="https://krebsonsecurity.com/feed/"/>
-    <outline text="Laurenz Albe @ CYBERTEC" title="Laurenz Albe @ CYBERTEC" description="" type="rss" version="RSS" htmlUrl="https://www.cybertec-postgresql.com/en/author/laurenz_albe/" xmlUrl="https://www.cybertec-postgresql.com/en/author/laurenz_albe/feed"/>
     <outline text="lcamtuf’s thing" title="lcamtuf’s thing" description="" type="rss" version="RSS" htmlUrl="https://lcamtuf.substack.com" xmlUrl="https://lcamtuf.substack.com/feed"/>
-    <outline text="Loris Cro's Personal Website" title="Loris Cro's Personal Website" description="" type="rss" version="RSS" htmlUrl="https://kristoff.it/" xmlUrl="https://kristoff.it/index.xml"/>
-    <outline text="Louise Grandjonc Leinweber | CrunchyData Blog" title="Louise Grandjonc Leinweber | CrunchyData Blog" description="" type="rss" version="RSS" htmlUrl="https://www.crunchydata.com/blog/author/louise-grandjonc-leinweber" xmlUrl="https://www.crunchydata.com/blog/author/louise-grandjonc-leinweber/rss.xml"/>
+    <outline text="Loris Cro" title="Loris Cro" description="" type="rss" version="RSS" htmlUrl="https://kristoff.it/" xmlUrl="https://kristoff.it/index.xml"/>
     <outline text="LOW←TECH MAGAZINE English" title="LOW←TECH MAGAZINE English" description="" type="rss" version="RSS" htmlUrl="https://solar.lowtechmagazine.com/posts/" xmlUrl="https://solar.lowtechmagazine.com/feeds/all-en.atom.xml"/>
-    <outline text="Magnus Hagander's blog" title="Magnus Hagander's blog" description="" type="rss" version="RSS" htmlUrl="https://blog.hagander.net/" xmlUrl="https://blog.hagander.net/rss/"/>
-    <outline text="Manni Wood @ EDB" title="Manni Wood @ EDB" description="" type="rss" version="RSS" htmlUrl="https://enterprisedb.com/" xmlUrl="https://www.enterprisedb.com/blog/rss/feed?author=Manni%20Wood"/>
-    <outline text="Marc Brooker's Blog" title="Marc Brooker's Blog" description="" type="rss" version="RSS" htmlUrl="http://brooker.co.za/blog/" xmlUrl="https://brooker.co.za/blog/rss.xml"/>
-    <outline text="Marco Slot | CrunchyData Blog" title="Marco Slot | CrunchyData Blog" description="" type="rss" version="RSS" htmlUrl="https://www.crunchydata.com/blog/author/marco-slot" xmlUrl="https://www.crunchydata.com/blog/author/marco-slot/rss.xml"/>
-    <outline text="markwkm" title="markwkm" description="" type="rss" version="RSS" htmlUrl="https://markwkm.blogspot.com/" xmlUrl="https://markwkm.blogspot.com/feeds/posts/default?alt=rss"/>
+    <outline text="Luigi Gubello" title="Luigi Gubello" description="" type="rss" version="RSS" htmlUrl="https://gubello.me/blog/" xmlUrl="https://gubello.me/blog/index.xml"/>
+    <outline text="LWN.net" title="LWN.net" description="" type="rss" version="RSS" htmlUrl="https://lwn.net" xmlUrl="https://lwn.net/headlines/rss"/>
     <outline text="Martin Fowler" title="Martin Fowler" description="" type="rss" version="RSS" htmlUrl="https://martinfowler.com" xmlUrl="https://martinfowler.com/feed.atom"/>
     <outline text="Martin Kleppmann's blog" title="Martin Kleppmann's blog" description="" type="rss" version="RSS" htmlUrl="http://martin.kleppmann.com/" xmlUrl="http://feeds.feedburner.com/martinkl"/>
-    <outline text="Materialized View" title="Materialized View" description="" type="rss" version="RSS" htmlUrl="https://materializedview.io" xmlUrl="https://materializedview.io/feed"/>
-    <outline text="Math ∩ Programming" title="Math ∩ Programming" description="" type="rss" version="RSS" htmlUrl="https://www.jeremykun.com/" xmlUrl="https://jeremykun.com/feed/"/>
-    <outline text="Matheus Alcantara" title="Matheus Alcantara" description="" type="rss" version="RSS" htmlUrl="https://matheus-alcantara.blogspot.com/" xmlUrl="https://matheus-alcantara.blogspot.com/feeds/posts/default?alt=rss"/>
     <outline text="matklad" title="matklad" description="" type="rss" version="RSS" htmlUrl="https://matklad.github.io" xmlUrl="https://matklad.github.io/feed.xml"/>
     <outline text="Matt Blewitt" title="Matt Blewitt" description="" type="rss" version="RSS" htmlUrl="https://matt.blwt.io/post/" xmlUrl="https://matt.blwt.io/post/index.xml"/>
+    <outline text="Matt Godbolt’s blog" title="Matt Godbolt’s blog" description="" type="rss" version="RSS" htmlUrl="http://xania.org/?utm_source=feed&amp;utm_medium=rss" xmlUrl="https://xania.org/feed.atom"/>
     <outline text="Matthew Garrett" title="Matthew Garrett" description="" type="rss" version="RSS" htmlUrl="https://mjg59.dreamwidth.org/" xmlUrl="https://mjg59.dreamwidth.org/data/rss"/>
-    <outline text="Metadata" title="Metadata" description="" type="rss" version="RSS" htmlUrl="https://muratbuffalo.blogspot.com/" xmlUrl="https://muratbuffalo.blogspot.com/feeds/posts/default?alt=rss"/>
-    <outline text="Michael Paquier - PostgreSQL committer - PostgreSQL" title="Michael Paquier - PostgreSQL committer - PostgreSQL" description="" type="rss" version="RSS" htmlUrl="https://paquier.xyz" xmlUrl="https://paquier.xyz/feeds/postgresql.xml"/>
-    <outline text="Michael Stapelbergs Website" title="Michael Stapelbergs Website" description="" type="rss" version="RSS" htmlUrl="https://michael.stapelberg.ch/" xmlUrl="https://michael.stapelberg.ch/feed.xml"/>
+    <outline text="mcyoung" title="mcyoung" description="" type="rss" version="RSS" htmlUrl="https://mcyoung.xyz/" xmlUrl="https://mcyoung.xyz/atom.xml"/>
+    <outline text="MedBunker - Le scomode verità" title="MedBunker - Le scomode verità" description="" type="rss" version="RSS" htmlUrl="http://www.blogger.com/feeds/6541863716412341533/posts/default?start-index=26&amp;max-results=25&amp;redirect=false" xmlUrl="https://www.medbunker.it/feeds/posts/default?alt=rss"/>
+    <outline text="Michael Stapelbergs" title="Michael Stapelbergs" description="" type="rss" version="RSS" htmlUrl="https://michael.stapelberg.ch/" xmlUrl="https://michael.stapelberg.ch/feed.xml"/>
     <outline text="Michael W Lucas" title="Michael W Lucas" description="" type="rss" version="RSS" htmlUrl="https://mwl.io" xmlUrl="https://mwl.io/feed"/>
-    <outline text="mildbyte.xyz - Posts" title="mildbyte.xyz - Posts" description="" type="rss" version="RSS" htmlUrl="https://mildbyte.xyz/blog/" xmlUrl="https://mildbyte.xyz/blog/atom.xml"/>
     <outline text="Mitchell Hashimoto" title="Mitchell Hashimoto" description="" type="rss" version="RSS" htmlUrl="https://mitchellh.com/writing" xmlUrl="https://mitchellh.com/feed.xml"/>
-    <outline text="morling.dev -- Blog" title="morling.dev -- Blog" description="" type="rss" version="RSS" htmlUrl="https://www.morling.dev/blog/" xmlUrl="https://www.morling.dev/blog/index.xml"/>
     <outline text="Myon's Blog" title="Myon's Blog" description="" type="rss" version="RSS" htmlUrl="https://www.df7cb.de/blog/index.html" xmlUrl="https://www.df7cb.de/blog/index.rss"/>
-    <outline text="NULL BITMAP by Justin Jaffray" title="NULL BITMAP by Justin Jaffray" description="" type="rss" version="RSS" htmlUrl="https://buttondown.com/jaffray" xmlUrl="https://buttondown.com/jaffray/rss"/>
     <outline text="null program" title="null program" description="" type="rss" version="RSS" htmlUrl="https://nullprogram.com" xmlUrl="https://nullprogram.com/feed/"/>
     <outline text="ongoing by Tim Bray" title="ongoing by Tim Bray" description="" type="rss" version="RSS" htmlUrl="https://www.tbray.org/ongoing/" xmlUrl="https://www.tbray.org/ongoing/ongoing.atom"/>
-    <outline text="Paul Ramsey" title="Paul Ramsey" description="" type="rss" version="RSS" htmlUrl="http://blog.cleverelephant.ca/" xmlUrl="https://blog.cleverelephant.ca/atom.xml"/>
-    <outline text="Pavlo Golub @ CYBERTEC" title="Pavlo Golub @ CYBERTEC" description="" type="rss" version="RSS" htmlUrl="https://www.cybertec-postgresql.com/en/author/pavlo_golub/" xmlUrl="https://www.cybertec-postgresql.com/en/author/pavlo_golub/feed"/>
-    <outline text="Peter Eisentraut" title="Peter Eisentraut" description="" type="rss" version="RSS" htmlUrl="http://peter.eisentraut.org/" xmlUrl="https://peter.eisentraut.org/feed.xml"/>
-    <outline text="Peter Eisentraut @ EDB" title="Peter Eisentraut @ EDB" description="" type="rss" version="RSS" htmlUrl="https://enterprisedb.com/" xmlUrl="https://www.enterprisedb.com/blog/rss/feed?author=Peter%20Eisentraut"/>
-    <outline text="pganalyze" title="pganalyze" description="" type="rss" version="RSS" htmlUrl="https://pganalyze.com" xmlUrl="https://pganalyze.com/feed.xml"/>
-    <outline text="pgMustard" title="pgMustard" description="" type="rss" version="RSS" htmlUrl="https://www.pgmustard.com/blog/" xmlUrl="https://www.pgmustard.com/blog?format=rss"/>
-    <outline text="Phil Eaton @ EDB" title="Phil Eaton @ EDB" description="" type="rss" version="RSS" htmlUrl="https://enterprisedb.com/" xmlUrl="https://www.enterprisedb.com/blog/rss/feed?author=Phil%20Eaton"/>
-    <outline text="Philippe Gaultier's blog" title="Philippe Gaultier's blog" description="" type="rss" version="RSS" htmlUrl="https://gaultier.github.io/blog" xmlUrl="https://gaultier.github.io/blog/feed.xml"/>
-    <outline text="Postgres Weekly" title="Postgres Weekly" description="" type="rss" version="RSS" htmlUrl="https://postgresweekly.com/" xmlUrl="https://postgresweekly.com/rss/"/>
-    <outline text="Posts on My DBA Notebook" title="Posts on My DBA Notebook" description="" type="rss" version="RSS" htmlUrl="https://mydbanotebook.org/posts/" xmlUrl="https://mydbanotebook.org/posts/index.xml"/>
-    <outline text="Posts on Nikita Lapkov" title="Posts on Nikita Lapkov" description="" type="rss" version="RSS" htmlUrl="https://laplab.me/posts/" xmlUrl="https://laplab.me/posts/index.xml"/>
+    <outline text="Pat Shaughnessy" title="Pat Shaughnessy" description="" type="rss" version="RSS" htmlUrl="" xmlUrl="http://feeds2.feedburner.com/patshaughnessy"/>
+    <outline text="Philippe Gaultier" title="Philippe Gaultier" description="" type="rss" version="RSS" htmlUrl="https://gaultier.github.io/blog" xmlUrl="https://gaultier.github.io/blog/feed.xml"/>
     <outline text="Programming With Style" title="Programming With Style" description="" type="rss" version="RSS" htmlUrl="https://programmingwithstyle.com/" xmlUrl="https://programmingwithstyle.com/index.xml"/>
     <outline text="Recent Gists from yoavg" title="Recent Gists from yoavg" description="" type="rss" version="RSS" htmlUrl="https://github.blog" xmlUrl="https://gist.github.com/yoavg.atom"/>
+    <outline text="Register Spill" title="Register Spill" description="" type="rss" version="RSS" htmlUrl="https://registerspill.thorstenball.com" xmlUrl="https://registerspill.thorstenball.com/feed"/>
     <outline text="research!rsc" title="research!rsc" description="" type="rss" version="RSS" htmlUrl="" xmlUrl="https://research.swtch.com/feed.atom"/>
-    <outline text="rjuju's home" title="rjuju's home" description="" type="rss" version="RSS" htmlUrl="https://rjuju.github.io" xmlUrl="https://rjuju.github.io/feed.xml"/>
-    <outline text="Robert Haas" title="Robert Haas" description="" type="rss" version="RSS" htmlUrl="https://rhaas.blogspot.com/" xmlUrl="https://rhaas.blogspot.com/feeds/posts/default?alt=rss"/>
-    <outline text="Robert Haas @ EDB" title="Robert Haas @ EDB" description="" type="rss" version="RSS" htmlUrl="https://enterprisedb.com/" xmlUrl="https://www.enterprisedb.com/blog/rss/feed?author=Robert%20M.%20Haas"/>
-    <outline text="S'è Destra" title="S'è Destra" description="" type="rss" version="RSS" htmlUrl="https://sedestra.substack.com" xmlUrl="https://sedestra.substack.com/feed"/>
     <outline text="Sam Curry" title="Sam Curry" description="" type="rss" version="RSS" htmlUrl="https://samcurry.net" xmlUrl="https://samcurry.net/feed.rss"/>
     <outline text="samwho.dev" title="samwho.dev" description="" type="rss" version="RSS" htmlUrl="https://samwho.dev" xmlUrl="https://samwho.dev/rss.xml"/>
     <outline text="Schneier on Security" title="Schneier on Security" description="" type="rss" version="RSS" htmlUrl="https://www.schneier.com/" xmlUrl="https://www.schneier.com/feed/atom/"/>
     <outline text="see shy jo" title="see shy jo" description="" type="rss" version="RSS" htmlUrl="http://joeyh.name/blog/" xmlUrl="https://joeyh.name/blog/index.rss"/>
-    <outline text="select * from depesz;" title="select * from depesz;" description="" type="rss" version="RSS" htmlUrl="https://www.depesz.com" xmlUrl="https://www.depesz.com/feed/"/>
-    <outline text="Simon Eskildsen" title="Simon Eskildsen" description="" type="rss" version="RSS" htmlUrl="https://sirupsen.com" xmlUrl="https://sirupsen.com/atom.xml"/>
-    <outline text="Small Datum" title="Small Datum" description="" type="rss" version="RSS" htmlUrl="https://smalldatum.blogspot.com/" xmlUrl="https://smalldatum.blogspot.com/feeds/posts/default?alt=rss"/>
+    <outline text="Steve Klabnik" title="Steve Klabnik" description="" type="rss" version="RSS" htmlUrl="https://steveklabnik.com/" xmlUrl="https://steveklabnik.com/feed.xml"/>
     <outline text="Stevey's Blog Rants" title="Stevey's Blog Rants" description="" type="rss" version="RSS" htmlUrl="https://steve-yegge.blogspot.com/" xmlUrl="https://steve-yegge.blogspot.com/feeds/posts/default?alt=rss"/>
     <outline text="Tedium: The Dull Side of the Internet." title="Tedium: The Dull Side of the Internet." description="" type="rss" version="RSS" htmlUrl="https://tedium.co/" xmlUrl="https://feed.tedium.co/"/>
     <outline text="The Go Blog" title="The Go Blog" description="" type="rss" version="RSS" htmlUrl="" xmlUrl="http://blog.golang.org/feed.atom"/>
-    <outline text="The Postgres Builders Blog" title="The Postgres Builders Blog" description="" type="rss" version="RSS" htmlUrl="https://enterprisedb.com/" xmlUrl="https://www.enterprisedb.com/blog/rss.xml"/>
     <outline text="The Register - Security: Cyber-crime" title="The Register - Security: Cyber-crime" description="" type="rss" version="RSS" htmlUrl="https://www.theregister.com/security/cyber_crime/" xmlUrl="https://www.theregister.com/security/cyber_crime/headlines.atom"/>
-    <outline text="The Register - Software: Databases" title="The Register - Software: Databases" description="" type="rss" version="RSS" htmlUrl="https://www.theregister.com/software/databases/" xmlUrl="https://www.theregister.com/software/databases/headlines.atom"/>
     <outline text="The Tech Faucet" title="The Tech Faucet" description="" type="rss" version="RSS" htmlUrl="http://blog.ringerc.id.au/" xmlUrl="http://blog.ringerc.id.au/feeds/posts/default?alt=rss"/>
-    <outline text="The World of Data" title="The World of Data" description="" type="rss" version="RSS" htmlUrl="https://hdombrovskaya.wordpress.com" xmlUrl="https://hdombrovskaya.wordpress.com/feed/"/>
-    <outline text="Thomas Vondra @ EDB" title="Thomas Vondra @ EDB" description="" type="rss" version="RSS" htmlUrl="https://enterprisedb.com/" xmlUrl="https://www.enterprisedb.com/blog/rss/feed?author=Tomas%20Vondra"/>
-    <outline text="Tomas Vondra" title="Tomas Vondra" description="" type="rss" version="RSS" htmlUrl="https://vondra.me/" xmlUrl="https://vondra.me/index.xml"/>
-    <outline text="tonsky.me" title="tonsky.me" description="" type="rss" version="RSS" htmlUrl="https://tonsky.me/" xmlUrl="https://tonsky.me/atom.xml"/>
-    <outline text="Transactional" title="Transactional" description="" type="rss" version="RSS" htmlUrl="" xmlUrl="https://transactional.blog/feed.xml"/>
-    <outline text="Unleashing the Power of Postgres in Kubernetes" title="Unleashing the Power of Postgres in Kubernetes" description="" type="rss" version="RSS" htmlUrl="https://www.gabrielebartolini.it/" xmlUrl="https://www.gabrielebartolini.it/index.xml"/>
+    <outline text="Thorsten Ball" title="Thorsten Ball" description="" type="rss" version="RSS" htmlUrl="http://thorstenball.com/" xmlUrl="https://thorstenball.com/atom.xml"/>
+    <outline text="tonsky" title="tonsky" description="" type="rss" version="RSS" htmlUrl="https://tonsky.me/" xmlUrl="https://tonsky.me/atom.xml"/>
+    <outline text="Tyler Hillery" title="Tyler Hillery" description="" type="rss" version="RSS" htmlUrl="https://www.tylerhillery.com/blog.html" xmlUrl="https://tylerhillery.com/blog.xml"/>
     <outline text="VictoriaMetrics: Simple &amp; Reliable Monitoring for Everyone on VictoriaMetrics" title="VictoriaMetrics: Simple &amp; Reliable Monitoring for Everyone on VictoriaMetrics" description="" type="rss" version="RSS" htmlUrl="https://victoriametrics.com/" xmlUrl="https://victoriametrics.com/index.xml"/>
-    <outline text="Vik Fearing @ EDB" title="Vik Fearing @ EDB" description="" type="rss" version="RSS" htmlUrl="https://enterprisedb.com/" xmlUrl="https://www.enterprisedb.com/blog/rss/feed?author=Vik%20Fearing"/>
-    <outline text="Write Skew" title="Write Skew" description="" type="rss" version="RSS" htmlUrl="https://write-skew.blogspot.com/" xmlUrl="https://write-skew.blogspot.com/feeds/posts/default?alt=rss"/>
-    <outline text="Xe Iaso's blog" title="Xe Iaso's blog" description="" type="rss" version="RSS" htmlUrl="https://xeiaso.net/" xmlUrl="https://xeiaso.net/blog.rss"/>
+    <outline text="Xe Iaso" title="Xe Iaso" description="" type="rss" version="RSS" htmlUrl="https://xeiaso.net/" xmlUrl="https://xeiaso.net/blog.rss"/>
+    <outline text="indiemedia" title="indiemedia">
+      <outline text="Altreconomia" title="Altreconomia" description="" type="rss" version="RSS" htmlUrl="https://altreconomia.it/" xmlUrl="https://altreconomia.it/feed/"/>
+      <outline text="ARCHIVIO GRAFTON9" title="ARCHIVIO GRAFTON9" description="" type="rss" version="RSS" htmlUrl="https://grafton9.net/blog/" xmlUrl="https://grafton9.net/blog/index.xml"/>
+      <outline text="COMPLOTTI!" title="COMPLOTTI!" description="" type="rss" version="RSS" htmlUrl="https://complotti.substack.com" xmlUrl="https://complotti.substack.com/feed"/>
+      <outline text="DINAMOpress" title="DINAMOpress" description="" type="rss" version="RSS" htmlUrl="https://www.dinamopress.it" xmlUrl="https://www.dinamopress.it/feed/"/>
+      <outline text="Forte Prenestino" title="Forte Prenestino" description="" type="rss" version="RSS" htmlUrl="https://forteprenestino.net/" xmlUrl="https://forteprenestino.net/?format=feed&amp;type=rss"/>
+      <outline text="Il Post" title="Il Post" description="" type="rss" version="RSS" htmlUrl="https://www.ilpost.it" xmlUrl="https://www.ilpost.it/feed"/>
+      <outline text="IrpiMedia" title="IrpiMedia" description="" type="rss" version="RSS" htmlUrl="https://irpimedia.irpi.eu/" xmlUrl="https://irpimedia.irpi.eu/feed"/>
+      <outline text="Osservatorio Repressione" title="Osservatorio Repressione" description="" type="rss" version="RSS" htmlUrl="https://www.osservatoriorepressione.info" xmlUrl="https://www.osservatoriorepressione.info/feed/"/>
+      <outline text="Romattiva" title="Romattiva" description="" type="rss" version="RSS" htmlUrl="https://www.romattiva.org/" xmlUrl="https://www.romattiva.org/?feed=rss2"/>
+      <outline text="S'è Destra" title="S'è Destra" description="" type="rss" version="RSS" htmlUrl="https://sedestra.substack.com" xmlUrl="https://sedestra.substack.com/feed"/>
+    </outline>
+    <outline text="pg/db/storage/data" title="pg/db/storage/data">
+      <outline text="All Things Distributed" title="All Things Distributed" description="" type="rss" version="RSS" htmlUrl="https://www.allthingsdistributed.com/" xmlUrl="https://www.allthingsdistributed.com/atom.xml"/>
+      <outline text="Alvaro Herrera @ EDB" title="Alvaro Herrera @ EDB" description="" type="rss" version="RSS" htmlUrl="https://enterprisedb.com/" xmlUrl="https://www.enterprisedb.com/blog/rss/feed?author=%C3%81lvaro%20Herrera"/>
+      <outline text="Andrew Dunstan @ EDB" title="Andrew Dunstan @ EDB" description="" type="rss" version="RSS" htmlUrl="https://enterprisedb.com/" xmlUrl="https://www.enterprisedb.com/blog/rss/feed?author=Andrew%20Dunstan"/>
+      <outline text="Andrew Dunstan's PostgreSQL and Technical blog" title="Andrew Dunstan's PostgreSQL and Technical blog" description="" type="rss" version="RSS" htmlUrl="https://adpgtech.blogspot.com/" xmlUrl="https://adpgtech.blogspot.com/feeds/posts/default?alt=rss"/>
+      <outline text="Andy Pavlo - Carnegie Mellon University" title="Andy Pavlo - Carnegie Mellon University" description="" type="rss" version="RSS" htmlUrl="https://www.cs.cmu.edu/~pavlo/" xmlUrl="https://www.cs.cmu.edu/~pavlo//blog/feed.xml"/>
+      <outline text="Ardent Performance Computing" title="Ardent Performance Computing" description="" type="rss" version="RSS" htmlUrl="https://ardentperf.com" xmlUrl="https://ardentperf.com/feed/"/>
+      <outline text="Avinash Sajjanshetty blag" title="Avinash Sajjanshetty blag" description="" type="rss" version="RSS" htmlUrl="https://avi.im/blag/" xmlUrl="https://avi.im/blag/index.xml"/>
+      <outline text="bdrouvot" title="bdrouvot" description="" type="rss" version="RSS" htmlUrl="https://bdrouvot.github.io" xmlUrl="https://bdrouvot.github.io/feed.xml"/>
+      <outline text="BonesMoses.org" title="BonesMoses.org" description="" type="rss" version="RSS" htmlUrl="https://bonesmoses.org/" xmlUrl="https://bonesmoses.org/index.xml"/>
+      <outline text="Brandur Leach | CrunchyData Blog" title="Brandur Leach | CrunchyData Blog" description="" type="rss" version="RSS" htmlUrl="https://www.crunchydata.com/blog/author/brandur-leach" xmlUrl="https://www.crunchydata.com/blog/author/brandur-leach/rss.xml"/>
+      <outline text="brandur.org - articles" title="brandur.org - articles" description="" type="rss" version="RSS" htmlUrl="https://brandur.org" xmlUrl="https://brandur.org/articles.atom"/>
+      <outline text="Bruce Momjian @ EDB" title="Bruce Momjian @ EDB" description="" type="rss" version="RSS" htmlUrl="https://enterprisedb.com/" xmlUrl="https://www.enterprisedb.com/blog/rss/feed?author=Bruce%20Momjian"/>
+      <outline text="Bruce Momjian: Postgres Blog" title="Bruce Momjian: Postgres Blog" description="" type="rss" version="RSS" htmlUrl="https://momjian.us/main/blogs/pgblog.html" xmlUrl="https://momjian.us/main/rss/pgblog.xml"/>
+      <outline text="Conserving CPU's cycles ..." title="Conserving CPU's cycles ..." description="" type="rss" version="RSS" htmlUrl="https://danolivo.substack.com" xmlUrl="https://danolivo.substack.com//feed"/>
+      <outline text="CRAIG KERSTIENS" title="CRAIG KERSTIENS" description="" type="rss" version="RSS" htmlUrl="" xmlUrl="https://www.craigkerstiens.com/index.xml"/>
+      <outline text="Craig Kerstiens | CrunchyData Blog" title="Craig Kerstiens | CrunchyData Blog" description="" type="rss" version="RSS" htmlUrl="https://www.crunchydata.com/blog/author/craig-kerstiens" xmlUrl="https://www.crunchydata.com/blog/author/craig-kerstiens/rss.xml"/>
+      <outline text="Craig Ringer @ EDB" title="Craig Ringer @ EDB" description="" type="rss" version="RSS" htmlUrl="https://enterprisedb.com/" xmlUrl="https://www.enterprisedb.com/blog/rss/feed?author=Craig%20Ringer"/>
+      <outline text="Data Bene" title="Data Bene" description="" type="rss" version="RSS" htmlUrl="" xmlUrl="https://www.data-bene.io/en/blog.xml"/>
+      <outline text="Dian M Fay" title="Dian M Fay" description="" type="rss" version="RSS" htmlUrl="https://di.nmfay.com/" xmlUrl="https://di.nmfay.com/atom.xml"/>
+      <outline text="eatonphil" title="eatonphil" description="" type="rss" version="RSS" htmlUrl="http://notes.eatonphil.com/" xmlUrl="https://notes.eatonphil.com/rss.xml"/>
+      <outline text="Elizabeth Christensen | CrunchyData Blog" title="Elizabeth Christensen | CrunchyData Blog" description="" type="rss" version="RSS" htmlUrl="https://www.crunchydata.com/blog/author/elizabeth-christensen" xmlUrl="https://www.crunchydata.com/blog/author/elizabeth-christensen/rss.xml"/>
+      <outline text="Greg Sabino Mullane | CrunchyData Blog" title="Greg Sabino Mullane | CrunchyData Blog" description="" type="rss" version="RSS" htmlUrl="https://www.crunchydata.com/blog/author/greg-sabino-mullane" xmlUrl="https://www.crunchydata.com/blog/author/greg-sabino-mullane/rss.xml"/>
+      <outline text="Hans-Jürgen Schönig @ CYBERTEC" title="Hans-Jürgen Schönig @ CYBERTEC" description="" type="rss" version="RSS" htmlUrl="https://www.cybertec-postgresql.com/en/author/hans-juergen_schoenig/" xmlUrl="https://www.cybertec-postgresql.com/en/author/hans-juergen_schoenig/feed"/>
+      <outline text="Inside Thoughts" title="Inside Thoughts" description="" type="rss" version="RSS" htmlUrl="https://pthorpe92.dev" xmlUrl="https://pthorpe92.dev/rss.xml"/>
+      <outline text="ioguix" title="ioguix" description="" type="rss" version="RSS" htmlUrl="http://blog.ioguix.net" xmlUrl="http://blog.ioguix.net/feed.xml"/>
+      <outline text="Jack Vanlightly" title="Jack Vanlightly" description="" type="rss" version="RSS" htmlUrl="https://jack-vanlightly.com/" xmlUrl="https://jack-vanlightly.com/blog?format=rss"/>
+      <outline text="Jeremy Cole" title="Jeremy Cole" description="" type="rss" version="RSS" htmlUrl="https://blog.jcole.us" xmlUrl="https://blog.jcole.us/feed"/>
+      <outline text="Just a Theory" title="Just a Theory" description="" type="rss" version="RSS" htmlUrl="https://justatheory.com/feed.json" xmlUrl="https://justatheory.com/feed.xml"/>
+      <outline text="Laurenz Albe @ CYBERTEC" title="Laurenz Albe @ CYBERTEC" description="" type="rss" version="RSS" htmlUrl="https://www.cybertec-postgresql.com/en/author/laurenz_albe/" xmlUrl="https://www.cybertec-postgresql.com/en/author/laurenz_albe/feed"/>
+      <outline text="Louise Grandjonc Leinweber | CrunchyData Blog" title="Louise Grandjonc Leinweber | CrunchyData Blog" description="" type="rss" version="RSS" htmlUrl="https://www.crunchydata.com/blog/author/louise-grandjonc-leinweber" xmlUrl="https://www.crunchydata.com/blog/author/louise-grandjonc-leinweber/rss.xml"/>
+      <outline text="Magnus Hagander's blog" title="Magnus Hagander's blog" description="" type="rss" version="RSS" htmlUrl="https://blog.hagander.net/" xmlUrl="https://blog.hagander.net/rss/"/>
+      <outline text="Manni Wood @ EDB" title="Manni Wood @ EDB" description="" type="rss" version="RSS" htmlUrl="https://enterprisedb.com/" xmlUrl="https://www.enterprisedb.com/blog/rss/feed?author=Manni%20Wood"/>
+      <outline text="Marc Brooker's Blog" title="Marc Brooker's Blog" description="" type="rss" version="RSS" htmlUrl="http://brooker.co.za/blog/" xmlUrl="https://brooker.co.za/blog/rss.xml"/>
+      <outline text="Marco Slot | CrunchyData Blog" title="Marco Slot | CrunchyData Blog" description="" type="rss" version="RSS" htmlUrl="https://www.crunchydata.com/blog/author/marco-slot" xmlUrl="https://www.crunchydata.com/blog/author/marco-slot/rss.xml"/>
+      <outline text="markwkm" title="markwkm" description="" type="rss" version="RSS" htmlUrl="https://markwkm.blogspot.com/" xmlUrl="https://markwkm.blogspot.com/feeds/posts/default?alt=rss"/>
+      <outline text="Martin Kleppmann's blog" title="Martin Kleppmann's blog" description="" type="rss" version="RSS" htmlUrl="https://www.jeremykun.com/" xmlUrl="https://jeremykun.com/feed/"/>
+      <outline text="Materialized View" title="Materialized View" description="" type="rss" version="RSS" htmlUrl="https://materializedview.io" xmlUrl="https://materializedview.io/feed"/>
+      <outline text="Matheus Alcantara" title="Matheus Alcantara" description="" type="rss" version="RSS" htmlUrl="https://matheus-alcantara.blogspot.com/" xmlUrl="https://matheus-alcantara.blogspot.com/feeds/posts/default?alt=rss"/>
+      <outline text="Metadata" title="Metadata" description="" type="rss" version="RSS" htmlUrl="https://muratbuffalo.blogspot.com/" xmlUrl="https://muratbuffalo.blogspot.com/feeds/posts/default?alt=rss"/>
+      <outline text="Michael Paquier - PostgreSQL committer - PostgreSQL" title="Michael Paquier - PostgreSQL committer - PostgreSQL" description="" type="rss" version="RSS" htmlUrl="https://paquier.xyz" xmlUrl="https://paquier.xyz/feeds/postgresql.xml"/>
+      <outline text="mildbyte.xyz" title="mildbyte.xyz" description="" type="rss" version="RSS" htmlUrl="https://mildbyte.xyz/blog/" xmlUrl="https://mildbyte.xyz/blog/atom.xml"/>
+      <outline text="morling.dev" title="morling.dev" description="" type="rss" version="RSS" htmlUrl="https://www.morling.dev/blog/" xmlUrl="https://www.morling.dev/blog/index.xml"/>
+      <outline text="Nikita Lapkov" title="Nikita Lapkov" description="" type="rss" version="RSS" htmlUrl="https://laplab.me/posts/" xmlUrl="https://laplab.me/posts/index.xml"/>
+      <outline text="NULL BITMAP by Justin Jaffray" title="NULL BITMAP by Justin Jaffray" description="" type="rss" version="RSS" htmlUrl="https://buttondown.com/jaffray" xmlUrl="https://buttondown.com/jaffray/rss"/>
+      <outline text="Paul Ramsey" title="Paul Ramsey" description="" type="rss" version="RSS" htmlUrl="http://blog.cleverelephant.ca/" xmlUrl="https://blog.cleverelephant.ca/atom.xml"/>
+      <outline text="Pavel Stehule's blog" title="Pavel Stehule's blog" description="" type="rss" version="RSS" htmlUrl="https://okbob.blogspot.com/" xmlUrl="https://okbob.blogspot.com/feeds/posts/default?alt=rss"/>
+      <outline text="Pavlo Golub @ CYBERTEC" title="Pavlo Golub @ CYBERTEC" description="" type="rss" version="RSS" htmlUrl="https://www.cybertec-postgresql.com/en/author/pavlo_golub/" xmlUrl="https://www.cybertec-postgresql.com/en/author/pavlo_golub/feed"/>
+      <outline text="Peter Eisentraut" title="Peter Eisentraut" description="" type="rss" version="RSS" htmlUrl="http://peter.eisentraut.org/" xmlUrl="https://peter.eisentraut.org/feed.xml"/>
+      <outline text="Peter Eisentraut @ EDB" title="Peter Eisentraut @ EDB" description="" type="rss" version="RSS" htmlUrl="https://enterprisedb.com/" xmlUrl="https://www.enterprisedb.com/blog/rss/feed?author=Peter%20Eisentraut"/>
+      <outline text="pganalyze" title="pganalyze" description="" type="rss" version="RSS" htmlUrl="https://pganalyze.com" xmlUrl="https://pganalyze.com/feed.xml"/>
+      <outline text="pgMustard" title="pgMustard" description="" type="rss" version="RSS" htmlUrl="https://www.pgmustard.com/blog/" xmlUrl="https://www.pgmustard.com/blog?format=rss"/>
+      <outline text="PGSQL Phriday" title="PGSQL Phriday" description="" type="rss" version="RSS" htmlUrl="https://www.pgsqlphriday.com" xmlUrl="https://www.pgsqlphriday.com/feed/"/>
+      <outline text="Phil Eaton @ EDB" title="Phil Eaton @ EDB" description="" type="rss" version="RSS" htmlUrl="https://enterprisedb.com/" xmlUrl="https://www.enterprisedb.com/blog/rss/feed?author=Phil%20Eaton"/>
+      <outline text="PlanetScale" title="PlanetScale" description="" type="rss" version="RSS" htmlUrl="https://planetscale.com/blog" xmlUrl="https://planetscale.com/blog/feed.atom"/>
+      <outline text="Postgres Weekly" title="Postgres Weekly" description="" type="rss" version="RSS" htmlUrl="https://postgresweekly.com/" xmlUrl="https://postgresweekly.com/rss/"/>
+      <outline text="Posts on My DBA Notebook" title="Posts on My DBA Notebook" description="" type="rss" version="RSS" htmlUrl="https://mydbanotebook.org/posts/" xmlUrl="https://mydbanotebook.org/posts/index.xml"/>
+      <outline text="rjuju" title="rjuju" description="" type="rss" version="RSS" htmlUrl="https://rjuju.github.io" xmlUrl="https://rjuju.github.io/feed.xml"/>
+      <outline text="Robert Haas" title="Robert Haas" description="" type="rss" version="RSS" htmlUrl="https://rhaas.blogspot.com/" xmlUrl="https://rhaas.blogspot.com/feeds/posts/default?alt=rss"/>
+      <outline text="Robert Haas @ EDB" title="Robert Haas @ EDB" description="" type="rss" version="RSS" htmlUrl="https://enterprisedb.com/" xmlUrl="https://www.enterprisedb.com/blog/rss/feed?author=Robert%20M.%20Haas"/>
+      <outline text="select * from depesz;" title="select * from depesz;" description="" type="rss" version="RSS" htmlUrl="https://www.depesz.com" xmlUrl="https://www.depesz.com/feed/"/>
+      <outline text="Simon Eskildsen" title="Simon Eskildsen" description="" type="rss" version="RSS" htmlUrl="https://sirupsen.com" xmlUrl="https://sirupsen.com/atom.xml"/>
+      <outline text="Small Datum" title="Small Datum" description="" type="rss" version="RSS" htmlUrl="https://smalldatum.blogspot.com/" xmlUrl="https://smalldatum.blogspot.com/feeds/posts/default?alt=rss"/>
+      <outline text="sougou.io Blog" title="sougou.io Blog" description="" type="rss" version="RSS" htmlUrl="https://sougou.io/" xmlUrl="https://sougou.io/rss.xml"/>
+      <outline text="The Postgres Builders Blog" title="The Postgres Builders Blog" description="" type="rss" version="RSS" htmlUrl="https://enterprisedb.com/" xmlUrl="https://www.enterprisedb.com/blog/rss.xml"/>
+      <outline text="The Register - Software: Databases" title="The Register - Software: Databases" description="" type="rss" version="RSS" htmlUrl="https://www.theregister.com/software/databases/" xmlUrl="https://www.theregister.com/software/databases/headlines.atom"/>
+      <outline text="The World of Data" title="The World of Data" description="" type="rss" version="RSS" htmlUrl="https://hdombrovskaya.wordpress.com" xmlUrl="https://hdombrovskaya.wordpress.com/feed/"/>
+      <outline text="Tomas Vondra" title="Tomas Vondra" description="" type="rss" version="RSS" htmlUrl="https://vondra.me/" xmlUrl="https://vondra.me/index.xml"/>
+      <outline text="Tomas Vondra @ EDB" title="Tomas Vondra @ EDB" description="" type="rss" version="RSS" htmlUrl="https://enterprisedb.com/" xmlUrl="https://www.enterprisedb.com/blog/rss/feed?author=Tomas%20Vondra"/>
+      <outline text="Transactional" title="Transactional" description="" type="rss" version="RSS" htmlUrl="" xmlUrl="https://transactional.blog/feed.xml"/>
+      <outline text="Unleashing the Power of Postgres in Kubernetes" title="Unleashing the Power of Postgres in Kubernetes" description="" type="rss" version="RSS" htmlUrl="https://www.gabrielebartolini.it/" xmlUrl="https://www.gabrielebartolini.it/index.xml"/>
+      <outline text="Vik Fearing @ EDB" title="Vik Fearing @ EDB" description="" type="rss" version="RSS" htmlUrl="https://enterprisedb.com/" xmlUrl="https://www.enterprisedb.com/blog/rss/feed?author=Vik%20Fearing"/>
+      <outline text="Write Skew" title="Write Skew" description="" type="rss" version="RSS" htmlUrl="https://write-skew.blogspot.com/" xmlUrl="https://write-skew.blogspot.com/feeds/posts/default?alt=rss"/>
+    </outline>
   </body>
 </opml>
