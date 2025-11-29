@@ -2,8 +2,6 @@
   link: /
 - name: about
   link: /about.html
-- name: t8ls
-  link: /tools.html
 - name: pg_links
   link: /pg.html
 - name: GPG
@@ -12,3 +10,5 @@
   link: /feed.xml
 - name: blogroll
   link: /blogroll.xml
+- name: feed
+  link: /feed.html

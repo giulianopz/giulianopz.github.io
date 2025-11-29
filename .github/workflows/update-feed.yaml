@@ -1,0 +1,45 @@
+name: update feed articles
+
+on:
+  schedule:
+    # Runs at 00:00 UTC every day
+    - cron: '0 0 * * *'
+  workflow_dispatch: # Allows you to run this manually from the Actions tab
+
+jobs:
+  build-and-run:
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write # Required to push the updated file
+
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+
+      - name: Setup Go
+        uses: actions/setup-go@v5
+        with:
+          go-version: '1.25'
+
+      - name: Install Dependencies
+        working-directory: ./feeder
+        run: |
+          go mod tidy
+
+      - name: Run Go program
+        working-directory: ./feeder
+        run: |
+          go run . "https://giulianopz.github.io/blogroll.xml" "../_data/feed.yaml"
+
+      - name: Commit and Push changes
+        run: |
+          git config --global user.name "feeder"
+          git config --global user.email "feeder@noreply.com"
+
+          git add _data/feed.yaml
+          if git diff --staged --quiet; then
+            echo "no changes to the feed"
+          else
+            git commit -m "chore: update feed.yaml"
+            git push origin gh-pages
+          fi

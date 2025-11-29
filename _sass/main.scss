@@ -68,7 +68,7 @@ code.language-plaintext {
 
 .current {
    font-weight: bold;
-   color: red;
+   color: #c11818;
 }
 
 #page-container {
@@ -136,7 +136,6 @@ a {
     text-decoration: none;
 }
 
-
 // a normal, unvisited link
 a:link {
     color: #3366CC;
@@ -160,12 +159,10 @@ a:active {
     color: #795CB2;
 }
 
-
 a#nocolor:not(.current) {
     background-color: black;
     color: whitesmoke;
 }
-
 
 blockquote {
     border: dashed 3px plum;

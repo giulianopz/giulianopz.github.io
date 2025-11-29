@@ -1,0 +1,87 @@
+---
+layout: default
+title: Feed Reader
+permalink: /feed.html
+---
+
+<style>
+    .feed-nav {
+        display: flex;
+        flex-wrap: wrap;
+        gap: 15px;
+        margin-bottom: 2rem;
+    }
+
+    .feed-btn {
+        cursor: pointer;
+        font-family: inherit;
+    }
+
+    .feed-btn.active {
+        background-color: whitesmoke;
+        color: black;
+    }
+</style>
+
+<div class="feed-nav">
+    {% for category_hash in site.data.feed %}
+    {% assign category_name = category_hash[0] %}
+    <button class="button feed-btn" onclick="openCategory('{{ category_name | slugify }}', this)">
+        {{ category_name }}
+    </button>
+    {% endfor %}
+</div>
+
+<div class="feed-content">
+    {% for category_hash in site.data.feed %}
+    {% assign category_name = category_hash[0] %}
+    {% assign articles = category_hash[1] %}
+
+    <div id="{{ category_name | slugify }}" class="category-section" style="display: none;">
+        <table>
+            <thead></thead>
+            <tbody>
+                {% for post in articles %}
+                <tr>
+                    <td>[{{ post.published | date: "%Y-%m-%d" }}]</td>
+                    <td>&nbsp;</td>
+                    <td>
+                        <a id="nocolor" href="{{ post.url }}" target="_blank">
+                            {{ post.title }}
+                        </a>
+                        <span style="font-style: italic;color: #c11818;">{{ post.blogName }}</span>
+                    </td>
+                </tr>
+                {% endfor %}
+            </tbody>
+        </table>
+    </div>
+    {% endfor %}
+</div>
+
+<script>
+    function openCategory(id, btnElement) {
+        // 1. hide all article lists
+        var sections = document.querySelectorAll('.category-section');
+        sections.forEach(function(el) { el.style.display = 'none'; });
+
+        // 2. remove 'active' class from all buttons
+        var buttons = document.querySelectorAll('.feed-btn');
+        buttons.forEach(function(el) { el.classList.remove('active'); });
+
+        // 3. show the selected list
+        var selected = document.getElementById(id);
+        if (selected) {
+            selected.style.display = 'block';
+        }
+
+        // 4. highlight the clicked button
+        btnElement.classList.add('active');
+    }
+
+    // open the first category by default on load
+    document.addEventListener('DOMContentLoaded', () => {
+       const firstBtn = document.querySelector('.feed-btn');
+       if(firstBtn) firstBtn.click();
+    });
+</script>
