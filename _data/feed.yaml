@@ -60,10 +60,6 @@ indiemedia:
       title: '30 novembre 1945: Le rivolte dei frantoiani nel Barese'
       url: https://www.osservatoriorepressione.info/30-novembre-1945-le-rivolte-dei-frantoiani-nel-barese/
       published: 2025-11-29T23:01:20Z
-    - blogName: COMPLOTTI!
-      title: La nuova Bibbiano
-      url: https://complotti.substack.com/p/famiglia-del-bosco-palmoli-teorie-complotto
-      published: 2025-11-29T10:31:08Z
     - blogName: Romattiva
       title: ManifestazioneNazionale@Roma 29/11
       url: https://www.romattiva.org/manifestazionenazionaleroma-29-11/
@@ -100,26 +96,6 @@ indiemedia:
       title: Newsroom –  Cosa succede alla scuola. Il mercato dei 60 Cfu e l’ascesa delle telematiche
       url: https://irpimedia.irpi.eu/newsroom-scuola-business-della-formazione-crediti-formativi-insegnanti/?utm_source=rss&utm_medium=rss&utm_campaign=newsroom-scuola-business-della-formazione-crediti-formativi-insegnanti
       published: 2025-11-24T06:48:40Z
-    - blogName: S'è Destra
-      title: Bruxelles è un laboratorio di governo per le destre europee
-      url: https://sedestra.substack.com/p/bruxelles-e-un-laboratorio-di-governo
-      published: 2025-11-23T12:04:50Z
-    - blogName: COMPLOTTI!
-      title: Il trumpismo dopo Trump
-      url: https://complotti.substack.com/p/trump-greene-fuentes-maga
-      published: 2025-11-22T11:00:13Z
-    - blogName: S'è Destra
-      title: Ryanair e il post razzista sui maranza
-      url: https://sedestra.substack.com/p/ryanair-e-il-post-razzista-sui-maranza
-      published: 2025-11-16T11:09:30Z
-    - blogName: COMPLOTTI!
-      title: Bombe memetiche
-      url: https://complotti.substack.com/p/terrorismo-memetico-neonazista
-      published: 2025-11-15T11:05:10Z
-    - blogName: S'è Destra
-      title: Gli affidabili
-      url: https://sedestra.substack.com/p/gli-affidabili
-      published: 2025-11-08T08:05:10Z
 ita:
     - blogName: Francesco Sylos Labini
       title: Large-Scale Galaxy Correlations from the DESI First Data Release
@@ -206,10 +182,6 @@ misc:
       title: How to get hired in 2025
       url: https://tonsky.me/blog/hiring-ai/
       published: 2025-11-26T00:00:00Z
-    - blogName: Michael W Lucas
-      title: “OpenZFS Mastery” sponsorships now open
-      url: https://mwl.io/archives/24481
-      published: 2025-11-25T17:00:31Z
     - blogName: 'Tedium: The Dull Side of the Internet.'
       title: War Copter, Peace Train
       url: https://feed.tedium.co/link/15204/17216323/ovation-guitar-history
@@ -258,18 +230,10 @@ misc:
       title: A million ways to die from a data race in Go
       url: https://gaultier.github.io/blog/a_million_ways_to_data_race_in_go.html
       published: 2025-11-21T12:38:45Z
-    - blogName: lcamtuf’s thing
-      title: It's hard to build an oscillator
-      url: https://lcamtuf.substack.com/p/its-hard-to-build-an-oscillator
-      published: 2025-11-21T01:21:27Z
     - blogName: Armin Ronacher's Thoughts and Writings
       title: Agent Design Is Still Hard
       url: https://lucumr.pocoo.org/2025/11/21/agents-are-hard/
       published: 2025-11-21T00:00:00Z
-    - blogName: Michael W Lucas
-      title: '107: Which Drive Is It?'
-      url: https://mwl.io/archives/24474
-      published: 2025-11-20T11:23:05Z
     - blogName: jwz
       title: Happy BitBLT Day to all who celebrate
       url: https://www.jwz.org/blog/2025/11/happy-bitblt-day-to-all-who-celebrate/
@@ -278,10 +242,6 @@ misc:
       title: Fragments Nov 19
       url: https://martinfowler.com/articles/2025-11-19-frags.html
       published: 2025-11-19T19:02:00Z
-    - blogName: Michael W Lucas
-      title: N4SA2e signing copies are here
-      url: https://mwl.io/archives/24476
-      published: 2025-11-19T17:41:16Z
     - blogName: 'Tedium: The Dull Side of the Internet.'
       title: Big Opinion, Big Budget
       url: https://feed.tedium.co/link/15204/17213014/patreon-new-york-times-op-ed
@@ -294,6 +254,10 @@ misc:
       title: My Foreword to "Frictionless"
       url: https://martinfowler.com/articles/frictionless-foreword.html
       published: 2025-11-18T17:19:00Z
+    - blogName: tonsky.me
+      title: 'Logo: Clojure+'
+      url: https://tonsky.me/design/#2025-11-clojure-plus
+      published: 2025-11-18T00:00:00Z
     - blogName: blog.jsbarretto.com
       title: We are replacing OOP with something worse
       url: https://blog.jsbarretto.com/post/actors
@@ -301,10 +265,6 @@ misc:
     - blogName: 'VictoriaMetrics: Simple & Reliable Monitoring for Everyone on VictoriaMetrics'
       title: New Capacity Tiers in VictoriaMetrics Cloud
       url: https://victoriametrics.com/blog/new-tiers-in-victoriametrics-cloud-2025/
-      published: 2025-11-18T00:00:00Z
-    - blogName: tonsky.me
-      title: 'Logo: Clojure+'
-      url: https://tonsky.me/design/#2025-11-clojure-plus
       published: 2025-11-18T00:00:00Z
     - blogName: Math ∩ Programming
       title: Bicyclic Matrix-Matrix Multiplication in Fully Homomorphic Encryption
@@ -314,13 +274,13 @@ misc:
       title: The Type Checker
       url: https://internals-for-interns.com/posts/the-go-type-checker/
       published: 2025-11-17T07:00:00Z
-    - blogName: Fabien Sanglard
-      title: How quake.exe got its TCP/IP stack
-      url: https://fabiensanglard.net/quake_chunnel/index.html
-      published: 2025-11-17T00:00:00Z
     - blogName: Pat Shaughnessy
       title: Compiling Ruby To Machine Language
       url: https://patshaughnessy.net/2025/11/17/compiling-ruby-to-machine-language
+      published: 2025-11-17T00:00:00Z
+    - blogName: Fabien Sanglard
+      title: How quake.exe got its TCP/IP stack
+      url: https://fabiensanglard.net/quake_chunnel/index.html
       published: 2025-11-17T00:00:00Z
     - blogName: ongoing by Tim Bray
       title: Long Links
@@ -350,10 +310,6 @@ misc:
       title: Agda on NixOS
       url: https://borretti.me/article/agda-on-nixos
       published: 2025-11-14T00:00:00Z
-    - blogName: lcamtuf’s thing
-      title: When it comes to writing, LLMs have won
-      url: https://lcamtuf.substack.com/p/when-it-comes-to-writing-llms-have
-      published: 2025-11-13T23:13:09Z
     - blogName: ongoing by Tim Bray
       title: Kendzior Case-Study
       url: https://www.tbray.org/ongoing/When/202x/2025/11/13/Kendzior-Case-Study
@@ -402,10 +358,6 @@ misc:
       title: How to Brew Solar Powered Coffee
       url: https://solar.lowtechmagazine.com/2025/11/how-to-brew-solar-powered-coffee/
       published: 2025-11-09T00:00:00Z
-    - blogName: lcamtuf’s thing
-      title: What's the deal with Euler's identity?
-      url: https://lcamtuf.substack.com/p/whats-the-deal-with-eulers-identity
-      published: 2025-11-08T22:15:52Z
     - blogName: Drew DeVault's blog
       title: OpenAI employees… are you okay?
       url: https://drewdevault.com/2025/11/08/2025-11-08-OpenAI-employees-are-you-okay.html
@@ -434,13 +386,13 @@ misc:
       title: Yes really, curl is still developed
       url: https://daniel.haxx.se/blog/2025/11/04/yes-really-curl-is-still-developed/
       published: 2025-11-04T09:27:16Z
-    - blogName: Xe Iaso's blog
-      title: 'Immutable by Design: The Deep Tech Behind Tigris Bucket Forking'
-      url: https://www.tigrisdata.com/blog/bucket-forking-deep-dive/
-      published: 2025-11-04T00:00:00Z
     - blogName: LOW←TECH MAGAZINE English
       title: 'Thematic Book Series: Too Much Combustion, Too Little Fire'
       url: https://solar.lowtechmagazine.com/2025/11/thematic-book-series-too-much-combustion-too-little-fire/
+      published: 2025-11-04T00:00:00Z
+    - blogName: Xe Iaso's blog
+      title: 'Immutable by Design: The Deep Tech Behind Tigris Bucket Forking'
+      url: https://www.tigrisdata.com/blog/bucket-forking-deep-dive/
       published: 2025-11-04T00:00:00Z
     - blogName: Pat Shaughnessy
       title: Compiling a Call to a Block
@@ -450,10 +402,6 @@ misc:
       title: 'Absurd Workflows: Durable Execution With Just Postgres'
       url: https://lucumr.pocoo.org/2025/11/3/absurd-workflows/
       published: 2025-11-03T00:00:00Z
-    - blogName: Xe Iaso's blog
-      title: Using Assisted-by commit footers instead of banning AI tools
-      url: https://xeiaso.net/notes/2025/assisted-by-footer/
-      published: 2025-11-02T00:00:00Z
     - blogName: blog.jsbarretto.com
       title: Software Provenance
       url: https://blog.jsbarretto.com/post/provenance
@@ -461,6 +409,10 @@ misc:
     - blogName: Dmitry.GR
       title: rePalm
       url: https://dmitry.gr/?r=05.Projects&proj=27.%20rePalm
+      published: 2025-11-02T00:00:00Z
+    - blogName: Xe Iaso's blog
+      title: Using Assisted-by commit footers instead of banning AI tools
+      url: https://xeiaso.net/notes/2025/assisted-by-footer/
       published: 2025-11-02T00:00:00Z
 pg/db/storage/data:
     - blogName: Ardent Performance Computing
@@ -499,10 +451,6 @@ pg/db/storage/data:
       title: Announcing Release 20 of the PostgreSQL Build Farm Client
       url: https://adpgtech.blogspot.com/2025/11/announcing-release-20-of-postgresql.html
       published: 2025-11-25T13:46:00Z
-    - blogName: 'The Register - Software: Databases'
-      title: Clop's Oracle EBS rampage reaches Dartmouth College
-      url: https://go.theregister.com/feed/www.theregister.com/2025/11/25/clop_dartmouth_college/
-      published: 2025-11-25T13:42:36Z
     - blogName: morling.dev -- Blog
       title: On Idempotency Keys
       url: https://www.morling.dev/blog/on-idempotency-keys/
@@ -515,10 +463,6 @@ pg/db/storage/data:
       title: Qubes OS is pretty great
       url: https://vondra.me/posts/qubes-os-is-pretty-great/
       published: 2025-11-25T10:00:00Z
-    - blogName: Hans-Jürgen Schönig, Author at CYBERTEC PostgreSQL | Services & Support
-      title: Super fast aggregations in PostgreSQL 19
-      url: https://www.cybertec-postgresql.com/en/super-fast-aggregations-in-postgresql-19/
-      published: 2025-11-25T05:40:06Z
     - blogName: Metadata
       title: Mitigating Application Resource Overload with Targeted Task Cancellation
       url: https://muratbuffalo.blogspot.com/2025/11/mitigating-application-resource.html
@@ -544,17 +488,21 @@ pg/db/storage/data:
       url: https://bonesmoses.org/2025/i-dont-want-my-mtg/
       published: 2025-11-23T17:08:32Z
     - blogName: 'Bruce Momjian: Postgres Blog'
-      title: Cleanup Time
-      url: https://momjian.us/main/blogs/pgblog/2025.html#November_22_2025
-      published: 2025-11-22T17:00:00Z
-    - blogName: 'Bruce Momjian: Postgres Blog'
       title: Two Database Videos
       url: https://momjian.us/main/blogs/pgblog/2025.html#November_22_2025_2
+      published: 2025-11-22T17:00:00Z
+    - blogName: 'Bruce Momjian: Postgres Blog'
+      title: Cleanup Time
+      url: https://momjian.us/main/blogs/pgblog/2025.html#November_22_2025
       published: 2025-11-22T17:00:00Z
     - blogName: Small Datum
       title: Challenges compiling old C++ code on modern Linux
       url: https://smalldatum.blogspot.com/2025/11/challenges-compiling-old-c-code-on.html
       published: 2025-11-22T16:36:00Z
+    - blogName: EnterpriseDB
+      title: New Buildfarm Summary Page
+      url: https://enterprisedb.com/blog/new-buildfarm-summary-page
+      published: 2025-11-21T13:57:40Z
     - blogName: Blog — PlanetScale
       title: AI-Powered Postgres index suggestions
       url: https://planetscale.com/blog/postgres-new-index-suggestions
@@ -571,22 +519,22 @@ pg/db/storage/data:
       title: Prairie PostgreSQL User Group November Meetup
       url: https://hdombrovskaya.wordpress.com/2025/11/19/prairie-postgresql-user-group-november-meetup/
       published: 2025-11-20T03:23:13Z
-    - blogName: Marc Brooker's Blog
-      title: What Now? Handling Errors in Large Systems
-      url: http://brooker.co.za/blog/2025/11/20/what-now.html
-      published: 2025-11-20T00:00:00Z
     - blogName: Postgres Weekly
       title: Amazon RDS now supports Postgres 18
       url: https://postgresweekly.com/issues/625
+      published: 2025-11-20T00:00:00Z
+    - blogName: Marc Brooker's Blog
+      title: What Now? Handling Errors in Large Systems
+      url: http://brooker.co.za/blog/2025/11/20/what-now.html
       published: 2025-11-20T00:00:00Z
     - blogName: Jack Vanlightly
       title: 'Have your Iceberg Cubed, Not Sorted: Meet Qbeast, the OTree Spatial Index'
       url: https://jack-vanlightly.com/blog/2025/11/19/have-your-iceberg-cubed-not-sorted-meet-qbeast-the-otree-spatial-index
       published: 2025-11-19T13:47:39Z
-    - blogName: Hans-Jürgen Schönig, Author at CYBERTEC PostgreSQL | Services & Support
-      title: Storing products, prices and orders in PostgreSQL
-      url: https://www.cybertec-postgresql.com/en/storing-products-prices-and-orders-in-postgresql/
-      published: 2025-11-18T06:30:49Z
+    - blogName: 'The Register - Software: Databases'
+      title: Microsoft spins up Azure HorizonDB to take on distributed Postgres rivals
+      url: https://go.theregister.com/feed/www.theregister.com/2025/11/19/microsoft_azure_horizondb/
+      published: 2025-11-19T11:45:13Z
     - blogName: Marc Brooker's Blog
       title: Why Strong Consistency?
       url: http://brooker.co.za/blog/2025/11/18/consistency.html
@@ -619,10 +567,6 @@ pg/db/storage/data:
       title: Today is Postgres 13's final day
       url: https://postgresweekly.com/issues/624
       published: 2025-11-13T00:00:00Z
-    - blogName: Laurenz Albe, Author at CYBERTEC PostgreSQL | Services & Support
-      title: The bastard DBA from hell
-      url: https://www.cybertec-postgresql.com/en/bastard-dba-from-hell/
-      published: 2025-11-12T05:00:03Z
     - blogName: Metadata
       title: Disaggregated Database Management Systems
       url: https://muratbuffalo.blogspot.com/2025/11/disaggregated-database-management.html
@@ -631,10 +575,6 @@ pg/db/storage/data:
       title: Waiting for PostgreSQL 19 – Sequence synchronization in logical replication.
       url: https://www.depesz.com/2025/11/11/waiting-for-postgresql-19-sequence-synchronization-in-logical-replication/
       published: 2025-11-11T12:24:23Z
-    - blogName: Hans-Jürgen Schönig, Author at CYBERTEC PostgreSQL | Services & Support
-      title: 'PostgreSQL 18: More performance with index skip scans'
-      url: https://www.cybertec-postgresql.com/en/postgresql-18-more-performance-with-index-skip-scans/
-      published: 2025-11-11T06:00:51Z
     - blogName: Peter Eisentraut
       title: 'Waiting for SQL:202y: GROUP BY ALL'
       url: http://peter.eisentraut.org/blog/2025/11/11/waiting-for-sql-202y-group-by-all
