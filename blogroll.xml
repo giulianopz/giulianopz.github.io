@@ -8,7 +8,6 @@
     <outline text="&lt;antirez&gt;" title="&lt;antirez&gt;" description="" type="rss" version="RSS" htmlUrl="http://antirez.com" xmlUrl="http://antirez.com/rss"/>
     <outline text="~jpetazzo/" title="~jpetazzo/" description="" type="rss" version="RSS" htmlUrl="http://jpetazzo.github.io" xmlUrl="http://jpetazzo.github.io/atom.xml"/>
     <outline text="★❤✰ Vicki Boykis ★❤✰" title="★❤✰ Vicki Boykis ★❤✰" description="" type="rss" version="RSS" htmlUrl="https://vickiboykis.com/" xmlUrl="https://vickiboykis.com/index.xml"/>
-    <outline text="Airs – Ian Lance Taylor" title="Airs – Ian Lance Taylor" description="" type="rss" version="RSS" htmlUrl="https://www.airs.com/blog" xmlUrl="https://www.airs.com/blog/feed"/>
     <outline text="Andrew Kelley" title="Andrew Kelley" description="" type="rss" version="RSS" htmlUrl="https://andrewkelley.me/" xmlUrl="https://andrewkelley.me/rss.xml"/>
     <outline text="Armin Ronacher's Thoughts and Writings" title="Armin Ronacher's Thoughts and Writings" description="" type="rss" version="RSS" htmlUrl="https://lucumr.pocoo.org/" xmlUrl="https://lucumr.pocoo.org/feed.atom"/>
     <outline text="Bartosz Ciechanowski" title="Bartosz Ciechanowski" description="" type="rss" version="RSS" htmlUrl="https://ciechanow.ski/" xmlUrl="https://ciechanow.ski/atom.xml"/>
@@ -25,7 +24,6 @@
     <outline text="bunnie" title="bunnie" description="" type="rss" version="RSS" htmlUrl="https://www.bunniestudios.com/blog" xmlUrl="https://www.bunniestudios.com/blog/?feed=rss"/>
     <outline text="Casey Muratori" title="Casey Muratori" description="" type="rss" version="RSS" htmlUrl="https://caseymuratori.com/blog" xmlUrl="https://caseymuratori.com/blog_atom.rss"/>
     <outline text="Coding Horror" title="Coding Horror" description="" type="rss" version="RSS" htmlUrl="https://blog.codinghorror.com/" xmlUrl="https://blog.codinghorror.com/rss"/>
-    <outline text="command center" title="command center" description="" type="rss" version="RSS" htmlUrl="https://commandcenter.blogspot.com/" xmlUrl="https://commandcenter.blogspot.com/feeds/posts/default?alt=rss"/>
     <outline text="Confessions of a Code Addict" title="Confessions of a Code Addict" description="" type="rss" version="RSS" htmlUrl="https://blog.codingconfessions.com" xmlUrl="https://blog.codingconfessions.com/feed"/>
     <outline text="daniel.haxx.se" title="daniel.haxx.se" description="" type="rss" version="RSS" htmlUrl="https://daniel.haxx.se/blog" xmlUrl="https://daniel.haxx.se/blog/feed/"/>
     <outline text="Danluu" title="Danluu" description="" type="rss" version="RSS" htmlUrl="https://danluu.com/atom/index.xml" xmlUrl="https://danluu.com/atom.xml"/>
@@ -35,7 +33,6 @@
     <outline text="Don't Panic" title="Don't Panic" description="" type="rss" version="RSS" htmlUrl="https://commaok.xyz/" xmlUrl="https://commaok.xyz/index.xml"/>
     <outline text="Drew DeVault" title="Drew DeVault" description="" type="rss" version="RSS" htmlUrl="https://drewdevault.com" xmlUrl="https://drewdevault.com/blog/index.xml"/>
     <outline text="eieio.games" title="eieio.games" description="" type="rss" version="RSS" htmlUrl="https://eieio.games" xmlUrl="https://eieio.games/feed.xml"/>
-    <outline text="Eli Bendersky" title="Eli Bendersky" description="" type="rss" version="RSS" htmlUrl="https://eli.thegreenplace.net/" xmlUrl="https://eli.thegreenplace.net/feeds/all.atom.xml"/>
     <outline text="Fabien Sanglard" title="Fabien Sanglard" description="" type="rss" version="RSS" htmlUrl="https://fabiensanglard.net" xmlUrl="https://fabiensanglard.net/rss.xml"/>
     <outline text="Faultlore" title="Faultlore" description="" type="rss" version="RSS" htmlUrl="https://gankra.github.io/blah/" xmlUrl="https://faultlore.com/blah/rss.xml"/>
     <outline text="Felix Geisendörfer" title="Felix Geisendörfer" description="" type="rss" version="RSS" htmlUrl="https://blog.felixge.de/" xmlUrl="https://blog.felixge.de/rss/"/>
@@ -75,7 +72,6 @@
     <outline text="Philippe Gaultier" title="Philippe Gaultier" description="" type="rss" version="RSS" htmlUrl="https://gaultier.github.io/blog" xmlUrl="https://gaultier.github.io/blog/feed.xml"/>
     <outline text="Recent Gists from yoavg" title="Recent Gists from yoavg" description="" type="rss" version="RSS" htmlUrl="https://github.blog" xmlUrl="https://gist.github.com/yoavg.atom"/>
     <outline text="Register Spill" title="Register Spill" description="" type="rss" version="RSS" htmlUrl="https://registerspill.thorstenball.com" xmlUrl="https://registerspill.thorstenball.com/feed"/>
-    <outline text="research!rsc" title="research!rsc" description="" type="rss" version="RSS" htmlUrl="" xmlUrl="https://research.swtch.com/feed.atom"/>
     <outline text="samwho.dev" title="samwho.dev" description="" type="rss" version="RSS" htmlUrl="https://samwho.dev" xmlUrl="https://samwho.dev/rss.xml"/>
     <outline text="see shy jo" title="see shy jo" description="" type="rss" version="RSS" htmlUrl="http://joeyh.name/blog/" xmlUrl="https://joeyh.name/blog/index.rss"/>
     <outline text="Steve Klabnik" title="Steve Klabnik" description="" type="rss" version="RSS" htmlUrl="https://steveklabnik.com/" xmlUrl="https://steveklabnik.com/feed.xml"/>
@@ -85,12 +81,16 @@
     <outline text="Thorsten Ball" title="Thorsten Ball" description="" type="rss" version="RSS" htmlUrl="http://thorstenball.com/" xmlUrl="https://thorstenball.com/atom.xml"/>
     <outline text="tonsky" title="tonsky" description="" type="rss" version="RSS" htmlUrl="https://tonsky.me/" xmlUrl="https://tonsky.me/atom.xml"/>
     <outline text="Tyler Hillery" title="Tyler Hillery" description="" type="rss" version="RSS" htmlUrl="https://www.tylerhillery.com/blog.html" xmlUrl="https://tylerhillery.com/blog.xml"/>
-    <outline text="VictoriaMetrics: Simple &amp; Reliable Monitoring for Everyone on VictoriaMetrics" title="VictoriaMetrics: Simple &amp; Reliable Monitoring for Everyone on VictoriaMetrics" description="" type="rss" version="RSS" htmlUrl="https://victoriametrics.com/" xmlUrl="https://victoriametrics.com/index.xml"/>
     <outline text="Xe Iaso" title="Xe Iaso" description="" type="rss" version="RSS" htmlUrl="https://xeiaso.net/" xmlUrl="https://xeiaso.net/blog.rss"/>
     <outline text="go" title="go">
       <outline text="Dave Cheney" title="Dave Cheney" description="" type="rss" version="RSS" htmlUrl="https://dave.cheney.net" xmlUrl="https://dave.cheney.net/feed"/>
       <outline text="Golang Weekly" title="Golang Weekly" description="" type="rss" version="RSS" htmlUrl="https://golangweekly.com/" xmlUrl="https://golangweekly.com/rss/"/>
       <outline text="The Go Blog" title="The Go Blog" description="" type="rss" version="RSS" htmlUrl="" xmlUrl="http://blog.golang.org/feed.atom"/>
+      <outline text="command center" title="command center" description="" type="rss" version="RSS" htmlUrl="https://commandcenter.blogspot.com/" xmlUrl="https://commandcenter.blogspot.com/feeds/posts/default?alt=rss"/>
+      <outline text="research!rsc" title="research!rsc" description="" type="rss" version="RSS" htmlUrl="" xmlUrl="https://research.swtch.com/feed.atom"/>
+      <outline text="Eli Bendersky" title="Eli Bendersky" description="" type="rss" version="RSS" htmlUrl="https://eli.thegreenplace.net/" xmlUrl="https://eli.thegreenplace.net/feeds/all.atom.xml"/>
+      <outline text="Airs – Ian Lance Taylor" title="Airs – Ian Lance Taylor" description="" type="rss" version="RSS" htmlUrl="https://www.airs.com/blog" xmlUrl="https://www.airs.com/blog/feed"/>
+      <outline text="Dmitri Shuralyov" title="Dmitri Shuralyov" description="" type="rss" version="RSS" htmlUrl="https://dmitri.shuralyov.com/blog" xmlUrl="https://dmitri.shuralyov.com/blog.json"/>
     </outline>
     <outline text="indiemedia" title="indiemedia">
       <outline text="Altreconomia" title="Altreconomia" description="" type="rss" version="RSS" htmlUrl="https://altreconomia.it/" xmlUrl="https://altreconomia.it/feed/"/>
