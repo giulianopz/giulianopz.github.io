@@ -29,7 +29,8 @@ jobs:
       - name: Run Go program
         working-directory: ./feeder
         run: |
-          go run . "https://giulianopz.github.io/blogroll.xml" "../_data/feed.yaml"
+          go run . "../blogroll.xml" "../_data/feed.yaml" "720h"
+        # 720h = 30d
 
       - name: Commit and Push changes
         run: |

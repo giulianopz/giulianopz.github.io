@@ -2,7 +2,7 @@
   link: /
 - name: about
   link: /about.html
-- name: pg_links
+- name: pg
   link: /pg.html
 - name: GPG
   link: /gpg.html

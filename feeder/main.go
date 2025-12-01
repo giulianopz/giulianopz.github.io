@@ -7,6 +7,7 @@ import (
 	"os"
 	"slices"
 	"strings"
+	"sync"
 	"time"
 
 	"github.com/gilliek/go-opml/opml"
@@ -21,6 +22,8 @@ type article struct {
 	Published *time.Time `yaml:"published,omitempty"`
 }
 
+var mu sync.Mutex
+
 var visited = make(map[string]bool)
 var skip = func(s string) bool {
 	s = strings.TrimSpace(s)
@@ -33,28 +36,43 @@ var skip = func(s string) bool {
 
 func main() {
 	var (
-		blogrollUrl  = os.Args[1]
-		feedYAMLPath = os.Args[2]
+		blogrollFilePath = os.Args[1]
+		feedYAMLPath     = os.Args[2]
+		timeFilter       = os.Args[3]
 	)
 
-	f, err := opml.NewOPMLFromURL(blogrollUrl)
+	dur, err := time.ParseDuration(timeFilter)
 	if err != nil {
 		panic(err)
 	}
 
-	articlesByCategory := make(map[string][]*article)
+	upperBound := time.Now().Add(-dur)
 
+	f, err := opml.NewOPMLFromFile(blogrollFilePath)
+	if err != nil {
+		panic(err)
+	}
+
+	wg := sync.WaitGroup{}
+
+	articlesByCategory := make(map[string][]*article)
 	for _, o := range f.Outlines() {
 		if len(o.Outlines) == 0 {
-			fmt.Println("processing feed:", o.Text)
-			articlesByCategory["misc"] = append(articlesByCategory["misc"], getArticles(o.XMLURL)...)
+			wg.Go(func() {
+				fmt.Println("processing feed:", o.Text)
+				articlesByCategory["misc"] = append(articlesByCategory["misc"], getArticles(o.XMLURL, &upperBound)...)
+			})
 		} else {
 			for _, child := range o.Outlines {
-				fmt.Println("processing feed:", child.Text)
-				articlesByCategory[o.Text] = append(articlesByCategory[o.Text], getArticles(child.XMLURL)...)
+				wg.Go(func() {
+					fmt.Println("processing feed:", child.Text)
+					articlesByCategory[o.Text] = append(articlesByCategory[o.Text], getArticles(child.XMLURL, &upperBound)...)
+				})
 			}
 		}
 	}
+
+	wg.Wait()
 
 	for _, articles := range articlesByCategory {
 		slices.SortFunc(articles, func(a, b *article) int {
@@ -71,8 +89,11 @@ func main() {
 
 var p = gofeed.NewParser()
 
-func getArticles(feedUrl string) (articles []*article) {
-	ctx, cancel := context.WithTimeout(context.Background(), 60*time.Second)
+func getArticles(feedUrl string, upperBound *time.Time) (articles []*article) {
+	mu.Lock()
+	defer mu.Unlock()
+
+	ctx, cancel := context.WithTimeout(context.Background(), 5*time.Second)
 	defer cancel()
 
 	feed, err := p.ParseURLWithContext(feedUrl, ctx)
@@ -82,7 +103,7 @@ func getArticles(feedUrl string) (articles []*article) {
 	}
 
 	for _, i := range feed.Items {
-		if !skip(i.Title) {
+		if !skip(i.Title) && i.PublishedParsed.After(*upperBound) {
 			articles = append(articles, &article{
 				BlogName:  feed.Title,
 				Title:     i.Title,
