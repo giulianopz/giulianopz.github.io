@@ -85,6 +85,7 @@ func main() {
 		panic(err)
 	}
 	os.WriteFile(feedYAMLPath, bs, fs.ModePerm)
+	fmt.Println("feed updated")
 }
 
 var p = gofeed.NewParser()
