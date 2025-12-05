@@ -60,13 +60,13 @@ func main() {
 		if len(o.Outlines) == 0 {
 			wg.Go(func() {
 				fmt.Println("processing feed:", o.Text)
-				articlesByCategory["misc"] = append(articlesByCategory["misc"], getArticles(o.XMLURL, &upperBound)...)
+				articlesByCategory["misc"] = append(articlesByCategory["misc"], getArticles(o.Title, o.XMLURL, &upperBound)...)
 			})
 		} else {
 			for _, child := range o.Outlines {
 				wg.Go(func() {
 					fmt.Println("processing feed:", child.Text)
-					articlesByCategory[o.Text] = append(articlesByCategory[o.Text], getArticles(child.XMLURL, &upperBound)...)
+					articlesByCategory[o.Text] = append(articlesByCategory[o.Text], getArticles(child.Title, child.XMLURL, &upperBound)...)
 				})
 			}
 		}
@@ -88,9 +88,18 @@ func main() {
 	fmt.Println("feed updated")
 }
 
-var p = gofeed.NewParser()
+var p *gofeed.Parser
 
-func getArticles(feedUrl string, upperBound *time.Time) (articles []*article) {
+func init() {
+	p = gofeed.NewParser()
+	p.UserAgent = "giulianopz/feeder/0.1 (https://github.com/giulianopz/giulianopz.github.io/feeder)"
+	// TODO: implement polite feeder:
+	// - https://rachelbythebay.com/w/2022/03/07/get/
+	// - https://rachelbythebay.com/w/2023/01/18/http/
+	// - https://rachelbythebay.com/w/2023/06/03/feed/
+}
+
+func getArticles(feedName, feedUrl string, upperBound *time.Time) (articles []*article) {
 	mu.Lock()
 	defer mu.Unlock()
 
@@ -106,7 +115,9 @@ func getArticles(feedUrl string, upperBound *time.Time) (articles []*article) {
 	for _, i := range feed.Items {
 		if !skip(i.Title) && i.PublishedParsed.After(*upperBound) {
 			articles = append(articles, &article{
-				BlogName:  feed.Title,
+				// override the RSS/Atom title with the UDF title in the OPML,
+				// this can help with merging togheter feeds of authors blogging from different sources
+				BlogName:  feedName,
 				Title:     i.Title,
 				Url:       i.Link,
 				Published: i.PublishedParsed,
