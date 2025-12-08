@@ -113,7 +113,7 @@
       <outline text="Matt Godbolt's blog" title="Matt Godbolt's blog" description="" type="rss"
         version="RSS" htmlUrl="http://xania.org/?utm_source=feed&amp;utm_medium=rss"
         xmlUrl="https://xania.org/feed.atom" />
-<!--       <outline text="mcyoung" title="mcyoung" description="" type="rss" version="RSS"
+      <!--       <outline text="mcyoung" title="mcyoung" description="" type="rss" version="RSS"
         htmlUrl="https://mcyoung.xyz/" xmlUrl="https://mcyoung.xyz/atom.xml" /> -->
       <outline text="Michael Stapelbergs" title="Michael Stapelbergs" description="" type="rss"
         version="RSS" htmlUrl="https://michael.stapelberg.ch/"
@@ -256,6 +256,8 @@
         htmlUrl="http://www.fascinazione.info/" />
     </outline>
     <outline text="ita" title="ita">
+      <outline text="Lipperatura" title="Lipperatura" type="rss"
+        xmlUrl="https://www.lipperatura.it/feed/" htmlUrl="https://www.lipperatura.it" />
       <outline text="Paolo Nori" title="Paolo Nori"
         type="rss" xmlUrl="https://www.paolonori.it/feed/" htmlUrl="https://www.paolonori.it" />
       <outline text="Cervelli nella vasca" title="Cervelli nella vasca" description="" type="rss"
@@ -345,7 +347,8 @@
         xmlUrl="https://thesubmarine.it/feed/" htmlUrl="https://thesubmarine.it" />
     </outline>
     <outline text="pg/db/storage/data" title="pg/db/storage/data">
-      <outline text="ads' corner" title="ads' corner" type="rss" xmlUrl="https://andreas.scherbaum.la/feed" htmlUrl="https://andreas.scherbaum.la" />
+      <outline text="ads' corner" title="ads' corner" type="rss"
+        xmlUrl="https://andreas.scherbaum.la/feed" htmlUrl="https://andreas.scherbaum.la" />
       <outline text="Christoph Berg" title="Christoph Berg" description="" type="rss" version="RSS"
         htmlUrl="https://www.df7cb.de/blog/index.html"
         xmlUrl="https://www.df7cb.de/blog/tags/postgresql/index.xml" />
