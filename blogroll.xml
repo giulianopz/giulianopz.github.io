@@ -345,6 +345,7 @@
         xmlUrl="https://thesubmarine.it/feed/" htmlUrl="https://thesubmarine.it" />
     </outline>
     <outline text="pg/db/storage/data" title="pg/db/storage/data">
+      <outline text="ads' corner" title="ads' corner" type="rss" xmlUrl="https://andreas.scherbaum.la/feed" htmlUrl="https://andreas.scherbaum.la" />
       <outline text="Christoph Berg" title="Christoph Berg" description="" type="rss" version="RSS"
         htmlUrl="https://www.df7cb.de/blog/index.html"
         xmlUrl="https://www.df7cb.de/blog/tags/postgresql/index.xml" />
