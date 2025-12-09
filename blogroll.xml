@@ -48,9 +48,6 @@
         htmlUrl="https://caseymuratori.com/blog" xmlUrl="https://caseymuratori.com/blog_atom.rss" />
       <outline text="Coding Horror" title="Coding Horror" description="" type="rss" version="RSS"
         htmlUrl="https://blog.codinghorror.com/" xmlUrl="https://blog.codinghorror.com/rss" />
-      <outline text="Confessions of a Code Addict" title="Confessions of a Code Addict"
-        description="" type="rss" version="RSS" htmlUrl="https://blog.codingconfessions.com"
-        xmlUrl="https://blog.codingconfessions.com/feed" />
       <outline text="daniel.haxx.se" title="daniel.haxx.se" description="" type="rss" version="RSS"
         htmlUrl="https://daniel.haxx.se/blog" xmlUrl="https://daniel.haxx.se/blog/feed/" />
       <outline text="Davide Bucci" title="Davide Bucci" description="" type="rss" version="RSS"
@@ -91,14 +88,8 @@
         type="rss" version="RSS" htmlUrl="https://jmmv.dev/" xmlUrl="https://jmmv.dev/feed.xml" />
       <outline text="justine.lol" title="justine.lol" description="" type="rss" version="RSS"
         htmlUrl="https://justine.lol" xmlUrl="https://justine.lol/rss.xml" />
-      <outline text="Ken Shirriff's blog" title="Ken Shirriff's blog" description="" type="rss"
-        version="RSS" htmlUrl="http://www.righto.com/"
-        xmlUrl="https://www.righto.com/feeds/posts/default?alt=rss" />
       <outline text="Loris Cro" title="Loris Cro" description="" type="rss" version="RSS"
         htmlUrl="https://kristoff.it/" xmlUrl="https://kristoff.it/index.xml" />
-      <outline text="LOW←TECH MAGAZINE" title="LOW←TECH MAGAZINE" description="" type="rss"
-        version="RSS" htmlUrl="https://solar.lowtechmagazine.com/posts/"
-        xmlUrl="https://solar.lowtechmagazine.com/feeds/all-en.atom.xml" />
       <outline text="LWN.net" title="LWN.net" description="" type="rss" version="RSS"
         htmlUrl="https://lwn.net" xmlUrl="https://lwn.net/headlines/rss" />
       <outline text="Martin Fowler" title="Martin Fowler" description="" type="rss" version="RSS"
@@ -110,9 +101,6 @@
         version="RSS" htmlUrl="https://www.jeremykun.com/" xmlUrl="https://jeremykun.com/feed/" />
       <outline text="matklad" title="matklad" description="" type="rss" version="RSS"
         htmlUrl="https://matklad.github.io" xmlUrl="https://matklad.github.io/feed.xml" />
-      <outline text="Matt Godbolt's blog" title="Matt Godbolt's blog" description="" type="rss"
-        version="RSS" htmlUrl="http://xania.org/?utm_source=feed&amp;utm_medium=rss"
-        xmlUrl="https://xania.org/feed.atom" />
       <!--       <outline text="mcyoung" title="mcyoung" description="" type="rss" version="RSS"
         htmlUrl="https://mcyoung.xyz/" xmlUrl="https://mcyoung.xyz/atom.xml" /> -->
       <outline text="Michael Stapelbergs" title="Michael Stapelbergs" description="" type="rss"
@@ -120,9 +108,6 @@
         xmlUrl="https://michael.stapelberg.ch/feed.xml" />
       <outline text="Michael W Lucas" title="Michael W Lucas" description="" type="rss"
         version="RSS" htmlUrl="https://mwl.io" xmlUrl="https://mwl.io/feed" />
-      <outline text="Mitchell Hashimoto" title="Mitchell Hashimoto" description="" type="rss"
-        version="RSS" htmlUrl="https://mitchellh.com/writing"
-        xmlUrl="https://mitchellh.com/feed.xml" />
       <outline text="null program" title="null program" description="" type="rss" version="RSS"
         htmlUrl="https://nullprogram.com" xmlUrl="https://nullprogram.com/feed/" />
       <outline text="ongoing by Tim Bray" title="ongoing by Tim Bray" description="" type="rss"
@@ -149,9 +134,6 @@
       <outline text="Tedium: The Dull Side of the Internet."
         title="Tedium: The Dull Side of the Internet." description="" type="rss" version="RSS"
         htmlUrl="https://tedium.co/" xmlUrl="https://feed.tedium.co/" />
-      <outline text="The Tech Faucet" title="The Tech Faucet" description="" type="rss"
-        version="RSS" htmlUrl="http://blog.ringerc.id.au/"
-        xmlUrl="http://blog.ringerc.id.au/feeds/posts/default?alt=rss" />
       <outline text="Thorsten Ball" title="Thorsten Ball" description="" type="rss" version="RSS"
         htmlUrl="http://thorstenball.com/" xmlUrl="https://thorstenball.com/atom.xml" />
       <outline text="tonsky" title="tonsky" description="" type="rss" version="RSS"
@@ -160,8 +142,21 @@
         htmlUrl="https://www.tylerhillery.com/blog.html" xmlUrl="https://tylerhillery.com/blog.xml" />
       <outline text="Xe Iaso" title="Xe Iaso" description="" type="rss" version="RSS"
         htmlUrl="https://xeiaso.net/" xmlUrl="https://xeiaso.net/blog.rss" />
-    </outline>
-    <outline text="hackers" title="hackers">
+      <outline text="Mitchell Hashimoto" title="Mitchell Hashimoto" description="" type="rss"
+        version="RSS" htmlUrl="https://mitchellh.com/writing"
+        xmlUrl="https://mitchellh.com/feed.xml" />
+      <outline text="Matt Godbolt's blog" title="Matt Godbolt's blog" description="" type="rss"
+        version="RSS" htmlUrl="http://xania.org/?utm_source=feed&amp;utm_medium=rss"
+        xmlUrl="https://xania.org/feed.atom" />
+      <outline text="Ken Shirriff's blog" title="Ken Shirriff's blog" description="" type="rss"
+        version="RSS" htmlUrl="http://www.righto.com/"
+        xmlUrl="https://www.righto.com/feeds/posts/default?alt=rss" />
+      <outline text="LOW←TECH MAGAZINE" title="LOW←TECH MAGAZINE" description="" type="rss"
+        version="RSS" htmlUrl="https://solar.lowtechmagazine.com/posts/"
+        xmlUrl="https://solar.lowtechmagazine.com/feeds/all-en.atom.xml" />
+      <outline text="The Tech Faucet" title="The Tech Faucet" description="" type="rss"
+        version="RSS" htmlUrl="http://blog.ringerc.id.au/"
+        xmlUrl="http://blog.ringerc.id.au/feeds/posts/default?alt=rss" />
       <outline text="Bert Hubert" title="Bert Hubert" description="" type="rss" version="RSS"
         htmlUrl="https://berthub.eu/articles/" xmlUrl="https://berthub.eu/articles/index.xml" />
       <outline text="Fabien Sanglard" title="Fabien Sanglard" description="" type="rss"
@@ -174,9 +169,9 @@
       <outline text="Matthew Garrett" title="Matthew Garrett" description="" type="rss"
         version="RSS" htmlUrl="https://mjg59.dreamwidth.org/"
         xmlUrl="https://mjg59.dreamwidth.org/data/rss" />
-      <outline text="&lt;antirez&gt;" title="&lt;antirez&gt;" description="" type="rss"
+      <outline text="antirez" title="antirez" description="" type="rss"
         version="RSS" htmlUrl="http://antirez.com" xmlUrl="http://antirez.com/rss" />
-      <outline text="&lt;antirez&gt;" title="&lt;antirez&gt;"
+      <outline text="antirez" title="antirez"
         xmlUrl="https://www.youtube.com/feeds/videos.xml?channel_id=UCDDG9vOcmgwlslJJpCWjqOg"
         htmlUrl="https://www.youtube.com/@antirez"></outline>
       <outline text="see shy jo" title="see shy jo" description="" type="rss" version="RSS"
@@ -346,7 +341,7 @@
       <outline text="The Submarine" title="The Submarine" type="rss"
         xmlUrl="https://thesubmarine.it/feed/" htmlUrl="https://thesubmarine.it" />
     </outline>
-    <outline text="pg/db/storage/data" title="pg/db/storage/data">
+    <outline text="pg/db" title="pg/db">
       <outline text="ads' corner" title="ads' corner" type="rss"
         xmlUrl="https://andreas.scherbaum.la/feed" htmlUrl="https://andreas.scherbaum.la" />
       <outline text="Christoph Berg" title="Christoph Berg" description="" type="rss" version="RSS"
@@ -395,9 +390,9 @@
       <outline text="Conserving CPU's cycles ..." title="Conserving CPU's cycles ..." description=""
         type="rss" version="RSS" htmlUrl="https://danolivo.substack.com"
         xmlUrl="https://danolivo.substack.com//feed" />
-      <outline text="CRAIG KERSTIENS" title="CRAIG KERSTIENS" description="" type="rss"
+      <outline text="Craig Kerstiens" title="Craig Kerstiens" description="" type="rss"
         version="RSS" htmlUrl="" xmlUrl="https://www.craigkerstiens.com/index.xml" />
-      <outline text="Craig Kerstiens | CrunchyData Blog" title="Craig Kerstiens | CrunchyData Blog"
+      <outline text="Craig Kerstiens" title="Craig Kerstiens"
         description="" type="rss" version="RSS"
         htmlUrl="https://www.crunchydata.com/blog/author/craig-kerstiens"
         xmlUrl="https://www.crunchydata.com/blog/author/craig-kerstiens/rss.xml" />
@@ -410,12 +405,12 @@
         htmlUrl="https://di.nmfay.com/" xmlUrl="https://di.nmfay.com/atom.xml" />
       <outline text="eatonphil" title="eatonphil" description="" type="rss" version="RSS"
         htmlUrl="http://notes.eatonphil.com/" xmlUrl="https://notes.eatonphil.com/rss.xml" />
-      <outline text="Elizabeth Christensen | CrunchyData Blog"
-        title="Elizabeth Christensen | CrunchyData Blog" description="" type="rss" version="RSS"
+      <outline text="Elizabeth Christensen"
+        title="Elizabeth Christensen" description="" type="rss" version="RSS"
         htmlUrl="https://www.crunchydata.com/blog/author/elizabeth-christensen"
         xmlUrl="https://www.crunchydata.com/blog/author/elizabeth-christensen/rss.xml" />
-      <outline text="Greg Sabino Mullane | CrunchyData Blog"
-        title="Greg Sabino Mullane | CrunchyData Blog" description="" type="rss" version="RSS"
+      <outline text="Greg Sabino Mullane"
+        title="Greg Sabino Mullane" description="" type="rss" version="RSS"
         htmlUrl="https://www.crunchydata.com/blog/author/greg-sabino-mullane"
         xmlUrl="https://www.crunchydata.com/blog/author/greg-sabino-mullane/rss.xml" />
       <outline text="Hans-Jürgen Schönig" title="Hans-Jürgen Schönig"
@@ -437,8 +432,8 @@
         type="rss" version="RSS"
         htmlUrl="https://www.cybertec-postgresql.com/en/author/laurenz_albe/"
         xmlUrl="https://www.cybertec-postgresql.com/en/author/laurenz_albe/feed" />
-      <outline text="Louise Grandjonc Leinweber | CrunchyData Blog"
-        title="Louise Grandjonc Leinweber | CrunchyData Blog" description="" type="rss"
+      <outline text="Louise Grandjonc Leinweber"
+        title="Louise Grandjonc Leinweber" description="" type="rss"
         version="RSS" htmlUrl="https://www.crunchydata.com/blog/author/louise-grandjonc-leinweber"
         xmlUrl="https://www.crunchydata.com/blog/author/louise-grandjonc-leinweber/rss.xml" />
       <outline text="Magnus Hagander's blog" title="Magnus Hagander's blog" description=""
@@ -450,7 +445,7 @@
       <outline text="Marc Brooker's Blog" title="Marc Brooker's Blog" description="" type="rss"
         version="RSS" htmlUrl="http://brooker.co.za/blog/"
         xmlUrl="https://brooker.co.za/blog/rss.xml" />
-      <outline text="Marco Slot | CrunchyData Blog" title="Marco Slot | CrunchyData Blog"
+      <outline text="Marco Slot" title="Marco Slot"
         description="" type="rss" version="RSS"
         htmlUrl="https://www.crunchydata.com/blog/author/marco-slot"
         xmlUrl="https://www.crunchydata.com/blog/author/marco-slot/rss.xml" />
