@@ -29,7 +29,7 @@ jobs:
       - name: Run Go program
         working-directory: ./feeder
         run: |
-          go run . "../blogroll.xml" "../_data/feed.yaml" "720h"
+          go run . "../blogroll.xml" "../_data/feed.yaml" "../.cache/feed.gob" "720h"
         # 720h = 30d
 
       - name: Commit and Push changes
@@ -38,6 +38,7 @@ jobs:
           git config --global user.email "feeder@noreply.com"
 
           git add _data/feed.yaml
+          git add .cache/feed.gob
           if git diff --staged --quiet; then
             echo "no changes to the feed"
           else

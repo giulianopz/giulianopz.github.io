@@ -1,9 +1,14 @@
 package main
 
 import (
-	"context"
+	"compress/gzip"
+	"encoding/gob"
+	"errors"
 	"fmt"
+	"io"
 	"io/fs"
+	"net/http"
+	"net/url"
 	"os"
 	"slices"
 	"strings"
@@ -22,23 +27,43 @@ type article struct {
 	Published *time.Time `yaml:"published,omitempty"`
 }
 
-var mu sync.Mutex
+type metadata struct {
+	LastModified string
+	ETag         string
+}
+
+var (
+	feedParser *gofeed.Parser
+	httpClient *http.Client
+	cache      map[string]*metadata
+)
 
 var visited = make(map[string]bool)
 var skip = func(s string) bool {
 	s = strings.TrimSpace(s)
-	if _, found := visited[s]; found {
-		return true
+	_, found := visited[s]
+	if !found {
+		visited[s] = true
 	}
-	visited[s] = true
-	return false
+	return found
+}
+
+var userAgent = "giulianopz/feeder/0.1 (+https://github.com/giulianopz/giulianopz.github.io/tree/gh-pages/feeder)"
+
+func init() {
+	feedParser = gofeed.NewParser()
+
+	httpClient = &http.Client{Timeout: 30 * time.Second}
+
+	cache = make(map[string]*metadata)
 }
 
 func main() {
 	var (
 		blogrollFilePath = os.Args[1]
 		feedYAMLPath     = os.Args[2]
-		timeFilter       = os.Args[3]
+		cachePath        = os.Args[3]
+		timeFilter       = os.Args[4]
 	)
 
 	dur, err := time.ParseDuration(timeFilter)
@@ -53,20 +78,56 @@ func main() {
 		panic(err)
 	}
 
-	wg := sync.WaitGroup{}
-
 	articlesByCategory := make(map[string][]*article)
+	if _, err := os.Stat(feedYAMLPath); !os.IsNotExist(err) {
+		feedFile, err := os.Open(feedYAMLPath)
+		if err != nil {
+			panic(err)
+		}
+		if err := yaml.NewDecoder(feedFile).Decode(&articlesByCategory); err != nil {
+			panic(err)
+		}
+	}
+	// remove old articles
+	for category, articles := range articlesByCategory {
+		for _, a := range articles {
+			if !skip(a.Title) && !a.Published.After(upperBound) {
+				articlesByCategory[category] = slices.DeleteFunc(articles, func(b *article) bool {
+					return a.Title == b.Title
+				})
+			}
+		}
+	}
+
+	if _, err := os.Stat(cachePath); !os.IsNotExist(err) {
+		cacheFile, err := os.Open(cachePath)
+		if err != nil {
+			panic(err)
+		}
+		if err := gob.NewDecoder(cacheFile).Decode(&cache); err != nil {
+			if !errors.Is(err, io.EOF) {
+				panic(err)
+			}
+		}
+	}
+
+	var mu sync.Mutex
+	wg := sync.WaitGroup{}
 	for _, o := range f.Outlines() {
 		if len(o.Outlines) == 0 {
 			wg.Go(func() {
 				fmt.Println("processing feed:", o.Text)
-				articlesByCategory["misc"] = append(articlesByCategory["misc"], getArticles(o.Title, o.XMLURL, &upperBound)...)
+				mu.Lock()
+				articlesByCategory["misc"] = append(articlesByCategory["misc"], getArticles(o.Title, o.XMLURL, o.HTMLURL, &upperBound)...)
+				mu.Unlock()
 			})
 		} else {
 			for _, child := range o.Outlines {
 				wg.Go(func() {
 					fmt.Println("processing feed:", child.Text)
-					articlesByCategory[o.Text] = append(articlesByCategory[o.Text], getArticles(child.Title, child.XMLURL, &upperBound)...)
+					mu.Lock()
+					articlesByCategory[o.Text] = append(articlesByCategory[o.Text], getArticles(child.Title, child.XMLURL, child.HTMLURL, &upperBound)...)
+					mu.Unlock()
 				})
 			}
 		}
@@ -86,40 +147,125 @@ func main() {
 	}
 	os.WriteFile(feedYAMLPath, bs, fs.ModePerm)
 	fmt.Println("feed updated")
+
+	cacheFile, err := os.Create(cachePath)
+	if err != nil {
+		panic(err)
+	}
+	if err := gob.NewEncoder(cacheFile).Encode(cache); err != nil {
+		panic(err)
+	}
+	fmt.Println("cache updated")
 }
 
-var p *gofeed.Parser
+func getFeed(feedUrl string) (*gofeed.Feed, error) {
+	request, err := http.NewRequest("GET", feedUrl, nil)
+	if err != nil {
+		return nil, err
 
-func init() {
-	p = gofeed.NewParser()
-	p.UserAgent = "giulianopz/feeder/0.1 (https://github.com/giulianopz/giulianopz.github.io/feeder)"
-	// TODO: implement polite feeder:
-	// - https://rachelbythebay.com/w/2022/03/07/get/
-	// - https://rachelbythebay.com/w/2023/01/18/http/
-	// - https://rachelbythebay.com/w/2023/06/03/feed/
+	}
+	request.Header.Add("User-Agent", userAgent)
+	request.Header.Add("Accept-Encoding", "gzip")
+
+	if meta, found := cache[feedUrl]; found {
+		if meta.LastModified != "" {
+			request.Header.Add("If-Modified-Since", meta.LastModified)
+		}
+		if meta.ETag != "" {
+			request.Header.Add("If-None-Match", meta.ETag)
+		}
+	}
+
+	var attempts int
+retry:
+	attempts++
+	if attempts > 3 {
+		return nil, fmt.Errorf("reached max num of retries")
+	}
+
+	response, err := httpClient.Do(request)
+	if err != nil {
+		return nil, err
+	}
+	defer response.Body.Close()
+
+	if response.StatusCode == http.StatusNotModified {
+		fmt.Println("no updates from:", feedUrl)
+		return nil, nil
+	}
+
+	if response.StatusCode == http.StatusTooManyRequests {
+		return nil, fmt.Errorf("too many requests: %s", feedUrl)
+	}
+
+	if response.StatusCode == http.StatusNotAcceptable {
+		acceptableResp, err := io.ReadAll(response.Body)
+		if err != nil {
+			return nil, fmt.Errorf("cannot read resp: %w", err)
+		}
+		fmt.Printf("req not accepted: %s\n", string(acceptableResp))
+
+		request.Header.Del("Accept-Encoding")
+		goto retry
+	}
+
+	if response.StatusCode != http.StatusOK {
+		return nil, fmt.Errorf("err: resp status code: %d: %s", response.StatusCode, feedUrl)
+	}
+
+	if _, found := cache[feedUrl]; !found {
+		cache[feedUrl] = &metadata{}
+	}
+
+	if lastModified := response.Header.Get("Last-Modified"); lastModified != "" {
+		cache[feedUrl].LastModified = lastModified
+	}
+	if eTag := response.Header.Get("ETag"); eTag != "" {
+		cache[feedUrl].ETag = eTag
+	}
+
+	var reader io.ReadCloser
+	switch response.Header.Get("Content-Encoding") {
+	case "gzip":
+		reader, err = gzip.NewReader(response.Body)
+		if err != nil {
+			return nil, err
+		}
+		defer reader.Close()
+	default:
+		reader = response.Body
+	}
+
+	return feedParser.Parse(reader)
 }
 
-func getArticles(feedName, feedUrl string, upperBound *time.Time) (articles []*article) {
-	mu.Lock()
-	defer mu.Unlock()
-
-	ctx, cancel := context.WithTimeout(context.Background(), 5*time.Second)
-	defer cancel()
-
-	feed, err := p.ParseURLWithContext(feedUrl, ctx)
+func getArticles(feedName, feedUrl, htmlUrl string, upperBound *time.Time) (articles []*article) {
+	feed, err := getFeed(feedUrl)
 	if err != nil {
 		fmt.Printf("err: cannot parse feed %q: %s\n", feedUrl, err)
+		return
+	}
+	if feed == nil {
 		return
 	}
 
 	for _, i := range feed.Items {
 		if !skip(i.Title) && i.PublishedParsed.After(*upperBound) {
+			link := i.Link
+			if strings.HasPrefix(link, "/") {
+				l, err := url.JoinPath(htmlUrl, link)
+				if err != nil {
+					fmt.Printf("err: cannot join paths: base=%s, elem=%s\n", htmlUrl, link)
+					continue
+				}
+				link = l
+			}
 			articles = append(articles, &article{
 				// override the RSS/Atom title with the UDF title in the OPML,
 				// this can help with merging togheter feeds of authors blogging from different sources
 				BlogName:  feedName,
 				Title:     i.Title,
-				Url:       i.Link,
+				Url:       link,
 				Published: i.PublishedParsed,
 			})
 		}

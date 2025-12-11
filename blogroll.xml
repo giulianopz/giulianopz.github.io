@@ -342,6 +342,8 @@
         xmlUrl="https://thesubmarine.it/feed/" htmlUrl="https://thesubmarine.it" />
     </outline>
     <outline text="pg/db" title="pg/db">
+      <outline text="Simon Notley" title="Simon Notley" type="rss"
+        xmlUrl="https://sonotley.uk/index.xml" htmlUrl="https://sonotley.uk" />
       <outline text="ads' corner" title="ads' corner" type="rss"
         xmlUrl="https://andreas.scherbaum.la/feed" htmlUrl="https://andreas.scherbaum.la" />
       <outline text="Christoph Berg" title="Christoph Berg" description="" type="rss" version="RSS"
@@ -363,7 +365,7 @@
       <outline text="Andy Pavlo - Carnegie Mellon University"
         title="Andy Pavlo - Carnegie Mellon University" description="" type="rss" version="RSS"
         htmlUrl="https://www.cs.cmu.edu/~pavlo/"
-        xmlUrl="https://www.cs.cmu.edu/~pavlo//blog/feed.xml" />
+        xmlUrl="https://www.cs.cmu.edu/~pavlo/blog/feed.xml" />
       <outline text="Ardent Performance Computing" title="Ardent Performance Computing"
         description="" type="rss" version="RSS" htmlUrl="https://ardentperf.com"
         xmlUrl="https://ardentperf.com/feed/" />

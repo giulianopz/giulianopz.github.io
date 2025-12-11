@@ -3,4 +3,8 @@ version: '3'
 tasks:
   serve:
     cmds:
-      - bundle exec jekyll serve --livereload
+    - bundle exec jekyll serve --livereload
+  feeder:
+    dir: ./feeder
+    cmds:
+      - go run . "../blogroll.xml" "../_data/feed.yaml" "../.cache/feed.gob" "720h"
