@@ -190,6 +190,10 @@
       <outline text="bunnie" title="bunnie" description="" type="rss" version="RSS"
         htmlUrl="https://www.bunniestudios.com/blog"
         xmlUrl="https://www.bunniestudios.com/blog/?feed=rss" />
+      <outline text="Justin Cormack"
+        title="Justin Cormack" type="rss"
+        xmlUrl="https://buttondown.com/justincormack/rss"
+        htmlUrl="https://buttondown.com/justincormack" />
     </outline>
     <outline text="gophers" title="gophers">
       <outline text="Devtrovert" title="Devtrovert" description="" type="rss" version="RSS"
