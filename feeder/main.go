@@ -88,15 +88,17 @@ func main() {
 			panic(err)
 		}
 	}
+
 	// remove old articles
 	for category, articles := range articlesByCategory {
+		filtered := articles[:0]
 		for _, a := range articles {
-			if !skip(a.Title) && !a.Published.After(upperBound) {
-				articlesByCategory[category] = slices.DeleteFunc(articles, func(b *article) bool {
-					return a.Title == b.Title
-				})
+			if !skip(a.Title) && a.Published.After(upperBound) {
+				filtered = append(filtered, a)
 			}
 		}
+		articlesByCategory[category] = filtered
+		clear(articles[len(filtered):])
 	}
 
 	if _, err := os.Stat(cachePath); !os.IsNotExist(err) {
@@ -118,7 +120,7 @@ func main() {
 			wg.Go(func() {
 				fmt.Println("processing feed:", o.Text)
 				mu.Lock()
-				articlesByCategory["misc"] = append(articlesByCategory["misc"], getArticles(o.Title, o.XMLURL, o.HTMLURL, &upperBound)...)
+				articlesByCategory["misc"] = append(articlesByCategory["misc"], getArticles(o, &upperBound)...)
 				mu.Unlock()
 			})
 		} else {
@@ -126,7 +128,7 @@ func main() {
 				wg.Go(func() {
 					fmt.Println("processing feed:", child.Text)
 					mu.Lock()
-					articlesByCategory[o.Text] = append(articlesByCategory[o.Text], getArticles(child.Title, child.XMLURL, child.HTMLURL, &upperBound)...)
+					articlesByCategory[o.Text] = append(articlesByCategory[o.Text], getArticles(child, &upperBound)...)
 					mu.Unlock()
 				})
 			}
@@ -139,6 +141,20 @@ func main() {
 		slices.SortFunc(articles, func(a, b *article) int {
 			return b.Published.Compare(*a.Published)
 		})
+	}
+
+	// limit articles per author to 3
+	articlesNum := make(map[string]int)
+	for category, articles := range articlesByCategory {
+		filtered := articles[:0]
+		for _, a := range articles {
+			articlesNum[a.BlogName]++
+			if articlesNum[a.BlogName] <= 3 {
+				filtered = append(filtered, a)
+			}
+		}
+		articlesByCategory[category] = filtered
+		clear(articles[len(filtered):])
 	}
 
 	bs, err := yaml.Marshal(articlesByCategory)
@@ -239,10 +255,10 @@ retry:
 	return feedParser.Parse(reader)
 }
 
-func getArticles(feedName, feedUrl, htmlUrl string, upperBound *time.Time) (articles []*article) {
-	feed, err := getFeed(feedUrl)
+func getArticles(f opml.Outline, upperBound *time.Time) (articles []*article) {
+	feed, err := getFeed(f.XMLURL)
 	if err != nil {
-		fmt.Printf("err: cannot parse feed %q: %s\n", feedUrl, err)
+		fmt.Printf("err: cannot parse feed %q: %s\n", f.XMLURL, err)
 		return
 	}
 	if feed == nil {
@@ -253,9 +269,9 @@ func getArticles(feedName, feedUrl, htmlUrl string, upperBound *time.Time) (arti
 		if !skip(i.Title) && i.PublishedParsed.After(*upperBound) {
 			link := i.Link
 			if strings.HasPrefix(link, "/") {
-				l, err := url.JoinPath(htmlUrl, link)
+				l, err := url.JoinPath(f.HTMLURL, link)
 				if err != nil {
-					fmt.Printf("err: cannot join paths: base=%s, elem=%s\n", htmlUrl, link)
+					fmt.Printf("err: cannot join paths: base=%s, elem=%s\n", f.HTMLURL, link)
 					continue
 				}
 				link = l
@@ -263,7 +279,7 @@ func getArticles(feedName, feedUrl, htmlUrl string, upperBound *time.Time) (arti
 			articles = append(articles, &article{
 				// override the RSS/Atom title with the UDF title in the OPML,
 				// this can help with merging togheter feeds of authors blogging from different sources
-				BlogName:  feedName,
+				BlogName:  f.Text,
 				Title:     i.Title,
 				Url:       link,
 				Published: i.PublishedParsed,

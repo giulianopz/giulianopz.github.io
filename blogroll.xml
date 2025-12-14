@@ -6,6 +6,10 @@
   </head>
   <body>
     <outline text="programming" title="programming">
+      <outline text="AndreaS Kling"
+        title="AndreaS Kling" type="rss"
+        xmlUrl="https://awesomekling.github.io/feed.xml"
+        htmlUrl="https://awesomekling.github.io" />
       <outline text="rachelbythebay"
         title="rachelbythebay" type="rss"
         xmlUrl="https://rachelbythebay.com/w/atom.xml"
@@ -217,6 +221,8 @@
         htmlUrl="https://antonz.org" />
     </outline>
     <outline text="indiemedia" title="indiemedia">
+      <outline text="Jacobin Italia" title="Jacobin Italia" type="rss"
+        xmlUrl="https://jacobinitalia.it/feed/" htmlUrl="https://jacobinitalia.it" />
       <outline text="Altreconomia" title="Altreconomia" description="" type="rss" version="RSS"
         htmlUrl="https://altreconomia.it/" xmlUrl="https://altreconomia.it/feed/" />
       <outline text="ARCHIVIO GRAFTON9" title="ARCHIVIO GRAFTON9" description="" type="rss"
@@ -276,8 +282,6 @@
         htmlUrl="https://lavoce.info" />
       <outline text="phastidio.net" title="phastidio.net" type="rss"
         xmlUrl="https://phastidio.net/feed" htmlUrl="https://phastidio.net" />
-      <outline text="Luciano Pignataro" title="Luciano Pignataro" type="rss"
-        xmlUrl="https://www.lucianopignataro.it/feed" htmlUrl="https://www.lucianopignataro.it" />
       <outline text="Link Molto Belli" title="Link Molto Belli" type="rss"
         xmlUrl="https://linkmoltobelli.substack.com/feed"
         htmlUrl="https://linkmoltobelli.substack.com/" />
@@ -334,8 +338,6 @@
         xmlUrl="http://www.leparoleelecose.it/feed/" htmlUrl="http://www.leparoleelecose.it" />
       <outline text="La Letteratura e Noi" title="La Letteratura e Noi" type="rss"
         xmlUrl="https://www.laletteraturaenoi.it/feed/" htmlUrl="https://www.laletteraturaenoi.it" />
-      <outline text="Jacobin Italia" title="Jacobin Italia" type="rss"
-        xmlUrl="https://jacobinitalia.it/feed/" htmlUrl="https://jacobinitalia.it" />
       <outline text="Kabul Magazine" title="Kabul Magazine" type="rss"
         xmlUrl="https://www.kabulmagazine.com/feed/" htmlUrl="https://www.kabulmagazine.com" />
       <outline text="The Submarine" title="The Submarine" type="rss"
