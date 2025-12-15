@@ -169,6 +169,10 @@ indiemedia:
       url: https://sedestra.substack.com/p/bruxelles-e-un-laboratorio-di-governo
       published: 2025-11-23T12:04:50Z
 ita:
+    - blogName: Nazione Indiana
+      title: Da “Cassandra a bruciapelo”
+      url: https://www.nazioneindiana.com/2025/12/15/da-cassandra-a-bruciapelo/
+      published: 2025-12-15T00:00:22Z
     - blogName: Carmilla Online
       title: Il capitalismo ha raggiunto il compito a cui era destinato
       url: https://www.carmillaonline.com/2025/12/14/il-capitalismo-ha-raggiunto-il-compito-a-cui-era-destinato/
@@ -308,10 +312,6 @@ ita:
     - blogName: La Letteratura e Noi
       title: Proposte per giovani lettori – La porta delle stelle. Un racconto di Natale di Ingvild Rishøi
       url: https://laletteraturaenoi.it/2025/12/12/proposte-per-giovani-lettori-la-porta-delle-stelle-un-racconto-di-natale-di-ingvild-rishoi/
-      published: 2025-12-12T06:00:00Z
-    - blogName: Nazione Indiana
-      title: 'Massimo Salvati: Oblio Mucido'
-      url: https://www.nazioneindiana.com/2025/12/12/massimo-salvati-oblio-mucido/
       published: 2025-12-12T06:00:00Z
     - blogName: Giap
       title: Trecentonovantaquattro giorni | «Gli uomini pesce», speciale n. 10
@@ -867,14 +867,6 @@ programming:
       title: Compartmentalizing
       url: https://feed.tedium.co/link/15204/17227945/shipping-container-history
       published: 2025-12-09T16:45:55Z
-    - blogName: Armin Ronacher's Thoughts and Writings
-      title: Let’s Destroy The European Union!
-      url: https://lucumr.pocoo.org/2025/12/9/fixing-europe/
-      published: 2025-12-09T00:00:00Z
-    - blogName: matklad
-      title: Do Not Optimize Away
-      url: https://matklad.github.io/2025/12/09/do-not-optimize-away.html
-      published: 2025-12-09T00:00:00Z
     - blogName: eieio.games
       title: Are Two Heads Better Than One?
       url: https://eieio.games/blog/are-two-heads-better-than-one
@@ -882,6 +874,14 @@ programming:
     - blogName: jsbarretto
       title: External Visitation
       url: https://blog.jsbarretto.com/post/better-visitors
+      published: 2025-12-09T00:00:00Z
+    - blogName: matklad
+      title: Do Not Optimize Away
+      url: https://matklad.github.io/2025/12/09/do-not-optimize-away.html
+      published: 2025-12-09T00:00:00Z
+    - blogName: Armin Ronacher's Thoughts and Writings
+      title: Let’s Destroy The European Union!
+      url: https://lucumr.pocoo.org/2025/12/9/fixing-europe/
       published: 2025-12-09T00:00:00Z
     - blogName: Michael W Lucas
       title: TWP books not in Apple Books in the EU
@@ -943,13 +943,13 @@ programming:
       title: What HTTP routes does your application provide?
       url: https://gaultier.github.io/blog/go_dtrace_see_registered_routes.html
       published: 2025-12-03T09:20:30Z
-    - blogName: Fabien Sanglard
-      title: Why WinQuake exists and how it works
-      url: https://fabiensanglard.net/winquake/index.html
-      published: 2025-12-03T00:00:00Z
     - blogName: Mitchell Hashimoto
       title: Ghostty Is Now Non-Profit
       url: https://mitchellh.com/writing/ghostty-non-profit
+      published: 2025-12-03T00:00:00Z
+    - blogName: Fabien Sanglard
+      title: Why WinQuake exists and how it works
+      url: https://fabiensanglard.net/winquake/index.html
       published: 2025-12-03T00:00:00Z
     - blogName: ongoing by Tim Bray
       title: Tracy Numbers
@@ -1087,10 +1087,6 @@ programming:
       title: Ad-Hoc Emacs Packages with Nix
       url: https://borretti.me/article/ad-hoc-emacs-packages-with-nix
       published: 2025-11-16T00:00:00Z
-    - blogName: Fernando Borretti
-      title: Linux on the Fujitsu Lifebook U729
-      url: https://borretti.me/article/linux-on-the-fujitsu-lifebook-u729
-      published: 2025-11-15T00:00:00Z
 'security ':
     - blogName: 'The Register - Security: Cyber-crime'
       title: Honeypots can help defenders, or damn them if implemented badly
