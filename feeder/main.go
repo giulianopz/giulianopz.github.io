@@ -139,7 +139,11 @@ func main() {
 
 	for _, articles := range articlesByCategory {
 		slices.SortFunc(articles, func(a, b *article) int {
-			return b.Published.Compare(*a.Published)
+			sortScore := b.Published.Compare(*a.Published)
+			if sortScore == 0 {
+				sortScore = strings.Compare(b.Title, a.Title)
+			}
+			return sortScore
 		})
 	}
 

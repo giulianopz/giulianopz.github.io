@@ -62,8 +62,6 @@
         htmlUrl="https://eieio.games" xmlUrl="https://eieio.games/feed.xml" />
       <outline text="Faultlore" title="Faultlore" description="" type="rss" version="RSS"
         htmlUrl="https://gankra.github.io/blah/" xmlUrl="https://faultlore.com/blah/rss.xml" />
-      <outline text="Felix Geisendörfer" title="Felix Geisendörfer" description="" type="rss"
-        version="RSS" htmlUrl="https://blog.felixge.de/" xmlUrl="https://blog.felixge.de/rss/" />
       <outline text="Fernando Borretti" title="Fernando Borretti" description="" type="rss"
         version="RSS" htmlUrl="https://borretti.me/" xmlUrl="https://borretti.me/feed.xml" />
       <outline text="flak" title="flak" description="" type="rss" version="RSS"
@@ -107,9 +105,7 @@
         htmlUrl="https://matklad.github.io" xmlUrl="https://matklad.github.io/feed.xml" />
       <!--       <outline text="mcyoung" title="mcyoung" description="" type="rss" version="RSS"
         htmlUrl="https://mcyoung.xyz/" xmlUrl="https://mcyoung.xyz/atom.xml" /> -->
-      <outline text="Michael Stapelbergs" title="Michael Stapelbergs" description="" type="rss"
-        version="RSS" htmlUrl="https://michael.stapelberg.ch/"
-        xmlUrl="https://michael.stapelberg.ch/feed.xml" />
+
       <outline text="Michael W Lucas" title="Michael W Lucas" description="" type="rss"
         version="RSS" htmlUrl="https://mwl.io" xmlUrl="https://mwl.io/feed" />
       <outline text="null program" title="null program" description="" type="rss" version="RSS"
@@ -196,6 +192,45 @@
         htmlUrl="https://buttondown.com/justincormack" />
     </outline>
     <outline text="gophers" title="gophers">
+      <outline text="Ardan Labs" title="Ardan Labs"
+        type="rss" version="RSS"
+        htmlUrl="https://www.ardanlabs.com/blog/"
+        xmlUrl="https://www.ardanlabs.com/blog/index.xml" />
+      <outline text="Cloudflare Blog (Go)" title="Cloudflare Blog"
+        type="rss" version="RSS"
+        htmlUrl="https://blog.cloudflare.com/tag/go/"
+        xmlUrl="https://blog.cloudflare.com/tag/go/rss/" />
+      <outline text="Phil Pearl" title="Phil Pearl"
+        type="rss" version="RSS"
+        htmlUrl="https://philpearl.github.io/"
+        xmlUrl="https://philpearl.github.io/index.xml" />
+      <outline text="Matt Layher" title="Matt Layher"
+        type="rss" version="RSS"
+        htmlUrl="https://mdlayher.com/blog/"
+        xmlUrl="https://mdlayher.com/blog/index.xml" />
+      <outline text="Felix Geisendörfer" title="Felix Geisendörfer"
+        type="rss" version="RSS"
+        htmlUrl="https://blog.felixge.de/"
+        xmlUrl="https://blog.felixge.de/index.xml" />
+      <outline text="Chris Siebenmann" title="Chris Siebenmann"
+        type="rss" version="RSS"
+        htmlUrl="https://utcc.utoronto.ca/~cks/space/blog/"
+        xmlUrl="https://utcc.utoronto.ca/~cks/space/blog/?atom" />
+      <outline text="Michael Stapelbergs" title="Michael Stapelbergs" description="" type="rss"
+        version="RSS" htmlUrl="https://michael.stapelberg.ch/"
+        xmlUrl="https://michael.stapelberg.ch/feed.xml" />
+      <outline text="Dolthub Engineering" title="Dolthub Engineering"
+        type="rss" version="RSS"
+        htmlUrl="https://www.dolthub.com/blog/"
+        xmlUrl="https://www.dolthub.com/blog/rss.xml" />
+      <outline text="Ayke van Laëthem" title="Ayke van Laëthem"
+        type="rss" version="RSS"
+        htmlUrl="https://aykevl.nl/"
+        xmlUrl="https://aykevl.nl/index.xml" />
+      <outline text="Josh Bleecher Snyder" title="Josh Bleecher Snyder"
+        type="rss" version="RSS"
+        htmlUrl="https://commaok.xyz/"
+        xmlUrl="https://commaok.xyz/index.xml" />
       <outline text="Devtrovert" title="Devtrovert" description="" type="rss" version="RSS"
         htmlUrl="https://blog.devtrovert.com" xmlUrl="https://blog.devtrovert.com/feed" />
       <outline text="Don't Panic" title="Don't Panic" description="" type="rss" version="RSS"
@@ -261,6 +296,16 @@
         htmlUrl="http://www.fascinazione.info/" />
     </outline>
     <outline text="ita" title="ita">
+      <outline text="Lucy sulla cultura" title="Lucy sulla cultura"
+        type="rss" xmlUrl="https://lucysullacultura.com/feed"
+        htmlUrl="https://lucysullacultura.com" />
+      <outline text="Snaporaz" title="Snaporaz"
+        type="rss" xmlUrl="https://www.snaporaz.online/feed/"
+        htmlUrl="https://www.snaporaz.online" />
+      <outline text="Loading..."
+        title="Loading..." type="rss"
+        xmlUrl="https://loadingpleasewait.substack.com/feed"
+        htmlUrl="https://loadingpleasewait.substack.com" />
       <outline text="Lipperatura" title="Lipperatura" type="rss"
         xmlUrl="https://www.lipperatura.it/feed/" htmlUrl="https://www.lipperatura.it" />
       <outline text="Paolo Nori" title="Paolo Nori"
