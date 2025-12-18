@@ -1,4 +1,8 @@
 gophers:
+    - blogName: Dave Cheney
+      title: 'Pop quiz: what time was it?'
+      url: https://dave.cheney.net/2025/12/18/pop-quiz-what-time-was-it
+      published: 2025-12-18T00:38:52Z
     - blogName: Golang Weekly
       title: Go 1.26 RC1, and the top links of 2025
       url: https://golangweekly.com/issues/583
@@ -51,19 +55,27 @@ gophers:
       title: Notes on the WASM Basic C ABI
       url: https://eli.thegreenplace.net/2025/notes-on-the-wasm-basic-c-abi/
       published: 2025-11-25T03:47:00Z
+    - blogName: Chris Siebenmann
+      title: Your feed reader is fetching from a limited network area
+      url: https://utcc.utoronto.ca/~cks/cspace-gen-http429.html
+      published: 2025-11-21T03:54:10Z
 indiemedia:
+    - blogName: Osservatorio Repressione
+      title: '18 dicembre 1985: Nasce Radio Onda d’Urto'
+      url: https://www.osservatoriorepressione.info/18-dicembre-1985-nasce-radio-onda-durto/
+      published: 2025-12-17T23:10:39Z
     - blogName: Il Post
-      title: Ep 192 – Ritirarsi a vita privata
-      url: https://www.ilpost.it/episodes/ep-192-ritirarsi-a-vita-privata/
-      published: 2025-12-17T16:00:47Z
+      title: Il governo spagnolo aprirà una rete di “rifugi climatici” nelle città
+      url: https://www.ilpost.it/2025/12/17/il-governo-spagnolo-aprira-una-rete-di-rifugi-climatici-nelle-citta/
+      published: 2025-12-17T19:32:16Z
     - blogName: Il Post
-      title: Perché il true crime piace di più alle donne?
-      url: https://www.ilpost.it/2025/12/17/true-crime-donne/
-      published: 2025-12-17T15:40:17Z
+      title: Dal 2029 la cerimonia degli Oscar sarà trasmessa su YouTube
+      url: https://www.ilpost.it/2025/12/17/oscar-trasmessi-su-youtube-dal-2029/
+      published: 2025-12-17T18:34:14Z
     - blogName: Il Post
-      title: L’attentatore sopravvissuto all’attacco a Bondi Beach è stato accusato di terrorismo e di 15 omicidi
-      url: https://www.ilpost.it/2025/12/17/bondi-beach-incriminato-attentatore/
-      published: 2025-12-17T15:31:27Z
+      title: Cosa è pronto e cosa no per le Olimpiadi di Milano Cortina
+      url: https://www.ilpost.it/2025/12/17/olimpiadi-milano-cortina-2026-opere/
+      published: 2025-12-17T18:19:03Z
     - blogName: Appunti di Stefano Feltri
       title: Era meglio il test d’ingresso
       url: https://appunti.substack.com/p/era-meglio-il-test-dingresso
@@ -104,10 +116,6 @@ indiemedia:
       title: I primi vent’anni di BeccoGiallo. Quanta ricchezza in questi “semplici” fumetti
       url: https://altreconomia.it/i-primi-ventanni-di-beccogiallo-quanta-ricchezza-in-questi-semplici-fumetti/
       published: 2025-12-16T23:01:38Z
-    - blogName: Osservatorio Repressione
-      title: 17 dicembre 2011 – Le torture affiorate
-      url: https://www.osservatoriorepressione.info/17-dicembre-2011-roma/
-      published: 2025-12-16T23:01:00Z
     - blogName: Forte Prenestino
       title: “2026 La Fortezza” in Sala da the
       url: https://forteprenestino.net/attivita/sala-da-the/3505-2026-la-fortezza-in-sala-da-the
@@ -189,6 +197,22 @@ indiemedia:
       url: https://sedestra.substack.com/p/bruxelles-e-un-laboratorio-di-governo
       published: 2025-11-23T12:04:50Z
 ita:
+    - blogName: Snaporaz
+      title: Il vampiro. “Scene – Memoir” di Abel Ferrara
+      url: https://www.snaporaz.online/il-vampiro-scene-memoir-di-abel-ferrara/
+      published: 2025-12-18T00:30:36Z
+    - blogName: Carmilla Online
+      title: 'La storia caotica di uno strano guerriero alla conquista di Macondo: il proletariato indiano'
+      url: https://www.carmillaonline.com/2025/12/17/la-storia-caotica-di-uno-strano-guerriero-alla-conquista-di-macondo-il-proletariato-indiano/
+      published: 2025-12-17T20:25:59Z
+    - blogName: Kabul Magazine
+      title: Waacktopia/Punktopia
+      url: https://www.kabulmagazine.com/waacktopia-punktopia/
+      published: 2025-12-17T17:34:50Z
+    - blogName: lavoce.info
+      title: La verità è in crisi?
+      url: https://lavoce.info/archives/109800/la-verita-e-in-crisi/
+      published: 2025-12-17T17:00:00Z
     - blogName: Lucy sulla cultura
       title: I giovani vanno poco a teatro. C’è chi ha un piano per portarceli.
       url: https://lucysullacultura.com/i-giovani-vanno-poco-a-teatro-ce-chi-ha-un-piano-per-portarceli/
@@ -246,13 +270,9 @@ ita:
       url: https://lavoce.info/archives/109722/le-due-ancore-dellinflazione/
       published: 2025-12-17T08:50:00Z
     - blogName: lavoce.info
-      title: Un Pnrr in chiaroscuro
-      url: https://lavoce.info/archives/109832/un-pnrr-in-chiaroscuro/
-      published: 2025-12-17T08:30:00Z
-    - blogName: lavoce.info
-      title: Chi ha paura dell’accordo Ue – Mercosur?
-      url: https://lavoce.info/archives/109834/chi-ha-paura-dellaccordo-ue-mercosur/
-      published: 2025-12-17T08:20:00Z
+      title: Ci fidiamo della moneta digitale?
+      url: https://lavoce.info/archives/109636/ci-fidiamo-della-moneta-digitale/
+      published: 2025-12-17T08:40:00Z
     - blogName: Scienza in Rete
       title: Cosa sanno davvero le neuroscienze su sesso, genere e identità?
       url: https://www.scienzainrete.it/articolo/cosa-sanno-davvero-le-neuroscienze-su-sesso-genere-e-identit%C3%A0/simone-di-plinio/2025-12-17
@@ -417,14 +437,6 @@ ita:
       title: Da “Cassandra a bruciapelo”
       url: https://www.nazioneindiana.com/2025/12/15/da-cassandra-a-bruciapelo/
       published: 2025-12-15T00:00:22Z
-    - blogName: Snaporaz
-      title: Elogio della disperazione. Autoritratti di un Occidente senza padri e senza figli
-      url: https://www.snaporaz.online/elogio-della-disperazione-autoritratti-di-un-occidente-senza-padri-e-senza-figli/
-      published: 2025-12-14T23:17:11Z
-    - blogName: Carmilla Online
-      title: Il capitalismo ha raggiunto il compito a cui era destinato
-      url: https://www.carmillaonline.com/2025/12/14/il-capitalismo-ha-raggiunto-il-compito-a-cui-era-destinato/
-      published: 2025-12-14T22:00:52Z
     - blogName: Tintoria
       title: 'SARDI vs INTELLETTUALI ft. Giovanni Floris #tintoria #comedy #tintoriapodcast'
       url: https://www.youtube.com/shorts/b2LAaZAoCAM
@@ -594,6 +606,14 @@ ita:
       url: https://www.wumingfoundation.com/giap/2025/11/omer-bartov/
       published: 2025-11-19T08:30:07Z
 pg/db:
+    - blogName: Small Datum
+      title: Performance regressions in MySQL 8.4 and 9.x with sysbench
+      url: https://smalldatum.blogspot.com/2025/12/performance-regressions-in-mysql-84-and.html
+      published: 2025-12-17T19:17:00Z
+    - blogName: The Postgres Builders Blog
+      title: Making Resilient Automation Fail-Proof with EDB & Red Hat
+      url: https://enterprisedb.com/blog/making-resilient-automation-fail-proof-edb-red-hat
+      published: 2025-12-17T18:28:54Z
     - blogName: PlanetScale
       title: Postgres 18 is now available
       url: https://planetscale.com/blog/postgres-18-is-now-available
@@ -634,10 +654,6 @@ pg/db:
       title: TLA+ modeling tips
       url: https://muratbuffalo.blogspot.com/2025/12/tla-modeling-tips.html
       published: 2025-12-15T18:20:00Z
-    - blogName: The Postgres Builders Blog
-      title: 'PostgreSQL Contributor Story: Nishant Sharma'
-      url: https://enterprisedb.com/blog/postgresql-contributor-story-nishant-sharma-0
-      published: 2025-12-15T07:56:08Z
     - blogName: Marc Brooker's Blog
       title: What Does a Database for SSDs Look Like?
       url: http://brooker.co.za/blog/2025/12/15/database-for-ssd.html
@@ -682,10 +698,6 @@ pg/db:
       title: 'The insert benchmark on a small server : MySQL 5.6 through 9.5'
       url: https://smalldatum.blogspot.com/2025/12/the-insert-benchmark-on-small-server_10.html
       published: 2025-12-10T21:17:00Z
-    - blogName: Small Datum
-      title: 'The insert benchmark on a small server : Postgres 12.22 through 18.1'
-      url: https://smalldatum.blogspot.com/2025/12/the-insert-benchmark-on-small-server.html
-      published: 2025-12-10T20:39:00Z
     - blogName: Just a Theory
       title: Introducing pg_clickhouse
       url: https://clickhouse.com/blog/introducing-pg_clickhouse
@@ -856,17 +868,17 @@ pg/db:
       published: 2025-11-18T06:30:49Z
 programming:
     - blogName: LWN.net
+      title: '[$] LWN.net Weekly Edition for December 18, 2025'
+      url: https://lwn.net/Articles/1049996/
+      published: 2025-12-18T00:16:15Z
+    - blogName: LWN.net
+      title: '[$] Going boldly into the COSMIC desktop environment'
+      url: https://lwn.net/Articles/1050268/
+      published: 2025-12-17T19:33:09Z
+    - blogName: LWN.net
       title: Asahi Linux 6.18 progress report
       url: https://lwn.net/Articles/1050953/
       published: 2025-12-17T16:07:13Z
-    - blogName: LWN.net
-      title: '[$] The Civil Infrastructure Platform after (nearly) ten years'
-      url: https://lwn.net/Articles/1049604/
-      published: 2025-12-17T14:53:26Z
-    - blogName: LWN.net
-      title: Security updates for Wednesday
-      url: https://lwn.net/Articles/1050942/
-      published: 2025-12-17T14:19:48Z
     - blogName: Matthew Garrett
       title: How did IRC ping timeouts end up in a lawsuit?
       url: https://mjg59.dreamwidth.org/73777.html
@@ -883,6 +895,10 @@ programming:
       title: The original Mozilla "Dinosaur" logo artwork
       url: https://www.jwz.org/blog/2025/12/the-original-mozilla-dinosaur-logo-artwork/
       published: 2025-12-17T00:01:26Z
+    - blogName: Armin Ronacher's Thoughts and Writings
+      title: What Actually Is Claude Code’s Plan Mode?
+      url: https://lucumr.pocoo.org/2025/12/17/what-is-plan-mode/
+      published: 2025-12-17T00:00:00Z
     - blogName: daniel.haxx.se
       title: 20,000 issues on GitHub
       url: https://daniel.haxx.se/blog/2025/12/16/20000-issues-on-github/
@@ -1147,10 +1163,6 @@ programming:
       title: Unusual circuits in the Intel 386's standard cell logic
       url: http://www.righto.com/2025/11/unusual-386-standard-cell-circuits.html
       published: 2025-11-22T16:15:00Z
-    - blogName: Armin Ronacher's Thoughts and Writings
-      title: LLM APIs are a Synchronization Problem
-      url: https://lucumr.pocoo.org/2025/11/22/llm-apis/
-      published: 2025-11-22T00:00:00Z
     - blogName: Brendan Gregg
       title: Intel is listening, don't waste your shot
       url: http://www.brendangregg.com/blog//2025-11-22/intel-is-listening.html
@@ -1171,18 +1183,6 @@ programming:
       title: More tales about outages and numeric limits
       url: https://rachelbythebay.com/w/2025/11/18/down/
       published: 2025-11-18T21:35:41Z
-    - blogName: jsbarretto
-      title: We are replacing OOP with something worse
-      url: https://blog.jsbarretto.com/post/actors
-      published: 2025-11-18T00:00:00Z
-    - blogName: tonsky
-      title: 'Logo: Clojure+'
-      url: https://tonsky.me/design/#2025-11-clojure-plus
-      published: 2025-11-18T00:00:00Z
-    - blogName: Math ∩ Programming
-      title: Bicyclic Matrix-Matrix Multiplication in Fully Homomorphic Encryption
-      url: https://www.jeremykun.com/2025/11/17/bicyclic-matrix-matrix-multiplication-in-fully-homomorphic-encryption/
-      published: 2025-11-17T16:41:28Z
 'security ':
     - blogName: Schneier on Security
       title: Deliberate Internet Shutdowns
