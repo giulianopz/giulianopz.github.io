@@ -284,7 +284,7 @@ func getArticles(f opml.Outline, upperBound *time.Time) (articles []*article) {
 				// override the RSS/Atom title with the UDF title in the OPML,
 				// this can help with merging togheter feeds of authors blogging from different sources
 				BlogName:  f.Text,
-				Title:     i.Title,
+				Title:     stripCDATA(i.Title),
 				Url:       link,
 				Published: i.PublishedParsed,
 			})
@@ -294,4 +294,12 @@ func getArticles(f opml.Outline, upperBound *time.Time) (articles []*article) {
 		articles = articles[:3]
 	}
 	return
+}
+
+func stripCDATA(s string) string {
+	if strings.Contains(s, "<![CDATA[") {
+		s = strings.NewReplacer("<![CDATA[", "", "]]>", "").Replace(s)
+		s = strings.TrimSpace(s)
+	}
+	return s
 }

@@ -393,6 +393,8 @@
         xmlUrl="https://thesubmarine.it/feed/" htmlUrl="https://thesubmarine.it" />
     </outline>
     <outline text="pg/db" title="pg/db">
+      <outline text="boringsql" title="boringsql"
+      xmlUrl="https://boringsql.com/atom.xml" htmlUrl="https://boringsql.com/atom.xml"/>
       <outline text="Simon Notley" title="Simon Notley" type="rss"
         xmlUrl="https://sonotley.uk/index.xml" htmlUrl="https://sonotley.uk" />
       <outline text="ads' corner" title="ads' corner" type="rss"
