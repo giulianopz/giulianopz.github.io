@@ -1,5 +1,9 @@
 gophers:
     - blogName: Chris Siebenmann
+      title: Moving local package changes to a new Ubuntu release with dgit
+      url: https://utcc.utoronto.ca/~cks/space/blog/linux/DgitForwardPortingChanges
+      published: 2025-12-23T23:55:32Z
+    - blogName: Chris Siebenmann
       title: Early notes about using dgit on Ubuntu (LTS)
       url: https://utcc.utoronto.ca/~cks/space/blog/linux/DgitOnUbuntuEarlyNotes
       published: 2025-12-23T04:25:34Z
@@ -11,10 +15,6 @@ gophers:
       title: How We Migrated Our Blog Images to S3
       url: https://dolthub.com/blog/2025-12-22-blog-images-migration/
       published: 2025-12-22T00:00:00Z
-    - blogName: Chris Siebenmann
-      title: Our problem with finding good 10G-T Ethernet switches (in 2025)
-      url: https://utcc.utoronto.ca/~cks/space/blog/tech/Our10GTSwitchFindingProblem
-      published: 2025-12-21T02:35:50Z
     - blogName: Anton Zhiyanov
       title: 'Go feature: Modernized go fix'
       url: https://antonz.org/accepted/modernized-go-fix/
@@ -72,6 +72,22 @@ gophers:
       url: https://eli.thegreenplace.net/2025/notes-on-the-wasm-basic-c-abi/
       published: 2025-11-25T03:47:00Z
 indiemedia:
+    - blogName: Altreconomia
+      title: Le società pubbliche fanno speculazione finanziaria. Il caso di Poste italiane
+      url: https://altreconomia.it/le-societa-pubbliche-fanno-speculazione-finanziaria-il-caso-di-poste-italiane/
+      published: 2025-12-23T23:15:06Z
+    - blogName: Altreconomia
+      title: Da dove arriva il tentato salvacondotto per le imprese di vigilanza del Governo Meloni
+      url: https://altreconomia.it/da-dove-arriva-il-tentato-salvacondotto-per-le-imprese-di-vigilanza-del-governo-meloni/
+      published: 2025-12-23T23:10:12Z
+    - blogName: Altreconomia
+      title: Forlenza patteggia per la “gestione” del Cpr di Milano. I suoi nuovi affari, intanto, sono altrove
+      url: https://altreconomia.it/forlenza-patteggia-per-la-gestione-del-cpr-di-milano-i-suoi-nuovi-affari-intanto-sono-altrove/
+      published: 2025-12-23T23:01:18Z
+    - blogName: Il Post
+      title: La Corte Suprema ha dato torto a Trump sulla Guardia Nazionale a Chicago
+      url: https://www.ilpost.it/2025/12/23/corte-suprema-trump-guardia-nazionale-chicago/
+      published: 2025-12-23T22:12:46Z
     - blogName: Il Post
       title: Il capo dell’esercito della Libia è morto in un incidente aereo
       url: https://www.ilpost.it/2025/12/23/al-haddad-libia-incidente-aereo/
@@ -84,10 +100,6 @@ indiemedia:
       title: Veto
       url: https://appunti.substack.com/p/veto
       published: 2025-12-23T18:01:41Z
-    - blogName: Il Post
-      title: La storia di Alaa Faraj, che è stato parzialmente graziato da Mattarella
-      url: https://www.ilpost.it/2025/12/23/storia-alaa-faraj-scafista-grazia-mattarella/
-      published: 2025-12-23T17:27:30Z
     - blogName: Osservatorio Repressione
       title: 'Bolzano: Rave, repressione e propaganda di Stato. Free party is not a crime!'
       url: https://www.osservatoriorepressione.info/bolzano-rave-repressione-e-propaganda-di-stato-free-party-is-not-a-crime/
@@ -120,18 +132,6 @@ indiemedia:
       title: Vi auguro due cose
       url: https://www.osservatoriorepressione.info/vi-auguro-due-cose/
       published: 2025-12-23T07:30:00Z
-    - blogName: Altreconomia
-      title: Il principio di verità di Alaa Faraj, che ha ricevuto la grazia parziale dal Quirinale
-      url: https://altreconomia.it/il-principio-di-verita-di-alaa-faraj-che-ha-ricevuto-la-grazia-parziale-dal-quirinale/
-      published: 2025-12-23T06:45:36Z
-    - blogName: Altreconomia
-      title: “Inumana Canicola Padana”. L’etnografia digitale di Banadisa tra i fantasmi della pianura
-      url: https://altreconomia.it/inumana-canicola-padana-letnografia-digitale-di-banadisa-tra-i-fantasmi-della-pianura/
-      published: 2025-12-23T06:05:55Z
-    - blogName: Altreconomia
-      title: Il Viminale vuole nascondere a tutti i costi che cosa succede nel Cpr di Gjadër in Albania
-      url: https://altreconomia.it/il-viminale-vuole-nascondere-a-tutti-i-costi-che-cosa-succede-nel-cpr-di-gjader-in-albania/
-      published: 2025-12-23T06:01:50Z
     - blogName: DINAMOpress
       title: Il diritto alla casa in Spagna tra turismo, speculazione e conflitto sociale
       url: https://www.dinamopress.it/news/il-diritto-alla-casa-in-spagna-tra-turismo-speculazione-e-conflitto-sociale/?utm_source=rss&utm_medium=rss&utm_campaign=il-diritto-alla-casa-in-spagna-tra-turismo-speculazione-e-conflitto-sociale
@@ -209,6 +209,10 @@ indiemedia:
       url: https://sedestra.substack.com/p/armi-e-bianchezza-il-piano-di-trump
       published: 2025-12-06T09:21:04Z
 ita:
+    - blogName: Carmilla Online
+      title: Il Grinch – Revelations
+      url: https://www.carmillaonline.com/2025/12/24/il-grinch-revelations/
+      published: 2025-12-23T23:01:32Z
     - blogName: Franco Berardi Bifo
       title: Modello Israele
       url: https://francoberardi.substack.com/p/modello-israele
@@ -393,10 +397,6 @@ ita:
       title: La Chatte di Colette, o della ricerca della gatta interiore
       url: https://www.nazioneindiana.com/2025/12/21/la-chatte-di-colette-o-della-ricerca-della-gatta-interiore/
       published: 2025-12-21T06:00:12Z
-    - blogName: Carmilla Online
-      title: Lo sguardo obliquo del cinema per rappresentare l’irrappresentabile
-      url: https://www.carmillaonline.com/2025/12/20/lo-sguardo-obliquo-del-cinema-per-rappresentare-lirrappresentabile/
-      published: 2025-12-20T21:00:15Z
     - blogName: minima&moralia
       title: La valigia dell’autore. Emanuele Aldrovandi
       url: https://minimaetmoralia.it/teatro/la-valigia-dellautore-emanuele-aldrovandi/
@@ -606,6 +606,14 @@ pg/db:
       title: Don't give Postgres too much memory (even on busy systems)
       url: https://vondra.me/posts/dont-give-postgres-too-much-memory-even-on-busy-systems/
       published: 2025-12-23T10:00:00Z
+    - blogName: Hans-Jürgen Schönig
+      title: 'PostgreSQL Performance: Latency in the Cloud and On Premise'
+      url: https://www.cybertec-postgresql.com/en/postgresql-performance-latency-in-the-cloud-and-on-premise/
+      published: 2025-12-23T05:00:33Z
+    - blogName: eatonphil
+      title: Year in books
+      url: http://notes.eatonphil.com/2025-12-23-year-in-books.html
+      published: 2025-12-23T00:00:00Z
     - blogName: boringsql
       title: Instant database clones with PostgreSQL 18
       url: https://boringsql.com/posts/instant-database-clones/
@@ -1175,14 +1183,6 @@ programming:
       title: Web page annoyances that I don't inflict on you here
       url: https://rachelbythebay.com/w/2025/01/04/cruft/
       published: 2025-11-24T06:54:00Z
-    - blogName: Julio Merino (jmmv.dev)
-      title: BazelCon 2025 recap
-      url: https://jmmv.dev/2025/11/bazelcon-2025-recap.html
-      published: 2025-11-24T01:00:00Z
-    - blogName: Fabien Sanglard
-      title: Quake Engine Indicators
-      url: https://fabiensanglard.net/quake_indicators/index.html
-      published: 2025-11-24T00:00:00Z
 'security ':
     - blogName: 'The Register - Security: Cyber-crime'
       title: 21K Nissan customers' data stolen in Red Hat raid
