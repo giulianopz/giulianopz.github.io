@@ -1,5 +1,9 @@
 gophers:
     - blogName: Chris Siebenmann
+      title: Some notes on using the Sec-CH-UA HTTP headers that Chrome supports
+      url: https://utcc.utoronto.ca/~cks/space/blog/web/HTTPSecCHUAHeaderNotes
+      published: 2025-12-25T02:39:10Z
+    - blogName: Chris Siebenmann
       title: Moving local package changes to a new Ubuntu release with dgit
       url: https://utcc.utoronto.ca/~cks/space/blog/linux/DgitForwardPortingChanges
       published: 2025-12-23T23:55:32Z
@@ -7,10 +11,6 @@ gophers:
       title: Early notes about using dgit on Ubuntu (LTS)
       url: https://utcc.utoronto.ca/~cks/space/blog/linux/DgitOnUbuntuEarlyNotes
       published: 2025-12-23T04:25:34Z
-    - blogName: Chris Siebenmann
-      title: Browser version numbers are a bit complicated (for server code)
-      url: https://utcc.utoronto.ca/~cks/space/blog/web/BrowserVersionsComplicated
-      published: 2025-12-22T04:15:53Z
     - blogName: Dolthub Engineering
       title: How We Migrated Our Blog Images to S3
       url: https://dolthub.com/blog/2025-12-22-blog-images-migration/
@@ -67,23 +67,23 @@ gophers:
       title: Pointer pop quiz
       url: https://dave.cheney.net/2025/11/27/pointer-pop-quiz
       published: 2025-11-27T11:18:55Z
-    - blogName: Eli Bendersky
-      title: Notes on the WASM Basic C ABI
-      url: https://eli.thegreenplace.net/2025/notes-on-the-wasm-basic-c-abi/
-      published: 2025-11-25T03:47:00Z
 indiemedia:
+    - blogName: Osservatorio Repressione
+      title: 'Roma, 26 dicembre 1977: Agguato fascista a redattore di radio città futura'
+      url: https://www.osservatoriorepressione.info/25-dicembre-1977-roma/
+      published: 2025-12-25T23:01:03Z
     - blogName: Il Post
-      title: Il candidato conservatore Nasry Asfura è stato dichiarato vincitore delle elezioni presidenziali in Honduras dello scorso 30 novembre
-      url: https://www.ilpost.it/2025/12/24/asfura-dichiarato-presidente-honduras/
-      published: 2025-12-24T22:31:38Z
+      title: Un riservista dell’esercito israeliano ha investito con un quad un uomo palestinese in preghiera
+      url: https://www.ilpost.it/flashes/reservista-investito-palestinese/
+      published: 2025-12-25T20:06:26Z
     - blogName: Il Post
-      title: Il regista e attore palestinese Mohammad Bakri, autore del documentario “Jenin, Jenin”, è morto a 72 anni
-      url: https://www.ilpost.it/2025/12/24/morto-mohammad-bakri/
-      published: 2025-12-24T19:51:34Z
+      title: In Emilia Romagna diversi comuni stanno evacuando per il rischio di esondazioni
+      url: https://www.ilpost.it/2025/12/25/evacuazioni-emilia-romagna-esondazioni/
+      published: 2025-12-25T18:26:53Z
     - blogName: Il Post
-      title: C’è stata un’esplosione in una moschea di Maiduguri, in Nigeria
-      url: https://www.ilpost.it/2025/12/24/esplosione-moschea-maiduguri/
-      published: 2025-12-24T19:18:25Z
+      title: Un altro anno di carceri sovraffollate
+      url: https://www.ilpost.it/2025/12/25/sovraffollamento-carceri-italia-2025/
+      published: 2025-12-25T17:07:39Z
     - blogName: Osservatorio Repressione
       title: 'Germania: chiuso il conto corrente di Rote Hilfe perchè organizzazione antifascista'
       url: https://www.osservatoriorepressione.info/germania-chiuso-il-conto-corrente-di-rote-hilfe-perche-organizzazione-antifascista/
@@ -132,10 +132,6 @@ indiemedia:
       title: 'CasaPound: dentro la setta (2 di 2)'
       url: https://sedestra.substack.com/p/casapound-dentro-la-setta-2-di-2
       published: 2025-12-23T08:00:10Z
-    - blogName: Osservatorio Repressione
-      title: 'il Marocco e la Coppa d’Africa: Stadi vetrina, celle piene'
-      url: https://www.osservatoriorepressione.info/il-marocco-e-la-coppa-dafrica-stadi-vetrina-celle-piene/
-      published: 2025-12-23T07:57:10Z
     - blogName: DINAMOpress
       title: Il diritto alla casa in Spagna tra turismo, speculazione e conflitto sociale
       url: https://www.dinamopress.it/news/il-diritto-alla-casa-in-spagna-tra-turismo-speculazione-e-conflitto-sociale/?utm_source=rss&utm_medium=rss&utm_campaign=il-diritto-alla-casa-in-spagna-tra-turismo-speculazione-e-conflitto-sociale
@@ -209,6 +205,26 @@ indiemedia:
       url: https://sedestra.substack.com/p/armi-e-bianchezza-il-piano-di-trump
       published: 2025-12-06T09:21:04Z
 ita:
+    - blogName: Paolo Nori
+      title: Capitali della cultura
+      url: https://www.paolonori.it/capitali-della-cultura/
+      published: 2025-12-26T00:39:13Z
+    - blogName: Leonardo Tondelli
+      title: Visto qualche bel film di recente (2025)? (Seconda parte)
+      url: http://leonardo.blogspot.com/2025/12/visto-qualche-bel-film-di-recente-2025_26.html
+      published: 2025-12-25T23:31:00.003Z
+    - blogName: Giap
+      title: Note su letteratura e intelligenza artificiale (e sui corpi, a partire da recenti polemiche) – di Wu Ming 1
+      url: https://www.wumingfoundation.com/giap/2025/12/letteratura-e-intelligenza-artificiale/
+      published: 2025-12-25T23:00:53Z
+    - blogName: Nazione Indiana
+      title: '➨ AzioneAtzeni – Discanto Diciassettesimo: Andrea Breda Minello'
+      url: https://www.nazioneindiana.com/2025/12/25/azioneatzeni-discanto-sedicesimo-andrea-breda-minello/
+      published: 2025-12-25T13:00:37Z
+    - blogName: Nazione Indiana
+      title: 'Patrizia Valduga: «Ma ho scritto tutto. Ho chiuso la partita.»'
+      url: https://www.nazioneindiana.com/2025/12/25/patrizia-valduga-ma-ho-scritto-tutto-ho-chiuso-la-partita/
+      published: 2025-12-25T06:00:00Z
     - blogName: Snaporaz
       title: La ragazza dai capelli borgogna
       url: https://www.snaporaz.online/la-ragazza-dai-capelli-borgogna/
@@ -313,10 +329,6 @@ ita:
       title: La lusinga di diventare ciò che si è. L’eterno ritorno dell’identico nel capitalocene
       url: https://www.leparoleelecose.it/la-lusinga-di-diventare-cio-che-si-e-leterno-ritorno-dellidentico-nel-capitalocene/
       published: 2025-12-23T06:45:44Z
-    - blogName: Nazione Indiana
-      title: Il Novecento secondo Nicola Vacca
-      url: https://www.nazioneindiana.com/2025/12/23/il-novecento-secondo-nicola-vacca/
-      published: 2025-12-23T06:00:35Z
     - blogName: Carmilla Online
       title: Quel malefico Oriente
       url: https://www.carmillaonline.com/2025/12/22/quel-malefico-oriente/
@@ -341,10 +353,6 @@ ita:
       title: Il rischio colombiano delle pensioni “sovrane”
       url: https://phastidio.net/2025/12/22/il-rischio-colombiano-delle-pensioni-sovrane/
       published: 2025-12-22T09:00:00Z
-    - blogName: Nazione Indiana
-      title: 'Il club del lettore: Guerriero, «La chiamata»'
-      url: https://www.nazioneindiana.com/2025/12/22/guerriero-la-chiamata/
-      published: 2025-12-22T09:00:00Z
     - blogName: Lipperatura
       title: LO SENTO NELL’ACQUA, LO SENTO NELLA TERRA, LO AVVERTO NELL’ARIA
       url: https://www.lipperatura.it/lo-sento-nellacqua-lo-sento-nella-terra-lo-avverto-nellaria/
@@ -353,10 +361,6 @@ ita:
       title: 'Fantasmi: le macchine stanno allucinando?'
       url: https://www.indiscreto.org/fantasmi-le-macchine-stanno-allucinando/
       published: 2025-12-22T08:53:12Z
-    - blogName: Paolo Nori
-      title: O
-      url: https://www.paolonori.it/o-5/
-      published: 2025-12-22T08:51:56Z
     - blogName: Le parole e le cose
       title: 'Relazioni: l’unità ricomposta'
       url: https://www.leparoleelecose.it/relazioni-lunita-ricomposta/
@@ -489,10 +493,6 @@ ita:
       title: Abitare la buia luce
       url: https://operavivamagazine.org/abitare-la-buia-luce/
       published: 2025-12-17T11:11:28Z
-    - blogName: Giap
-      title: La cultura della strada | Terzo dispaccio da Mensaleri.
-      url: https://www.wumingfoundation.com/giap/2025/12/la-cultura-della-strada-terzo-dispaccio-da-mensaleri/
-      published: 2025-12-17T10:00:08Z
     - blogName: Cervelli nella vasca
       title: Modelli inutili
       url: https://guidovetere.nova100.ilsole24ore.com/2025/12/16/modelli-inutili/
@@ -557,10 +557,6 @@ ita:
       title: REGALA MEDUSA
       url: https://medusanewsletter.substack.com/p/regala-medusa
       published: 2025-12-07T17:21:45Z
-    - blogName: Leonardo Tondelli
-      title: Tutti uguali davanti alla legge – ma davanti a Delrio?
-      url: http://leonardo.blogspot.com/2025/12/tutti-uguali-davanti-alla-legge-ma.html
-      published: 2025-12-07T10:20:00.008Z
     - blogName: Cervelli nella vasca
       title: La piramide di Maslow delle anime artificiali
       url: https://guidovetere.nova100.ilsole24ore.com/2025/12/06/la-piramide-maslov-ai/
@@ -842,43 +838,43 @@ pg/db:
       title: 'KubeCon NA Atlanta 2025: a recap and CloudNativePG’s path to CNCF Incubation'
       url: https://www.gabrielebartolini.it/articles/2025/11/kubecon-na-atlanta-2025-a-recap-and-cloudnativepgs-path-to-cncf-incubation/
       published: 2025-11-26T06:26:55Z
-    - blogName: Andrew Dunstan's PostgreSQL and Technical blog
-      title: Announcing Release 20 of the PostgreSQL Build Farm Client
-      url: https://adpgtech.blogspot.com/2025/11/announcing-release-20-of-postgresql.html
-      published: 2025-11-25T13:46:00Z
-    - blogName: morling.dev
-      title: On Idempotency Keys
-      url: https://www.morling.dev/blog/on-idempotency-keys/
-      published: 2025-11-25T12:10:00Z
-    - blogName: All Things Distributed
-      title: Tech predictions for 2026 and beyond
-      url: https://www.allthingsdistributed.com/2025/11/tech-predictions-for-2026-and-beyond.html?utm_campaign=inbound&utm_source=rss
-      published: 2025-11-25T11:00:00Z
-    - blogName: Tomas Vondra
-      title: Qubes OS is pretty great
-      url: https://vondra.me/posts/qubes-os-is-pretty-great/
-      published: 2025-11-25T10:00:00Z
-    - blogName: Hans-Jürgen Schönig
-      title: Super fast aggregations in PostgreSQL 19
-      url: https://www.cybertec-postgresql.com/en/super-fast-aggregations-in-postgresql-19/
-      published: 2025-11-25T05:40:06Z
 programming:
     - blogName: LWN.net
-      title: '[$] LWN.net Weekly Edition for December 25, 2025'
-      url: https://lwn.net/Articles/1051064/
-      published: 2025-12-25T00:53:24Z
+      title: A partial ruling in the Vizio GPL suit
+      url: https://lwn.net/Articles/1051984/
+      published: 2025-12-25T17:11:31Z
+    - blogName: 'Tedium: The Dull Side of the Internet.'
+      title: Convoy Steamroller
+      url: https://feed.tedium.co/link/15204/17241600/cb-radio-cw-mccall-mannheim-steamroller-christmas
+      published: 2025-12-25T17:00:00Z
+    - blogName: LWN.net
+      title: Ruby 4.0 released
+      url: https://lwn.net/Articles/1051953/
+      published: 2025-12-25T14:09:17Z
+    - blogName: LWN.net
+      title: Security updates for Thursday
+      url: https://lwn.net/Articles/1051978/
+      published: 2025-12-25T13:59:43Z
+    - blogName: Matt Godbolt's blog
+      title: Thank you
+      url: http://xania.org/202512/25-thank-you?utm_source=feed&utm_medium=rss
+      published: 2025-12-25T12:00:00Z
+    - blogName: bunnie
+      title: Name that Ware, December 2025
+      url: https://www.bunniestudios.com/blog/2025/name-that-ware-december-2025/
+      published: 2025-12-25T11:01:39Z
+    - blogName: bunnie
+      title: Winner, Name That Ware November 2025
+      url: https://www.bunniestudios.com/blog/2025/winner-name-that-ware-november-2025/
+      published: 2025-12-25T10:59:48Z
+    - blogName: antirez
+      title: 'La gente chiede tutto alle AI: perché non ha scelta'
+      url: https://www.youtube.com/watch?v=KGlkNmKLEWs
+      published: 2025-12-25T08:00:23Z
     - blogName: jwz
       title: 'Christmas Throwback: EXERCISE VAGUE JOY'
       url: https://www.jwz.org/blog/2025/12/christmas-throwback-exercise-vague-joy-2/
       published: 2025-12-24T19:19:07Z
-    - blogName: LWN.net
-      title: '[$] A 2025 retrospective'
-      url: https://lwn.net/Articles/1051230/
-      published: 2025-12-24T16:07:43Z
-    - blogName: LWN.net
-      title: '[$] What''s new in systemd v259'
-      url: https://lwn.net/Articles/1051235/
-      published: 2025-12-24T14:48:15Z
     - blogName: jwz
       title: Xmas movies
       url: https://www.jwz.org/blog/2025/12/xmas-movies/
@@ -943,14 +939,6 @@ programming:
       title: Beyond The Last Minute
       url: https://feed.tedium.co/link/15204/17239895/tedium-gift-guide-2025
       published: 2025-12-22T18:16:52Z
-    - blogName: Matt Godbolt's blog
-      title: Clever memory tricks
-      url: http://xania.org/202512/22-memory-cunningness?utm_source=feed&utm_medium=rss
-      published: 2025-12-22T12:00:00Z
-    - blogName: antirez
-      title: 'Una critica ragionata a Rust: il primo CVE su Linux'
-      url: https://www.youtube.com/watch?v=GRmYdNdkNUg
-      published: 2025-12-22T10:42:47Z
     - blogName: Internals for Interns
       title: The Query Planner
       url: https://internals-for-interns.com/posts/postgres-query-planner/
@@ -1067,10 +1055,6 @@ programming:
       title: Fragments Dec 11
       url: https://martinfowler.com/articles/2025-12-11-frags.html
       published: 2025-12-11T15:17:00Z
-    - blogName: 'Tedium: The Dull Side of the Internet.'
-      title: WINE Cooler
-      url: https://feed.tedium.co/link/15204/17229376/404-media-zine-linux-affinity
-      published: 2025-12-11T03:23:57Z
     - blogName: Fernando Borretti
       title: I Wish People Were More Public
       url: https://borretti.me/article/i-wish-people-were-more-public
@@ -1167,10 +1151,6 @@ programming:
       title: Name that Ware, November 2025
       url: https://www.bunniestudios.com/blog/2025/name-that-ware-november-2025/
       published: 2025-11-29T09:21:26Z
-    - blogName: bunnie
-      title: Winner, Name that Ware October 2025
-      url: https://www.bunniestudios.com/blog/2025/winner-name-that-ware-october-2025/
-      published: 2025-11-29T09:18:29Z
     - blogName: Michael Stapelbergs
       title: Self-hosting my photos with Immich
       url: https://michael.stapelberg.ch/posts/2025-11-29-self-hosting-photos-with-immich/
@@ -1183,10 +1163,6 @@ programming:
       title: New Debian Developers and Maintainers (September and October 2025)
       url: https://bits.debian.org/2025/11/new-developers-2025-11.html
       published: 2025-11-26T16:00:00Z
-    - blogName: tonsky
-      title: How to get hired in 2025
-      url: https://tonsky.me/blog/hiring-ai/
-      published: 2025-11-26T00:00:00Z
 'security ':
     - blogName: 'The Register - Security: Cyber-crime'
       title: US shuts down phisherfolk’s $14.6M password-hoarding platform
