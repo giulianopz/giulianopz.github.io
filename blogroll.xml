@@ -395,6 +395,10 @@
         xmlUrl="https://thesubmarine.it/feed/" htmlUrl="https://thesubmarine.it" />
     </outline>
     <outline text="pg/db" title="pg/db">
+      <outline text="Talking Postgres" description="Talking Postgres"
+      xmlUrl="https://feeds.transistor.fm/talkingpostgres" htmlUrl="https://talkingpostgres.com/"/>
+      <outline text="postgres.fm" description="postgres.fm"
+      xmlUrl="https://feeds.transistor.fm/postgres-fm" htmlUrl="https://postgres.fm"/>
       <outline text="boringsql" title="boringsql"
         xmlUrl="https://boringsql.com/atom.xml" htmlUrl="https://boringsql.com/atom.xml" />
       <outline text="Simon Notley" title="Simon Notley" type="rss"
