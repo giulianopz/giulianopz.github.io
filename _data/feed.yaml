@@ -1,4 +1,8 @@
 gophers:
+    - blogName: Anton Zhiyanov
+      title: '''Better C'' playgrounds'
+      url: https://antonz.org/better-c/
+      published: 2025-12-26T19:00:00Z
     - blogName: Chris Siebenmann
       title: Some notes on using the Sec-CH-UA HTTP headers that Chrome supports
       url: https://utcc.utoronto.ca/~cks/space/blog/web/HTTPSecCHUAHeaderNotes
@@ -25,10 +29,6 @@ gophers:
       published: 2025-12-19T00:00:00Z
     - blogName: Anton Zhiyanov
       title: Detecting goroutine leaks with synctest/pprof
-      url: https://antonz.org/detecting-goroutine-leaks/
-      published: 2025-12-18T14:30:00Z
-    - blogName: Anton Zhiyanov
-      title: Detecting goroutine leaks in modern Go
       url: https://antonz.org/detecting-goroutine-leaks/
       published: 2025-12-18T14:30:00Z
     - blogName: Eli Bendersky
@@ -69,21 +69,25 @@ gophers:
       published: 2025-11-27T11:18:55Z
 indiemedia:
     - blogName: Osservatorio Repressione
+      title: '27 Dicembre 2008: Operazione Piombo Fuso'
+      url: https://www.osservatoriorepressione.info/21400-2/
+      published: 2025-12-26T23:01:58Z
+    - blogName: Il Post
+      title: 'Israele ha riconosciuto formalmente il Somaliland come stato indipendente: è il primo paese a farlo'
+      url: https://www.ilpost.it/2025/12/26/israele-riconosciuto-somaliland-accordi-di-abramo/
+      published: 2025-12-26T21:46:31Z
+    - blogName: Il Post
+      title: È morto Perry Bamonte, chitarrista e tastierista dei Cure negli anni ’90
+      url: https://www.ilpost.it/2025/12/26/morto-perry-bamonte-cure/
+      published: 2025-12-26T20:10:07Z
+    - blogName: Il Post
+      title: Tre donne sono state accoltellate nella metropolitana di Parigi, il presunto aggressore è stato arrestato
+      url: https://www.ilpost.it/2025/12/26/accoltellamenti-parigi-arresto/
+      published: 2025-12-26T19:01:06Z
+    - blogName: Osservatorio Repressione
       title: 'Roma, 26 dicembre 1977: Agguato fascista a redattore di radio città futura'
       url: https://www.osservatoriorepressione.info/25-dicembre-1977-roma/
       published: 2025-12-25T23:01:03Z
-    - blogName: Il Post
-      title: Un riservista dell’esercito israeliano ha investito con un quad un uomo palestinese in preghiera
-      url: https://www.ilpost.it/flashes/reservista-investito-palestinese/
-      published: 2025-12-25T20:06:26Z
-    - blogName: Il Post
-      title: In Emilia Romagna diversi comuni stanno evacuando per il rischio di esondazioni
-      url: https://www.ilpost.it/2025/12/25/evacuazioni-emilia-romagna-esondazioni/
-      published: 2025-12-25T18:26:53Z
-    - blogName: Il Post
-      title: Un altro anno di carceri sovraffollate
-      url: https://www.ilpost.it/2025/12/25/sovraffollamento-carceri-italia-2025/
-      published: 2025-12-25T17:07:39Z
     - blogName: Osservatorio Repressione
       title: 'Germania: chiuso il conto corrente di Rote Hilfe perchè organizzazione antifascista'
       url: https://www.osservatoriorepressione.info/germania-chiuso-il-conto-corrente-di-rote-hilfe-perche-organizzazione-antifascista/
@@ -108,10 +112,6 @@ indiemedia:
       title: Veto
       url: https://appunti.substack.com/p/veto
       published: 2025-12-23T18:01:41Z
-    - blogName: Osservatorio Repressione
-      title: 'Bolzano: Rave, repressione e propaganda di Stato. Free party is not a crime!'
-      url: https://www.osservatoriorepressione.info/bolzano-rave-repressione-e-propaganda-di-stato-free-party-is-not-a-crime/
-      published: 2025-12-23T17:15:10Z
     - blogName: Jacobin Italia
       title: Fare orecchiette da mercante
       url: https://jacobinitalia.it/fare-orecchiette-da-mercante/
@@ -205,6 +205,26 @@ indiemedia:
       url: https://sedestra.substack.com/p/armi-e-bianchezza-il-piano-di-trump
       published: 2025-12-06T09:21:04Z
 ita:
+    - blogName: Lucy sulla cultura
+      title: 'Su “La lobby ebraica”: una replica'
+      url: https://lucysullacultura.com/su-la-lobby-ebraica-una-replica/
+      published: 2025-12-26T14:50:57Z
+    - blogName: Tintoria
+      title: 'AMICIZIA MAGGICA ft. Daniele Fabbri #tintoria #comedy #tintoriapodcast'
+      url: https://www.youtube.com/shorts/CRawvlqU0wg
+      published: 2025-12-26T11:30:20Z
+    - blogName: Lucy sulla cultura
+      title: Ereditiamo i traumi dei nostri genitori?
+      url: https://lucysullacultura.com/ereditiamo-i-traumi-dei-nostri-genitori/
+      published: 2025-12-26T10:00:55Z
+    - blogName: Snaporaz
+      title: Il Beaubourg ha chiuso, ma non finisce
+      url: https://www.snaporaz.online/il-beaubourg-ha-chiuso-ma-non-finisce/
+      published: 2025-12-26T06:38:30Z
+    - blogName: Nazione Indiana
+      title: Diventare un genio. Il Balzac di Francesco Fiorentino
+      url: https://www.nazioneindiana.com/2025/12/26/diventare-un-genio-il-balzac-di-francesco-fiorentino/
+      published: 2025-12-26T06:00:42Z
     - blogName: Paolo Nori
       title: Capitali della cultura
       url: https://www.paolonori.it/capitali-della-cultura/
@@ -245,26 +265,14 @@ ita:
       title: Buon Natale di psicodramma sui m*ranza
       url: https://www.thesubmarine.it/2025/12/24/buon-natale-di-psicodramma-sui-m-ranza/
       published: 2025-12-24T09:49:51Z
-    - blogName: Lucy sulla cultura
-      title: Guardare il cibo è ormai importante quanto mangiarlo
-      url: https://lucysullacultura.com/guardare-il-cibo-e-ormai-importante-quanto-mangiarlo/
-      published: 2025-12-24T09:05:00Z
     - blogName: Scienza in Rete
       title: La Valle dei dinosauri ritrovata nel Parco dello Stelvio
       url: https://www.scienzainrete.it/articolo/valle-dei-dinosauri-ritrovata-nel-parco-dello-stelvio/eva-munter/2025-12-24
       published: 2025-12-24T07:08:00Z
-    - blogName: Nazione Indiana
-      title: La storia della pedagogia
-      url: https://www.nazioneindiana.com/2025/12/24/la-storia-della-pedagogia/
-      published: 2025-12-24T06:00:11Z
     - blogName: Snaporaz
       title: Le illusioni del pronatalismo
       url: https://www.snaporaz.online/le-illusioni-del-pronatalismo/
       published: 2025-12-24T01:32:03Z
-    - blogName: Snaporaz
-      title: Non si torna indietro dall’inverno demografico
-      url: https://www.snaporaz.online/non-si-torna-indietro-dallinverno-demografico/
-      published: 2025-12-24T01:30:57Z
     - blogName: Carmilla Online
       title: Il Grinch – Revelations
       url: https://www.carmillaonline.com/2025/12/24/il-grinch-revelations/
@@ -277,10 +285,6 @@ ita:
       title: I dischi di Natale dei Beatles?
       url: http://leonardo.blogspot.com/2025/12/i-dischi-di-natale-dei-beatles.html
       published: 2025-12-23T17:41:00.011Z
-    - blogName: Lucy sulla cultura
-      title: Natale a Rebibbia con Gianni Alemanno
-      url: https://lucysullacultura.com/natale-a-rebibbia-con-gianni-alemanno/
-      published: 2025-12-23T13:12:02Z
     - blogName: Tintoria
       title: 'Tintoria #284 Daniele Fabbri'
       url: https://www.youtube.com/watch?v=JZnjct73oDY
@@ -401,10 +405,6 @@ ita:
       title: EXTRA! CEDRO
       url: https://medusanewsletter.substack.com/p/extra-cedro
       published: 2025-12-21T11:53:00Z
-    - blogName: Tintoria
-      title: 'SCROCCARE IN EXECUTIVE ft. Carmine Del Grosso #tintoria #comedy #tintoriapodcast'
-      url: https://www.youtube.com/shorts/euzIK6GM1To
-      published: 2025-12-21T11:30:41Z
     - blogName: Effimera
       title: Askatasuna e il controllo violento della “violenza” – di Michele Lancione
       url: https://effimera.org/askatasuna-e-il-controllo-violento-della-violenza-di-michele-lancione/
@@ -593,10 +593,6 @@ ita:
       title: 'Infinite Walks, Massive Phone Cases and Shared Dreamworlds '
       url: https://loadingpleasewait.substack.com/p/infinite-walks-massive-phone-cases
       published: 2025-11-27T14:17:50Z
-    - blogName: Guerre di Rete
-      title: Perché è così difficile fermare i deepnude
-      url: https://www.guerredirete.it/perche-e-cosi-difficile-fermare-i-deepnude/
-      published: 2025-11-26T10:00:00Z
 pg/db:
     - blogName: ads' corner
       title: (Too) fast text-to-speech announcements in Android OsmAnd+
@@ -830,15 +826,23 @@ pg/db:
       title: 'Using JSON: json vs. jsonb, pglz vs. lz4, key optimization, parsing speed?'
       url: https://www.depesz.com/2025/11/29/using-json-json-vs-jsonb-pglz-vs-lz4-key-optimization-parsing-speed/
       published: 2025-11-29T19:16:00Z
-    - blogName: Phil Eaton
-      title: 'Is psql''s scripting language Turing complete? Or: fibonacci in psql'
-      url: https://enterprisedb.com/blog/psqls-scripting-language-turing-complete-or-fibonacci-psql
-      published: 2025-11-26T17:14:22Z
-    - blogName: Unleashing the Power of Postgres in Kubernetes
-      title: 'KubeCon NA Atlanta 2025: a recap and CloudNativePG’s path to CNCF Incubation'
-      url: https://www.gabrielebartolini.it/articles/2025/11/kubecon-na-atlanta-2025-a-recap-and-cloudnativepgs-path-to-cncf-incubation/
-      published: 2025-11-26T06:26:55Z
 programming:
+    - blogName: Fernando Borretti
+      title: Using the Brother DS-640 Scanner on NixOS
+      url: https://borretti.me/article/using-the-brother-ds-640-scanner-on-nixos
+      published: 2025-12-27T00:00:00Z
+    - blogName: LWN.net
+      title: '[$] An early look at the Graphite 2D graphics editor'
+      url: https://lwn.net/Articles/1051242/
+      published: 2025-12-26T15:45:31Z
+    - blogName: LWN.net
+      title: Security updates for Friday
+      url: https://lwn.net/Articles/1052070/
+      published: 2025-12-26T14:07:19Z
+    - blogName: Julio Merino (jmmv.dev)
+      title: ssh-agent broken in tmux? I've got you!
+      url: https://jmmv.dev/2025/12/ssh-agent-switcher-release.html
+      published: 2025-12-26T09:00:00Z
     - blogName: LWN.net
       title: A partial ruling in the Vizio GPL suit
       url: https://lwn.net/Articles/1051984/
@@ -847,14 +851,6 @@ programming:
       title: Convoy Steamroller
       url: https://feed.tedium.co/link/15204/17241600/cb-radio-cw-mccall-mannheim-steamroller-christmas
       published: 2025-12-25T17:00:00Z
-    - blogName: LWN.net
-      title: Ruby 4.0 released
-      url: https://lwn.net/Articles/1051953/
-      published: 2025-12-25T14:09:17Z
-    - blogName: LWN.net
-      title: Security updates for Thursday
-      url: https://lwn.net/Articles/1051978/
-      published: 2025-12-25T13:59:43Z
     - blogName: Matt Godbolt's blog
       title: Thank you
       url: http://xania.org/202512/25-thank-you?utm_source=feed&utm_medium=rss
@@ -1055,10 +1051,6 @@ programming:
       title: Fragments Dec 11
       url: https://martinfowler.com/articles/2025-12-11-frags.html
       published: 2025-12-11T15:17:00Z
-    - blogName: Fernando Borretti
-      title: I Wish People Were More Public
-      url: https://borretti.me/article/i-wish-people-were-more-public
-      published: 2025-12-10T00:00:00Z
     - blogName: Ken Shirriff's blog
       title: The stack circuitry of the Intel 8087 floating point chip, reverse-engineered
       url: http://www.righto.com/2025/12/8087-stack-circuitry.html
@@ -1159,11 +1151,15 @@ programming:
       title: On "AI Brendans" or "Virtual Brendans"
       url: http://www.brendangregg.com/blog//2025-11-28/ai-virtual-brendans.html
       published: 2025-11-27T13:00:00Z
-    - blogName: Bits from Debian
-      title: New Debian Developers and Maintainers (September and October 2025)
-      url: https://bits.debian.org/2025/11/new-developers-2025-11.html
-      published: 2025-11-26T16:00:00Z
 'security ':
+    - blogName: Schneier on Security
+      title: 'Friday Squid Blogging: Squid Camouflage'
+      url: https://www.schneier.com/blog/archives/2025/12/friday-squid-blogging-squid-camouflage.html
+      published: 2025-12-26T22:08:17Z
+    - blogName: Schneier on Security
+      title: IoT Hack
+      url: https://www.schneier.com/blog/archives/2025/12/iot-hack.html
+      published: 2025-12-26T12:02:54Z
     - blogName: 'The Register - Security: Cyber-crime'
       title: US shuts down phisherfolk’s $14.6M password-hoarding platform
       url: https://go.theregister.com/feed/www.theregister.com/2025/12/24/us_shutters_phishermens_146m_passwordhording/
@@ -1176,18 +1172,10 @@ programming:
       title: 21K Nissan customers' data stolen in Red Hat raid
       url: https://go.theregister.com/feed/www.theregister.com/2025/12/23/21k_nissan_customers_data_stolen/
       published: 2025-12-23T17:23:38Z
-    - blogName: Schneier on Security
-      title: Denmark Accuses Russia of Conducting Two Cyberattacks
-      url: https://www.schneier.com/blog/archives/2025/12/denmark-accuses-russia-of-conducting-two-cyberattacks.html
-      published: 2025-12-23T12:02:32Z
     - blogName: 'The Register - Security: Cyber-crime'
       title: Poisoned WhatsApp API package steals messages and accounts
       url: https://go.theregister.com/feed/www.theregister.com/2025/12/22/whatsapp_npm_package_message_steal/
       published: 2025-12-22T22:04:19Z
-    - blogName: Schneier on Security
-      title: Microsoft Is Finally Killing RC4
-      url: https://www.schneier.com/blog/archives/2025/12/microsoft-is-finally-killing-rc4.html
-      published: 2025-12-22T17:05:09Z
     - blogName: Krebs on Security
       title: 'Dismantling Defenses: Trump 2.0 Cyber Year in Review'
       url: https://krebsonsecurity.com/2025/12/dismantling-defenses-trump-2-0-cyber-year-in-review/
@@ -1196,6 +1184,10 @@ programming:
       title: Building a Transparent Keyserver
       url: https://words.filippo.io/keyserver-tlog/
       published: 2025-12-19T14:03:18Z
+    - blogName: evilsocket
+      title: 'TP-Link Tapo C200: Hardcoded Keys, Buffer Overflows and Privacy in the Era of AI Assisted Reverse Engineering'
+      url: https://www.evilsocket.net/2025/12/18/TP-Link-Tapo-C200-Hardcoded-Keys-Buffer-Overflows-and-Privacy-in-the-Era-of-AI-Assisted-Reverse-Engineering/
+      published: 2025-12-17T23:00:00Z
     - blogName: Krebs on Security
       title: Most Parked Domains Now Serving Malicious Content
       url: https://krebsonsecurity.com/2025/12/most-parked-domains-now-serving-malicious-content/
