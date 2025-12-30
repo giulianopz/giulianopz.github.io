@@ -1,4 +1,8 @@
 gophers:
+    - blogName: Dolthub Engineering
+      title: Understanding Dolt Directories
+      url: https://dolthub.com/blog/2025-12-29-directories/
+      published: 2025-12-29T00:00:00Z
     - blogName: Chris Siebenmann
       title: Why Debian and RPM (source) packages are complicated
       url: https://utcc.utoronto.ca/~cks/space/blog/linux/PackagesWhyComplicated
@@ -19,14 +23,14 @@ gophers:
       title: How We Migrated Our Blog Images to S3
       url: https://dolthub.com/blog/2025-12-22-blog-images-migration/
       published: 2025-12-22T00:00:00Z
+    - blogName: Dolthub Engineering
+      title: How We Migrated Our Blog Images to S3
+      url: https://dolthub.com/blog/2025-12-22-blog-images-migration/
+      published: 2025-12-22T00:00:00Z
     - blogName: Anton Zhiyanov
       title: 'Go feature: Modernized go fix'
       url: https://antonz.org/accepted/modernized-go-fix/
       published: 2025-12-20T16:00:00Z
-    - blogName: Dolthub Engineering
-      title: Does Golang Actually Implement the IEEE-754 Floating Point Spec? The Answer Might Surprise You!
-      url: https://dolthub.com/blog/2025-12-19-golang-ieee-strictness/
-      published: 2025-12-19T00:00:00Z
     - blogName: Anton Zhiyanov
       title: Detecting goroutine leaks with synctest/pprof
       url: https://antonz.org/detecting-goroutine-leaks/
@@ -39,10 +43,6 @@ gophers:
       title: 'Pop quiz: what time was it?'
       url: https://dave.cheney.net/2025/12/18/pop-quiz-what-time-was-it
       published: 2025-12-18T00:38:52Z
-    - blogName: Dolthub Engineering
-      title: 'DoltCash: Vibe-accounting built on Claude, GnuCash, and Dolt'
-      url: https://dolthub.com/blog/2025-12-18-doltcash-vibe-accounting-built-on-claude-gnucash-and-dolt/
-      published: 2025-12-18T00:00:00Z
     - blogName: Golang Weekly
       title: Go 1.26 RC1, and the top links of 2025
       url: https://golangweekly.com/issues/583
@@ -65,25 +65,53 @@ gophers:
       published: 2025-12-03T00:00:00Z
 indiemedia:
     - blogName: Altreconomia
-      title: Daoud Kuttab. “Uno Stato palestinese è ancora possibile. E necessario”
-      url: https://altreconomia.it/daoud-kuttab-uno-stato-palestinese-e-ancora-possibile-e-necessario/
-      published: 2025-12-28T23:01:21Z
+      title: Elvira Mujčić. L’istante appena prima della dissoluzione della Jugoslavia
+      url: https://altreconomia.it/elvira-mujcic-listante-appena-prima-della-dissoluzione-della-jugoslavia/
+      published: 2025-12-29T23:01:57Z
+    - blogName: Osservatorio Repressione
+      title: '30 Dicembre 1943: l’eccidio di Santa Cecilia'
+      url: https://www.osservatoriorepressione.info/30-dicembre-1943-leccidio-santa-cecilia/
+      published: 2025-12-29T23:01:20Z
     - blogName: Altreconomia
-      title: Matteo Meschiari. Le mappe non devono per forza essere esatte
-      url: https://altreconomia.it/matteo-meschiari-le-mappe-non-devono-per-forza-essere-esatte/
-      published: 2025-12-28T23:01:13Z
+      title: Raccontare il genocidio. Il fallimento dei media occidentali e la voce dei reporter palestinesi
+      url: https://altreconomia.it/raccontare-il-genocidio-il-fallimento-dei-media-occidentali-e-la-voce-dei-reporter-palestinesi/
+      published: 2025-12-29T23:01:16Z
     - blogName: Il Post
-      title: Un incidente mortale alla stazione di Firenze Rifredi ha causato molti ritardi sull’alta velocità
-      url: https://www.ilpost.it/2025/12/28/ritardi-treni-alta-velocita-firenze-rifredi/
-      published: 2025-12-28T19:28:04Z
+      title: Il presidente della Serie A di calcio ha detto che non sarà più usato il pallone arancione durante le partite
+      url: https://www.ilpost.it/2025/12/29/serie-a-calcio-pallone-arancione/
+      published: 2025-12-29T21:00:47Z
     - blogName: Il Post
-      title: Com’è andato l’incontro fra Zelensky e Trump a Mar-a-Lago
-      url: https://www.ilpost.it/2025/12/28/zelensky-trump-incontro-mar-a-lago/
-      published: 2025-12-28T18:29:12Z
+      title: Alfonso Signorini si è autosospeso da Mediaset per via delle accuse rivoltegli nel programma di gossip di Fabrizio Corona
+      url: https://www.ilpost.it/2025/12/29/alfonso-signorini-sospensione-mediaset-accuse-falsissimo/
+      published: 2025-12-29T18:20:18Z
     - blogName: Il Post
-      title: La “battaglia dei sessi” del tennis è stata vinta da Nick Kyrgios
-      url: https://www.ilpost.it/2025/12/28/battaglia-dei-sessi-kyrgios-sabalenka-chi-ha-vinto/
-      published: 2025-12-28T18:05:50Z
+      title: Per la Corte Costituzionale la legge della Toscana sul suicidio assistito è sostanzialmente legittima
+      url: https://www.ilpost.it/2025/12/29/suicidio-assistito-corte-costituzionale-sentenza-legge-toscana/
+      published: 2025-12-29T17:54:40Z
+    - blogName: DINAMOpress
+      title: 'Un anno dopo Assad: il paese delle molte verità'
+      url: https://www.dinamopress.it/news/un-anno-dopo-assad-il-paese-delle-molte-verita/?utm_source=rss&utm_medium=rss&utm_campaign=un-anno-dopo-assad-il-paese-delle-molte-verita
+      published: 2025-12-29T12:31:45Z
+    - blogName: Osservatorio Repressione
+      title: 'Siria: dura repressione sulle manifestazioni per “federalismo e autodeterminazione”. 8 vittime'
+      url: https://www.osservatoriorepressione.info/siria-dura-repressione-sulle-manifestazioni-per-federalismo-e-autodeterminazione-8-vittime/
+      published: 2025-12-29T12:22:11Z
+    - blogName: Fascinazione
+      title: Perché il Campo dei Santi infiamma i cuori dei MAGA?
+      url: http://www.fascinazione.info/2025/12/perche-il-campo-dei-santi-infiamma-i.html
+      published: 2025-12-29T12:04:00.005Z
+    - blogName: Jacobin Italia
+      title: Distopie e utopie di Pluribus
+      url: https://jacobinitalia.it/distopie-e-utopie-di-pluribus/
+      published: 2025-12-29T09:14:01Z
+    - blogName: Romattiva
+      title: MartedìPoeta@LoSpigolo 30/12
+      url: https://www.romattiva.org/martedipoetalospigolo-30-12/
+      published: 2025-12-29T09:09:25Z
+    - blogName: Altreconomia
+      title: È troppo semplice dire “mai più bambini in carcere”. La difficile scelta delle madri detenute
+      url: https://altreconomia.it/e-troppo-semplice-dire-mai-piu-bambini-in-carcere-la-difficile-scelta-delle-madri-detenute/
+      published: 2025-12-29T02:10:51Z
     - blogName: Romattiva
       title: Capodaje@Garbatella 28/12
       url: https://www.romattiva.org/capodajegarbatella-28-12/
@@ -92,14 +120,6 @@ indiemedia:
       title: 'Repressione di Stato e complicità con il genocidio: colpire i palestinesi per servire Israele'
       url: https://www.osservatoriorepressione.info/repressione-di-stato-e-complicita-con-il-genocidio-colpire-i-palestinesi-per-servire-israele/
       published: 2025-12-28T09:03:59Z
-    - blogName: Osservatorio Repressione
-      title: 28 dicembre 1980 – La rivolta nel carcere di Trani
-      url: https://www.osservatoriorepressione.info/28-dicembre-1980-la-rivolta-nel-carcere-trani/
-      published: 2025-12-27T23:01:07Z
-    - blogName: Osservatorio Repressione
-      title: Arrestato il presidente dell’associazione dei palestinesi in Italia, Mohammad Hannoun.
-      url: https://www.osservatoriorepressione.info/arrestato-il-presidente-dellassociazione-dei-palestinesi-in-italia-mohammad-hannoun/
-      published: 2025-12-27T12:11:31Z
     - blogName: Jacobin Italia
       title: Mamdani ha bisogno delle assemblee popolari
       url: https://jacobinitalia.it/mamdani-ha-bisogno-delle-assemblee-popolari/
@@ -108,18 +128,10 @@ indiemedia:
       title: Così Israele distrugge gli atenei palestinesi
       url: https://jacobinitalia.it/cosi-israele-distrugge-gli-atenei-palestinesi/
       published: 2025-12-24T10:34:54Z
-    - blogName: Altreconomia
-      title: Le società pubbliche fanno speculazione finanziaria. Il caso di Poste italiane
-      url: https://altreconomia.it/le-societa-pubbliche-fanno-speculazione-finanziaria-il-caso-di-poste-italiane/
-      published: 2025-12-23T23:15:06Z
     - blogName: Appunti di Stefano Feltri
       title: Veto
       url: https://appunti.substack.com/p/veto
       published: 2025-12-23T18:01:41Z
-    - blogName: Jacobin Italia
-      title: Fare orecchiette da mercante
-      url: https://jacobinitalia.it/fare-orecchiette-da-mercante/
-      published: 2025-12-23T15:02:11Z
     - blogName: Appunti di Stefano Feltri
       title: 'Best of Appunti: Libri per tempi difficili'
       url: https://appunti.substack.com/p/best-of-appunti-libri-per-tempi-difficili
@@ -140,10 +152,6 @@ indiemedia:
       title: 'Anita, memoria viva: la nostra lotta è per la vita'
       url: https://www.dinamopress.it/news/anita-memoria-viva-la-nostra-lotta-e-per-la-vita/?utm_source=rss&utm_medium=rss&utm_campaign=anita-memoria-viva-la-nostra-lotta-e-per-la-vita
       published: 2025-12-23T03:19:44Z
-    - blogName: DINAMOpress
-      title: La Cordigliera dei sogni infranti. Il Cile dall’Estallido al trionfo dell’ultradestra
-      url: https://www.dinamopress.it/news/la-cordigliera-dei-sogni-infranti-il-cile-dallestallido-al-trionfo-dellultradestra/?utm_source=rss&utm_medium=rss&utm_campaign=la-cordigliera-dei-sogni-infranti-il-cile-dallestallido-al-trionfo-dellultradestra
-      published: 2025-12-22T13:35:49Z
     - blogName: IrpiMedia
       title: Newsroom –  Come le armi sono entrate nei fondi “verdi” europei e italiani
       url: https://irpimedia.irpi.eu/newsroom-italia-fondi-sostenibili-armi/?utm_source=rss&utm_medium=rss&utm_campaign=newsroom-italia-fondi-sostenibili-armi
@@ -192,10 +200,6 @@ indiemedia:
       title: 12 dicembre,  il saggio di Grispigni contro l'abuso di "strategia della tensione"
       url: http://www.fascinazione.info/2025/12/12-dicembre-il-saggio-di-grispigni.html
       published: 2025-12-12T10:59:00Z
-    - blogName: Fascinazione
-      title: 'Pestaggio del giornalista della Stampa: 4 i condannati di CasaPound'
-      url: http://www.fascinazione.info/2025/12/pestaggio-del-giornalista-della-stampa.html
-      published: 2025-12-10T17:33:00.003Z
     - blogName: COMPLOTTI!
       title: San Luigi
       url: https://complotti.substack.com/p/santificazione-luigi-mangione
@@ -205,8 +209,68 @@ indiemedia:
       url: https://sedestra.substack.com/p/armi-e-bianchezza-il-piano-di-trump
       published: 2025-12-06T09:21:04Z
 ita:
+    - blogName: Snaporaz
+      title: I passi indietro di Checco Zalone: “Buen camino”
+      url: https://www.snaporaz.online/i-passi-indietro-di-checco-zalone-buen-camino/
+      published: 2025-12-29T23:27:07Z
+    - blogName: Lucy sulla cultura
+      title: Zalone prende in giro tutti (quindi nessuno)
+      url: https://lucysullacultura.com/zalone-prende-in-giro-tutti-quindi-nessuno/
+      published: 2025-12-29T12:15:00Z
+    - blogName: minima&moralia
+      title: L’insostenibile leggerezza della “fiducia”. Parola dell’anno 2025 per Treccani
+      url: https://minimaetmoralia.it/societa/linsostenibile-leggerezza-della-fiducia-parola-dellanno-2025-per-treccani/
+      published: 2025-12-29T11:32:08Z
+    - blogName: Disambiguando
+      title: 'Musei e comunicazione digitale: una prospettiva semiotica tra Instagram e web istituzionale'
+      url: https://giovannacosenza.wordpress.com/2025/12/29/musei-e-comunicazione-digitale-una-prospettiva-semiotica-tra-instagram-e-web-istituzionale/
+      published: 2025-12-29T11:00:02Z
+    - blogName: Paolo Nori
+      title: Invece
+      url: https://www.paolonori.it/invece-7/
+      published: 2025-12-29T10:58:43Z
+    - blogName: lavoce.info
+      title: La verità è in crisi?
+      url: https://lavoce.info/archives/109800/la-verita-e-in-crisi/
+      published: 2025-12-29T10:50:00Z
+    - blogName: lavoce.info
+      title: Un cat-bond per le compagnie di assicurazione
+      url: https://lavoce.info/archives/109845/un-cat-bond-per-le-compagnie-di-assicurazione/
+      published: 2025-12-29T10:00:00Z
+    - blogName: The Submarine
+      title: La porta girevole di Mar-a-Lago
+      url: https://www.thesubmarine.it/2025/12/29/la-porta-girevole-di-mar-a-lago/
+      published: 2025-12-29T09:49:17Z
+    - blogName: Effimera
+      title: Frantz Fanon a 100 anni dalla nascita. “I dannati della terra” e la decolonizzazione ieri e oggi – di Giorgio Riolo
+      url: https://effimera.org/frantz-fanon-a-100-anni-dalla-nascita-i-dannati-della-terra-e-la-decolonizzazione-ieri-e-oggi-di-giorgio-riolo/
+      published: 2025-12-29T09:40:55Z
+    - blogName: Lucy sulla cultura
+      title: A scuola si impara molto, ma non ad affrontare il mondo
+      url: https://lucysullacultura.com/a-scuola-si-impara-molto-ma-non-ad-affrontare-il-mondo/
+      published: 2025-12-29T09:11:26Z
+    - blogName: Scienza in Rete
+      title: Come cominciano i terremoti
+      url: https://www.scienzainrete.it/articolo/come-cominciano-terremoti/chiara-sabelli/2025-12-29
+      published: 2025-12-29T08:37:00Z
+    - blogName: Lucy sulla cultura
+      title: Cosa significa donare e perché lo facciamo?
+      url: https://lucysullacultura.com/cosa-significa-donare-e-perche-lo-facciamo/
+      published: 2025-12-29T08:30:00Z
+    - blogName: Le parole e le cose
+      title: Poesia, fotografia e post-fotografia – L’Ulisse n. 27
+      url: https://www.leparoleelecose.it/poesia-fotografia-post-fotografia-lulisse-n-27/
+      published: 2025-12-29T07:30:33Z
+    - blogName: Nazione Indiana
+      title: Cézanne il solitario
+      url: https://www.nazioneindiana.com/2025/12/29/cezanne-il-solitario/
+      published: 2025-12-29T06:00:05Z
     - blogName: Giap
       title: Oltre in brand reazionario della «Torino magica». Ripensare il mistero, reinventare la città (2 di 2)
+      url: https://www.wumingfoundation.com/giap/2025/12/torino-magica2/
+      published: 2025-12-28T23:47:12Z
+    - blogName: Giap
+      title: Oltre il brand reazionario della «Torino magica». Ripensare il mistero, reinventare la città (2 di 2)
       url: https://www.wumingfoundation.com/giap/2025/12/torino-magica2/
       published: 2025-12-28T23:47:12Z
     - blogName: Snaporaz
@@ -249,10 +313,6 @@ ita:
       title: 27 dicembre / Nove
       url: https://www.paolonori.it/27-dicembre-nove/
       published: 2025-12-27T20:00:58Z
-    - blogName: Paolo Nori
-      title: Stare malissimo
-      url: https://www.paolonori.it/stare-malissimo/
-      published: 2025-12-27T19:13:49Z
     - blogName: Effimera
       title: Il Politico nella storia dell’analisi economica. Una discussione sulla nuova edizione di “Filosofia Economica” di Adelino Zanini – di Stefano Lucarelli
       url: https://effimera.org/il-politico-nella-storia-dellanalisi-economica-una-discussione-sulla-nuova-edizione-di-filosofia-economica-di-adelino-zanini-di-stefano-lucarelli/
@@ -285,26 +345,14 @@ ita:
       title: La postfazione di Dario Voltolini a “I due” di Antonio Moresco – in libreria!
       url: https://www.ilprimoamore.com/la-postfazione-di-dario-voltolini-a-i-due-di-antonio-moresco-in-libreria/
       published: 2025-12-26T18:08:44Z
-    - blogName: Lucy sulla cultura
-      title: 'Su “La lobby ebraica”: una replica'
-      url: https://lucysullacultura.com/su-la-lobby-ebraica-una-replica/
-      published: 2025-12-26T14:50:57Z
     - blogName: Tintoria
       title: 'AMICIZIA MAGGICA ft. Daniele Fabbri #tintoria #comedy #tintoriapodcast'
       url: https://www.youtube.com/shorts/CRawvlqU0wg
       published: 2025-12-26T11:30:20Z
-    - blogName: Lucy sulla cultura
-      title: Ereditiamo i traumi dei nostri genitori?
-      url: https://lucysullacultura.com/ereditiamo-i-traumi-dei-nostri-genitori/
-      published: 2025-12-26T10:00:55Z
     - blogName: Snaporaz
       title: Il Beaubourg ha chiuso, ma non finisce
       url: https://www.snaporaz.online/il-beaubourg-ha-chiuso-ma-non-finisce/
       published: 2025-12-26T06:38:30Z
-    - blogName: Nazione Indiana
-      title: Diventare un genio. Il Balzac di Francesco Fiorentino
-      url: https://www.nazioneindiana.com/2025/12/26/diventare-un-genio-il-balzac-di-francesco-fiorentino/
-      published: 2025-12-26T06:00:42Z
     - blogName: Leonardo Tondelli
       title: Visto qualche bel film di recente (2025)? (Seconda parte)
       url: http://leonardo.blogspot.com/2025/12/visto-qualche-bel-film-di-recente-2025_26.html
@@ -313,22 +361,10 @@ ita:
       title: Note su letteratura e intelligenza artificiale (e sui corpi, a partire da recenti polemiche) – di Wu Ming 1
       url: https://www.wumingfoundation.com/giap/2025/12/letteratura-e-intelligenza-artificiale/
       published: 2025-12-25T23:00:53Z
-    - blogName: Snaporaz
-      title: La ragazza dai capelli borgogna
-      url: https://www.snaporaz.online/la-ragazza-dai-capelli-borgogna/
-      published: 2025-12-24T23:31:00Z
     - blogName: Tintoria
       title: 'FABBRI vs MELONI ft. Daniele Fabbri #tintoria #comedy #tintoriapodcast'
       url: https://www.youtube.com/shorts/RIBGtBsm90A
       published: 2025-12-24T11:30:26Z
-    - blogName: Lucy sulla cultura
-      title: Passaggio di consegne
-      url: https://lucysullacultura.com/passaggio-di-consegne/
-      published: 2025-12-24T09:57:28Z
-    - blogName: The Submarine
-      title: Buon Natale di psicodramma sui m*ranza
-      url: https://www.thesubmarine.it/2025/12/24/buon-natale-di-psicodramma-sui-m-ranza/
-      published: 2025-12-24T09:49:51Z
     - blogName: Scienza in Rete
       title: La Valle dei dinosauri ritrovata nel Parco dello Stelvio
       url: https://www.scienzainrete.it/articolo/valle-dei-dinosauri-ritrovata-nel-parco-dello-stelvio/eva-munter/2025-12-24
@@ -357,26 +393,10 @@ ita:
       title: Il Punto
       url: https://lavoce.info/archives/109932/il-punto-380/
       published: 2025-12-23T10:21:34Z
-    - blogName: Giap
-      title: '«Tombolà» : continua la contaminazione tra circo, musica e letteratura'
-      url: https://www.wumingfoundation.com/giap/2025/12/tombola/
-      published: 2025-12-23T08:42:52Z
-    - blogName: lavoce.info
-      title: Le due ancore dell’inflazione
-      url: https://lavoce.info/archives/109722/le-due-ancore-dellinflazione/
-      published: 2025-12-23T08:40:00Z
-    - blogName: lavoce.info
-      title: 'Accordo Ue-Mercosur: perché il posticipo è diventato inevitabile'
-      url: https://lavoce.info/archives/109934/accordo-ue-mercosur-perche-il-posticipo-e-diventato-inevitabile/
-      published: 2025-12-23T08:30:00Z
     - blogName: Scienza in Rete
       title: 'Alimentazione sostenibile: imparare dalla preistoria'
       url: https://www.scienzainrete.it/articolo/alimentazione-sostenibile-imparare-dalla-preistoria/maurizio-cattani-florencia-in%C3%A9s-debandi
       published: 2025-12-23T07:46:00Z
-    - blogName: Scienza in Rete
-      title: Le auto elettriche sono inevitabili, per fortuna
-      url: https://www.scienzainrete.it/articolo/le-auto-elettriche-sono-inevitabili-fortuna/jacopo-mengarelli/2025-12-23
-      published: 2025-12-23T07:07:00Z
     - blogName: Le parole e le cose
       title: La lusinga di diventare ciò che si è. L’eterno ritorno dell’identico nel capitalocene
       url: https://www.leparoleelecose.it/la-lusinga-di-diventare-cio-che-si-e-leterno-ritorno-dellidentico-nel-capitalocene/
@@ -385,10 +405,6 @@ ita:
       title: Quel malefico Oriente
       url: https://www.carmillaonline.com/2025/12/22/quel-malefico-oriente/
       published: 2025-12-22T21:00:43Z
-    - blogName: Effimera
-      title: Viva Askatasuna! – di Sergio Fontegher Bologna
-      url: https://effimera.org/viva-askatasuna-di-sergio-fontegher-bologna/
-      published: 2025-12-22T16:53:24Z
     - blogName: Fata Morgana Web
       title: I film e le serie TV del 2025
       url: https://www.fatamorganaweb.it/i-film-e-le-serie-tv-del-2025/
@@ -409,10 +425,6 @@ ita:
       title: 'Fantasmi: le macchine stanno allucinando?'
       url: https://www.indiscreto.org/fantasmi-le-macchine-stanno-allucinando/
       published: 2025-12-22T08:53:12Z
-    - blogName: Le parole e le cose
-      title: 'Relazioni: l’unità ricomposta'
-      url: https://www.leparoleelecose.it/relazioni-lunita-ricomposta/
-      published: 2025-12-22T08:01:03Z
     - blogName: Il Tascabile
       title: Non si butta via niente
       url: https://www.iltascabile.com/scienze/non-si-butta-via-niente/
@@ -465,10 +477,6 @@ ita:
       title: Divenire rivoluzionari.e. Gilles Deleuze, Félix Guattari e noi di Roberto Ciccarelli
       url: https://www.iltascabile.com/recensioni/divenire-rivoluzionari-e-gilles-deleuze-felix-guattari-roberto-ciccarelli/
       published: 2025-12-19T07:57:44Z
-    - blogName: minima&moralia
-      title: 'Delitti in libreria: i gialli letterari'
-      url: https://minimaetmoralia.it/libri/delitti-in-libreria-i-gialli-letterari/
-      published: 2025-12-19T07:26:32Z
     - blogName: Machina
       title: Poesia &#38; filosofia
       url: https://www.machina-deriveapprodi.com/post/poesia-filosofia
@@ -591,6 +599,18 @@ ita:
       published: 2025-12-03T10:00:00Z
 pg/db:
     - blogName: Metadata
+      title: Rethinking the Cost of Distributed Caches for Datacenter Services
+      url: https://muratbuffalo.blogspot.com/2025/12/rethinking-cost-of-distributed-caches.html
+      published: 2025-12-29T21:50:00Z
+    - blogName: NULL BITMAP by Justin Jaffray
+      title: Inlining
+      url: https://buttondown.com/jaffray/archive/inlining/
+      published: 2025-12-29T19:03:58Z
+    - blogName: The Postgres Builders Blog
+      title: 'PostgreSQL Contributor Story: Manni Wood'
+      url: https://enterprisedb.com/blog/postgresql-contributor-story-manni-wood
+      published: 2025-12-29T08:59:33Z
+    - blogName: Metadata
       title: Randomer Things
       url: https://muratbuffalo.blogspot.com/2025/12/randomer-things.html
       published: 2025-12-28T22:08:00Z
@@ -678,10 +698,6 @@ pg/db:
       title: Postgres 18 is now available
       url: https://planetscale.com/blog/postgres-18-is-now-available
       published: 2025-12-17T00:00:00Z
-    - blogName: The Postgres Builders Blog
-      title: Why Your Analytical Database Needs Multiple Clusters to Do What WarehousePG Does With One
-      url: https://enterprisedb.com/blog/edb-pg-ai-for-warehousepg
-      published: 2025-12-16T14:03:07Z
     - blogName: All Things Distributed
       title: A little bit uncomfortable
       url: https://www.allthingsdistributed.com/2025/12/a-little-bit-uncomfortable.html?utm_campaign=inbound&utm_source=rss
@@ -706,10 +722,6 @@ pg/db:
       title: Lightweight Cardinality Estimation with Density
       url: https://buttondown.com/jaffray/archive/lightweight-cardinality-estimation-with-density/
       published: 2025-12-15T19:00:00Z
-    - blogName: Metadata
-      title: TLA+ modeling tips
-      url: https://muratbuffalo.blogspot.com/2025/12/tla-modeling-tips.html
-      published: 2025-12-15T18:20:00Z
     - blogName: Marc Brooker's Blog
       title: What Does a Database for SSDs Look Like?
       url: http://brooker.co.za/blog/2025/12/15/database-for-ssd.html
@@ -774,10 +786,6 @@ pg/db:
       title: PostgreSQL High-Availability Architectures
       url: https://www.cybertec-postgresql.com/en/postgresql-high-availability-architectures/
       published: 2025-12-09T08:25:13Z
-    - blogName: NULL BITMAP by Justin Jaffray
-      title: Predicate Decomposition
-      url: https://buttondown.com/jaffray/archive/predicate-decomposition/
-      published: 2025-12-08T19:00:00Z
     - blogName: Simon Notley
       title: Is sampling session activity a good way to understand Postgres workload? Part 2 - Query Latency
       url: https://sonotley.uk/posts/session-sampling-2/
@@ -834,11 +842,35 @@ pg/db:
       title: Postgres Booth at PASS Data Community Summit
       url: https://ardentperf.com/2025/11/30/postgres-booth-at-pass-data-community-summit/
       published: 2025-11-30T23:40:49Z
-    - blogName: select * from depesz;
-      title: 'Using JSON: json vs. jsonb, pglz vs. lz4, key optimization, parsing speed?'
-      url: https://www.depesz.com/2025/11/29/using-json-json-vs-jsonb-pglz-vs-lz4-key-optimization-parsing-speed/
-      published: 2025-11-29T19:16:00Z
 programming:
+    - blogName: daniel.haxx.se
+      title: no strcpy either
+      url: https://daniel.haxx.se/blog/2025/12/29/no-strcpy-either/
+      published: 2025-12-29T21:36:44Z
+    - blogName: jwz
+      title: Today in "Google broke email"
+      url: https://www.jwz.org/blog/2025/12/today-in-google-broke-email-2/
+      published: 2025-12-29T20:40:36Z
+    - blogName: LWN.net
+      title: 'Graham: [KDE] Highlights from 2025'
+      url: https://lwn.net/Articles/1052241/
+      published: 2025-12-29T15:48:18Z
+    - blogName: LWN.net
+      title: Security updates for Monday
+      url: https://lwn.net/Articles/1052236/
+      published: 2025-12-29T14:11:33Z
+    - blogName: Internals for Interns
+      title: The SSA Phase
+      url: https://internals-for-interns.com/posts/the-go-ssa/
+      published: 2025-12-29T07:00:00Z
+    - blogName: matklad
+      title: The Second Great Error Model Convergence
+      url: https://matklad.github.io/2025/12/29/second-error-model-convergence.html
+      published: 2025-12-29T00:00:00Z
+    - blogName: Xe Iaso
+      title: Git's HTTP server side design does not scale
+      url: https://xeiaso.net/notes/2025/distributed-git-ddos/
+      published: 2025-12-29T00:00:00Z
     - blogName: LWN.net
       title: Kernel prepatch 6.19-rc3
       url: https://lwn.net/Articles/1052191/
@@ -875,14 +907,6 @@ programming:
       title: Using the Brother DS-640 Scanner on NixOS
       url: https://borretti.me/article/using-the-brother-ds-640-scanner-on-nixos
       published: 2025-12-27T00:00:00Z
-    - blogName: LWN.net
-      title: '[$] An early look at the Graphite 2D graphics editor'
-      url: https://lwn.net/Articles/1051242/
-      published: 2025-12-26T15:45:31Z
-    - blogName: LWN.net
-      title: Security updates for Friday
-      url: https://lwn.net/Articles/1052070/
-      published: 2025-12-26T14:07:19Z
     - blogName: Julio Merino (jmmv.dev)
       title: ssh-agent broken in tmux? I've got you!
       url: https://jmmv.dev/2025/12/ssh-agent-switcher-release.html
@@ -915,10 +939,6 @@ programming:
       title: 'Christmas Throwback: EXERCISE VAGUE JOY'
       url: https://www.jwz.org/blog/2025/12/christmas-throwback-exercise-vague-joy-2/
       published: 2025-12-24T19:19:07Z
-    - blogName: jwz
-      title: Xmas movies
-      url: https://www.jwz.org/blog/2025/12/xmas-movies/
-      published: 2025-12-24T12:33:12Z
     - blogName: Matt Godbolt's blog
       title: When compilers surprise you
       url: http://xania.org/202512/24-cunning-clang?utm_source=feed&utm_medium=rss
@@ -954,10 +974,6 @@ programming:
     - blogName: matklad
       title: Static Allocation For Compilers
       url: https://matklad.github.io/2025/12/23/static-allocation-compilers.html
-      published: 2025-12-23T00:00:00Z
-    - blogName: matklad
-      title: Newtype Index Pattern In Zig
-      url: https://matklad.github.io/2025/12/23/zig-newtype-index-pattern.html
       published: 2025-12-23T00:00:00Z
     - blogName: Armin Ronacher's Thoughts and Writings
       title: 'Advent of Slop: A Guest Post by Claude'
@@ -1095,10 +1111,6 @@ programming:
       title: TWP books not in Apple Books in the EU
       url: https://mwl.io/archives/24504
       published: 2025-12-08T18:39:37Z
-    - blogName: Internals for Interns
-      title: Query Rewriting
-      url: https://internals-for-interns.com/posts/postgres-query-rewriting/
-      published: 2025-12-08T08:00:00Z
     - blogName: Martin Kleppmann's blog
       title: 'Prediction: AI will make formal verification go mainstream'
       url: http://martin.kleppmann.com/2025/12/08/ai-formal-verification.html
@@ -1163,19 +1175,27 @@ programming:
       title: 'New AI slop signal: code blocks with weird indentation'
       url: https://xeiaso.net/notes/2025/slop-signal-indentation/
       published: 2025-12-01T00:00:00Z
-    - blogName: bunnie
-      title: Name that Ware, November 2025
-      url: https://www.bunniestudios.com/blog/2025/name-that-ware-november-2025/
-      published: 2025-11-29T09:21:26Z
-    - blogName: Michael Stapelbergs
-      title: Self-hosting my photos with Immich
-      url: https://michael.stapelberg.ch/posts/2025-11-29-self-hosting-photos-with-immich/
-      published: 2025-11-29T07:22:05Z
 'security ':
     - blogName: 'The Register - Security: Cyber-crime'
-      title: 'Death, torture, and amputation: How cybercrime shook the world in 2025'
-      url: https://go.theregister.com/feed/www.theregister.com/2025/12/28/death_torture_and_amputation_how/
-      published: 2025-12-28T14:34:12Z
+      title: Indian cops cuff ex-Coinbase rep over selling customer info to crims
+      url: https://go.theregister.com/feed/www.theregister.com/2025/12/29/indian_cops_cuff_coinbase_exrep/
+      published: 2025-12-29T21:16:13Z
+    - blogName: Krebs on Security
+      title: Happy 16th Birthday, KrebsOnSecurity.com!
+      url: https://krebsonsecurity.com/2025/12/happy-16th-birthday-krebsonsecurity-com/
+      published: 2025-12-29T20:23:26Z
+    - blogName: 'The Register - Security: Cyber-crime'
+      title: Crims disconnect Wired subscribers from their privacy, publish deets online
+      url: https://go.theregister.com/feed/www.theregister.com/2025/12/29/wired_hack_subscriber_info_leaked/
+      published: 2025-12-29T19:23:37Z
+    - blogName: Schneier on Security
+      title: Are We Ready to Be Governed by Artificial Intelligence?
+      url: https://www.schneier.com/blog/archives/2025/12/are-we-ready-to-be-governed-by-artificial-intelligence.html
+      published: 2025-12-29T12:07:15Z
+    - blogName: 'The Register - Security: Cyber-crime'
+      title: Accused data thief threw MacBook into a river to destroy evidence
+      url: https://go.theregister.com/feed/www.theregister.com/2025/12/29/coupang_perpetrator_theft_details/
+      published: 2025-12-29T04:06:31Z
     - blogName: Schneier on Security
       title: 'Friday Squid Blogging: Squid Camouflage'
       url: https://www.schneier.com/blog/archives/2025/12/friday-squid-blogging-squid-camouflage.html
@@ -1184,18 +1204,6 @@ programming:
       title: IoT Hack
       url: https://www.schneier.com/blog/archives/2025/12/iot-hack.html
       published: 2025-12-26T12:02:54Z
-    - blogName: 'The Register - Security: Cyber-crime'
-      title: US shuts down phisherfolk’s $14.6M password-hoarding platform
-      url: https://go.theregister.com/feed/www.theregister.com/2025/12/24/us_shutters_phishermens_146m_passwordhording/
-      published: 2025-12-24T15:07:43Z
-    - blogName: Schneier on Security
-      title: Urban VPN Proxy Surreptitiously Intercepts AI Chats
-      url: https://www.schneier.com/blog/archives/2025/12/urban-vpn-proxy-surreptitiously-intercepts-ai-chats.html
-      published: 2025-12-24T12:03:03Z
-    - blogName: 'The Register - Security: Cyber-crime'
-      title: 21K Nissan customers' data stolen in Red Hat raid
-      url: https://go.theregister.com/feed/www.theregister.com/2025/12/23/21k_nissan_customers_data_stolen/
-      published: 2025-12-23T17:23:38Z
     - blogName: Krebs on Security
       title: 'Dismantling Defenses: Trump 2.0 Cyber Year in Review'
       url: https://krebsonsecurity.com/2025/12/dismantling-defenses-trump-2-0-cyber-year-in-review/
@@ -1212,7 +1220,3 @@ programming:
       title: Most Parked Domains Now Serving Malicious Content
       url: https://krebsonsecurity.com/2025/12/most-parked-domains-now-serving-malicious-content/
       published: 2025-12-16T14:14:48Z
-    - blogName: Krebs on Security
-      title: Microsoft Patch Tuesday, December 2025 Edition
-      url: https://krebsonsecurity.com/2025/12/microsoft-patch-tuesday-december-2025-edition/
-      published: 2025-12-09T23:18:29Z
