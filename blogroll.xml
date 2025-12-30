@@ -262,6 +262,9 @@
         htmlUrl="https://antonz.org" />
     </outline>
     <outline text="indiemedia" title="indiemedia">
+      <outline text="Internazionale" description="Internazionale"
+        xmlUrl="https://www.internazionale.it/sitemaps/rss.xml"
+        htmlUrl="https://www.internazionale.it" />
       <outline text="Jacobin Italia" title="Jacobin Italia" type="rss"
         xmlUrl="https://jacobinitalia.it/feed/" htmlUrl="https://jacobinitalia.it" />
       <outline text="Altreconomia" title="Altreconomia" description="" type="rss" version="RSS"
@@ -396,9 +399,9 @@
     </outline>
     <outline text="pg/db" title="pg/db">
       <outline text="Talking Postgres" description="Talking Postgres"
-      xmlUrl="https://feeds.transistor.fm/talkingpostgres" htmlUrl="https://talkingpostgres.com/"/>
+        xmlUrl="https://feeds.transistor.fm/talkingpostgres" htmlUrl="https://talkingpostgres.com/" />
       <outline text="postgres.fm" description="postgres.fm"
-      xmlUrl="https://feeds.transistor.fm/postgres-fm" htmlUrl="https://postgres.fm"/>
+        xmlUrl="https://feeds.transistor.fm/postgres-fm" htmlUrl="https://postgres.fm" />
       <outline text="boringsql" title="boringsql"
         xmlUrl="https://boringsql.com/atom.xml" htmlUrl="https://boringsql.com/atom.xml" />
       <outline text="Simon Notley" title="Simon Notley" type="rss"
@@ -613,7 +616,7 @@
     </outline>
     <outline text="security " title="security ">
       <outline text="evilsocket" description="evilsocket"
-      xmlUrl="https://www.evilsocket.net/atom.xml" htmlUrl="https://www.evilsocket.net"/>
+        xmlUrl="https://www.evilsocket.net/atom.xml" htmlUrl="https://www.evilsocket.net" />
       <outline text="Krebs on Security" title="Krebs on Security" description="" type="rss"
         version="RSS" htmlUrl="https://krebsonsecurity.com"
         xmlUrl="https://krebsonsecurity.com/feed/" />
