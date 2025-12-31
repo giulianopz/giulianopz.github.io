@@ -270,7 +270,8 @@ func getArticles(f opml.Outline, upperBound *time.Time) (articles []*article) {
 	}
 
 	for _, i := range feed.Items {
-		if !skip(i.Title) && i.PublishedParsed.After(*upperBound) {
+		title := stripCDATA(i.Title)
+		if !skip(title) && i.PublishedParsed.After(*upperBound) {
 			link := i.Link
 			if strings.HasPrefix(link, "/") {
 				l, err := url.JoinPath(f.HTMLURL, link)
@@ -284,7 +285,7 @@ func getArticles(f opml.Outline, upperBound *time.Time) (articles []*article) {
 				// override the RSS/Atom title with the UDF title in the OPML,
 				// this can help with merging togheter feeds of authors blogging from different sources
 				BlogName:  f.Text,
-				Title:     stripCDATA(i.Title),
+				Title:     title,
 				Url:       link,
 				Published: i.PublishedParsed,
 			})

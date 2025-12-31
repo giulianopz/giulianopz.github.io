@@ -221,10 +221,6 @@
       <outline text="Michael Stapelbergs" title="Michael Stapelbergs" description="" type="rss"
         version="RSS" htmlUrl="https://michael.stapelberg.ch/"
         xmlUrl="https://michael.stapelberg.ch/feed.xml" />
-      <outline text="Dolthub Engineering" title="Dolthub Engineering"
-        type="rss" version="RSS"
-        htmlUrl="https://www.dolthub.com/blog/"
-        xmlUrl="https://www.dolthub.com/blog/rss.xml" />
       <outline text="Ayke van Laëthem" title="Ayke van Laëthem"
         type="rss" version="RSS"
         htmlUrl="https://aykevl.nl/"
