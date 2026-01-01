@@ -52,26 +52,54 @@ gophers:
       url: https://golangweekly.com/issues/581
       published: 2025-12-03T00:00:00Z
 indiemedia:
+    - blogName: Altreconomia
+      title: Gli asili nido di Leonardo, Eni e Intesa Sanpaolo. Quando il welfare è nelle mani delle aziende
+      url: https://altreconomia.it/gli-asili-nido-di-leonardo-eni-e-intesa-sanpaolo-quando-il-welfare-e-nelle-mani-delle-aziende/
+      published: 2025-12-31T23:30:45Z
+    - blogName: Altreconomia
+      title: Semi del patriarcato
+      url: https://altreconomia.it/semi-del-patriarcato/
+      published: 2025-12-31T23:29:53Z
+    - blogName: Altreconomia
+      title: Monitor, osservatorio sul mondo (gennaio 2026)
+      url: https://altreconomia.it/monitor-osservatorio-sul-mondo-gennaio-2026/
+      published: 2025-12-31T23:28:48Z
+    - blogName: Osservatorio Repressione
+      title: 'Chiapas (Messico) 1 Gennaio 1994: La rivolta zapatista'
+      url: https://www.osservatoriorepressione.info/1-gennaio-1994-chiapas-messico/
+      published: 2025-12-31T23:01:20Z
     - blogName: Il Post
-      title: Non abbiamo sempre fatto il conto alla rovescia a Capodanno
-      url: https://www.ilpost.it/2025/12/31/conto-alla-rovescia-capodanno/
-      published: 2025-12-31T14:11:31Z
+      title: Trump dice che ritirerà la Guardia Nazionale da Chicago, Los Angeles e Portland
+      url: https://www.ilpost.it/2025/12/31/trump-annuncio-ritiro-guardia-nazionale/
+      published: 2025-12-31T22:26:28Z
     - blogName: Il Post
-      title: Le moto di Valentino Rossi e di altri piloti sequestrate in Messico a un presunto narcotrafficante
-      url: https://www.ilpost.it/flashes/moto-sequestrate-messico-valentino-rossi-marc-marquez-narcotrafficante-ryan-wedding/
-      published: 2025-12-31T13:56:56Z
+      title: A Roma un uomo è morto per l’esplosione di un petardo
+      url: https://www.ilpost.it/2025/12/31/roma-morto-petardo/
+      published: 2025-12-31T21:05:28Z
     - blogName: Il Post
-      title: Senza di te
-      url: https://www.ilpost.it/2025/12/31/morti-2025/
-      published: 2025-12-31T13:47:13Z
+      title: Il discorso di Mattarella è stato più nostalgico e cupo del solito
+      url: https://www.ilpost.it/2025/12/31/mattarella-discorso-fine-anno-2025/
+      published: 2025-12-31T20:17:55Z
+    - blogName: Fascinazione
+      title: Era un leader europeo il russo caduto combattendo per l'Ucraina
+      url: http://www.fascinazione.info/2025/12/era-un-leader-europeo-il-russo-caduto.html
+      published: 2025-12-31T16:00:00.001Z
+    - blogName: DINAMOpress
+      title: Il conflitto del linguaggio
+      url: https://www.dinamopress.it/news/il-conflitto-del-linguaggio/?utm_source=rss&utm_medium=rss&utm_campaign=il-conflitto-del-linguaggio
+      published: 2025-12-31T15:35:37Z
+    - blogName: DINAMOpress
+      title: 'Quando la sopravvivenza non basta più: il ritorno della lotta per la vita in Iran'
+      url: https://www.dinamopress.it/news/quando-la-sopravvivenza-non-basta-piu-il-ritorno-della-lotta-per-la-vita-in-iran/?utm_source=rss&utm_medium=rss&utm_campaign=quando-la-sopravvivenza-non-basta-piu-il-ritorno-della-lotta-per-la-vita-in-iran
+      published: 2025-12-31T15:07:36Z
+    - blogName: Fascinazione
+      title: Ma nessuno si è accorto del grande evento Hammerskin a Lonate Pozzolo
+      url: http://www.fascinazione.info/2025/12/ma-nessuno-si-e-accorto-del-grande.html
+      published: 2025-12-31T14:52:00.001Z
     - blogName: Jacobin Italia
       title: I 10 articoli più letti del 2025 su Jacobinitalia.it
       url: https://jacobinitalia.it/i-10-articoli-piu-letti-del-2025-su-jacobinitalia-it/
       published: 2025-12-31T09:44:49Z
-    - blogName: Altreconomia
-      title: Riparare violini in Cisgiordania per portare musica nelle scuole e nei campi rifugiati
-      url: https://altreconomia.it/riparare-violini-in-cisgiordania-per-portare-musica-nelle-scuole-e-nei-campi-rifugiati/
-      published: 2025-12-31T06:25:35Z
     - blogName: Internazionale
       title: Dovrei dire al marito della mia amica che lei ha un’altra relazione?
       url: https://www.internazionale.it/notizie/kwame-anthony-appiah/2025/12/31/dovrei-dire-al-marito-della-mia-amica-che-lei-ha-un-altra-relazione
@@ -80,10 +108,6 @@ indiemedia:
       title: Il mondo nascosto da una valanga di parole
       url: https://www.internazionale.it/notizie/kit-wilson/2025/12/31/leggiamo-troppo
       published: 2025-12-31T06:20:10Z
-    - blogName: Altreconomia
-      title: Il neocolonialismo di African parks e i “Cattivi custodi” della salvaguardia della natura
-      url: https://altreconomia.it/il-neocolonialismo-di-african-parks-e-i-cattivi-custodi-della-salvaguardia-della-natura/
-      published: 2025-12-31T06:18:36Z
     - blogName: Appunti di Stefano Feltri
       title: Le bufale putiniane di Conte
       url: https://appunti.substack.com/p/le-bufale-putiniane-di-conte
@@ -92,10 +116,6 @@ indiemedia:
       title: Le aziende italiane scelgono gli Stati Uniti nonostante i dazi
       url: https://www.internazionale.it/notizie/eric-albert/2025/12/31/le-imprese-italiane-preferiscono-gli-stati-uniti-nonostante-i-dazi
       published: 2025-12-31T06:00:59Z
-    - blogName: Altreconomia
-      title: 'La “macchina da soldi” di Brook House: gli affari di Serco nel Regno Unito sulla pelle dei migranti'
-      url: https://altreconomia.it/la-macchina-da-soldi-di-brook-house-gli-affari-di-serco-nel-regno-unito-sulla-pelle-dei-migranti/
-      published: 2025-12-31T03:33:00Z
     - blogName: Osservatorio Repressione
       title: 31 dicembre 1968 – Capodanno alla Bussola di Viareggio, la polizia spara
       url: https://www.osservatoriorepressione.info/1-gennaio-1969-viareggio/
@@ -112,10 +132,6 @@ indiemedia:
       title: 'Best of Appunti: Viaggio dentro una nuova egemonia'
       url: https://appunti.substack.com/p/best-of-appunti-viaggio-dentro-una
       published: 2025-12-30T14:30:41Z
-    - blogName: Osservatorio Repressione
-      title: 'Solidarietà sotto processo: Israele comanda, l’Italia obbedisce'
-      url: https://www.osservatoriorepressione.info/solidarieta-sotto-processo-israele-comanda-litalia-obbedisce/
-      published: 2025-12-30T08:21:31Z
     - blogName: Appunti di Stefano Feltri
       title: Il referendum sarà sul governo
       url: https://appunti.substack.com/p/il-referendum-sara-sul-governo
@@ -152,14 +168,6 @@ indiemedia:
       title: 'CasaPound: dentro la setta (2 di 2)'
       url: https://sedestra.substack.com/p/casapound-dentro-la-setta-2-di-2
       published: 2025-12-23T08:00:10Z
-    - blogName: DINAMOpress
-      title: Il diritto alla casa in Spagna tra turismo, speculazione e conflitto sociale
-      url: https://www.dinamopress.it/news/il-diritto-alla-casa-in-spagna-tra-turismo-speculazione-e-conflitto-sociale/?utm_source=rss&utm_medium=rss&utm_campaign=il-diritto-alla-casa-in-spagna-tra-turismo-speculazione-e-conflitto-sociale
-      published: 2025-12-23T03:20:06Z
-    - blogName: DINAMOpress
-      title: 'Anita, memoria viva: la nostra lotta è per la vita'
-      url: https://www.dinamopress.it/news/anita-memoria-viva-la-nostra-lotta-e-per-la-vita/?utm_source=rss&utm_medium=rss&utm_campaign=anita-memoria-viva-la-nostra-lotta-e-per-la-vita
-      published: 2025-12-23T03:19:44Z
     - blogName: IrpiMedia
       title: Newsroom –  Come le armi sono entrate nei fondi “verdi” europei e italiani
       url: https://irpimedia.irpi.eu/newsroom-italia-fondi-sostenibili-armi/?utm_source=rss&utm_medium=rss&utm_campaign=newsroom-italia-fondi-sostenibili-armi
@@ -200,15 +208,11 @@ indiemedia:
       title: Make Europe Great Again
       url: https://complotti.substack.com/p/make-europe-great-again
       published: 2025-12-13T09:30:46Z
-    - blogName: Fascinazione
-      title: 'Maria Carola delle Chiaie:  ora finirà la lunga storia della persecuzione di Avanguardia?'
-      url: http://www.fascinazione.info/2025/12/pista-nera-capaci-quanto-vale-scarpinato.html
-      published: 2025-12-13T09:05:00.001Z
-    - blogName: Fascinazione
-      title: 12 dicembre,  il saggio di Grispigni contro l'abuso di "strategia della tensione"
-      url: http://www.fascinazione.info/2025/12/12-dicembre-il-saggio-di-grispigni.html
-      published: 2025-12-12T10:59:00Z
 ita:
+    - blogName: OperaViva Magazine
+      title: Una vocazione rivoluzionaria permanente
+      url: https://operavivamagazine.org/una-vocazione-rivoluzionaria-permanente/
+      published: 2025-12-31T15:01:12Z
     - blogName: Machina
       title: Moscografie, Manufatto poetico 28
       url: https://www.machina-deriveapprodi.com/post/moscografie-manufatto-poetico-28
@@ -525,10 +529,6 @@ ita:
       title: Modelli inutili
       url: https://guidovetere.nova100.ilsole24ore.com/2025/12/16/modelli-inutili/
       published: 2025-12-16T17:10:07Z
-    - blogName: OperaViva Magazine
-      title: Estasi e scrittura
-      url: https://operavivamagazine.org/estasi-e-scrittura/
-      published: 2025-12-16T08:00:33Z
     - blogName: Fata Morgana Web
       title: Lo spaesamento di essere nel mondo
       url: https://www.fatamorganaweb.it/lo-spaesamento-di-essere-nel-mondo/
@@ -602,6 +602,10 @@ pg/db:
       title: 'CloudNativePG in 2025: CNCF Sandbox, PostgreSQL 18, and a new era for extensions'
       url: https://www.gabrielebartolini.it/articles/2025/12/cloudnativepg-in-2025-cncf-sandbox-postgresql-18-and-a-new-era-for-extensions/
       published: 2025-12-31T11:50:58Z
+    - blogName: eatonphil
+      title: Year in community
+      url: http://notes.eatonphil.com/2025-12-31-year-in-community.html
+      published: 2025-12-31T00:00:00Z
     - blogName: Small Datum
       title: Performance for RocksDB 9.8 through 10.10 on 8-core and 48-core servers
       url: https://smalldatum.blogspot.com/2025/12/performance-for-rocksdb-98-through-1010.html
@@ -834,11 +838,27 @@ pg/db:
       title: 'What is better: a lookup table or an enum type?'
       url: https://www.cybertec-postgresql.com/en/lookup-table-or-enum-type/
       published: 2025-12-02T11:01:12Z
-    - blogName: Unleashing the Power of Postgres in Kubernetes
-      title: CNPG Recipe 23 - Managing extensions with ImageVolume in CloudNativePG
-      url: https://www.gabrielebartolini.it/articles/2025/12/cnpg-recipe-23-managing-extensions-with-imagevolume-in-cloudnativepg/
-      published: 2025-12-01T20:35:11Z
 programming:
+    - blogName: Matt Godbolt's blog
+      title: 2025 in Review
+      url: http://xania.org/202512/2025-in-review?utm_source=feed&utm_medium=rss
+      published: 2025-12-31T21:30:00Z
+    - blogName: 'Tedium: The Dull Side of the Internet.'
+      title: The Accidental Blockbuster
+      url: https://feed.tedium.co/link/15204/17244623/best-feature-story-2025-white-house-signal-leak
+      published: 2025-12-31T17:14:07Z
+    - blogName: Bits from Debian
+      title: DebConf26 dates announced
+      url: https://bits.debian.org/2025/12/debconf26_dates.html
+      published: 2025-12-31T17:00:00Z
+    - blogName: antirez
+      title: vlog del 31 dicembre 2025
+      url: https://www.youtube.com/watch?v=wflMY8KziBI
+      published: 2025-12-31T16:51:17Z
+    - blogName: LWN.net
+      title: Shadow-utils 4.19.0 released
+      url: https://lwn.net/Articles/1052435/
+      published: 2025-12-31T15:43:21Z
     - blogName: LWN.net
       title: Security updates for Wednesday
       url: https://lwn.net/Articles/1052425/
@@ -859,10 +879,6 @@ programming:
       title: Conditions in the Intel 8087 floating-point chip's microcode
       url: http://www.righto.com/2025/12/8087-microcode-conditions.html
       published: 2025-12-30T18:00:00Z
-    - blogName: LWN.net
-      title: Security updates for Tuesday
-      url: https://lwn.net/Articles/1052327/
-      published: 2025-12-30T14:00:02Z
     - blogName: 'Tedium: The Dull Side of the Internet.'
       title: A Complex Case For Empathy
       url: https://feed.tedium.co/link/15204/17243699/lindsay-ellis-best-online-video-2025
@@ -951,10 +967,6 @@ programming:
       title: Winner, Name That Ware November 2025
       url: https://www.bunniestudios.com/blog/2025/winner-name-that-ware-november-2025/
       published: 2025-12-25T10:59:48Z
-    - blogName: antirez
-      title: 'La gente chiede tutto alle AI: perché non ha scelta'
-      url: https://www.youtube.com/watch?v=KGlkNmKLEWs
-      published: 2025-12-25T08:00:23Z
     - blogName: Matt Godbolt's blog
       title: When compilers surprise you
       url: http://xania.org/202512/24-cunning-clang?utm_source=feed&utm_medium=rss
@@ -971,10 +983,6 @@ programming:
       title: A curl 2025 review
       url: https://daniel.haxx.se/blog/2025/12/23/a-curl-2025-review/
       published: 2025-12-23T12:00:18Z
-    - blogName: Matt Godbolt's blog
-      title: Switching it up a bit
-      url: http://xania.org/202512/23-switching-it-up?utm_source=feed&utm_medium=rss
-      published: 2025-12-23T12:00:00Z
     - blogName: Bert Hubert
       title: The European Cloud Situation at the end of 2025
       url: https://berthub.eu/articles/posts/the-european-cloud-2025/
@@ -991,10 +999,6 @@ programming:
       title: 'Advent of Slop: A Guest Post by Claude'
       url: https://lucumr.pocoo.org/2025/12/23/advent-of-slop/
       published: 2025-12-23T00:00:00Z
-    - blogName: 'Tedium: The Dull Side of the Internet.'
-      title: Beyond The Last Minute
-      url: https://feed.tedium.co/link/15204/17239895/tedium-gift-guide-2025
-      published: 2025-12-22T18:16:52Z
     - blogName: Internals for Interns
       title: The Query Planner
       url: https://internals-for-interns.com/posts/postgres-query-planner/
@@ -1176,6 +1180,10 @@ programming:
       url: https://blog.silvela.org/post/2025-12-02-zombie-mac/
       published: 2025-12-02T11:56:51Z
 'security ':
+    - blogName: 'The Register - Security: Cyber-crime'
+      title: European Space Agency hit again as cybercrims claim 200 GB data up for sale
+      url: https://go.theregister.com/feed/www.theregister.com/2025/12/31/european_space_agency_hacked/
+      published: 2025-12-31T16:55:48Z
     - blogName: Schneier on Security
       title: LinkedIn Job Scams
       url: https://www.schneier.com/blog/archives/2025/12/linkedin-job-scams.html
@@ -1192,10 +1200,6 @@ programming:
       title: Using AI-Generated Images to Get Refunds
       url: https://www.schneier.com/blog/archives/2025/12/using-ai-generated-images-to-get-refunds.html
       published: 2025-12-30T12:02:01Z
-    - blogName: 'The Register - Security: Cyber-crime'
-      title: Korean telco failed at femtocell security, exposed customers to snooping and fraud
-      url: https://go.theregister.com/feed/www.theregister.com/2025/12/30/kt_telecom_femtocell_security_fail/
-      published: 2025-12-30T03:34:46Z
     - blogName: Krebs on Security
       title: Happy 16th Birthday, KrebsOnSecurity.com!
       url: https://krebsonsecurity.com/2025/12/happy-16th-birthday-krebsonsecurity-com/
