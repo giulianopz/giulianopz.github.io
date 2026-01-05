@@ -1,4 +1,12 @@
 gophers:
+    - blogName: Anton Zhiyanov
+      title: Fear is not advocacy
+      url: https://antonz.org/ai-advocacy/
+      published: 2026-01-04T12:00:00Z
+    - blogName: Michael Stapelbergs
+      title: Can I finally start using Wayland in 2026?
+      url: https://michael.stapelberg.ch/posts/2026-01-04-wayland-sway-in-2026/
+      published: 2026-01-04T07:55:00Z
     - blogName: Eli Bendersky
       title: 'Summary of reading: October - December 2025'
       url: https://eli.thegreenplace.net/2025/summary-of-reading-october-december-2025/
@@ -23,10 +31,6 @@ gophers:
       title: '''Better C'' playgrounds'
       url: https://antonz.org/better-c/
       published: 2025-12-26T19:00:00Z
-    - blogName: Anton Zhiyanov
-      title: 'Go feature: Modernized go fix'
-      url: https://antonz.org/accepted/modernized-go-fix/
-      published: 2025-12-20T16:00:00Z
     - blogName: Eli Bendersky
       title: 'Plugins case study: mdBook preprocessors'
       url: https://eli.thegreenplace.net/2025/plugins-case-study-mdbook-preprocessors/
@@ -53,21 +57,37 @@ gophers:
       published: 2025-12-09T00:00:00Z
 indiemedia:
     - blogName: Osservatorio Repressione
-      title: 'Sciacca (Agrigento) 4 gennaio 1947: La mafia uccide il sindacalista Accursio Miraglia'
-      url: https://www.osservatoriorepressione.info/4-gennaio-1947-sciacca-agrigento/
-      published: 2026-01-03T23:01:27Z
+      title: '5 gennaio 1937: Muore Guido Picelli'
+      url: https://www.osservatoriorepressione.info/5-gennaio-1937-muore-guido-picelli/
+      published: 2026-01-04T23:07:16Z
     - blogName: Il Post
-      title: Luke Littler ha vinto i Mondiali di freccette, di nuovo
-      url: https://www.ilpost.it/2026/01/03/luke-littler-mondiali-freccette-2025-vittoria/
-      published: 2026-01-03T21:35:53Z
+      title: È morto a 94 anni il giurista Francesco Paolo Casavola, presidente della Corte costituzionale tra il 1992 e il 1995
+      url: https://www.ilpost.it/2026/01/04/francesco-paolo-casavola-morto/
+      published: 2026-01-04T20:58:50Z
     - blogName: Il Post
-      title: Trump ha detto molto e molto poco sul futuro del Venezuela
-      url: https://www.ilpost.it/2026/01/03/stati-uniti-governeranno-venezuela-discorso-trump/
-      published: 2026-01-03T18:47:49Z
+      title: Tutte le 40 persone morte nell’incendio di Crans-Montana sono state identificate
+      url: https://www.ilpost.it/2026/01/04/morti-crans-montana-svizzera-identificati/
+      published: 2026-01-04T20:18:53Z
     - blogName: Il Post
-      title: La Grecia ha fatto fuori i suoi studenti fuori corso
-      url: https://www.ilpost.it/2026/01/03/grecia-studenti-universitari-fuori-corso/
-      published: 2026-01-03T17:10:10Z
+      title: Perché l’attacco degli Stati Uniti contro il Venezuela è illegale
+      url: https://www.ilpost.it/2026/01/04/attacco-venezuela-illegale/
+      published: 2026-01-04T18:10:48Z
+    - blogName: Osservatorio Repressione
+      title: Moderna caccia alle streghe e roghi. Il malleus maleficarum 2.0
+      url: https://www.osservatoriorepressione.info/moderna-caccia-alle-streghe-e-roghi-il-malleus-maleficarum-2-0/
+      published: 2026-01-04T11:18:55Z
+    - blogName: Osservatorio Repressione
+      title: Dalle carceri a Gaza, Israele stringe la morsa sui palestinesi
+      url: https://www.osservatoriorepressione.info/dalle-carceri-a-gaza-israele-stringe-la-morsa-sui-palestinesi/
+      published: 2026-01-04T09:28:25Z
+    - blogName: Jacobin Italia
+      title: Un amaro per Spiriti resistenti
+      url: https://jacobinitalia.it/un-amaro-per-spiriti-resistenti/
+      published: 2026-01-04T08:47:00Z
+    - blogName: Altreconomia
+      title: Attacco al Venezuela. La potentissima dimostrazione di debolezza di Trump
+      url: https://altreconomia.it/attacco-al-venezuela-la-potentissima-dimostrazione-di-debolezza-di-trump/
+      published: 2026-01-04T08:15:21Z
     - blogName: DINAMOpress
       title: Un nuovo internazionalismo contro l’aggressione statunitense in Venezuela
       url: https://www.dinamopress.it/news/un-nuovo-internazionalismo-contro-laggressione-statunitense-in-venezuela/?utm_source=rss&utm_medium=rss&utm_campaign=un-nuovo-internazionalismo-contro-laggressione-statunitense-in-venezuela
@@ -76,18 +96,10 @@ indiemedia:
       title: Trump, il Nobel della guerra
       url: https://jacobinitalia.it/trump-il-nobel-della-guerra/
       published: 2026-01-03T16:47:13Z
-    - blogName: Osservatorio Repressione
-      title: La lince e gli abusi delle forze di polizia
-      url: https://www.osservatoriorepressione.info/la-lince-e-gli-abusi-delle-forze-di-polizia/
-      published: 2026-01-03T16:23:53Z
     - blogName: Romattiva
       title: Presidio@AmbasciataUSA 3/1
       url: https://www.romattiva.org/presidioambasciatausa-3-1/
       published: 2026-01-03T15:06:51Z
-    - blogName: Osservatorio Repressione
-      title: La trasformazione della solidarietà in terrorismo
-      url: https://www.osservatoriorepressione.info/la-trasformazione-della-solidarieta-in-terrorismo/
-      published: 2026-01-03T15:00:25Z
     - blogName: Fascinazione
       title: '"Tu chiamala se vuoi rivoluzione", l''ultimo testo di Gabriele Adinolfi'
       url: http://www.fascinazione.info/2026/01/tu-chiamala-se-vuoi-rivoluzione-lultimo.html
@@ -108,10 +120,6 @@ indiemedia:
       title: Le notizie sulla strage di Crans-Montana
       url: https://www.internazionale.it/ultime-notizie/2026/01/02/le-notizie-sulla-strage-di-crans-montana
       published: 2026-01-02T10:59:46Z
-    - blogName: Jacobin Italia
-      title: L’opportunità Mamdani
-      url: https://jacobinitalia.it/lopportunita-mamdani/
-      published: 2026-01-02T10:45:56Z
     - blogName: Fascinazione
       title: La resurrezione di Kapustin e il suo corpo di volontari
       url: http://www.fascinazione.info/2025/12/era-un-leader-europeo-il-russo-caduto.html
@@ -128,10 +136,6 @@ indiemedia:
       title: Semi del patriarcato
       url: https://altreconomia.it/semi-del-patriarcato/
       published: 2025-12-31T23:29:53Z
-    - blogName: Altreconomia
-      title: Monitor, osservatorio sul mondo (gennaio 2026)
-      url: https://altreconomia.it/monitor-osservatorio-sul-mondo-gennaio-2026/
-      published: 2025-12-31T23:28:48Z
     - blogName: DINAMOpress
       title: Il conflitto del linguaggio
       url: https://www.dinamopress.it/news/il-conflitto-del-linguaggio/?utm_source=rss&utm_medium=rss&utm_campaign=il-conflitto-del-linguaggio
@@ -209,6 +213,46 @@ indiemedia:
       url: https://complotti.substack.com/p/make-europe-great-again
       published: 2025-12-13T09:30:46Z
 ita:
+    - blogName: Snaporaz
+      title: Il signore delle antitesi. Breve escursione nella “Montagna magica”
+      url: https://www.snaporaz.online/il-signore-delle-antitesi-breve-escursione-nella-montagna-magica/
+      published: 2026-01-04T23:47:06Z
+    - blogName: Giap
+      title: Calendario generale di Wu Ming, gennaio-febbraio 2026
+      url: https://www.wumingfoundation.com/giap/2026/01/calendario-generale-di-wu-ming-gennaio-febbraio-2026/
+      published: 2026-01-04T23:00:20Z
+    - blogName: Carmilla Online
+      title: Il noir italiano prima e dopo Scerbanenco
+      url: https://www.carmillaonline.com/2026/01/04/il-noir-italiano-prima-e-dopo-scerbanenco/
+      published: 2026-01-04T21:00:33Z
+    - blogName: Paolo Nori
+      title: A fare
+      url: https://www.paolonori.it/a-fare-2/
+      published: 2026-01-04T12:19:44Z
+    - blogName: Fata Morgana Web
+      title: In cammino con Zalone
+      url: https://www.fatamorganaweb.it/buen-camino-gennaro-nunziante/
+      published: 2026-01-04T12:09:24Z
+    - blogName: Fata Morgana Web
+      title: Il lavoro come esperienza filosofica
+      url: https://www.fatamorganaweb.it/il-lavoro-come-esperienza-filosofica/
+      published: 2026-01-04T12:06:14Z
+    - blogName: Tintoria
+      title: 'LA RADIO DI CONDOMINIO ft. Roberto Giacobbo #tintoria #comedy #tintoriapodcast'
+      url: https://www.youtube.com/shorts/1jMw98PbTYU
+      published: 2026-01-04T11:30:03Z
+    - blogName: The Submarine
+      title: Donald Trump annuncia il golpe senza averlo fatto
+      url: https://www.thesubmarine.it/2026/01/04/donald-trump-annuncia-il-golpe-senza-averlo-fatto/
+      published: 2026-01-04T10:02:13Z
+    - blogName: Paolo Nori
+      title: Accidenti
+      url: https://www.paolonori.it/accidenti-6/
+      published: 2026-01-04T08:14:40Z
+    - blogName: Nazione Indiana
+      title: Opera
+      url: https://www.nazioneindiana.com/2026/01/04/opera/
+      published: 2026-01-04T06:00:57Z
     - blogName: Carmilla Online
       title: La coscienza di Gustav (appunti meyrinkiani) 15
       url: https://www.carmillaonline.com/2026/01/03/la-coscienza-di-gustav-appunti-meyrinkiani-15/
@@ -229,10 +273,6 @@ ita:
       title: 11 gennaio – Sassari
       url: https://www.paolonori.it/11-gennaio-sassari/
       published: 2026-01-03T06:48:47Z
-    - blogName: Paolo Nori
-      title: Trovare la sedia 5
-      url: https://www.paolonori.it/trovare-la-sedia-5-2/
-      published: 2026-01-03T06:33:53Z
     - blogName: Nazione Indiana
       title: 'les nouveaux réalistes: Deborah Guarnieri'
       url: https://www.nazioneindiana.com/2026/01/03/les-nouveaux-realistes-deborah-guarnieri/
@@ -277,10 +317,6 @@ ita:
       title: Il CCNL è morto. L’Irpef paga il funerale
       url: https://phastidio.net/2026/01/02/il-ccnl-e-morto-lirpef-paga-il-funerale/
       published: 2026-01-02T08:30:00Z
-    - blogName: Paolo Nori
-      title: Non so
-      url: https://www.paolonori.it/non-so-8/
-      published: 2026-01-02T07:30:26Z
     - blogName: Nazione Indiana
       title: Profezia è Predire il Presente
       url: https://www.nazioneindiana.com/2026/01/02/profezia-e-predire-il-presente/
@@ -289,18 +325,10 @@ ita:
       title: Se per caso vi è sfuggito
       url: https://www.snaporaz.online/se-per-caso-vi-e-sfuggito-19/
       published: 2026-01-02T00:48:19Z
-    - blogName: Carmilla Online
-      title: La Sinistra Negata 08
-      url: https://www.carmillaonline.com/2026/01/01/la-sinistra-negata-08/
-      published: 2026-01-01T22:55:34Z
     - blogName: Effimera
       title: 'La legge di bilancio 2026: l’austerità come preludio al riarmo – di Andrea Fumagalli'
       url: https://effimera.org/la-legge-di-bilancio-2026-lausterita-come-preludio-al-riarmo-di-andrea-fumagalli/
       published: 2026-01-01T17:36:21Z
-    - blogName: Nazione Indiana
-      title: 'AzioneAtzeni – Discanto Diciottesimo: Bachisio Bachis'
-      url: https://www.nazioneindiana.com/2026/01/01/azioneatzeni-discanto-diciottesimo-bachisio-bachis/
-      published: 2026-01-01T13:00:14Z
     - blogName: Francesco Sylos Labini
       title: La Cina e noi
       url: https://francescosyloslabini.info/2026/01/01/la-cina-e-noi/
@@ -333,10 +361,6 @@ ita:
       title: Europa e Usa divisi anche sulla gestione degli aeroporti
       url: https://lavoce.info/archives/109882/europa-e-usa-divisi-anche-sulla-gestione-degli-aeroporti/
       published: 2025-12-31T10:00:00Z
-    - blogName: The Submarine
-      title: Il miliardario da incubo che metterà le mani sull’ex Ilva
-      url: https://www.thesubmarine.it/2025/12/31/il-miliardario-da-incubo-che-mettera-le-mani-sullex-ilva/
-      published: 2025-12-31T09:41:31Z
     - blogName: Le parole e le cose
       title: Cosa ci aspetta domani. Dieci + dieci canzoni per salutare il primo quarto di secolo
       url: https://www.leparoleelecose.it/cosa-ci-aspetta-domani-dieci-dieci-canzoni-per-salutare-il-primo-quarto-di-secolo/
@@ -349,10 +373,6 @@ ita:
       title: 'Riforestazione: un’arma a doppio taglio da conoscere e gestire'
       url: https://www.scienzainrete.it/articolo/riforestazione-arma-doppio-taglio-da-conoscere-e-gestire/michele-vadilonga-gattermayer
       published: 2025-12-31T07:55:00Z
-    - blogName: Snaporaz
-      title: “Io non recitavo, io ero”. Brigitte Bardot
-      url: https://www.snaporaz.online/io-non-recitavo-io-ero-brigitte-bardot/
-      published: 2025-12-30T23:36:32Z
     - blogName: Effimera
       title: Firmare e fermare – di Gianni Giovannelli
       url: https://effimera.org/firmare-e-fermare-di-gianni-giovannelli/
@@ -365,10 +385,6 @@ ita:
       title: Forse per amore o solo per nostalgia
       url: https://www.fatamorganaweb.it/omaggio-a-whit-stillman-in-occasione-dell-inlaguna-film-festival/
       published: 2025-12-30T14:46:42Z
-    - blogName: Tintoria
-      title: 'Tintoria #285 Roberto Giacobbo'
-      url: https://www.youtube.com/watch?v=vV0wjwN44Mw
-      published: 2025-12-30T11:31:02Z
     - blogName: lavoce.info
       title: Non sprechiamo il talento delle donne
       url: https://lavoce.info/archives/109894/non-sprechiamo-il-talento-delle-donne/
@@ -449,14 +465,6 @@ ita:
       title: Consigli di lettura natalizi, e di fine 2025
       url: https://www.indiscreto.org/consigli-di-lettura-natalizi-e-di-fine-2025/
       published: 2025-12-23T11:09:28Z
-    - blogName: Giap
-      title: '«Tombolà» : continua la contaminazione tra circo, musica e letteratura'
-      url: https://www.wumingfoundation.com/giap/2025/12/tombola/
-      published: 2025-12-23T08:42:52Z
-    - blogName: Fata Morgana Web
-      title: I film e le serie TV del 2025
-      url: https://www.fatamorganaweb.it/i-film-e-le-serie-tv-del-2025/
-      published: 2025-12-22T11:02:30Z
     - blogName: Il Primo Amore
       title: I BASTARDI. ULTRACINEMA 1
       url: https://www.ilprimoamore.com/i-bastardi-ultracinema-1-a-cura-di-jonny-costantino/
@@ -529,10 +537,6 @@ ita:
       title: Modelli inutili
       url: https://guidovetere.nova100.ilsole24ore.com/2025/12/16/modelli-inutili/
       published: 2025-12-16T17:10:07Z
-    - blogName: Fata Morgana Web
-      title: Lo spaesamento di essere nel mondo
-      url: https://www.fatamorganaweb.it/lo-spaesamento-di-essere-nel-mondo/
-      published: 2025-12-15T23:06:16Z
     - blogName: Franco Berardi Bifo
       title: PPP in Pimpland
       url: https://francoberardi.substack.com/p/ppp-in-pimpland
@@ -581,15 +585,19 @@ ita:
       title: Link Molto Belli, l'Undicesimo
       url: https://linkmoltobelli.substack.com/p/link-molto-belli-lundicesimo
       published: 2025-12-06T07:34:35Z
-    - blogName: Ippolita
-      title: Crypto Party Narrazioni dissonanti, 11 dicembre, Bari
-      url: https://www.ippolita.net/crypo-party-narrazioni-dissonanti-11-dicembre-bari/
-      published: 2025-12-05T18:10:27Z
-    - blogName: Iconografie XXI
-      title: Elonpedia
-      url: https://www.iconografie.it/tempolinea/elonpedia/?utm_source=rss&utm_medium=rss&utm_campaign=elonpedia
-      published: 2025-12-05T08:39:41Z
 pg/db:
+    - blogName: Metadata
+      title: Too Close to Our Own Image?
+      url: https://muratbuffalo.blogspot.com/2026/01/too-close-to-our-own-image.html
+      published: 2026-01-04T19:13:00Z
+    - blogName: select * from depesz;
+      title: Waiting for PostgreSQL 19 – Implement ALTER TABLE … MERGE/SPLIT PARTITIONS … command
+      url: https://www.depesz.com/2026/01/04/waiting-for-postgresql-19-implement-alter-table-merge-split-partitions-command/
+      published: 2026-01-04T17:30:47Z
+    - blogName: eatonphil
+      title: Distinguishing yourself early in your career as a developer
+      url: http://notes.eatonphil.com/2026-01-03-distinguishing-yourself.html
+      published: 2026-01-03T00:00:00Z
     - blogName: Metadata
       title: 'The Agentic Self: Parallels Between AI and Self-Improvement'
       url: https://muratbuffalo.blogspot.com/2026/01/the-agentic-self-parallels-between-ai.html
@@ -638,10 +646,6 @@ pg/db:
       title: 'PostgreSQL Contributor Story: Manni Wood'
       url: https://enterprisedb.com/blog/postgresql-contributor-story-manni-wood
       published: 2025-12-29T08:59:33Z
-    - blogName: Metadata
-      title: Randomer Things
-      url: https://muratbuffalo.blogspot.com/2025/12/randomer-things.html
-      published: 2025-12-28T22:08:00Z
     - blogName: Nikita Lapkov
       title: Media Server Journey
       url: https://laplab.me/posts/media-server-journey/
@@ -806,15 +810,15 @@ pg/db:
       title: You Gotta Push If You Wanna Pull
       url: https://www.morling.dev/blog/you-gotta-push-if-you-wanna-pull/
       published: 2025-12-07T09:05:00Z
-    - blogName: 'Bruce Momjian: Postgres Blog'
-      title: A Meetup Quiz?
-      url: https://momjian.us/main/blogs/pgblog/2025.html#December_5_2025
-      published: 2025-12-05T18:30:01Z
-    - blogName: postgres.fm
-      title: max_connections vs migrations
-      url: https://share.transistor.fm/s/633a85e4
-      published: 2025-12-05T14:00:00Z
 programming:
+    - blogName: LWN.net
+      title: Kernel prepatch 6.19-rc4
+      url: https://lwn.net/Articles/1052732/
+      published: 2026-01-05T01:16:43Z
+    - blogName: antirez
+      title: Il mio nuovo Dell Latitude 7420
+      url: https://www.youtube.com/watch?v=bLFQOMjtB9k
+      published: 2026-01-04T17:23:14Z
     - blogName: Bert Hubert
       title: Unsigned char std::basic_string<> in C++
       url: https://berthub.eu/articles/posts/unsigned-char-std-string-cpp/
@@ -847,10 +851,6 @@ programming:
       title: 6.18.3 stable kernel released
       url: https://lwn.net/Articles/1052589/
       published: 2026-01-02T14:04:28Z
-    - blogName: LWN.net
-      title: Security updates for Friday
-      url: https://lwn.net/Articles/1052600/
-      published: 2026-01-02T14:03:05Z
     - blogName: antirez
       title: 'Divulgazione: l''intelligenza artificiale moderna, Spadafora (ME) 6 dicembre 2025'
       url: https://www.youtube.com/watch?v=5v9kQKrACg8
@@ -919,10 +919,6 @@ programming:
       title: Git's HTTP server side design does not scale
       url: https://xeiaso.net/notes/2025/distributed-git-ddos/
       published: 2025-12-29T00:00:00Z
-    - blogName: antirez
-      title: Statistiche del canale, aggiornamento di fine 2025
-      url: https://www.youtube.com/watch?v=-u_-5cG6pTQ
-      published: 2025-12-28T08:00:01Z
     - blogName: matklad
       title: Parsing Advances
       url: https://matklad.github.io/2025/12/28/parsing-advances.html
@@ -1127,10 +1123,6 @@ programming:
       title: After the Bubble
       url: https://www.tbray.org/ongoing/When/202x/2025/12/07/Thin-Spots-In-the-AI-Bubble
       published: 2025-12-07T20:00:00Z
-    - blogName: Recent Gists from yoavg
-      title: rl-wrong-about-rewards.md
-      url: https://gist.github.com/yoavg/3eb3e722d38e887a0a8ac151c62d9617
-      published: 2025-12-05T22:19:31Z
 'security ':
     - blogName: Schneier on Security
       title: 'Friday Squid Blogging: Squid Found in Light Fixture'
