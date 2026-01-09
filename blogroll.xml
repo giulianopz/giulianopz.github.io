@@ -6,6 +6,72 @@
   </head>
   <body>
     <outline text="programming" title="programming">
+      <outline text="Yossi Kreinin" description="Yossi Kreinin"
+        xmlUrl="https://www.yosefk.com/blog/feed" htmlUrl="https://www.yosefk.com/blog" />
+      <outline text="Filippo Valsorda" title="Filippo Valsorda" description="" type="rss"
+        version="RSS" htmlUrl="https://words.filippo.io/" xmlUrl="https://words.filippo.io/rss" />
+      <outline text="Ardan Labs" title="Ardan Labs"
+        type="rss" version="RSS"
+        htmlUrl="https://www.ardanlabs.com/blog/"
+        xmlUrl="https://www.ardanlabs.com/blog/index.xml" />
+      <outline text="Cloudflare Blog (Go)" title="Cloudflare Blog"
+        type="rss" version="RSS"
+        htmlUrl="https://blog.cloudflare.com/tag/go/"
+        xmlUrl="https://blog.cloudflare.com/tag/go/rss/" />
+      <outline text="Phil Pearl" title="Phil Pearl"
+        type="rss" version="RSS"
+        htmlUrl="https://philpearl.github.io/"
+        xmlUrl="https://philpearl.github.io/index.xml" />
+      <outline text="Matt Layher" title="Matt Layher"
+        type="rss" version="RSS"
+        htmlUrl="https://mdlayher.com/blog/"
+        xmlUrl="https://mdlayher.com/blog/index.xml" />
+      <outline text="Felix Geisendörfer" title="Felix Geisendörfer"
+        type="rss" version="RSS"
+        htmlUrl="https://blog.felixge.de/"
+        xmlUrl="https://blog.felixge.de/index.xml" />
+      <outline text="Chris Siebenmann" title="Chris Siebenmann"
+        type="rss" version="RSS"
+        htmlUrl="https://utcc.utoronto.ca/~cks/space/blog/"
+        xmlUrl="https://utcc.utoronto.ca/~cks/space/blog/?atom" />
+      <outline text="Michael Stapelbergs" title="Michael Stapelbergs" description="" type="rss"
+        version="RSS" htmlUrl="https://michael.stapelberg.ch/"
+        xmlUrl="https://michael.stapelberg.ch/feed.xml" />
+      <outline text="Ayke van Laëthem" title="Ayke van Laëthem"
+        type="rss" version="RSS"
+        htmlUrl="https://aykevl.nl/"
+        xmlUrl="https://aykevl.nl/index.xml" />
+      <outline text="Josh Bleecher Snyder" title="Josh Bleecher Snyder"
+        type="rss" version="RSS"
+        htmlUrl="https://commaok.xyz/"
+        xmlUrl="https://commaok.xyz/index.xml" />
+      <outline text="Devtrovert" title="Devtrovert" description="" type="rss" version="RSS"
+        htmlUrl="https://blog.devtrovert.com" xmlUrl="https://blog.devtrovert.com/feed" />
+      <outline text="Don't Panic" title="Don't Panic" description="" type="rss" version="RSS"
+        htmlUrl="https://commaok.xyz/" xmlUrl="https://commaok.xyz/index.xml" />
+      <outline text="Dave Cheney" title="Dave Cheney" description="" type="rss" version="RSS"
+        htmlUrl="https://dave.cheney.net" xmlUrl="https://dave.cheney.net/feed" />
+      <outline text="Golang Weekly" title="Golang Weekly" description="" type="rss" version="RSS"
+        htmlUrl="https://golangweekly.com/" xmlUrl="https://golangweekly.com/rss/" />
+      <outline text="The Go Blog" title="The Go Blog" description="" type="rss" version="RSS"
+        htmlUrl="" xmlUrl="http://blog.golang.org/feed.atom" />
+      <outline text="command center" title="command center" description="" type="rss" version="RSS"
+        htmlUrl="https://commandcenter.blogspot.com/"
+        xmlUrl="https://commandcenter.blogspot.com/feeds/posts/default?alt=rss" />
+      <outline text="research!rsc" title="research!rsc" description="" type="rss" version="RSS"
+        htmlUrl="" xmlUrl="https://research.swtch.com/feed.atom" />
+      <outline text="Eli Bendersky" title="Eli Bendersky" description="" type="rss" version="RSS"
+        htmlUrl="https://eli.thegreenplace.net/"
+        xmlUrl="https://eli.thegreenplace.net/feeds/all.atom.xml" />
+      <outline text="Airs – Ian Lance Taylor" title="Airs – Ian Lance Taylor" description=""
+        type="rss" version="RSS" htmlUrl="https://www.airs.com/blog"
+        xmlUrl="https://www.airs.com/blog/feed" />
+      <outline text="Dmitri Shuralyov" title="Dmitri Shuralyov" description="" type="rss"
+        version="RSS" htmlUrl="https://dmitri.shuralyov.com/blog"
+        xmlUrl="https://dmitri.shuralyov.com/blog.json" />
+      <outline text="Anton Zhiyanov" title="Anton Zhiyanov"
+        type="rss" xmlUrl="https://antonz.org/all/index.xml"
+        htmlUrl="https://antonz.org" />
       <outline text="AndreaS Kling"
         title="AndreaS Kling" type="rss"
         xmlUrl="https://awesomekling.github.io/feed.xml"
@@ -190,72 +256,6 @@
         title="Justin Cormack" type="rss"
         xmlUrl="https://buttondown.com/justincormack/rss"
         htmlUrl="https://buttondown.com/justincormack" />
-    </outline>
-    <outline text="gophers" title="gophers">
-      <outline text="Filippo Valsorda" title="Filippo Valsorda" description="" type="rss"
-        version="RSS" htmlUrl="https://words.filippo.io/" xmlUrl="https://words.filippo.io/rss" />
-      <outline text="Ardan Labs" title="Ardan Labs"
-        type="rss" version="RSS"
-        htmlUrl="https://www.ardanlabs.com/blog/"
-        xmlUrl="https://www.ardanlabs.com/blog/index.xml" />
-      <outline text="Cloudflare Blog (Go)" title="Cloudflare Blog"
-        type="rss" version="RSS"
-        htmlUrl="https://blog.cloudflare.com/tag/go/"
-        xmlUrl="https://blog.cloudflare.com/tag/go/rss/" />
-      <outline text="Phil Pearl" title="Phil Pearl"
-        type="rss" version="RSS"
-        htmlUrl="https://philpearl.github.io/"
-        xmlUrl="https://philpearl.github.io/index.xml" />
-      <outline text="Matt Layher" title="Matt Layher"
-        type="rss" version="RSS"
-        htmlUrl="https://mdlayher.com/blog/"
-        xmlUrl="https://mdlayher.com/blog/index.xml" />
-      <outline text="Felix Geisendörfer" title="Felix Geisendörfer"
-        type="rss" version="RSS"
-        htmlUrl="https://blog.felixge.de/"
-        xmlUrl="https://blog.felixge.de/index.xml" />
-      <outline text="Chris Siebenmann" title="Chris Siebenmann"
-        type="rss" version="RSS"
-        htmlUrl="https://utcc.utoronto.ca/~cks/space/blog/"
-        xmlUrl="https://utcc.utoronto.ca/~cks/space/blog/?atom" />
-      <outline text="Michael Stapelbergs" title="Michael Stapelbergs" description="" type="rss"
-        version="RSS" htmlUrl="https://michael.stapelberg.ch/"
-        xmlUrl="https://michael.stapelberg.ch/feed.xml" />
-      <outline text="Ayke van Laëthem" title="Ayke van Laëthem"
-        type="rss" version="RSS"
-        htmlUrl="https://aykevl.nl/"
-        xmlUrl="https://aykevl.nl/index.xml" />
-      <outline text="Josh Bleecher Snyder" title="Josh Bleecher Snyder"
-        type="rss" version="RSS"
-        htmlUrl="https://commaok.xyz/"
-        xmlUrl="https://commaok.xyz/index.xml" />
-      <outline text="Devtrovert" title="Devtrovert" description="" type="rss" version="RSS"
-        htmlUrl="https://blog.devtrovert.com" xmlUrl="https://blog.devtrovert.com/feed" />
-      <outline text="Don't Panic" title="Don't Panic" description="" type="rss" version="RSS"
-        htmlUrl="https://commaok.xyz/" xmlUrl="https://commaok.xyz/index.xml" />
-      <outline text="Dave Cheney" title="Dave Cheney" description="" type="rss" version="RSS"
-        htmlUrl="https://dave.cheney.net" xmlUrl="https://dave.cheney.net/feed" />
-      <outline text="Golang Weekly" title="Golang Weekly" description="" type="rss" version="RSS"
-        htmlUrl="https://golangweekly.com/" xmlUrl="https://golangweekly.com/rss/" />
-      <outline text="The Go Blog" title="The Go Blog" description="" type="rss" version="RSS"
-        htmlUrl="" xmlUrl="http://blog.golang.org/feed.atom" />
-      <outline text="command center" title="command center" description="" type="rss" version="RSS"
-        htmlUrl="https://commandcenter.blogspot.com/"
-        xmlUrl="https://commandcenter.blogspot.com/feeds/posts/default?alt=rss" />
-      <outline text="research!rsc" title="research!rsc" description="" type="rss" version="RSS"
-        htmlUrl="" xmlUrl="https://research.swtch.com/feed.atom" />
-      <outline text="Eli Bendersky" title="Eli Bendersky" description="" type="rss" version="RSS"
-        htmlUrl="https://eli.thegreenplace.net/"
-        xmlUrl="https://eli.thegreenplace.net/feeds/all.atom.xml" />
-      <outline text="Airs – Ian Lance Taylor" title="Airs – Ian Lance Taylor" description=""
-        type="rss" version="RSS" htmlUrl="https://www.airs.com/blog"
-        xmlUrl="https://www.airs.com/blog/feed" />
-      <outline text="Dmitri Shuralyov" title="Dmitri Shuralyov" description="" type="rss"
-        version="RSS" htmlUrl="https://dmitri.shuralyov.com/blog"
-        xmlUrl="https://dmitri.shuralyov.com/blog.json" />
-      <outline text="Anton Zhiyanov" title="Anton Zhiyanov"
-        type="rss" xmlUrl="https://antonz.org/all/index.xml"
-        htmlUrl="https://antonz.org" />
     </outline>
     <outline text="indiemedia" title="indiemedia">
       <outline text="Internazionale" description="Internazionale"
