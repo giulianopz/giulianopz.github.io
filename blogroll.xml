@@ -258,6 +258,9 @@
         htmlUrl="https://buttondown.com/justincormack" />
     </outline>
     <outline text="indiemedia" title="indiemedia">
+      <outiline text="Sveja" title="Sveja"
+        xmlUrl="https://www.sveja.it/feed/"
+        htmlUrl="https://www.sveja.it/" />
       <outline text="Internazionale" description="Internazionale"
         xmlUrl="https://www.internazionale.it/sitemaps/rss.xml"
         htmlUrl="https://www.internazionale.it" />
