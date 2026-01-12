@@ -630,6 +630,24 @@
         title="The Register - Security: Cyber-crime" description="" type="rss" version="RSS"
         htmlUrl="https://www.theregister.com/security/cyber_crime/"
         xmlUrl="https://www.theregister.com/security/cyber_crime/headlines.atom" />
+      <outline
+        text="Project Zero"
+        title="Project Zero"
+        xmlUrl="https://projectzero.google/feed.xml"
+        htmlUrl="https://projectzero.google"
+      />
+      <outline
+        text="BleepingComputer"
+        title="BleepingComputer"
+        xmlUrl="https://www.bleepingcomputer.com/feed/"
+        htmlUrl="https://www.bleepingcomputer.com"
+      />
+      <outline
+        text="LaurieWired"
+        title="LaurieWired"
+        xmlUrl="https://xcancel.com/lauriewired/rss"
+        htmlUrl="https://xcancel.com/lauriewired"
+      />
     </outline>
   </body>
 </opml>
