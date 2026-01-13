@@ -369,8 +369,6 @@
         htmlUrl="https://www.machina-deriveapprodi.com" />
       <outline text="Effimera" title="Effimera" type="rss" xmlUrl="http://effimera.org/feed/"
         htmlUrl="http://effimera.org" />
-      <outline text="Guerre di Rete" title="Guerre di Rete" type="rss"
-        xmlUrl="https://www.guerredirete.it/feed/" htmlUrl="https://www.guerredirete.it" />
       <outline text="OperaViva Magazine" title="OperaViva" type="rss"
         xmlUrl="https://operavivamagazine.org/feed/" htmlUrl="https://operavivamagazine.org" />
       <outline text="Menelique" title="Menelique" type="rss"
@@ -651,6 +649,10 @@
         xmlUrl="https://xcancel.com/lauriewired/rss"
         htmlUrl="https://xcancel.com/lauriewired"
       />
+      <outline text="Guerre di Rete" title="Guerre di Rete" type="rss"
+      xmlUrl="https://www.guerredirete.it/feed/" htmlUrl="https://www.guerredirete.it" />
+      <outline text="Red Hot Cyber" title="Red Hot Cyber" type="rss"
+      xmlUrl="https://www.redhotcyber.com/feed/" htmlUrl="https://www.redhotcyber.com" />
     </outline>
   </body>
 </opml>
