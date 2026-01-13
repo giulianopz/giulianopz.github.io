@@ -1,4 +1,8 @@
 indiemedia:
+    - blogName: Internazionale
+      title: Senior Russian official says Greenland could vote to join Russia if Trump does not hurry
+      url: https://www.internazionale.it/ultime-notizie-reuters/2026/01/13/senior-russian-official-says-greenland-could-vote-to-join-russia-if-trump-does-not-hurry
+      published: 2026-01-12T23:16:28Z
     - blogName: Osservatorio Repressione
       title: 'Venosa (Potenza) 13 gennaio 1956: La polizia spara sui braccianti'
       url: https://www.osservatoriorepressione.info/4-febbraio-1956-venosa-potenza/
@@ -15,10 +19,6 @@ indiemedia:
       title: Four migrants die in US ICE custody over first 10 days of 2026
       url: https://www.internazionale.it/ultime-notizie-reuters/2026/01/12/four-migrants-die-in-us-ice-custody-over-first-10-days-of-2026
       published: 2026-01-12T21:21:19Z
-    - blogName: Internazionale
-      title: Ukraine toils to restore power and heat, Zelenskiy warns of new attack
-      url: https://www.internazionale.it/ultime-notizie-reuters/2026/01/12/ukraine-toils-to-restore-power-and-heat-zelenskiy-warns-of-new-attack
-      published: 2026-01-12T21:09:25Z
     - blogName: Il Post
       title: Laura Pausini condurrà con Carlo Conti la prossima edizione del Festival di Sanremo
       url: https://www.ilpost.it/2026/01/12/laura-pausini-conduzione-festival-sanremo-2026/
@@ -51,6 +51,10 @@ indiemedia:
       title: Gran Bretagna. La repressione crudele contro “Palestine action”
       url: https://www.osservatoriorepressione.info/gran-bretagna-la-repressione-crudele-contro-palestine-action/
       published: 2026-01-12T11:57:02Z
+    - blogName: Forte Prenestino
+      title: LA MUSICA importante quanto la tua stessa vita
+      url: https://forteprenestino.net/attivita/infoshop/3522-la-musica-importante-quanto-la-tua-stessa-vita
+      published: 2026-01-12T10:01:44Z
     - blogName: Jacobin Italia
       title: Mamdani, tra azioni concrete e gesti emblematici
       url: https://jacobinitalia.it/mamdani-tra-azioni-concrete-e-gesti-emblematici/
@@ -115,10 +119,6 @@ indiemedia:
       title: KARAOCHE - Il primo del 2026
       url: https://forteprenestino.net/attivita/pub-12-de-tutto/3520-karaoche-il-primo-del-2026
       published: 2026-01-07T14:31:24Z
-    - blogName: Forte Prenestino
-      title: LUMINAE ACOUSTIC DUO feat Massimo Carrano
-      url: https://forteprenestino.net/attivita/sala-da-the/3519-luminae-acoustic-duo-feat-massimo-carraro
-      published: 2026-01-07T14:20:05Z
     - blogName: Romattiva
       title: GranTombolataSanlorenzina@ESC 5/1
       url: https://www.romattiva.org/grantombolatasanlorenzinaesc-5-1/
@@ -878,6 +878,10 @@ programming:
       title: Go 1.26 interactive tour
       url: https://antonz.org/go-1-26/
       published: 2026-01-05T13:00:00Z
+    - blogName: Don't Panic
+      title: Why I leave my webcam off
+      url: https://commaok.xyz/post/audio-only/
+      published: 2026-01-05T12:12:48Z
     - blogName: Bits from Debian
       title: Debian welcomes Outreachy interns for December 2025-March 2026 round
       url: https://bits.debian.org/2026/01/welcome-outreachy-interns-2025.html
