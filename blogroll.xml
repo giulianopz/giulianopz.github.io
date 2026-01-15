@@ -6,11 +6,18 @@
   </head>
   <body>
     <outline text="programming" title="programming">
+<<<<<<< HEAD
       <outline text="Strange Loop Conference" title="Strange Loop Conference" description=""
         type="rss" version="RSS" htmlUrl="https://www.youtube.com/channel/UC_QIfHvN9auy2CoOdSfMWDw"
         xmlUrl="https://www.youtube.com/feeds/videos.xml?channel_id=UC_QIfHvN9auy2CoOdSfMWDw" />
       <outline text="Chaos Computer Club" description="Chaos Computer Club"
         xmlUrl="https://media.ccc.de/news.atom" htmlUrl="https://media.ccc.de" />
+=======
+      <outline text="Fly.io" description="Fly.io"
+      xmlUrl="https://fly.io/blog/feed.xml" htmlUrl="https://fly.io/blog" />
+      <outline text="Simon Willison" description="Simon Willison"
+      xmlUrl="https://simonwillison.net/atom/everything/" htmlUrl="https://simonwillison.net" />
+>>>>>>> 1cd2c9cb534bce3d50ae3f1f211646e238ceecb3
       <outline text="Yossi Kreinin" description="Yossi Kreinin"
         xmlUrl="https://www.yosefk.com/blog/feed" htmlUrl="https://www.yosefk.com/blog" />
       <outline text="Filippo Valsorda" title="Filippo Valsorda" description="" type="rss"
@@ -263,6 +270,9 @@
         htmlUrl="https://buttondown.com/justincormack" />
     </outline>
     <outline text="indiemedia" title="indiemedia">
+      <outiline text="Sveja" title="Sveja"
+        xmlUrl="https://www.sveja.it/feed/"
+        htmlUrl="https://www.sveja.it/" />
       <outline text="Internazionale" description="Internazionale"
         xmlUrl="https://www.internazionale.it/sitemaps/rss.xml"
         htmlUrl="https://www.internazionale.it" />
@@ -371,8 +381,6 @@
         htmlUrl="https://www.machina-deriveapprodi.com" />
       <outline text="Effimera" title="Effimera" type="rss" xmlUrl="http://effimera.org/feed/"
         htmlUrl="http://effimera.org" />
-      <outline text="Guerre di Rete" title="Guerre di Rete" type="rss"
-        xmlUrl="https://www.guerredirete.it/feed/" htmlUrl="https://www.guerredirete.it" />
       <outline text="OperaViva Magazine" title="OperaViva" type="rss"
         xmlUrl="https://operavivamagazine.org/feed/" htmlUrl="https://operavivamagazine.org" />
       <outline text="Menelique" title="Menelique" type="rss"
@@ -635,6 +643,28 @@
         title="The Register - Security: Cyber-crime" description="" type="rss" version="RSS"
         htmlUrl="https://www.theregister.com/security/cyber_crime/"
         xmlUrl="https://www.theregister.com/security/cyber_crime/headlines.atom" />
+      <outline
+        text="Project Zero"
+        title="Project Zero"
+        xmlUrl="https://projectzero.google/feed.xml"
+        htmlUrl="https://projectzero.google"
+      />
+      <outline
+        text="BleepingComputer"
+        title="BleepingComputer"
+        xmlUrl="https://www.bleepingcomputer.com/feed/"
+        htmlUrl="https://www.bleepingcomputer.com"
+      />
+      <outline
+        text="LaurieWired"
+        title="LaurieWired"
+        xmlUrl="https://xcancel.com/lauriewired/rss"
+        htmlUrl="https://xcancel.com/lauriewired"
+      />
+      <outline text="Guerre di Rete" title="Guerre di Rete" type="rss"
+      xmlUrl="https://www.guerredirete.it/feed/" htmlUrl="https://www.guerredirete.it" />
+      <outline text="Red Hot Cyber" title="Red Hot Cyber" type="rss"
+      xmlUrl="https://www.redhotcyber.com/feed/" htmlUrl="https://www.redhotcyber.com" />
     </outline>
   </body>
 </opml>
