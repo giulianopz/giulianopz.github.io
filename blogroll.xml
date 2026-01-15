@@ -6,6 +6,10 @@
   </head>
   <body>
     <outline text="programming" title="programming">
+      <outline text="Fly.io" description="Fly.io"
+      xmlUrl="https://fly.io/blog/feed.xml" htmlUrl="https://fly.io/blog" />
+      <outline text="Simon Willison" description="Simon Willison"
+      xmlUrl="https://simonwillison.net/atom/everything/" htmlUrl="https://simonwillison.net" />
       <outline text="Yossi Kreinin" description="Yossi Kreinin"
         xmlUrl="https://www.yosefk.com/blog/feed" htmlUrl="https://www.yosefk.com/blog" />
       <outline text="Filippo Valsorda" title="Filippo Valsorda" description="" type="rss"
