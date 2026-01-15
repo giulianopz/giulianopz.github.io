@@ -6,6 +6,11 @@
   </head>
   <body>
     <outline text="programming" title="programming">
+      <outline text="Strange Loop Conference" title="Strange Loop Conference" description=""
+        type="rss" version="RSS" htmlUrl="https://www.youtube.com/channel/UC_QIfHvN9auy2CoOdSfMWDw"
+        xmlUrl="https://www.youtube.com/feeds/videos.xml?channel_id=UC_QIfHvN9auy2CoOdSfMWDw" />
+      <outline text="Chaos Computer Club" description="Chaos Computer Club"
+        xmlUrl="https://media.ccc.de/news.atom" htmlUrl="https://media.ccc.de" />
       <outline text="Yossi Kreinin" description="Yossi Kreinin"
         xmlUrl="https://www.yosefk.com/blog/feed" htmlUrl="https://www.yosefk.com/blog" />
       <outline text="Filippo Valsorda" title="Filippo Valsorda" description="" type="rss"
