@@ -1,4 +1,8 @@
 indiemedia:
+    - blogName: Internazionale
+      title: Power outage halts Tokyo commuter train lines, disrupting thousands
+      url: https://www.internazionale.it/ultime-notizie-reuters/2026/01/16/power-outage-halts-tokyo-commuter-train-lines-disrupting-thousands
+      published: 2026-01-16T00:00:32Z
     - blogName: Osservatorio Repressione
       title: 'Roma 16 gennaio 1943: Il Gobbo del Quarticciolo'
       url: https://www.osservatoriorepressione.info/roma-16-gennaio-1943-gobbo-del-quarticciolo/
@@ -15,10 +19,6 @@ indiemedia:
       title: Yemen accepts prime minister’s resignation, appoints foreign minister as new PM
       url: https://www.internazionale.it/ultime-notizie-reuters/2026/01/15/yemen-accepts-prime-minister-s-resignation-appoints-foreign-minister-as-new-pm
       published: 2026-01-15T20:34:54Z
-    - blogName: Internazionale
-      title: Zelenskiy affirms Ukraine’s commitment to peace after Trump’s remarks
-      url: https://www.internazionale.it/ultime-notizie-reuters/2026/01/15/zelenskiy-affirms-ukraine-s-commitment-to-peace-after-trump-s-remarks
-      published: 2026-01-15T20:17:03Z
     - blogName: Il Post
       title: La Corte d’appello ha assolto l’ex eurodeputata Lara Comi da due accuse per truffa e corruzione e ha confermato un’altra condanna
       url: https://www.ilpost.it/2026/01/15/sentenza-appello-lara-comi-truffa-corruzione/
@@ -160,6 +160,10 @@ ita:
       title: “Perché al massimo si muore”. Parlando di montagna con Tona Sironi
       url: https://www.snaporaz.online/perche-al-massimo-si-muore-parlando-di-montagna-con-tona-sironi/
       published: 2026-01-15T23:10:12Z
+    - blogName: Ippolita
+      title: Cura di sé e vita non dissimulata – articolo per GATE – portale dell’unione buddhista italiana
+      url: https://www.ippolita.net/cura-di-se-e-vita-non-dissimulata-articolo-per-gate-portale-dellunione-buddhista-italiana/
+      published: 2026-01-15T21:39:11Z
     - blogName: Paolo Nori
       title: Turné
       url: https://www.paolonori.it/turne/
@@ -442,10 +446,6 @@ ita:
       published: 2026-01-07T13:47:23Z
     - blogName: Ippolita
       title: Laboratorio autodifesa digitale ad Antigone Milano Febbraio 2026
-      url: https://www.ippolita.net/laboratorio-autodifesa-digitale-ad-antigone-milano/
-      published: 2026-01-07T10:35:45Z
-    - blogName: Ippolita
-      title: Laboratorio autodifesa digitale ad Antigone Milano
       url: https://www.ippolita.net/laboratorio-autodifesa-digitale-ad-antigone-milano/
       published: 2026-01-07T10:35:45Z
     - blogName: Leonardo Tondelli
@@ -1168,6 +1168,10 @@ programming:
       published: 2025-12-17T13:17:23Z
 'security ':
     - blogName: BleepingComputer
+      title: Google now lets you change your @gmail.com address, rolling out
+      url: https://www.bleepingcomputer.com/news/technology/google-now-lets-you-change-your-gmailcom-address-rolling-out/
+      published: 2026-01-16T00:36:10Z
+    - blogName: BleepingComputer
       title: ChatGPT is now more reliable at finding and remembering your past chat
       url: https://www.bleepingcomputer.com/news/artificial-intelligence/chatgpt-is-now-more-reliable-at-finding-and-remembering-your-past-chat/
       published: 2026-01-16T00:14:44Z
@@ -1179,10 +1183,6 @@ programming:
       title: Chinese spies used Maduro's capture as a lure to phish US govt agencies
       url: https://go.theregister.com/feed/www.theregister.com/2026/01/15/chinese_spies_used_maduros_capture/
       published: 2026-01-15T22:15:02Z
-    - blogName: BleepingComputer
-      title: Grubhub confirms hackers stole data in recent security breach
-      url: https://www.bleepingcomputer.com/news/security/grubhub-confirms-hackers-stole-data-in-recent-security-breach/
-      published: 2026-01-15T21:38:51Z
     - blogName: Schneier on Security
       title: New Vulnerability in n8n
       url: https://www.schneier.com/blog/archives/2026/01/new-vulnerability-in-n8n.html
