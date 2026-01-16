@@ -6,18 +6,30 @@
   </head>
   <body>
     <outline text="programming" title="programming">
-<<<<<<< HEAD
       <outline text="Strange Loop Conference" title="Strange Loop Conference" description=""
         type="rss" version="RSS" htmlUrl="https://www.youtube.com/channel/UC_QIfHvN9auy2CoOdSfMWDw"
         xmlUrl="https://www.youtube.com/feeds/videos.xml?channel_id=UC_QIfHvN9auy2CoOdSfMWDw" />
       <outline text="Chaos Computer Club" description="Chaos Computer Club"
         xmlUrl="https://media.ccc.de/news.atom" htmlUrl="https://media.ccc.de" />
-=======
+      <outline text="Kay Lack" description="Kay Lack"
+        xmlUrl="https://www.youtube.com/feeds/videos.xml?channel_id=UC7UukP_hxrOsrwHrcHxOxxg"
+        htmlUrl="https://www.youtube.com/@neoeno4242" />
+      <outline text="Ben Dicken" description="Ben Dicken"
+        xmlUrl="https://www.youtube.com/feeds/videos.xml?channel_id=UCu5ZOjEN1L4nTyh00FN_VJQ"
+        htmlUrl="https://www.youtube.com/@benjdicken" />
+      <outline text="LaurieWired" description="LaurieWired"
+        xmlUrl="https://www.youtube.com/feeds/videos.xml?channel_id=UCJXa3_WNNmIpewOtCHf3B0g"
+        htmlUrl="https://www.youtube.com/@lauriewired" />
+      <outline text="Tsondig" description="Tsoding"
+        xmlUrl="https://www.youtube.com/feeds/videos.xml?channel_id=UCEbYhDd6c6vngsF5PQpFVWg"
+        htmlUrl="https://www.youtube.com/@Tsoding" />
+      <outline text="Ants Are Everywhere" description="Ants Are Everywhere"
+        xmlUrl="https://www.youtube.com/feeds/videos.xml?channel_id=UCa4GzOwXZbQPQyPHhQmpKCQ"
+        htmlUrl="https://www.youtube.com/@ants_are_everywhere" />
       <outline text="Fly.io" description="Fly.io"
-      xmlUrl="https://fly.io/blog/feed.xml" htmlUrl="https://fly.io/blog" />
+        xmlUrl="https://fly.io/blog/feed.xml" htmlUrl="https://fly.io/blog" />
       <outline text="Simon Willison" description="Simon Willison"
-      xmlUrl="https://simonwillison.net/atom/everything/" htmlUrl="https://simonwillison.net" />
->>>>>>> 1cd2c9cb534bce3d50ae3f1f211646e238ceecb3
+        xmlUrl="https://simonwillison.net/atom/everything/" htmlUrl="https://simonwillison.net" />
       <outline text="Yossi Kreinin" description="Yossi Kreinin"
         xmlUrl="https://www.yosefk.com/blog/feed" htmlUrl="https://www.yosefk.com/blog" />
       <outline text="Filippo Valsorda" title="Filippo Valsorda" description="" type="rss"
@@ -41,7 +53,7 @@
       <outline text="Felix Geisendörfer" title="Felix Geisendörfer"
         type="rss" version="RSS"
         htmlUrl="https://blog.felixge.de/"
-        xmlUrl="https://blog.felixge.de/index.xml" />
+        xmlUrl="https://blog.felixge.de/rss/" />
       <outline text="Chris Siebenmann" title="Chris Siebenmann"
         type="rss" version="RSS"
         htmlUrl="https://utcc.utoronto.ca/~cks/space/blog/"
@@ -655,16 +667,10 @@
         xmlUrl="https://www.bleepingcomputer.com/feed/"
         htmlUrl="https://www.bleepingcomputer.com"
       />
-      <outline
-        text="LaurieWired"
-        title="LaurieWired"
-        xmlUrl="https://xcancel.com/lauriewired/rss"
-        htmlUrl="https://xcancel.com/lauriewired"
-      />
       <outline text="Guerre di Rete" title="Guerre di Rete" type="rss"
-      xmlUrl="https://www.guerredirete.it/feed/" htmlUrl="https://www.guerredirete.it" />
+        xmlUrl="https://www.guerredirete.it/feed/" htmlUrl="https://www.guerredirete.it" />
       <outline text="Red Hot Cyber" title="Red Hot Cyber" type="rss"
-      xmlUrl="https://www.redhotcyber.com/feed/" htmlUrl="https://www.redhotcyber.com" />
+        xmlUrl="https://www.redhotcyber.com/feed/" htmlUrl="https://www.redhotcyber.com" />
     </outline>
   </body>
 </opml>
