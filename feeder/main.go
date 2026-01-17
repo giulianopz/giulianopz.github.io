@@ -271,7 +271,7 @@ func getArticles(f opml.Outline, upperBound *time.Time) (articles []*article) {
 
 	for _, i := range feed.Items {
 		title := stripCDATA(i.Title)
-		if !skip(title) && i.PublishedParsed.After(*upperBound) {
+		if !skip(title) && i.PublishedParsed != nil && i.PublishedParsed.After(*upperBound) {
 			link := i.Link
 			if strings.HasPrefix(link, "/") {
 				l, err := url.JoinPath(f.HTMLURL, link)

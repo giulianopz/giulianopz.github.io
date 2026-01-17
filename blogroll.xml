@@ -5,7 +5,74 @@
     <title>Capy Reader Export</title>
   </head>
   <body>
+    <outline text="linguistics" title="linguistics">
+      <outline text="David Adger" description="David Adger"
+        xmlUrl="https://davidadger.org/feed/" htmlUrl="https://davidadger.org/" />
+      <outline text="Language Log" description="Language Log"
+        xmlUrl="https://languagelog.ldc.upenn.edu/nll/?feed=rss2"
+        htmlUrl="https://languagelog.ldc.upenn.edu/nll" />
+      <outline text="Babel Magazine" description="Babel Magazine"
+        xmlUrl="https://babelzine.co.uk/feed/" htmlUrl="https://babelzine.co.uk" />
+      <outline text="Martin Haspelmath" description="Martin Haspelmath"
+        xmlUrl="https://dlc.hypotheses.org/feed" htmlUrl="https://dlc.hypotheses.org" />
+    </outline>
+    <outline text="eng-discuss" title="eng-discuss">
+      <outline text="The Guardian" description="The Guardian"
+        xmlUrl="https://www.theguardian.com/europe/rss" htmlUrl="https://www.theguardian.com" />
+      <outline text="The Independent" description="The Independent"
+        xmlUrl="https://www.independent.co.uk/rss" htmlUrl="https://www.independent.co.uk" />
+      <outline text="The Verge" description="The Verge"
+        xmlUrl="https://www.theverge.com/rss/index.xml" htmlUrl="https://www.theverge.com" />
+      <outline text="Quanta Magazine" description="Quanta Magazine"
+        xmlUrl="https://www.quantamagazine.org/quanta/feed/"
+        htmlUrl="https://www.quantamagazine.org/" />
+      <outline text="Scientific American" description="Scientific American"
+        xmlUrl="https://www.scientificamerican.com/platform/syndication/rss/"
+        htmlUrl="https://www.scientificamerican.com" />
+      <outline text="The Paris Review" description="The Paris Review"
+        xmlUrl="https://feeds.feedburner.com/TheParisReviewBlog"
+        htmlUrl="https://www.theparisreview.org/blog/" />
+      <outline text="aeon" description="aeon"
+        xmlUrl="https://aeon.co/feed.rss" htmlUrl="https://aeon.co" />
+      <outline text="Nautilus" description="Nautilus"
+        xmlUrl="https://nautil.us/feed/" htmlUrl="https://nautil.us/" />
+      <outline text="kottke.org" description="kottke.org"
+        xmlUrl="http://feeds.kottke.org/main" htmlUrl="http://kottke.org" />
+      <outline text="Arts and Letters Daily" description="Arts and Letters Daily"
+        xmlUrl="https://www.aldaily.com/feed" htmlUrl="https://www.aldaily.com" />
+      <outline text="ThePudding" description="ThePudding"
+        xmlUrl="https://pudding.cool/feed" htmlUrl="https://pudding.cool" />
+      <outline text="London Review of Books" description="London Review of Books"
+        xmlUrl="https://www.lrb.co.uk/feeds/rss" htmlUrl="https://www.lrb.co.uk" />
+      <outline text="ArtificialOwl" description="ArtificialOwl"
+        xmlUrl="http://www.artificialowl.net/feeds/posts/default"
+        htmlUrl="http://www.artificialowl.net" />
+      <outline text="oobject" description="oobject"
+        xmlUrl="http://www.oobject.com/feed/?sortby=posted" htmlUrl="http://www.oobject.com" />
+      <outline text="phys.org" description="phys.org"
+        xmlUrl="https://phys.org/rss-feed/" htmlUrl="https://phys.org/rss-feed" />
+      <outline text="Nassim Nicholas Taleb" description="Nassim Nicholas Taleb"
+        xmlUrl="https://medium.com/feed/@nntaleb" htmlUrl="https://nntaleb.medium.com/" />
+      <outline text="globalinequality" description="globalinequality"
+        xmlUrl="https://glineq.blogspot.com/feeds/posts/default"
+        htmlUrl="https://glineq.blogspot.com" />
+      <outline text="RealClimate" description="RealClimate"
+        xmlUrl="https://www.realclimate.org/index.php/feed/"
+        htmlUrl="https://www.realclimate.org/index.php" />
+      <outline text="Scope of Work" description="Scope of Work"
+        xmlUrl="https://www.scopeofwork.net/rss/" htmlUrl="https://www.scopeofwork.net/" />
+      <outline text="IWDRM" description="IWDRM"
+        xmlUrl="https://iwdrm.tumblr.com/rss" htmlUrl="https://iwdrm.tumblr.com" />
+      <outline text="The Public Domain Review" description="The Public Domain Review"
+        xmlUrl="https://publicdomainreview.org/rss.xml" htmlUrl="https://publicdomainreview.org" />
+      <outline text="Rest of World" description="Rest of World"
+        xmlUrl="https://restofworld.org/feed/latest" htmlUrl="https://restofworld.org" />
+      <outline text="9 eyes" description="9 eyes"
+        xmlUrl="https://9-eyes.com/rss" htmlUrl="https://9-eyes.com" />
+    </outline>
     <outline text="programming" title="programming">
+      <outline text="See figure 1." description="See figure 1."
+        xmlUrl="http://seefigure1.com/rss.xml" htmlUrl="http://seefigure1.com" />
       <outline text="Strange Loop Conference" title="Strange Loop Conference" description=""
         type="rss" version="RSS" htmlUrl="https://www.youtube.com/channel/UC_QIfHvN9auy2CoOdSfMWDw"
         xmlUrl="https://www.youtube.com/feeds/videos.xml?channel_id=UC_QIfHvN9auy2CoOdSfMWDw" />
@@ -282,6 +349,8 @@
         htmlUrl="https://buttondown.com/justincormack" />
     </outline>
     <outline text="indiemedia" title="indiemedia">
+      <outline text="Grande come una città" description="Grande come una città"
+        xmlUrl="https://grandecomeunacitta.org/feed/" htmlUrl="https://grandecomeunacitta.org" />
       <outiline text="Sveja" title="Sveja"
         xmlUrl="https://www.sveja.it/feed/"
         htmlUrl="https://www.sveja.it/" />
@@ -323,7 +392,19 @@
         xmlUrl="http://www.fascinazione.info/feeds/posts/default"
         htmlUrl="http://www.fascinazione.info/" />
     </outline>
-    <outline text="ita" title="ita">
+    <outline text="ita-discuss" title="ita-discuss">
+      <outline text="tempo fertile" description="tempo fertile"
+        xmlUrl="https://tempofertile.blogspot.com/feeds/posts/default"
+        htmlUrl="https://tempofertile.blogspot.com" />
+      <outline text="Distanti Saluti" description="Distanti Saluti"
+        xmlUrl="https://distantisaluti.com/feed/" htmlUrl="https://distantisaluti.com" />
+      <outline text="Siamomine" description="Siamomine"
+        xmlUrl="https://siamomine.com/feed/" htmlUrl="https://siamomine.com" />
+      <outline text="Link. Idee per la tv" description="Link. Idee per la tv"
+        xmlUrl="https://www.linkideeperlatv.it/feed" htmlUrl="https://www.linkideeperlatv.it" />
+      <outline text="Priscilla De Pace" description="Priscilla De Pace"
+        xmlUrl="https://priscilladepace.substack.com/feed"
+        htmlUrl="https://priscilladepace.substack.com" />
       <outline text="Lucy sulla cultura" title="Lucy sulla cultura"
         type="rss" xmlUrl="https://lucysullacultura.com/feed"
         htmlUrl="https://lucysullacultura.com" />
