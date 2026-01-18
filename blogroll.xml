@@ -500,6 +500,8 @@
         xmlUrl="https://thesubmarine.it/feed/" htmlUrl="https://thesubmarine.it" />
     </outline>
     <outline text="pg/db" title="pg/db">
+      <outline text="Amit Langote" description="Amit Langote"
+        xmlUrl="https://amitlan.com/feed" htmlUrl="https://amitlan.com" />
       <outline text="Talking Postgres" description="Talking Postgres"
         xmlUrl="https://feeds.transistor.fm/talkingpostgres" htmlUrl="https://talkingpostgres.com/" />
       <outline text="postgres.fm" description="postgres.fm"
