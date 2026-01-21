@@ -509,6 +509,8 @@
         xmlUrl="https://thesubmarine.it/feed/" htmlUrl="https://thesubmarine.it" />
     </outline>
     <outline text="pg/db" title="pg/db">
+      <outline text="https://blog.ioguix.net/feed.xml" description="https://blog.ioguix.net/feed.xml"
+      xmlUrl="https://https://blog.ioguix.net/feed.xml" htmlUrl="https://blog.ioguix.net/feed.xml" />
       <outline text="Amit Langote" description="Amit Langote"
         xmlUrl="https://amitlan.com/feed" htmlUrl="https://amitlan.com" />
       <outline text="Matheus Alcantara" description="Matheus Alcantara"

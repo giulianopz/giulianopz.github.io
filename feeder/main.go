@@ -335,12 +335,15 @@ func getArticles(f outline, upperBound *time.Time) (articles []*article) {
 		return
 	}
 
-	filters := parseFilters(f.Filters)
+	var filters []filter
+	if f.Filters != "" {
+		parseFilters(f.Filters)
+	}
 	for _, i := range feed.Items {
 		title := stripCDATA(i.Title)
 		if !skip(title) &&
 			recent(i.PublishedParsed, upperBound) &&
-			ok(filters, i) {
+			(f.Filters != "" && ok(filters, i)) {
 			link := i.Link
 			if strings.HasPrefix(link, "/") {
 				l, err := url.JoinPath(f.HTMLUrl, link)

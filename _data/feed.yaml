@@ -162,10 +162,6 @@ eng-discuss:
         Top 10 Most Read Pieces from 2025
       url: https://publicdomainreview.org/blog/2025/12/top-10-most-read-pieces-from-2025
       published: 2025-12-28T15:58:00Z
-    - blogName: Scope of Work
-      title: Five Books for 2025
-      url: https://www.scopeofwork.net/five-books-for-2025/
-      published: 2025-12-22T14:19:11Z
 indiemedia:
     - blogName: Osservatorio Repressione
       title: 20 gennaio 1973 – L’assassinio di Amilcar Cabral
@@ -1423,18 +1419,6 @@ programming:
       title: "2025"
       url: https://samwho.dev/2025/
       published: 2025-12-23T00:00:00Z
-    - blogName: lcamtuf's thing
-      title: 'Cursed circuits #3: true mathematics'
-      url: https://lcamtuf.substack.com/p/cursed-circuits-3-true-mathematics
-      published: 2025-12-22T02:38:09Z
-    - blogName: ★❤✰ Vicki Boykis ★❤✰
-      title: 2025 in review
-      url: https://veekaybee.github.io/2025/12/22/2025-in-review/
-      published: 2025-12-22T00:00:00Z
-    - blogName: Philippe Gaultier
-      title: Detecting goroutine leaks with DTrace
-      url: https://gaultier.github.io/blog/detecting_goroutine_leaks_with_dtrace.html
-      published: 2025-12-21T17:06:44Z
 'security ':
     - blogName: BleepingComputer
       title: You can get ChatGPT's $20 Plus subscription for free for a limited time
