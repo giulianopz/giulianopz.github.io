@@ -3,6 +3,7 @@ package main
 import (
 	"compress/gzip"
 	"encoding/gob"
+	"encoding/xml"
 	"errors"
 	"fmt"
 	"io"
@@ -15,7 +16,6 @@ import (
 	"sync"
 	"time"
 
-	"github.com/gilliek/go-opml/opml"
 	"github.com/mmcdole/gofeed"
 	yaml "go.yaml.in/yaml/v4"
 )
@@ -30,6 +30,29 @@ type article struct {
 type metadata struct {
 	LastModified string
 	ETag         string
+}
+
+type opmlFile struct {
+	Version float64 `xml:"version,attr"`
+	Head    head    `xml:"head"`
+	Body    body    `xml:"body"`
+}
+
+type body struct {
+	Outlines []outline `xml:"outline"`
+}
+
+type outline struct {
+	Text     string    `xml:"text,attr"`
+	Title    string    `xml:"title,attr"`
+	XMLUrl   string    `xml:"xmlUrl,attr"`
+	HTMLUrl  string    `xml:"htmlUrl,attr"`
+	Filters  string    `xml:"filters,attr"`
+	Outlines []outline `xml:"outline"`
+}
+
+type head struct {
+	Title string `xml:"title"`
 }
 
 var (
@@ -73,8 +96,13 @@ func main() {
 
 	upperBound := time.Now().Add(-dur)
 
-	f, err := opml.NewOPMLFromFile(blogrollFilePath)
+	bs, err := os.ReadFile(blogrollFilePath)
 	if err != nil {
+		panic(err)
+	}
+
+	f := opmlFile{}
+	if err := xml.Unmarshal(bs, &f); err != nil {
 		panic(err)
 	}
 
@@ -115,7 +143,7 @@ func main() {
 
 	var mu sync.Mutex
 	wg := sync.WaitGroup{}
-	for _, o := range f.Outlines() {
+	for _, o := range f.Body.Outlines {
 		if len(o.Outlines) == 0 {
 			wg.Go(func() {
 				fmt.Println("processing feed:", o.Text)
@@ -161,7 +189,7 @@ func main() {
 		clear(articles[len(filtered):])
 	}
 
-	bs, err := yaml.Marshal(articlesByCategory)
+	bs, err = yaml.Marshal(articlesByCategory)
 	if err != nil {
 		panic(err)
 	}
@@ -259,24 +287,65 @@ retry:
 	return feedParser.Parse(reader)
 }
 
-func getArticles(f opml.Outline, upperBound *time.Time) (articles []*article) {
-	feed, err := getFeed(f.XMLURL)
+type filter func(*gofeed.Item) bool
+
+func parseFilters(filters string) (funcs []filter) {
+	for f := range strings.SplitSeq(filters, ",") {
+		kv := strings.Split(f, "=")
+
+		var (
+			key   = kv[0]
+			value = kv[1]
+		)
+
+		switch key {
+		case "author":
+			funcs = append(funcs, func(i *gofeed.Item) bool {
+				return len(i.Authors) != 0 && i.Authors[0].Name == strings.TrimSpace(value)
+			})
+		case "category":
+			funcs = append(funcs, func(i *gofeed.Item) bool {
+				return slices.Contains(i.Categories, value)
+			})
+		}
+	}
+	return
+}
+
+func recent(publischedTime, upperBound *time.Time) bool {
+	return publischedTime != nil && publischedTime.After(*upperBound)
+}
+
+func ok(filters []filter, article *gofeed.Item) bool {
+	for _, f := range filters {
+		if !f(article) {
+			return false
+		}
+	}
+	return true
+}
+
+func getArticles(f outline, upperBound *time.Time) (articles []*article) {
+	feed, err := getFeed(f.XMLUrl)
 	if err != nil {
-		fmt.Printf("err: cannot parse feed %q: %s\n", f.XMLURL, err)
+		fmt.Printf("err: cannot parse feed %q: %s\n", f.XMLUrl, err)
 		return
 	}
 	if feed == nil {
 		return
 	}
 
+	filters := parseFilters(f.Filters)
 	for _, i := range feed.Items {
 		title := stripCDATA(i.Title)
-		if !skip(title) && i.PublishedParsed != nil && i.PublishedParsed.After(*upperBound) {
+		if !skip(title) &&
+			recent(i.PublishedParsed, upperBound) &&
+			ok(filters, i) {
 			link := i.Link
 			if strings.HasPrefix(link, "/") {
-				l, err := url.JoinPath(f.HTMLURL, link)
+				l, err := url.JoinPath(f.HTMLUrl, link)
 				if err != nil {
-					fmt.Printf("err: cannot join paths: base=%s, elem=%s\n", f.HTMLURL, link)
+					fmt.Printf("err: cannot join paths: base=%s, elem=%s\n", f.HTMLUrl, link)
 					continue
 				}
 				link = l
