@@ -36,12 +36,12 @@ jobs:
         run: |
           git config --global user.name "feeder"
           git config --global user.email "feeder@noreply.com"
-
+          git pull
           git add _data/feed.yaml
           git add .cache/feed.gob
           if git diff --staged --quiet; then
             echo "no changes to the feed"
           else
             git commit -m "chore: update feed.yaml"
-            git push origin gh-pages
+            git push -f origin gh-pages
           fi
