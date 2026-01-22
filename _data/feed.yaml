@@ -926,10 +926,6 @@ pg/db:
       title: 'PostgreSQL Performance: Latency in the Cloud and On Premise'
       url: https://www.cybertec-postgresql.com/en/postgresql-performance-latency-in-the-cloud-and-on-premise/
       published: 2025-12-23T05:00:33Z
-    - blogName: boringsql
-      title: Instant database clones with PostgreSQL 18
-      url: https://boringsql.com/posts/instant-database-clones/
-      published: 2025-12-22T23:53:16Z
 programming:
     - blogName: Simon Willison
       title: jordanhubbard/nanolang
@@ -1411,14 +1407,6 @@ programming:
       title: ssh tiny.christmas
       url: https://eieio.games/blog/tiny-christmas
       published: 2025-12-24T00:00:00Z
-    - blogName: Armin Ronacher's Thoughts and Writings
-      title: 'Advent of Slop: A Guest Post by Claude'
-      url: https://lucumr.pocoo.org/2025/12/23/advent-of-slop/
-      published: 2025-12-23T00:00:00Z
-    - blogName: samwho.dev
-      title: "2025"
-      url: https://samwho.dev/2025/
-      published: 2025-12-23T00:00:00Z
 'security ':
     - blogName: BleepingComputer
       title: You can get ChatGPT's $20 Plus subscription for free for a limited time
