@@ -922,10 +922,6 @@ pg/db:
       title: Don't give Postgres too much memory (even on busy systems)
       url: https://vondra.me/posts/dont-give-postgres-too-much-memory-even-on-busy-systems/
       published: 2025-12-23T10:00:00Z
-    - blogName: Hans-Jürgen Schönig
-      title: 'PostgreSQL Performance: Latency in the Cloud and On Premise'
-      url: https://www.cybertec-postgresql.com/en/postgresql-performance-latency-in-the-cloud-and-on-premise/
-      published: 2025-12-23T05:00:33Z
 programming:
     - blogName: Simon Willison
       title: jordanhubbard/nanolang
