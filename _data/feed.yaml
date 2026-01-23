@@ -708,10 +708,6 @@ ita-discuss:
       title: 'Musei e comunicazione digitale: una prospettiva semiotica tra Instagram e web istituzionale'
       url: https://giovannacosenza.wordpress.com/2025/12/29/musei-e-comunicazione-digitale-una-prospettiva-semiotica-tra-instagram-e-web-istituzionale/
       published: 2025-12-29T11:00:02Z
-    - blogName: Franco Berardi Bifo
-      title: Modello Israele
-      url: https://francoberardi.substack.com/p/modello-israele
-      published: 2025-12-23T19:53:51Z
 linguistics:
     - blogName: Language Log
       title: A better pronunciation of "Davos"
@@ -918,10 +914,6 @@ pg/db:
       title: Media Server Journey
       url: https://laplab.me/posts/media-server-journey/
       published: 2025-12-28T00:00:00Z
-    - blogName: Tomas Vondra
-      title: Don't give Postgres too much memory (even on busy systems)
-      url: https://vondra.me/posts/dont-give-postgres-too-much-memory-even-on-busy-systems/
-      published: 2025-12-23T10:00:00Z
 programming:
     - blogName: Simon Willison
       title: jordanhubbard/nanolang
@@ -1399,10 +1391,6 @@ programming:
       title: When compilers surprise you
       url: http://xania.org/202512/24-cunning-clang?utm_source=feed&utm_medium=rss
       published: 2025-12-24T12:00:00Z
-    - blogName: eieio.games
-      title: ssh tiny.christmas
-      url: https://eieio.games/blog/tiny-christmas
-      published: 2025-12-24T00:00:00Z
 'security ':
     - blogName: BleepingComputer
       title: You can get ChatGPT's $20 Plus subscription for free for a limited time
