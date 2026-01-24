@@ -1383,14 +1383,6 @@ programming:
       title: One Formula That Demystifies 3D Graphics
       url: https://www.youtube.com/watch?v=qjWkNZ0SXfo
       published: 2025-12-25T10:14:44Z
-    - blogName: Yossi Kreinin
-      title: '"Enabling" C threads in a Python / Wasm environment'
-      url: https://yosefk.com/blog/enabling-c-threads-in-a-python-wasm-environment.html
-      published: 2025-12-25T00:00:00Z
-    - blogName: Matt Godbolt's blog
-      title: When compilers surprise you
-      url: http://xania.org/202512/24-cunning-clang?utm_source=feed&utm_medium=rss
-      published: 2025-12-24T12:00:00Z
 'security ':
     - blogName: BleepingComputer
       title: You can get ChatGPT's $20 Plus subscription for free for a limited time
