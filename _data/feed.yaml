@@ -40,6 +40,10 @@ eng-discuss:
       url: https://www.theatlantic.com/newsletters/2026/01/moments-delight-daily-life/685742/?utm_source=feed
       published: 2026-01-24T14:00:00Z
     - blogName: The Guardian
+      title: The 'ticking-bomb' Syrian prisons filled with IS suspects – video explainer
+      url: https://www.theguardian.com/world/video/2026/jan/24/syria-prisons-islamic-state-suspects-sdf-video-explainer
+      published: 2026-01-24T13:17:43Z
+    - blogName: The Guardian
       title: '‘The invisible man’: Joe Biden has disappeared in almost every way – except in Trump’s daily commentary'
       url: https://www.theguardian.com/us-news/2026/jan/24/joe-biden-legacy-donald-trump
       published: 2026-01-24T13:00:38Z
@@ -55,10 +59,6 @@ eng-discuss:
       title: How math can reveal lottery fraud
       url: https://www.scientificamerican.com/article/how-math-can-reveal-lottery-fraud/
       published: 2026-01-24T12:00:00Z
-    - blogName: The Guardian
-      title: Ryan Wedding’s journey from Olympic snowboarder to alleged cocaine kingpin
-      url: https://www.theguardian.com/world/2026/jan/24/ryan-wedding-olympic-snowboarder-alleged-cocaine-kingpin
-      published: 2026-01-24T10:00:35Z
     - blogName: theneedledrop
       title: Zach Bryan - With Heaven on Top ALBUM REVIEW
       url: https://www.youtube.com/watch?v=bj9c6jSgphU
@@ -196,13 +196,17 @@ indiemedia:
       url: https://www.ilpost.it/2026/01/24/morti-genitori-claudio-carlomagno-federica-torzullo/
       published: 2026-01-24T20:22:00Z
     - blogName: Internazionale
+      title: World Health Organization says it regrets US decision to withdraw
+      url: https://www.internazionale.it/ultime-notizie-reuters/2026/01/24/world-health-organization-says-it-regrets-us-decision-to-withdraw
+      published: 2026-01-24T20:15:43Z
+    - blogName: Internazionale
+      title: ‘It’s time to start doing something.’ Despite risks of violence, Minnesotans step up to take on ICE
+      url: https://www.internazionale.it/ultime-notizie-reuters/2026/01/24/it-s-time-to-start-doing-something-despite-risks-of-violence-minnesotans-step-up-to-take-on-ice
+      published: 2026-01-24T18:58:40Z
+    - blogName: Internazionale
       title: Iraq’s Shi’ite alliance nominates Nouri al-Maliki for prime minister
       url: https://www.internazionale.it/ultime-notizie-reuters/2026/01/24/iraq-s-shi-ite-alliance-nominates-nouri-al-maliki-for-prime-minister
       published: 2026-01-24T18:01:06Z
-    - blogName: Internazionale
-      title: UK’s Starmer discusses need for enhanced security in Arctic in call with Trump
-      url: https://www.internazionale.it/ultime-notizie-reuters/2026/01/24/uk-s-starmer-discusses-need-for-enhanced-security-in-arctic-in-call-with-trump
-      published: 2026-01-24T17:59:36Z
     - blogName: Osservatorio Repressione
       title: 'USA: Minneapolis sotto tiro. L’ICE spara ancora e uccide'
       url: https://www.osservatoriorepressione.info/usa-minneapolis-sotto-tiro-lice-spara-ancora-e-uccide/
@@ -211,10 +215,6 @@ indiemedia:
       title: Un’altra persona uccisa dagli agenti federali a Minneapolis
       url: https://www.ilpost.it/2026/01/24/sparatoria-ice-minneapolis/
       published: 2026-01-24T17:03:05Z
-    - blogName: Internazionale
-      title: Federal agents fatally shoot second person in Minneapolis amid immigration crackdown
-      url: https://www.internazionale.it/ultime-notizie-reuters/2026/01/24/federal-agents-fatally-shoot-second-person-in-minneapolis-amid-immigration-crackdown
-      published: 2026-01-24T17:02:29Z
     - blogName: Il Post
       title: La tappa più attesa e spettacolare della Coppa del Mondo di sci maschile
       url: https://www.ilpost.it/2026/01/24/kitzbuhel-tappa-sci-discesa-libera-franzoni/
@@ -292,9 +292,9 @@ indiemedia:
       url: https://irpimedia.irpi.eu/erosione-culturale-deforestazione-amazzonia/?utm_source=rss&utm_medium=rss&utm_campaign=erosione-culturale-deforestazione-amazzonia
       published: 2026-01-21T11:07:59Z
     - blogName: Forte Prenestino
-      title: CINEFORUM TRANSFEMMINISTA
-      url: https://forteprenestino.net/attivita/cinema/3542-cineforum-transfemminista
-      published: 2026-01-19T13:49:52Z
+      title: BACK TO THE JAM
+      url: https://forteprenestino.net/attivita/pub-12-de-tutto/3543-back-to-the-jam-2
+      published: 2026-01-20T18:24:01Z
     - blogName: DINAMOpress
       title: Sicurezza preventiva e attacco differenziale ai diritti nelle nuove norme del governo
       url: https://www.dinamopress.it/news/sicurezza-preventiva-e-attacco-differenziale-ai-diritti-nelle-nuove-norme-del-governo/?utm_source=rss&utm_medium=rss&utm_campaign=sicurezza-preventiva-e-attacco-differenziale-ai-diritti-nelle-nuove-norme-del-governo
@@ -1059,6 +1059,10 @@ programming:
       title: Minus World
       url: https://feed.tedium.co/link/15204/17261173/oneplus-decline-shutdown-rumors-commentary
       published: 2026-01-23T01:06:35Z
+    - blogName: matklad
+      title: Considering Strictly Monotonic Time
+      url: https://matklad.github.io/2026/01/23/strictly-monotonic-time.html
+      published: 2026-01-23T00:00:00Z
     - blogName: Computerphile
       title: Implementing Passkeys in Practice - Computerphile
       url: https://www.youtube.com/watch?v=lypcC79k-gg
@@ -1099,6 +1103,10 @@ programming:
       title: Strolling around a system, virtually speaking
       url: https://rachelbythebay.com/w/2026/01/20/walk/
       published: 2026-01-20T22:06:41Z
+    - blogName: matklad
+      title: 'Vibecoding #2'
+      url: https://matklad.github.io/2026/01/20/vibecoding-2.html
+      published: 2026-01-20T00:00:00Z
     - blogName: null program
       title: 'Frankenwine: Multiple personas in a Wine process'
       url: https://nullprogram.com/blog/2026/01/19/
@@ -1427,14 +1435,6 @@ programming:
       title: Memory Safety Is ...
       url: https://matklad.github.io/2025/12/30/memory-safety-is.html
       published: 2025-12-30T00:00:00Z
-    - blogName: matklad
-      title: The Second Great Error Model Convergence
-      url: https://matklad.github.io/2025/12/29/second-error-model-convergence.html
-      published: 2025-12-29T00:00:00Z
-    - blogName: matklad
-      title: Parsing Advances
-      url: https://matklad.github.io/2025/12/28/parsing-advances.html
-      published: 2025-12-28T00:00:00Z
     - blogName: 'Bruce Momjian: General Blog'
       title: Soviet Style Economics Was Insane and Here's Why
       url: https://momjian.us/main/blogs/blog/2025.html#December_27_2025
@@ -1455,10 +1455,6 @@ programming:
       title: ssh-agent broken in tmux? I've got you!
       url: https://jmmv.dev/2025/12/ssh-agent-switcher-release.html
       published: 2025-12-26T09:00:00Z
-    - blogName: ★❤✰ Vicki Boykis ★❤✰
-      title: Favorite Books of 2025
-      url: https://veekaybee.github.io/essays/2025-12-26-favorite-books/
-      published: 2025-12-26T00:00:00Z
 'security ':
     - blogName: BleepingComputer
       title: Sandworm hackers linked to failed wiper attack on Poland’s energy systems
