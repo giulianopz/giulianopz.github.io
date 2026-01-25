@@ -316,7 +316,7 @@ func recent(publischedTime, upperBound *time.Time) bool {
 	return publischedTime != nil && publischedTime.After(*upperBound)
 }
 
-func ok(filters []filter, article *gofeed.Item) bool {
+func match(filters []filter, article *gofeed.Item) bool {
 	for _, f := range filters {
 		if !f(article) {
 			return false
@@ -343,7 +343,7 @@ func getArticles(f outline, upperBound *time.Time) (articles []*article) {
 		title := stripCDATA(i.Title)
 		if !skip(title) &&
 			recent(i.PublishedParsed, upperBound) &&
-			(f.Filters != "" && ok(filters, i)) {
+			(f.Filters == "" || match(filters, i)) {
 			link := i.Link
 			if strings.HasPrefix(link, "/") {
 				l, err := url.JoinPath(f.HTMLUrl, link)

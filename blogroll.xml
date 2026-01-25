@@ -16,6 +16,10 @@
         xmlUrl="https://dlc.hypotheses.org/feed" htmlUrl="https://dlc.hypotheses.org" />
     </outline>
     <outline text="eng-discuss" title="eng-discuss">
+      <outline text="Our World in Data - Data Insights" description="Our World in Data - Data Insights"
+      xmlUrl="https://ourworldindata.org/atom-data-insights.xml" htmlUrl="https://ourworldindata.org" />
+      <outline text="Our World in Data" description="Our World in Data"
+      xmlUrl="https://ourworldindata.org/atom.xml" htmlUrl="https://ourworldindata.org" />
       <outline text="theneedledrop" description="theneedledrop"
       xmlUrl="https://www.youtube.com/feeds/videos.xml?channel_id=UCt7fwAhXDy3oNFTAzF2o8Pw" htmlUrl="https://www.youtube.com/@theneedledrop" />
       <outline text="The Atlantic" description="The Atlantic"
