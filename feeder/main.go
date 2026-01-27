@@ -59,11 +59,18 @@ var (
 	feedParser *gofeed.Parser
 	httpClient *http.Client
 	cache      map[string]*metadata
+	cacheMu    sync.RWMutex
 )
 
-var visited = make(map[string]bool)
+var (
+	visitedMu sync.Mutex
+	visited   = make(map[string]bool)
+)
+
 var skip = func(s string) bool {
 	s = strings.TrimSpace(s)
+	visitedMu.Lock()
+	defer visitedMu.Unlock()
 	_, found := visited[s]
 	if !found {
 		visited[s] = true
@@ -106,6 +113,7 @@ func main() {
 		panic(err)
 	}
 
+	var articlesMu sync.Mutex
 	articlesByCategory := make(map[string][]*article)
 	if _, err := os.Stat(feedYAMLPath); !os.IsNotExist(err) {
 		feedFile, err := os.Open(feedYAMLPath)
@@ -141,23 +149,24 @@ func main() {
 		}
 	}
 
-	var mu sync.Mutex
 	wg := sync.WaitGroup{}
 	for _, o := range f.Body.Outlines {
 		if len(o.Outlines) == 0 {
 			wg.Go(func() {
 				fmt.Println("processing feed:", o.Text)
-				mu.Lock()
-				articlesByCategory["misc"] = append(articlesByCategory["misc"], getArticles(o, &upperBound)...)
-				mu.Unlock()
+				articles := getArticles(o, &upperBound)
+				articlesMu.Lock()
+				articlesByCategory["misc"] = append(articlesByCategory["misc"], articles...)
+				articlesMu.Unlock()
 			})
 		} else {
 			for _, child := range o.Outlines {
 				wg.Go(func() {
 					fmt.Println("processing feed:", child.Text)
-					mu.Lock()
-					articlesByCategory[o.Text] = append(articlesByCategory[o.Text], getArticles(child, &upperBound)...)
-					mu.Unlock()
+					articles := getArticles(child, &upperBound)
+					articlesMu.Lock()
+					articlesByCategory[o.Text] = append(articlesByCategory[o.Text], articles...)
+					articlesMu.Unlock()
 				})
 			}
 		}
@@ -215,7 +224,10 @@ func getFeed(feedUrl string) (*gofeed.Feed, error) {
 	request.Header.Add("User-Agent", userAgent)
 	request.Header.Add("Accept-Encoding", "gzip")
 
-	if meta, found := cache[feedUrl]; found {
+	cacheMu.RLock()
+	meta, found := cache[feedUrl]
+	cacheMu.RUnlock()
+	if found {
 		if meta.LastModified != "" {
 			request.Header.Add("If-Modified-Since", meta.LastModified)
 		}
@@ -261,6 +273,7 @@ retry:
 		return nil, fmt.Errorf("err: resp status code: %d: %s", response.StatusCode, feedUrl)
 	}
 
+	cacheMu.Lock()
 	if _, found := cache[feedUrl]; !found {
 		cache[feedUrl] = &metadata{}
 	}
@@ -271,6 +284,7 @@ retry:
 	if eTag := response.Header.Get("ETag"); eTag != "" {
 		cache[feedUrl].ETag = eTag
 	}
+	cacheMu.Unlock()
 
 	var reader io.ReadCloser
 	switch response.Header.Get("Content-Encoding") {
@@ -293,15 +307,13 @@ func parseFilters(filters string) (funcs []filter) {
 	for f := range strings.SplitSeq(filters, ",") {
 		kv := strings.Split(f, "=")
 
-		var (
-			key   = kv[0]
-			value = kv[1]
-		)
+		key := strings.TrimSpace(kv[0])
+		value := strings.TrimSpace(kv[1])
 
 		switch key {
 		case "author":
 			funcs = append(funcs, func(i *gofeed.Item) bool {
-				return len(i.Authors) != 0 && i.Authors[0].Name == strings.TrimSpace(value)
+				return len(i.Authors) != 0 && i.Authors[0].Name == value
 			})
 		case "category":
 			funcs = append(funcs, func(i *gofeed.Item) bool {
@@ -337,7 +349,7 @@ func getArticles(f outline, upperBound *time.Time) (articles []*article) {
 
 	var filters []filter
 	if f.Filters != "" {
-		parseFilters(f.Filters)
+		filters = parseFilters(f.Filters)
 	}
 	for _, i := range feed.Items {
 		title := stripCDATA(i.Title)
@@ -362,9 +374,6 @@ func getArticles(f outline, upperBound *time.Time) (articles []*article) {
 				Published: i.PublishedParsed,
 			})
 		}
-	}
-	if len(articles) > 3 {
-		articles = articles[:3]
 	}
 	return
 }
