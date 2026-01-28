@@ -513,6 +513,12 @@
         xmlUrl="https://thesubmarine.it/feed/" htmlUrl="https://thesubmarine.it" />
     </outline>
     <outline text="pg/db" title="pg/db">
+      <outline text="The Art of ProstgreSQL" description="The Art of ProstgreSQL"
+      xmlUrl="https://tapoueh.org/index.xml" htmlUrl="https://tapoueh.org" />
+      <outline text="Damien Clochard" description="Damien Clochard"
+      xmlUrl="https://blog.taadeem.net/rss.xml" htmlUrl="https://blog.taadeem.net" />
+      <outline text="Dave Stokes" description="Dave Stokes"
+      xmlUrl="https://stokerpostgresql.blogspot.com/feeds/posts/default" htmlUrl="https://stokerpostgresql.blogspot.com" />
       <outline text="https://blog.ioguix.net/feed.xml" description="https://blog.ioguix.net/feed.xml"
       xmlUrl="https://https://blog.ioguix.net/feed.xml" htmlUrl="https://blog.ioguix.net/feed.xml" />
       <outline text="Amit Langote" description="Amit Langote"
