@@ -366,7 +366,7 @@ func getArticles(f outline, upperBound *time.Time) (articles []*article) {
 				link = l
 			}
 			articles = append(articles, &article{
-				// override the RSS/Atom title with the UDF title in the OPML,
+				// override the RSS/Atom title with the user-defined title in the OPML,
 				// this can help with merging togheter feeds of authors blogging from different sources
 				BlogName:  f.Text,
 				Title:     title,

@@ -16,16 +16,23 @@
         xmlUrl="https://dlc.hypotheses.org/feed" htmlUrl="https://dlc.hypotheses.org" />
     </outline>
     <outline text="eng-discuss" title="eng-discuss">
-      <outline text="Our World in Data - Data Insights" description="Our World in Data - Data Insights"
-      xmlUrl="https://ourworldindata.org/atom-data-insights.xml" htmlUrl="https://ourworldindata.org" />
+      <outline text="Internazionale" description="Internazionale"
+        xmlUrl="https://www.internazionale.it/sitemaps/rss.xml"
+        htmlUrl="https://www.internazionale.it" />
+      <outline text="Our World in Data - Data Insights"
+        description="Our World in Data - Data Insights"
+        xmlUrl="https://ourworldindata.org/atom-data-insights.xml"
+        htmlUrl="https://ourworldindata.org" />
       <outline text="Our World in Data" description="Our World in Data"
-      xmlUrl="https://ourworldindata.org/atom.xml" htmlUrl="https://ourworldindata.org" />
+        xmlUrl="https://ourworldindata.org/atom.xml" htmlUrl="https://ourworldindata.org" />
       <outline text="theneedledrop" description="theneedledrop"
-      xmlUrl="https://www.youtube.com/feeds/videos.xml?channel_id=UCt7fwAhXDy3oNFTAzF2o8Pw" htmlUrl="https://www.youtube.com/@theneedledrop" />
+        xmlUrl="https://www.youtube.com/feeds/videos.xml?channel_id=UCt7fwAhXDy3oNFTAzF2o8Pw"
+        htmlUrl="https://www.youtube.com/@theneedledrop" />
       <outline text="The Atlantic" description="The Atlantic"
-      xmlUrl="https://www.theatlantic.com/feed/all/" htmlUrl="https://www.theatlantic.com/world/" />
+        xmlUrl="https://www.theatlantic.com/feed/all/" htmlUrl="https://www.theatlantic.com/world/" />
       <outline text="Kirsten Dirksen" description="Kirsten Dirksen"
-      xmlUrl="https://www.youtube.com/feeds/videos.xml?channel_id=UCDsElQQt_gCZ9LgnW-7v-cQ" htmlUrl="https://www.youtube.com/@kirstendirksen" />
+        xmlUrl="https://www.youtube.com/feeds/videos.xml?channel_id=UCDsElQQt_gCZ9LgnW-7v-cQ"
+        htmlUrl="https://www.youtube.com/@kirstendirksen" />
       <outline text="The Guardian" description="The Guardian"
         xmlUrl="https://www.theguardian.com/europe/rss" htmlUrl="https://www.theguardian.com" />
       <outline text="The Verge" description="The Verge"
@@ -79,18 +86,22 @@
     </outline>
     <outline text="programming" title="programming">
       <outline text="FOSDEM" description="FOSDEM"
-      xmlUrl="https://www.youtube.com/feeds/videos.xml?channel_id=UC9NuJImUbaSNKiwF2bdSfAw" htmlUrl="https://www.youtube.com/@fosdemtalks" />
+        xmlUrl="https://www.youtube.com/feeds/videos.xml?channel_id=UC9NuJImUbaSNKiwF2bdSfAw"
+        htmlUrl="https://www.youtube.com/@fosdemtalks" />
       <outline text="Computerphile" description="Computerphile"
-      xmlUrl="https://www.youtube.com/feeds/videos.xml?channel_id=UC9-y-6csu5WGm29I7JiwpnA" htmlUrl="https://www.youtube.com/@Computerphile" />
+        xmlUrl="https://www.youtube.com/feeds/videos.xml?channel_id=UC9-y-6csu5WGm29I7JiwpnA"
+        htmlUrl="https://www.youtube.com/@Computerphile" />
       <outline text="Paolo Aliverti" description="Paolo Aliverti"
-      xmlUrl="https://www.youtube.com/feeds/videos.xml?channel_id=UCUV7BwyOFRQfrCdF3xww_DA" htmlUrl="https://www.youtube.com/@zeppelinmaker" />
+        xmlUrl="https://www.youtube.com/feeds/videos.xml?channel_id=UCUV7BwyOFRQfrCdF3xww_DA"
+        htmlUrl="https://www.youtube.com/@zeppelinmaker" />
       <outline text="See figure 1." description="See figure 1."
         xmlUrl="http://seefigure1.com/rss.xml" htmlUrl="http://seefigure1.com" />
       <outline text="Strange Loop Conference" title="Strange Loop Conference" description=""
         type="rss" version="RSS" htmlUrl="https://www.youtube.com/channel/UC_QIfHvN9auy2CoOdSfMWDw"
         xmlUrl="https://www.youtube.com/feeds/videos.xml?channel_id=UC_QIfHvN9auy2CoOdSfMWDw" />
       <outline text="Chaos Computer Club" description="Chaos Computer Club"
-        xmlUrl="https://www.youtube.com/feeds/videos.xml?channel_id=UC2TXq_t06Hjdr2g_KdKpHQg" htmlUrl="https://www.youtube.com/@mediacccde" />
+        xmlUrl="https://www.youtube.com/feeds/videos.xml?channel_id=UC2TXq_t06Hjdr2g_KdKpHQg"
+        htmlUrl="https://www.youtube.com/@mediacccde" />
       <outline text="Kay Lack" description="Kay Lack"
         xmlUrl="https://www.youtube.com/feeds/videos.xml?channel_id=UC7UukP_hxrOsrwHrcHxOxxg"
         htmlUrl="https://www.youtube.com/@neoeno4242" />
@@ -362,14 +373,20 @@
         htmlUrl="https://buttondown.com/justincormack" />
     </outline>
     <outline text="indiemedia" title="indiemedia">
+      <outline text="Internazionale" description="Internazionale"
+        xmlUrl="https://www.internazionale.it/sitemaps/rss_italia.xml"
+        htmlUrl="https://www.internazionale.it" />
+      <outline text="Internazionale" description="Internazionale"
+        xmlUrl="https://www.internazionale.it/sitemaps/rss_reportage.xml"
+        htmlUrl="https://www.internazionale.it" />
+      <outline text="Internazionale" description="Internazionale"
+        xmlUrl="https://www.internazionale.it/sitemaps/rss_opinioni.xml"
+        htmlUrl="https://www.internazionale.it" />
       <outline text="Grande come una città" description="Grande come una città"
         xmlUrl="https://grandecomeunacitta.org/feed/" htmlUrl="https://grandecomeunacitta.org" />
       <outiline text="Sveja" title="Sveja"
         xmlUrl="https://www.sveja.it/feed/"
         htmlUrl="https://www.sveja.it/" />
-      <outline text="Internazionale" description="Internazionale"
-        xmlUrl="https://www.internazionale.it/sitemaps/rss.xml"
-        htmlUrl="https://www.internazionale.it" />
       <outline text="Jacobin Italia" title="Jacobin Italia" type="rss"
         xmlUrl="https://jacobinitalia.it/feed/" htmlUrl="https://jacobinitalia.it" />
       <outline text="Altreconomia" title="Altreconomia" description="" type="rss" version="RSS"
@@ -514,17 +531,20 @@
     </outline>
     <outline text="pg/db" title="pg/db">
       <outline text="The Art of ProstgreSQL" description="The Art of ProstgreSQL"
-      xmlUrl="https://tapoueh.org/index.xml" htmlUrl="https://tapoueh.org" />
+        xmlUrl="https://tapoueh.org/index.xml" htmlUrl="https://tapoueh.org" />
       <outline text="Damien Clochard" description="Damien Clochard"
-      xmlUrl="https://blog.taadeem.net/rss.xml" htmlUrl="https://blog.taadeem.net" />
+        xmlUrl="https://blog.taadeem.net/rss.xml" htmlUrl="https://blog.taadeem.net" />
       <outline text="Dave Stokes" description="Dave Stokes"
-      xmlUrl="https://stokerpostgresql.blogspot.com/feeds/posts/default" htmlUrl="https://stokerpostgresql.blogspot.com" />
-      <outline text="https://blog.ioguix.net/feed.xml" description="https://blog.ioguix.net/feed.xml"
-      xmlUrl="https://https://blog.ioguix.net/feed.xml" htmlUrl="https://blog.ioguix.net/feed.xml" />
+        xmlUrl="https://stokerpostgresql.blogspot.com/feeds/posts/default"
+        htmlUrl="https://stokerpostgresql.blogspot.com" />
+      <outline text="https://blog.ioguix.net/feed.xml"
+        description="https://blog.ioguix.net/feed.xml"
+        xmlUrl="https://https://blog.ioguix.net/feed.xml" htmlUrl="https://blog.ioguix.net/feed.xml" />
       <outline text="Amit Langote" description="Amit Langote"
         xmlUrl="https://amitlan.com/feed" htmlUrl="https://amitlan.com" />
       <outline text="Matheus Alcantara" description="Matheus Alcantara"
-      xmlUrl="https://matheus-alcantara.blogspot.com/feeds/posts/default" htmlUrl="https://matheus-alcantara.blogspot.com" />
+        xmlUrl="https://matheus-alcantara.blogspot.com/feeds/posts/default"
+        htmlUrl="https://matheus-alcantara.blogspot.com" />
       <outline text="Talking Postgres" description="Talking Postgres"
         xmlUrl="https://feeds.transistor.fm/talkingpostgres" htmlUrl="https://talkingpostgres.com/" />
       <outline text="postgres.fm" description="postgres.fm"
@@ -691,7 +711,7 @@
         xmlUrl="https://www.enterprisedb.com/blog/rss/feed?author=Phil%20Eaton" />
       <outline text="PlanetScale" title="PlanetScale" description="" type="rss" version="RSS"
         htmlUrl="https://planetscale.com/blog" xmlUrl="https://planetscale.com/blog/feed.atom"
-        filters="author=Ben Dicken"/>
+        filters="author=Ben Dicken" />
       <outline text="Postgres Weekly" title="Postgres Weekly" description="" type="rss"
         version="RSS" htmlUrl="https://postgresweekly.com/" xmlUrl="https://postgresweekly.com/rss/" />
       <outline text="Posts on My DBA Notebook" title="Posts on My DBA Notebook" description=""
