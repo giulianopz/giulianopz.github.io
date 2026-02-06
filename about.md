@@ -5,11 +5,13 @@ title: About
 
 Hi, thanks for stopping by!
 
-I'm Giuliano, a tiny little programmer. Once a linguist. 
+I'm Giuliano, a tiny little programmer. Once a linguist.
+
+> You probably don't know what the heck is a linguist: you are not the only one (see [here](https://www.princeton.edu/~browning/major.html) some funny and common misconceptions).
 
 > Computer science and linguistics may seem quite separate fields of interest but they are actually intertwined in an [eternal golden braid](https://en.wikipedia.org/wiki/G%C3%B6del,_Escher,_Bach): [people](https://link.springer.com/article/10.1007/BF01007763) thinking they can contribute to each other should come as no surprise.
 
-I tried to work at the intersection of these two worlds with mediocre results at uni, then I switched to a more regular job to learn programming/CS from the ground up. 
+I tried to work at the intersection of these two worlds with mediocre results at uni, then I switched to a more regular job to learn programming/CS from the ground up.
 
 Anyway, I still keep an eye on [linguistics](https://lingbuzz.net/)/[NLP](https://arxiv.org/list/cs.CL/recent) papers and I wish to live long enough to read the 3rd edition of ["Speech and Language Processing"](https://web.stanford.edu/~jurafsky/slp3/).
 
@@ -37,7 +39,7 @@ I usually keep track of some useful stuff about programming (paper textbooks and
   </iframe>
 </div>
 
-Beyond programming, books and music are the things that fill my space and time. I'm a slow reader and I have a taste for piling up voluminous texts on the bedside table. As to music, I qualify myself as a [scaruffian](https://www.scaruffi.com/music.html) audiophile. 
+Beyond programming, books and music are the things that fill my space and time. I'm a slow reader and I have a taste for piling up voluminous texts on the bedside table. As to music, I qualify myself as a [scaruffian](https://www.scaruffi.com/music.html) audiophile.
 
 ## Web Presence
 
@@ -46,7 +48,7 @@ Beyond programming, books and music are the things that fill my space and time. 
 - [cohost!](https://cohost.org/gpz?page=0) (defunct)
 - [Linkedin](https://www.linkedin.com/in/giuliano-panzironi/) (mostly ghostly)
 - [Hacker News](https://news.ycombinator.com/user?id=giulianopz) (not really a prolific commenter/submitter, rather a front-page reader most of the time)
-- [GitHub](https://github.com/giulianopz) (the [forge](https://en.wikipedia.org/wiki/Forge_(software)) we love to [hate](https://sfconservancy.org/GiveUpGitHub/)) 
+- [GitHub](https://github.com/giulianopz) (the [forge](https://en.wikipedia.org/wiki/Forge_(software)) we love to [hate](https://sfconservancy.org/GiveUpGitHub/))
 - [Codeberg](https://codeberg.org/giulianopz) (have to really give it a try yet)
 - [YouTube](https://www.youtube.com/@giuliano.panzironi) (until ad-blockers are not blocked)
 - [Goodreads](https://www.goodreads.com/user/show/168807725-giuliano-panzironi) (pretending it to be barely usable)
