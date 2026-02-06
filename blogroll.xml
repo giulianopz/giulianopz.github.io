@@ -4,7 +4,42 @@
     <title>feeds' subscriptions</title>
   </head>
   <body>
-    <outline text="linguistics" title="linguistics">
+    <outline text="language" title="language">
+      <!--
+        * La Lingua Batte: https://www.raiplaysound.it/programmi/lalinguabatte
+        * Annual Review of Linguistics: https://www.annualreviews.org/content/journals/linguistics
+      -->
+      <outline text="arxiv.org>cs.CL" description="arxiv.org>cs.CL"
+        xmlUrl="https://rss.arxiv.org/rss/cs.cl" htmlUrl="https://arxiv.org/list/cs.CL/recent" />
+      <outline text="Unravel" description="Unravel"
+        xmlUrl="https://unravellingmag.com/?feed=rss2" htmlUrl="https://unravellingmag.com" />
+      <outline text="Speculative Grammarian" description="Speculative Grammarian"
+        xmlUrl="https://specgram.com/podcast.xml" htmlUrl="https://specgram.com" />
+      <outline text="ruder.io" description="ruder.io"
+        xmlUrl="https://www.ruder.io/rss/" htmlUrl="https://www.ruder.io" />
+      <outline text="outdex" description="outdex"
+        xmlUrl="https://outde.xyz/feeds/all.atom.xml" htmlUrl="https://outde.xyz" />
+      <outline text="Linguamonium" description="Linguamonium"
+        xmlUrl="https://linguamonium.com/?feed=rss2" htmlUrl="https://linguamonium.com" />
+      <outline text="Lil'Log" description="Lil'Log"
+        xmlUrl="https://lilianweng.github.io/index.xml" htmlUrl="https://lilianweng.github.io" />
+      <outline text="Italian Journal of Linguistics" description="Italian Journal of Linguistics"
+        xmlUrl="https://www.italian-journal-linguistics.com/feed"
+        htmlUrl="https://www.italian-journal-linguistics.com" />
+      <outline text="GLOSSA" description="GLOSSA"
+        xmlUrl="https://www.glossa-journal.org/rss/"
+        htmlUrl="https://www.glossa-journal.org/articles/" />
+      <outline text="Wellformedness" description="Wellformedness"
+        xmlUrl="https://www.wellformedness.com/blog/feed/"
+        htmlUrl="https://www.wellformedness.com/blog/" />
+      <outline text="RIFL" description="RIFL"
+        xmlUrl="https://rifl.unical.it/index.php/rifl/gateway/plugin/AnnouncementFeedGatewayPlugin/atom"
+        htmlUrl="https://rifl.unical.it/index.php/rifl" />
+      <outline text="LingBuzz" description="LingBuzz"
+        xmlUrl="https://feeds.feedburner.com/LingBuzz" htmlUrl="https://ling.auf.net/" />
+      <outline text="r/linguistics" description="r/linguistics"
+        xmlUrl="https://www.reddit.com/r/linguistics.rss"
+        htmlUrl="https://www.reddit.com/r/linguistics/" />
       <outline text="David Adger" description="David Adger"
         xmlUrl="https://davidadger.org/feed/" htmlUrl="https://davidadger.org/" />
       <outline text="Language Log" description="Language Log"
@@ -16,6 +51,8 @@
         xmlUrl="https://dlc.hypotheses.org/feed" htmlUrl="https://dlc.hypotheses.org" />
     </outline>
     <outline text="eng-discuss" title="eng-discuss">
+      <outline text="JSTOR Daily" description="JSTOR Daily"
+        xmlUrl="https://daily.jstor.org/feed" htmlUrl="https://daily.jstor.org" />
       <outline text="Internazionale" description="Internazionale"
         xmlUrl="https://www.internazionale.it/sitemaps/rss.xml"
         htmlUrl="https://www.internazionale.it" />
@@ -85,6 +122,8 @@
         xmlUrl="https://9-eyes.com/rss" htmlUrl="https://9-eyes.com" />
     </outline>
     <outline text="programming" title="programming">
+      <outline text="Zig Devlog" description="Zig Devlog"
+        xmlUrl="https://ziglang.org/devlog/index.xml" htmlUrl="https://ziglang.org/devlog" />
       <outline text="FOSDEM" description="FOSDEM"
         xmlUrl="https://www.youtube.com/feeds/videos.xml?channel_id=UC9NuJImUbaSNKiwF2bdSfAw"
         htmlUrl="https://www.youtube.com/@fosdemtalks" />
@@ -105,9 +144,6 @@
       <outline text="Kay Lack" description="Kay Lack"
         xmlUrl="https://www.youtube.com/feeds/videos.xml?channel_id=UC7UukP_hxrOsrwHrcHxOxxg"
         htmlUrl="https://www.youtube.com/@neoeno4242" />
-      <outline text="Ben Dicken" description="Ben Dicken"
-        xmlUrl="https://www.youtube.com/feeds/videos.xml?channel_id=UCu5ZOjEN1L4nTyh00FN_VJQ"
-        htmlUrl="https://www.youtube.com/@benjdicken" />
       <outline text="LaurieWired" description="LaurieWired"
         xmlUrl="https://www.youtube.com/feeds/videos.xml?channel_id=UCJXa3_WNNmIpewOtCHf3B0g"
         htmlUrl="https://www.youtube.com/@lauriewired" />
@@ -373,6 +409,8 @@
         htmlUrl="https://buttondown.com/justincormack" />
     </outline>
     <outline text="indiemedia" title="indiemedia">
+      <outline text="CrimethInc." description="CrimethInc."
+        xmlUrl="https://en.crimethinc.com/feed" htmlUrl="https://en.crimethinc.com" />
       <outline text="Internazionale" description="Internazionale"
         xmlUrl="https://www.internazionale.it/sitemaps/rss_italia.xml"
         htmlUrl="https://www.internazionale.it" />
@@ -530,6 +568,12 @@
         xmlUrl="https://thesubmarine.it/feed/" htmlUrl="https://thesubmarine.it" />
     </outline>
     <outline text="pg/db" title="pg/db">
+      <outline text="Ben Dicken" description="Ben Dicken"
+        xmlUrl="https://www.youtube.com/feeds/videos.xml?channel_id=UCu5ZOjEN1L4nTyh00FN_VJQ"
+        htmlUrl="https://www.youtube.com/@benjdicken" />
+      <outline text="5mins of Postgres" description="5mins of Postgres"
+        xmlUrl="https://www.youtube.com/feeds/videos.xml?channel_id=UCDV_1Dz2Ixgl1nT_3DUZVFw"
+        htmlUrl="https://www.youtube.com/watch?v=QLb3nhIy2Lc&amp;list=PLhqxwIAgz78HZhWyu3UyKrCWNk7VWjVpj" />
       <outline text="The Art of ProstgreSQL" description="The Art of ProstgreSQL"
         xmlUrl="https://tapoueh.org/index.xml" htmlUrl="https://tapoueh.org" />
       <outline text="Damien Clochard" description="Damien Clochard"
