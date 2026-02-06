@@ -2,6 +2,8 @@
   link: /
 - name: about
   link: /about.html
+- name: now
+  link: https://docs.google.com/spreadsheets/d/e/2PACX-1vR0n-p2qL4ypolzA7zv7B1KsKD3MlHYm1FdClUZRKLRyMQztcJkMizCX1Zko_LbstnOMvoTj_dR42Ei/pubchart?oid=292703462&format=interactive
 - name: pg
   link: /pg.html
 - name: GPG
