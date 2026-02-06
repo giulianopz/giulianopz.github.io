@@ -21,6 +21,43 @@ permalink: /feed.html
         background-color: whitesmoke;
         color: black;
     }
+
+    /* 1. Force the table to respect the screen width */
+    .category-section table {
+        width: 100%;
+        table-layout: fixed;
+        border-collapse: collapse;
+    }
+
+    /* 2. General cell styling */
+    .category-section td {
+        vertical-align: top; /* Keeps date aligned with the first line of the title */
+        padding-bottom: 8px; /* Adds a little breathing room between articles */
+    }
+
+    /* 3. Keep date column on one line and set a fixed width */
+    .category-section td:nth-child(1) {
+        width: 125px;
+        white-space: nowrap;
+    }
+
+    @media (min-width: 1200px) {
+        .category-section td:nth-child(1) {
+            width: 195px;
+        }
+    }
+
+    /* 4. Spacer column */
+    .category-section td:nth-child(2) {
+        width: 10px;
+    }
+
+    /* 5. Allow text column to wrap to the next line */
+    .category-section td:nth-child(3) {
+        width: auto; /* Takes up whatever space is left */
+        word-wrap: break-word;
+        overflow-wrap: break-word;
+    }
 </style>
 
 <div>A feed of articles from the past 30 days, updated nightly from my <a href="/blogroll.xml">blogroll</a>.</div>
@@ -35,6 +72,8 @@ permalink: /feed.html
     </button>
     {% endfor %}
 </div>
+
+<br>
 
 <div class="feed-content">
     {% for category_hash in site.data.feed %}
