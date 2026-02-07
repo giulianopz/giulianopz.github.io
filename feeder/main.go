@@ -58,8 +58,8 @@ type head struct {
 var (
 	feedParser *gofeed.Parser
 	httpClient *http.Client
-	cache      map[string]*metadata
 	cacheMu    sync.RWMutex
+	cache      map[string]*metadata
 )
 
 var (

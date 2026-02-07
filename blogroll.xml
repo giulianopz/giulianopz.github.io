@@ -122,6 +122,8 @@
         xmlUrl="https://9-eyes.com/rss" htmlUrl="https://9-eyes.com" />
     </outline>
     <outline text="programming" title="programming">
+      <outline text="visualrambling.space" description="visualrambling.space"
+      xmlUrl="https://visualrambling.space/rss.xml" htmlUrl="https://visualrambling.space" />
       <outline text="Zig Devlog" description="Zig Devlog"
         xmlUrl="https://ziglang.org/devlog/index.xml" htmlUrl="https://ziglang.org/devlog" />
       <outline text="FOSDEM" description="FOSDEM"
