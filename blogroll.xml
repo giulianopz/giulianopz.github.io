@@ -122,6 +122,8 @@
         xmlUrl="https://9-eyes.com/rss" htmlUrl="https://9-eyes.com" />
     </outline>
     <outline text="programming" title="programming">
+      <outline text="arp242" description="arp242"
+      xmlUrl="https://www.arp242.net/feed.xml" htmlUrl="https://www.arp242.net" />
       <outline text="visualrambling.space" description="visualrambling.space"
       xmlUrl="https://visualrambling.space/rss.xml" htmlUrl="https://visualrambling.space" />
       <outline text="Zig Devlog" description="Zig Devlog"
