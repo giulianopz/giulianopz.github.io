@@ -51,6 +51,10 @@
         xmlUrl="https://dlc.hypotheses.org/feed" htmlUrl="https://dlc.hypotheses.org" />
     </outline>
     <outline text="eng-discuss" title="eng-discuss">
+      <outline text="Rens Bod" description="Rens Bod"
+      xmlUrl="https://devergetenwetenschappen.blogspot.com/feeds/posts/default?alt=rss" htmlUrl="https://devergetenwetenschappen.blogspot.com" />
+      <outline text="404 Media" description="404 Media"
+      xmlUrl="https://www.404media.co/rss/" htmlUrl="https://www.404media.com" />
       <outline text="JSTOR Daily" description="JSTOR Daily"
         xmlUrl="https://daily.jstor.org/feed" htmlUrl="https://daily.jstor.org" />
       <outline text="Internazionale" description="Internazionale"
@@ -122,6 +126,8 @@
         xmlUrl="https://9-eyes.com/rss" htmlUrl="https://9-eyes.com" />
     </outline>
     <outline text="programming" title="programming">
+      <outline text="Modern C" description="Modern C"
+      xmlUrl="https://modern-c.blogspot.com/feeds/posts/default?alt=rss" htmlUrl="https://modern-c.blogspot.com" />
       <outline text="arp242" description="arp242"
       xmlUrl="https://www.arp242.net/feed.xml" htmlUrl="https://www.arp242.net" />
       <outline text="visualrambling.space" description="visualrambling.space"
