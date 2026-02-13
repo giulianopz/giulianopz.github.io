@@ -127,6 +127,8 @@
         xmlUrl="https://9-eyes.com/rss" htmlUrl="https://9-eyes.com" />
     </outline>
     <outline text="programming" title="programming">
+      <outline text="taylor.town" description="taylor.town"
+        xmlUrl="https://taylor.town/feed.xml" htmlUrl="https://taylor.town" />
       <outline text="Hackaday" description="Hackaday"
         xmlUrl="https://hackaday.com/feed/" htmlUrl="https://hackaday.com/" />
       <outline text="Kay Lack (neoneo)" description="Kay Lack (neoneo)"
