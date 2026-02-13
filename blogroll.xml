@@ -126,6 +126,8 @@
         xmlUrl="https://9-eyes.com/rss" htmlUrl="https://9-eyes.com" />
     </outline>
     <outline text="programming" title="programming">
+      <outline text="Kay Lack (neoneo)" description="Kay Lack (neoneo)"
+      xmlUrl="https://klog.substack.com/feed" htmlUrl="https://klog.substack.com" />
       <outline text="Modern C" description="Modern C"
       xmlUrl="https://modern-c.blogspot.com/feeds/posts/default?alt=rss" htmlUrl="https://modern-c.blogspot.com" />
       <outline text="arp242" description="arp242"
