@@ -52,9 +52,10 @@
     </outline>
     <outline text="eng-discuss" title="eng-discuss">
       <outline text="Rens Bod" description="Rens Bod"
-      xmlUrl="https://devergetenwetenschappen.blogspot.com/feeds/posts/default?alt=rss" htmlUrl="https://devergetenwetenschappen.blogspot.com" />
+        xmlUrl="https://devergetenwetenschappen.blogspot.com/feeds/posts/default?alt=rss"
+        htmlUrl="https://devergetenwetenschappen.blogspot.com" />
       <outline text="404 Media" description="404 Media"
-      xmlUrl="https://www.404media.co/rss/" htmlUrl="https://www.404media.com" />
+        xmlUrl="https://www.404media.co/rss/" htmlUrl="https://www.404media.com" />
       <outline text="JSTOR Daily" description="JSTOR Daily"
         xmlUrl="https://daily.jstor.org/feed" htmlUrl="https://daily.jstor.org" />
       <outline text="Internazionale" description="Internazionale"
@@ -126,14 +127,17 @@
         xmlUrl="https://9-eyes.com/rss" htmlUrl="https://9-eyes.com" />
     </outline>
     <outline text="programming" title="programming">
+      <outline text="Hackaday" description="Hackaday"
+        xmlUrl="https://hackaday.com/feed/" htmlUrl="https://hackaday.com/" />
       <outline text="Kay Lack (neoneo)" description="Kay Lack (neoneo)"
-      xmlUrl="https://klog.substack.com/feed" htmlUrl="https://klog.substack.com" />
+        xmlUrl="https://klog.substack.com/feed" htmlUrl="https://klog.substack.com" />
       <outline text="Modern C" description="Modern C"
-      xmlUrl="https://modern-c.blogspot.com/feeds/posts/default?alt=rss" htmlUrl="https://modern-c.blogspot.com" />
+        xmlUrl="https://modern-c.blogspot.com/feeds/posts/default?alt=rss"
+        htmlUrl="https://modern-c.blogspot.com" />
       <outline text="arp242" description="arp242"
-      xmlUrl="https://www.arp242.net/feed.xml" htmlUrl="https://www.arp242.net" />
+        xmlUrl="https://www.arp242.net/feed.xml" htmlUrl="https://www.arp242.net" />
       <outline text="visualrambling.space" description="visualrambling.space"
-      xmlUrl="https://visualrambling.space/rss.xml" htmlUrl="https://visualrambling.space" />
+        xmlUrl="https://visualrambling.space/rss.xml" htmlUrl="https://visualrambling.space" />
       <outline text="Zig Devlog" description="Zig Devlog"
         xmlUrl="https://ziglang.org/devlog/index.xml" htmlUrl="https://ziglang.org/devlog" />
       <outline text="FOSDEM" description="FOSDEM"
@@ -580,6 +584,8 @@
         xmlUrl="https://thesubmarine.it/feed/" htmlUrl="https://thesubmarine.it" />
     </outline>
     <outline text="pg/db" title="pg/db">
+      <outline text="Multigres" description="Multigres"
+        xmlUrl="https://multigres.com/blog/rss.xml" htmlUrl="https://multigres.com/blog" />
       <outline text="Ben Dicken" description="Ben Dicken"
         xmlUrl="https://www.youtube.com/feeds/videos.xml?channel_id=UCu5ZOjEN1L4nTyh00FN_VJQ"
         htmlUrl="https://www.youtube.com/@benjdicken" />
