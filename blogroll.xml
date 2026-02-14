@@ -51,6 +51,12 @@
         xmlUrl="https://dlc.hypotheses.org/feed" htmlUrl="https://dlc.hypotheses.org" />
     </outline>
     <outline text="eng-discuss" title="eng-discuss">
+      <outline text="techdirt" description="techdirt"
+        xmlUrl="https://www.techdirt.com/feed/" htmlUrl="https://www.techdirt.com/" />
+      <outline text="Pluralistic" description="Pluralistic"
+        xmlUrl="https://pluralistic.net/feed/" htmlUrl="https://pluralistic.net/" />
+      <outline text="Internet Archive" description="Internet Archive"
+        xmlUrl="https://blog.archive.org/feed/" htmlUrl="https://blog.archive.org/" />
       <outline text="Rens Bod" description="Rens Bod"
         xmlUrl="https://devergetenwetenschappen.blogspot.com/feeds/posts/default?alt=rss"
         htmlUrl="https://devergetenwetenschappen.blogspot.com" />
@@ -127,6 +133,13 @@
         xmlUrl="https://9-eyes.com/rss" htmlUrl="https://9-eyes.com" />
     </outline>
     <outline text="programming" title="programming">
+      <outline text="Computers Are Bad" description="Computers Are Bad"
+        xmlUrl="https://computer.rip/rss.xml" htmlUrl="https://computer.rip" />
+      <outline text="Linus Åkesson" description="Linus Åkesson"
+        xmlUrl="http://www.linusakesson.net/rssfeed.php" htmlUrl="http://www.linusakesson.net" />
+      <outline text="absorptions" description="absorptions"
+        xmlUrl="https://www.windytan.com/feeds/posts/default?alt=rss"
+        htmlUrl="https://www.windytan.com" />
       <outline text="taylor.town" description="taylor.town"
         xmlUrl="https://taylor.town/feed.xml" htmlUrl="https://taylor.town" />
       <outline text="Hackaday" description="Hackaday"
