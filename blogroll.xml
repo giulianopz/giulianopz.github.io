@@ -440,6 +440,9 @@
         htmlUrl="https://buttondown.com/justincormack" />
     </outline>
     <outline text="indiemedia" title="indiemedia">
+      <outline text="Collettiva" description="Collettiva"
+        xmlUrl="https://www.collettiva.it/sitemaps/collettiva/rss"
+        htmlUrl="https://www.collettiva.it" />
       <outline text="CrimethInc." description="CrimethInc."
         xmlUrl="https://en.crimethinc.com/feed" htmlUrl="https://en.crimethinc.com" />
       <outline text="Internazionale" description="Internazionale"
