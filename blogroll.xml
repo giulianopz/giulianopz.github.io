@@ -57,6 +57,8 @@
         xmlUrl="https://pluralistic.net/feed/" htmlUrl="https://pluralistic.net/" />
       <outline text="Internet Archive" description="Internet Archive"
         xmlUrl="https://blog.archive.org/feed/" htmlUrl="https://blog.archive.org/" />
+      <outline text="ThePudding" description="ThePudding"
+      xmlUrl="https://pudding.cool/feed" htmlUrl="https://pudding.cool" />
       <outline text="Rens Bod" description="Rens Bod"
         xmlUrl="https://devergetenwetenschappen.blogspot.com/feeds/posts/default?alt=rss"
         htmlUrl="https://devergetenwetenschappen.blogspot.com" />
@@ -144,6 +146,8 @@
         xmlUrl="https://taylor.town/feed.xml" htmlUrl="https://taylor.town" />
       <outline text="Hackaday" description="Hackaday"
         xmlUrl="https://hackaday.com/feed/" htmlUrl="https://hackaday.com/" />
+      <outline text="Jens Gustedt" description="Jens Gustedt"
+      xmlUrl="https://gustedt.wordpress.com/feed/" htmlUrl="https://gustedt.wordpress.com/" />
       <outline text="Kay Lack (neoneo)" description="Kay Lack (neoneo)"
         xmlUrl="https://klog.substack.com/feed" htmlUrl="https://klog.substack.com" />
       <outline text="Modern C" description="Modern C"
@@ -440,6 +444,8 @@
         htmlUrl="https://buttondown.com/justincormack" />
     </outline>
     <outline text="indiemedia" title="indiemedia">
+      <outline text="Radio Onda Rossa" description="Radio Onda Rossa"
+      xmlUrl="https://www.ondarossa.info/feed/tipo/ror_news+redazionali+news_trasmissioni+eventi" htmlUrl="https://www.ondarossa.info" />
       <outline text="Collettiva" description="Collettiva"
         xmlUrl="https://www.collettiva.it/sitemaps/collettiva/rss"
         htmlUrl="https://www.collettiva.it" />
@@ -604,6 +610,10 @@
     <outline text="pg/db" title="pg/db">
       <outline text="Multigres" description="Multigres"
         xmlUrl="https://multigres.com/blog/rss.xml" htmlUrl="https://multigres.com/blog" />
+      <outline text="Andrey Borodin" description="Andrey Borodin"
+      xmlUrl="https://www.youtube.com/feeds/videos.xml?channel_id=UCUrmEQtTfMrmo98f_WZ8Iig" htmlUrl="https://www.youtube.com/@byterelay" />
+      <outline text="Andrey Borodin" description="Andrey Borodin"
+      xmlUrl="https://medium.com/feed/@x4mmm" htmlUrl="https://x4mmm.medium.com/" />
       <outline text="Ben Dicken" description="Ben Dicken"
         xmlUrl="https://www.youtube.com/feeds/videos.xml?channel_id=UCu5ZOjEN1L4nTyh00FN_VJQ"
         htmlUrl="https://www.youtube.com/@benjdicken" />
