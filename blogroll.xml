@@ -608,6 +608,8 @@
         xmlUrl="https://thesubmarine.it/feed/" htmlUrl="https://thesubmarine.it" />
     </outline>
     <outline text="pg/db" title="pg/db">
+      <outline text="Jan Nidzwetzki" description="Jan Nidzwetzki"
+      xmlUrl="https://jnidzwetzki.github.io/feed.xml" htmlUrl="https://jnidzwetzki.github.io" />
       <outline text="Multigres" description="Multigres"
         xmlUrl="https://multigres.com/blog/rss.xml" htmlUrl="https://multigres.com/blog" />
       <outline text="Andrey Borodin" description="Andrey Borodin"
