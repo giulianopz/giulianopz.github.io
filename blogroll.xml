@@ -297,9 +297,6 @@
       <outline text="Brendan Gregg" title="Brendan Gregg" description="" type="rss" version="RSS"
         htmlUrl="http://www.brendangregg.com/blog"
         xmlUrl="https://www.brendangregg.com/blog/rss.xml" />
-      <outline text="Bruce Momjian: General Blog" title="Bruce Momjian: General Blog" description=""
-        type="rss" version="RSS" htmlUrl="https://momjian.us/main/blogs/blog.html"
-        xmlUrl="https://momjian.us/main/rss/blog.xml" />
       <outline text="Casey Muratori" title="Casey Muratori" description="" type="rss" version="RSS"
         htmlUrl="https://caseymuratori.com/blog" xmlUrl="https://caseymuratori.com/blog_atom.rss" />
       <outline text="Coding Horror" title="Coding Horror" description="" type="rss" version="RSS"

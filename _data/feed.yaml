@@ -1099,10 +1099,6 @@ pg/db:
       url: https://blog.taadeem.net//english/2026/01/25/postgresql_anonymizer_available_near_you
       published: 2026-01-25T12:30:36Z
 programming:
-    - blogName: 'Bruce Momjian: General Blog'
-      title: Europe Is Delusional
-      url: https://momjian.us/main/blogs/blog/2026.html#February_23_2026
-      published: 2026-02-24T01:00:01Z
     - blogName: Hackaday
       title: X-Ray a PCB Virtually
       url: https://hackaday.com/2026/02/23/x-ray-a-pcb-virtually/
