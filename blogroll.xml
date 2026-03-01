@@ -440,6 +440,8 @@
         htmlUrl="https://buttondown.com/justincormack" />
     </outline>
     <outline text="indiemedia" title="indiemedia">
+      <outline text="Sbilanciamoci" description="Sbilanciamoci"
+        xmlUrl="https://sbilanciamoci.info/feed/" htmlUrl="https://sbilanciamoci.info/" />
       <outline text="Collettiva" description="Collettiva"
         xmlUrl="https://www.collettiva.it/sitemaps/collettiva/rss"
         htmlUrl="https://www.collettiva.it" />
