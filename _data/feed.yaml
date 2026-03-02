@@ -1,60 +1,76 @@
 eng-discuss:
     - blogName: The Guardian
-      title: 'US-Israel war on Iran: supreme leader Ayatollah Ali Khamenei killed, Iranian state media confirm – latest reports'
-      url: https://www.theguardian.com/world/live/2026/feb/28/israel-attacks-iran-as-blasts-heard-in-tehran-live-updates
-      published: 2026-03-01T01:39:04Z
+      title: 'US-Israel war on Iran live: conflict spreads as IDF strikes Hezbollah in Beirut after Iran-backed group launches attack on Israel'
+      url: https://www.theguardian.com/us-news/live/2026/mar/01/us-israel-war-on-iran-ayatollah-ali-khamenei-i-dead-latest-reports
+      published: 2026-03-02T01:12:55Z
+    - blogName: Kirsten Dirksen
+      title: He lived on the street. Now turns raw dryland into frugal homestead
+      url: https://www.youtube.com/watch?v=xa63fqDHmTQ
+      published: 2026-03-02T00:42:37Z
     - blogName: The Guardian
-      title: Hundreds of thousands of travellers stranded or diverted amid air space closures in Middle East
-      url: https://www.theguardian.com/us-news/2026/mar/01/hundreds-of-thousands-of-travellers-stranded-or-diverted-amid-air-space-closures-in-middle-east
-      published: 2026-03-01T00:09:27Z
+      title: UK to allow US to use British bases for defensive strikes against Iran
+      url: https://www.theguardian.com/politics/2026/mar/01/uk-to-allow-us-to-use-british-bases-for-defensive-strikes-against-iran
+      published: 2026-03-02T00:35:40Z
     - blogName: The Guardian
-      title: 'Harry, Olivia, and a disco-tastic surprise from Dua Lipa: the Brit awards 2026 – in pictures'
-      url: https://www.theguardian.com/music/gallery/2026/mar/01/harry-olivia-and-a-disco-tastic-surprise-from-dua-lipa-the-brit-awards-2026-in-pictures
-      published: 2026-03-01T00:08:47Z
+      title: 'Ukraine war briefing: Starmer says Ukrainian experts will help shoot down Iranian drone attacks in Gulf'
+      url: https://www.theguardian.com/world/2026/mar/02/ukraine-war-briefing-drone-experts-to-stop-iran-drone-attacks-starmer
+      published: 2026-03-02T00:20:39Z
+    - blogName: The Verge
+      title: This Windows gaming handheld has a screen that folds in half
+      url: https://www.theverge.com/tech/886848/lenovo-legion-go-fold-concept-windows-foldable-pc-gaming-handheld
+      published: 2026-03-01T23:01:00Z
+    - blogName: The Verge
+      title: The new Yoga 9i 2-in-1 from Lenovo has an angled ‘canvas mode’ for easier note-taking
+      url: https://www.theverge.com/tech/885724/lenovo-yoga-9i-2-in-1-angled-canvas-mode
+      published: 2026-03-01T23:01:00Z
+    - blogName: The Verge
+      title: Lenovo’s redesigned ThinkPad Detachable tablet has a bigger screen and legit keyboard
+      url: https://www.theverge.com/tech/886134/lenovo-thinkpad-x13-detachable-tablet-t14-t14s-t16-laptops-price-specs
+      published: 2026-03-01T23:01:00Z
     - blogName: The Atlantic
-      title: ‘The Worst-Case Outcome Is Complete Chaos’
-      url: https://www.theatlantic.com/national-security/2026/02/iran-war-trump-us-strikes/686197/?utm_source=feed
-      published: 2026-02-28T22:59:33Z
+      title: All Eyes on Cuba
+      url: https://www.theatlantic.com/national-security/2026/03/cuba-trump-iran-venezuela/686203/?utm_source=feed
+      published: 2026-03-01T22:39:40Z
     - blogName: The Atlantic
-      title: The Death of Khamenei and the End of an Era
-      url: https://www.theatlantic.com/international/2026/02/death-khamenei-end-era/686196/?utm_source=feed
-      published: 2026-02-28T20:55:21Z
+      title: America’s Invaluable Ally
+      url: https://www.theatlantic.com/ideas/2026/03/americas-invaluable-ally/686205/?utm_source=feed
+      published: 2026-03-01T20:49:30Z
+    - blogName: techdirt
+      title: Funniest/Most Insightful Comments Of The Week At Techdirt
+      url: https://www.techdirt.com/2026/03/01/funniest-most-insightful-comments-of-the-week-at-techdirt-198/
+      published: 2026-03-01T20:00:00Z
+    - blogName: The Atlantic
+      title: Connor Storrie Knew What <em>SNL</em> Viewers Wanted to See
+      url: https://www.theatlantic.com/culture/2026/03/connor-storrie-snl-stripper-sketch/686204/?utm_source=feed
+      published: 2026-03-01T19:49:52Z
+    - blogName: phys.org
+      title: A 'Cosmic Positioning System' in the outer solar system
+      url: https://phys.org/news/2026-02-cosmic-positioning-outer-solar.html
+      published: 2026-03-01T19:30:01Z
+    - blogName: phys.org
+      title: '''Fast-paced, fit, agile'': Ableist words in job ads decrease applicants'
+      url: https://phys.org/news/2026-02-fast-paced-agile-ableist-words.html
+      published: 2026-03-01T18:30:01Z
+    - blogName: phys.org
+      title: Curiosity studies nodules on Mars boxwork formations
+      url: https://phys.org/news/2026-02-curiosity-nodules-mars-boxwork-formations.html
+      published: 2026-03-01T17:30:01Z
+    - blogName: Scientific American
+      title: Why mathematicians hate Good Will Hunting
+      url: https://www.scientificamerican.com/article/why-mathematicians-hate-good-will-hunting/
+      published: 2026-03-01T13:00:00Z
+    - blogName: RealClimate
+      title: 'Unforced Variations: Mar 2026'
+      url: https://www.realclimate.org/index.php/archives/2026/02/unforced-variations-mar-2026/?utm_source=rss&utm_medium=rss&utm_campaign=unforced-variations-mar-2026
+      published: 2026-03-01T02:59:33Z
     - blogName: 404 Media
       title: Scientists Reveal the Surprising Sex Lives of Neanderthals and Early Humans
       url: https://www.404media.co/scientists-reveal-the-surprising-sex-lives-of-neanderthals-and-early-humans/
       published: 2026-02-28T20:48:27Z
-    - blogName: The Verge
-      title: Polymarket defends its decision to allow betting on war as ‘invaluable’
-      url: https://www.theverge.com/tech/887040/polymarket-iran-war-betting-invaluable
-      published: 2026-02-28T20:46:35Z
-    - blogName: phys.org
-      title: Bronze Age mines in Spain may explain origin of Scandinavian bronze
-      url: https://phys.org/news/2026-02-bronze-age-spain-scandinavian.html
-      published: 2026-02-28T20:30:02Z
-    - blogName: phys.org
-      title: Genetic mapping of rice stink bug aids crop pest control
-      url: https://phys.org/news/2026-02-genetic-rice-bug-aids-crop.html
-      published: 2026-02-28T20:00:02Z
     - blogName: techdirt
       title: 'This Week In Techdirt History: February 22nd – 28th'
       url: https://www.techdirt.com/2026/02/28/this-week-in-techdirt-history-february-22nd-28th/
       published: 2026-02-28T20:00:00Z
-    - blogName: The Verge
-      title: The Rubin Observatory’s alert system sent 800,000 pings on its first night
-      url: https://www.theverge.com/science/887037/vera-c-rubin-observatory-800000-alerts
-      published: 2026-02-28T19:33:51Z
-    - blogName: phys.org
-      title: Study identifies aging-associated mitochondrial circular RNAs
-      url: https://phys.org/news/2026-02-aging-mitochondrial-circular-rnas.html
-      published: 2026-02-28T19:00:02Z
-    - blogName: The Atlantic
-      title: Trump Has No Plan for the Iranian People
-      url: https://www.theatlantic.com/ideas/2026/02/trump-has-no-plan-iranian-people/686194/?utm_source=feed
-      published: 2026-02-28T18:00:00Z
-    - blogName: The Verge
-      title: You can still grab great deals on Bose headphones and Astro Bot this weekend
-      url: https://www.theverge.com/gadgets/886520/bose-quietcomfort-headphones-samsung-galaxy-s26-ultra-deal-sale
-      published: 2026-02-28T16:07:14Z
     - blogName: Scientific American
       title: ‘Super agers’ with great memory have more young brain cells
       url: https://www.scientificamerican.com/article/super-agers-with-great-memory-have-more-young-brain-cells/
@@ -71,14 +87,6 @@ eng-discuss:
       title: Oil spills from tankers have fallen by more than 90% since the 1970s
       url: https://ourworldindata.org/data-insights/oil-spills-from-tankers-have-fallen-by-more-than-90-since-the-1970s
       published: 2026-02-28T07:57:00Z
-    - blogName: Internazionale
-      title: Israele e Stati Uniti hanno attaccato l’Iran
-      url: https://www.internazionale.it/ultime-notizie/2026/02/28/israele-ha-attaccato-l-iran
-      published: 2026-02-28T07:34:17Z
-    - blogName: Internazionale
-      title: Quattro anni di guerra hanno distrutto l’economia russa
-      url: https://www.internazionale.it/notizie/alessandro-lubello/2026/02/28/guerra-economia-russia
-      published: 2026-02-28T07:01:02Z
     - blogName: techdirt
       title: Trump Settles With Isaac Hayes’ Estate Over Use Of Music During The Campaign
       url: https://www.techdirt.com/2026/02/27/trump-settles-with-isaac-hayes-estate-over-use-of-music-during-the-campaign/
@@ -87,10 +95,6 @@ eng-discuss:
       title: Astronomers Capture Largest Image of Milky Way Ever
       url: https://nautil.us/astronomers-capture-largest-image-of-milky-way-ever-1271018/
       published: 2026-02-27T23:30:00Z
-    - blogName: techdirt
-      title: The NFL Won A Lawsuit Over Its Bluesky Ban. Its Social Media Strategy Is Still A Loser
-      url: https://www.techdirt.com/2026/02/27/the-nfl-won-a-lawsuit-over-its-bluesky-ban-its-social-media-strategy-is-still-a-loser/
-      published: 2026-02-27T23:07:36Z
     - blogName: Nautilus
       title: Early Exposure to Junk Food Has Brain-Altering Effects
       url: https://nautil.us/early-exposure-to-junk-food-has-brain-altering-effects-1271026/
@@ -103,10 +107,6 @@ eng-discuss:
       title: ' &#8220;For months, callers to the Washington state... '
       url: https://kottke.org/26/02/0048461-for-months-callers-to-the
       published: 2026-02-27T21:08:47Z
-    - blogName: Scientific American
-      title: Glyphosate is driving a rift in MAHA. Here’s what the science says about its effects on health
-      url: https://www.scientificamerican.com/article/glyphosate-is-driving-a-rift-in-maha-heres-what-the-science-says-about-its/
-      published: 2026-02-27T21:00:00Z
     - blogName: Nautilus
       title: Bedbugs Fear Water
       url: https://nautil.us/bedbugs-fear-water-1270972/
@@ -123,10 +123,6 @@ eng-discuss:
       title: 'Behind the Blog: Using Your Brain'
       url: https://www.404media.co/behind-the-blog-using-your-brain/
       published: 2026-02-27T16:27:13Z
-    - blogName: Internazionale
-      title: I Verdi vincono un’elezione suppletiva nel Regno Unito, Starmer critica gli estremismi 
-      url: https://www.internazionale.it/ultime-notizie/2026/02/27/regno-unito-verdi-vincono-elezione-suppletiva
-      published: 2026-02-27T16:21:43Z
     - blogName: 404 Media
       title: Lawmakers Demand DHS Define ‘Domestic Terrorist’ As It Uses Vast Array of Surveillance Tools
       url: https://www.404media.co/lawmakers-demand-dhs-define-domestic-terrorist-as-it-uses-vast-array-of-surveillance-tools/
@@ -250,10 +246,6 @@ eng-discuss:
       title: Opinieartikel over dierdemocratie in NRC
       url: https://devergetenwetenschappen.blogspot.com/2026/02/opinieartikel-over-dierdemocratie-in-nrc.html
       published: 2026-02-11T11:12:00Z
-    - blogName: Kirsten Dirksen
-      title: They lived 3 years in a basement. Then built their dream backyard home
-      url: https://www.youtube.com/watch?v=pZMq7tubZC8
-      published: 2026-02-10T19:09:46Z
     - blogName: Scope of Work
       title: Supersaturate, Recharge
       url: https://www.scopeofwork.net/supersaturate-recharge/
@@ -262,19 +254,43 @@ eng-discuss:
       title: The Climate Science reference they don’t want Judges to read
       url: https://www.realclimate.org/index.php/archives/2026/02/the-climate-science-reference-they-dont-want-judges-to-read/?utm_source=rss&utm_medium=rss&utm_campaign=the-climate-science-reference-they-dont-want-judges-to-read
       published: 2026-02-09T22:16:44Z
-    - blogName: RealClimate
-      title: Koonin’s Continuing Calumnies
-      url: https://www.realclimate.org/index.php/archives/2026/02/koonins-continuing-calumnies/?utm_source=rss&utm_medium=rss&utm_campaign=koonins-continuing-calumnies
-      published: 2026-02-07T18:37:17Z
     - blogName: Our World in Data
       title: Religion
       url: https://ourworldindata.org/religion
       published: 2026-02-02T00:00:00Z
 indiemedia:
+    - blogName: Osservatorio Repressione
+      title: 2 marzo 1950 – Petralia (Palermo). La polizia spara e uccide due manifestanti
+      url: https://www.osservatoriorepressione.info/2-marzo-1950-petralia-palermo/
+      published: 2026-03-01T23:01:00Z
     - blogName: Il Post
-      title: Sal Da Vinci ha vinto il Festival di Sanremo
-      url: https://www.ilpost.it/2026/03/01/sal-da-vinci-vince-festival-di-sanremo/
-      published: 2026-03-01T01:16:11Z
+      title: 'Tre persone sono state uccise in una sparatoria in Texas: l’FBI la considera un potenziale atto terroristico'
+      url: https://www.ilpost.it/2026/03/01/sparatoria-texas-austin-fbi-terrorismo/
+      published: 2026-03-01T21:24:12Z
+    - blogName: Il Post
+      title: Cos’è successo nella seconda giornata di guerra
+      url: https://www.ilpost.it/2026/03/01/seconda-giornata-guerra-iran/
+      published: 2026-03-01T21:20:06Z
+    - blogName: Radio Onda Rossa
+      title: '[Le Dita nella Presa] Propaganda e Guerra dagli USA all''Iran'
+      url: http://www.ondarossa.info/newstrasmissioni/dita-nella-presa/2026/03/propaganda-e-guerra-dagli-usa-alliran
+      published: 2026-03-01T20:00:00Z
+    - blogName: Il Post
+      title: María Corina Machado ha detto che tornerà in Venezuela nelle prossime settimane
+      url: https://www.ilpost.it/2026/03/01/maria-corina-machado-torna-venezuela-prossime-settimane/
+      published: 2026-03-01T18:55:43Z
+    - blogName: Sbilanciamoci
+      title: Trump and Netanyahu’s attack on Iran is an illegal act of aggression
+      url: https://sbilanciamoci.info/trump-and-netanyahus-attack-on-iran-is-an-illegal-act-of-aggression/
+      published: 2026-03-01T18:10:39Z
+    - blogName: Sbilanciamoci
+      title: 'Frappes en Iran: les Etats-Unis et Israël commettent «un crime d’agression»'
+      url: https://sbilanciamoci.info/frappes-en-iran-les-etats-unis-et-israel-commettent-un-crime-dagression/
+      published: 2026-03-01T17:26:18Z
+    - blogName: Internazionale
+      title: Un salto nell’ignoto per l’Iran
+      url: https://www.internazionale.it/opinione/pierre-haski/2026/03/01/morte-ali-khamenei-iran
+      published: 2026-03-01T08:15:14Z
     - blogName: Altreconomia
       title: Il capitalismo di rapina statunitense, in realtà, piace ancora tantissimo all’Unione europea
       url: https://altreconomia.it/il-capitalismo-di-rapina-statunitense-in-realta-piace-ancora-tantissimo-allunione-europea/
@@ -287,14 +303,14 @@ indiemedia:
       title: Pochi controlli e multe lievi. Abbiamo un problema con le mense
       url: https://altreconomia.it/pochi-controlli-e-multe-lievi-abbiamo-un-problema-con-le-mense/
       published: 2026-02-28T23:28:22Z
-    - blogName: Il Post
-      title: «Khamenei, uno degli uomini più malvagi della storia, è morto»
-      url: https://www.ilpost.it/2026/02/28/khamenei-trump-truth-conferma-morte/
-      published: 2026-02-28T22:34:02Z
-    - blogName: Il Post
-      title: Stefano De Martino sarà conduttore e direttore artistico dell’edizione del 2027 del Festival di Sanremo
-      url: https://www.ilpost.it/2026/02/28/stefano-de-martino-direttore-sanremo-2027/
-      published: 2026-02-28T22:32:34Z
+    - blogName: Osservatorio Repressione
+      title: 'Roma 1 marzo 1968: La battaglia di Valle Giulia'
+      url: https://www.osservatoriorepressione.info/roma-1-marzo-1968-la-battaglia-valle-giulia/
+      published: 2026-02-28T23:01:36Z
+    - blogName: Fascinazione
+      title: Quel giorno a Valle Giulia vissuto dai "fascisti"
+      url: http://www.fascinazione.info/2026/02/quel-giorno-valle-giulia.html
+      published: 2026-02-28T21:11:00.006Z
     - blogName: Fascinazione
       title: Quel giorno a Valle Giulia
       url: http://www.fascinazione.info/2026/02/quel-giorno-valle-giulia.html
@@ -311,22 +327,10 @@ indiemedia:
       title: 'Toglie i fiori dalla lapide di Mussolini e finisce a processo: l’antifascismo sul banco degli imputati'
       url: https://www.osservatoriorepressione.info/toglie-i-fiori-dalla-lapide-di-mussolini-e-finisce-a-processo-lantifascismo-sul-banco-degli-imputati/
       published: 2026-02-28T16:40:28Z
-    - blogName: Osservatorio Repressione
-      title: 'Israele e USA attaccano l’Iran: una guerra che si allarga e minaccia l’intera regione'
-      url: https://www.osservatoriorepressione.info/israele-e-usa-attaccano-liran-una-guerra-che-si-allarga-e-minaccia-lintera-regione/
-      published: 2026-02-28T15:58:55Z
     - blogName: Radio Onda Rossa
       title: Corrispondenza dal presidio a Cagliari
       url: http://www.ondarossa.info/newsredazione/2026/02/corrispondenza-dal-presidio-cagliari
       published: 2026-02-28T15:45:00Z
-    - blogName: Osservatorio Repressione
-      title: 'La militarizzazione dei dipendenti pubblici: tra trasparenza e obblighi di fedeltà'
-      url: https://www.osservatoriorepressione.info/la-militarizzazione-dei-dipendenti-pubblici-tra-trasparenza-e-obblighi-di-fedelta/
-      published: 2026-02-28T15:36:09Z
-    - blogName: Radio Onda Rossa
-      title: Corrispondenza dal Corteo in memoria di Roberto Scialabba
-      url: http://www.ondarossa.info/newsredazione/2026/02/corrispondenza-dal-corteo-memoria
-      published: 2026-02-28T15:30:00Z
     - blogName: Collettiva
       title: 'Landini: “Solidarietà al popolo iraniano”'
       url: https://www.collettiva.it/copertine/internazionale/landini-solidarieta-al-popolo-iraniano-i3o9sbms
@@ -339,6 +343,10 @@ indiemedia:
       title: La partita contro il mercato non è chiusa
       url: https://jacobinitalia.it/la-partita-contro-il-mercato-non-e-chiusa/
       published: 2026-02-28T10:35:40Z
+    - blogName: Sbilanciamoci
+      title: Stop all’attacco all’Iran, l’Italia non dia le basi
+      url: https://sbilanciamoci.info/stop-allattacco-alliran-litalia-non-dia-le-basi/
+      published: 2026-02-28T10:34:44Z
     - blogName: CrimethInc.
       title: The Attack on Iran Is an Attack on All of Us
       url: https://crimethinc.com/2026/02/28/the-attack-on-iran-is-an-attack-on-all-of-us
@@ -367,10 +375,14 @@ indiemedia:
       title: Alcune note in margine all’Uomo che sapeva tutto
       url: http://www.fascinazione.info/2026/02/alcune-considerazioni-in-margine-al.html
       published: 2026-02-26T20:56:00.007Z
-    - blogName: Fascinazione
-      title: Alcune considerazioni in margine al documentario L’uomo che sapeva tutto
-      url: http://www.fascinazione.info/2026/02/alcune-considerazioni-in-margine-al.html
-      published: 2026-02-26T20:56:00.006Z
+    - blogName: Internazionale
+      title: Un Cime tempestose in versione Barbie col corsetto
+      url: https://www.internazionale.it/opinione/eileen-jones/2026/02/26/cime-tempestose-film
+      published: 2026-02-26T11:10:57Z
+    - blogName: Internazionale
+      title: Wang Jie. L’apripista
+      url: https://www.internazionale.it/magazine/zhang-hanlu/2026/02/26/wang-jie-l-apripista
+      published: 2026-02-26T11:00:00Z
     - blogName: Jacobin Italia
       title: Colpire i giudici per smontare la res publica
       url: https://jacobinitalia.it/colpire-i-giudici-per-smontare-la-res-publica/
@@ -436,22 +448,74 @@ indiemedia:
       url: https://complotti.substack.com/p/donald-trump-fascista
       published: 2026-01-31T09:30:40Z
 ita-discuss:
+    - blogName: Leonardo Tondelli
+      title: Maledetti scudi umani, la mattina, la domenica
+      url: http://leonardo.blogspot.com/2026/03/maledetti-scudi-umani-la-mattina-la.html
+      published: 2026-03-02T00:44:00.001Z
+    - blogName: Snaporaz
+      title: Di che cosa parliamo quando parliamo di televisione? Intervista a Carlo Freccero
+      url: https://www.snaporaz.online/di-che-cosa-parliamo-quando-parliamo-di-televisione-intervista-a-carlo-freccero/
+      published: 2026-03-01T23:05:12Z
+    - blogName: Giap
+      title: Calendario generale di Wu Ming, marzo – aprile 2026
+      url: https://www.wumingfoundation.com/giap/2026/03/calendario-generale-di-wu-ming-marzo-aprile-2026/
+      published: 2026-03-01T23:00:31Z
+    - blogName: Carmilla Online
+      title: Guerra. Per una nuova antropologia politica
+      url: https://www.carmillaonline.com/2026/03/01/guerra-per-una-nuova-antropologia-politica/
+      published: 2026-03-01T21:00:41Z
+    - blogName: Paolo Nori
+      title: Il sonno
+      url: https://www.paolonori.it/il-sonno/
+      published: 2026-03-01T19:01:09Z
+    - blogName: Effimera
+      title: Pensare la violenza politica, oltre le condanne o le negazioni automatiche – di Joseph Confavreux
+      url: https://effimera.org/pensare-la-violenza-politica-oltre-le-condanne-o-le-negazioni-automatiche-di-joseph-confavreux/
+      published: 2026-03-01T16:09:19Z
+    - blogName: Tintoria
+      title: 'UNA SCELTA OBBLIGATA ft. Malika Ayane #tintoria #comedy #tintoriapodcast'
+      url: https://www.youtube.com/shorts/SpG5Ioz1fmk
+      published: 2026-03-01T13:00:45Z
+    - blogName: Francesco Sylos Labini
+      title: Cinematica e dinamica della galassia ESO 358-60
+      url: https://francescosyloslabini.info/2026/03/01/cinematica-e-dinamica-della-galassia-eso-358-60/
+      published: 2026-03-01T12:34:54Z
+    - blogName: Francesco Sylos Labini
+      title: Kinematic and dynamics of the galaxy ESO 358-60
+      url: https://francescosyloslabini.info/2026/03/01/kinematic-and-dynamics-of-the-galaxy-eso-358-60/
+      published: 2026-03-01T12:32:02Z
+    - blogName: Tintoria
+      title: 'L’abbiamo fatto di nuovo. Il Maestro #EnricoMelozzi non è negli Epstein Files. EVVAI.'
+      url: https://www.youtube.com/shorts/WZG3muirhxo
+      published: 2026-03-01T11:00:44Z
+    - blogName: The Submarine
+      title: Prove di cambio di regime
+      url: https://www.thesubmarine.it/2026/03/01/prove-di-cambio-di-regime/
+      published: 2026-03-01T09:54:09Z
+    - blogName: Tintoria
+      title: 'IL CIELO IN UNA STRO- ft. Malika Ayane #tintoria #comedy #tintoriapodcast'
+      url: https://www.youtube.com/shorts/qWDxu0ioA5w
+      published: 2026-03-01T09:01:11Z
+    - blogName: Leonardo Tondelli
+      title: Il fantasma dell'89
+      url: http://leonardo.blogspot.com/2026/03/il-fantasma-dell89.html
+      published: 2026-03-01T08:49:00.005Z
+    - blogName: Le parole e le cose
+      title: 'Vocali /15: “Vite nell’oro e nel blu” di Andrea Pomella'
+      url: https://www.leparoleelecose.it/vocali-15-vite-nelloro-e-nel-blu-di-andrea-pomella/
+      published: 2026-03-01T08:27:21Z
+    - blogName: Nazione Indiana
+      title: Il designer senza qualità
+      url: https://www.nazioneindiana.com/2026/03/01/il-designer-senza-qualita/
+      published: 2026-03-01T06:00:00Z
     - blogName: Carmilla Online
       title: Nell’abisso del Bianco
       url: https://www.carmillaonline.com/2026/02/28/nellabisso-del-bianco/
       published: 2026-02-28T21:00:12Z
-    - blogName: Tintoria
-      title: 'Tintoria Sanremo Edition #10 Malika Ayane'
-      url: https://www.youtube.com/watch?v=-R9ZjkT_8Ps
-      published: 2026-02-28T17:00:00Z
     - blogName: Machina
       title: Disertare il nichilismo
       url: https://www.machina-deriveapprodi.com/post/disertare-il-nichilismo
       published: 2026-02-28T13:24:02Z
-    - blogName: Tintoria
-      title: 'SOSPESO 74 GIORNI ft. Luchè #tintoria #comedy #tintoriapodcast'
-      url: https://www.youtube.com/shorts/ypNRGnLOxrE
-      published: 2026-02-28T13:01:50Z
     - blogName: Le parole e le cose
       title: 'Slow Horses: il capufficio è la spia'
       url: https://www.leparoleelecose.it/slow-horses-il-capufficio-e-la-spia/
@@ -472,10 +536,6 @@ ita-discuss:
       title: La settimana phastidiosa – 28 febbraio 2026
       url: https://phastidio.net/2026/02/28/la-settimana-phastidiosa-28-febbraio-2026/
       published: 2026-02-28T09:25:00Z
-    - blogName: Tintoria
-      title: 'MANGIARE COSE PAZZE ft. Luchè #tintoria #comedy #tintoriapodcast'
-      url: https://www.youtube.com/shorts/kWzUHAr4qAg
-      published: 2026-02-28T09:01:00Z
     - blogName: tempo fertile
       title: Creare il Codice
       url: https://tempofertile.blogspot.com/2026/02/creare-il-codice.html
@@ -568,10 +628,6 @@ ita-discuss:
       title: Godzilla e altre poesie
       url: https://www.leparoleelecose.it/godzilla-e-altre-poesie/
       published: 2026-02-27T06:28:51Z
-    - blogName: Paolo Nori
-      title: La parte che si paga
-      url: https://www.paolonori.it/la-parte-che-si-paga/
-      published: 2026-02-27T06:22:15Z
     - blogName: La Letteratura e Noi
       title: Inchiesta sulla letteratura Working class / 10 – Francesco Targhetta
       url: https://laletteraturaenoi.it/2026/02/27/inchiesta-sulla-letteratura-working-class-10-francesco-targhetta/
@@ -580,14 +636,6 @@ ita-discuss:
       title: Passeggiata nel nuovo Centro della Fotografia
       url: https://www.snaporaz.online/passeggiata-nel-nuovo-centro-della-fotografia/
       published: 2026-02-27T00:28:59Z
-    - blogName: Carmilla Online
-      title: Altri mondi. Per sfuggire all’eterno presente
-      url: https://www.carmillaonline.com/2026/02/26/altri-mondi-per-sfuggire-alleterno-presente/
-      published: 2026-02-26T21:00:08Z
-    - blogName: Francesco Sylos Labini
-      title: La crisi climatica
-      url: https://francescosyloslabini.info/2026/02/26/la-crisi-climatica-2/
-      published: 2026-02-26T19:50:06Z
     - blogName: Lucy sulla cultura
       title: 'Perseverare è umano: dieci peccati dall’apocalisse in cui viviamo'
       url: https://lucysullacultura.com/perseverare-e-umano-dieci-peccati-dallapocalisse-in-cui-viviamo/
@@ -596,10 +644,6 @@ ita-discuss:
       title: 'Attacco alla Banca d’Italia: la difesa di Paolo Baffi | Prefazione – di Alfredo Gigliobanco'
       url: https://effimera.org/prefazione-a-attacco-alla-banca-ditalia-la-difesa-di-paolo-baffi-di-alfredo-gigliobanco/
       published: 2026-02-26T14:23:57Z
-    - blogName: Nazione Indiana
-      title: 'AzioneAtzeni – Discanto Ventiseiesimo: Luciano Marrocu'
-      url: https://www.nazioneindiana.com/2026/02/26/azioneatzeni-discanto-ventiseiesimo-luciano-marrocu/
-      published: 2026-02-26T13:00:55Z
     - blogName: Machina
       title: Citare tutto
       url: https://www.machina-deriveapprodi.com/post/citare-tutto
@@ -616,10 +660,6 @@ ita-discuss:
       title: Accidia, malinconia, oblomovismo e altri mali letterari
       url: https://lucysullacultura.com/accidia-malinconia-oblomovismo-e-altri-mali-letterari/
       published: 2026-02-26T09:05:39Z
-    - blogName: The Submarine
-      title: Al governo non piace la parità di genere
-      url: https://www.thesubmarine.it/2026/02/26/al-governo-non-piace-la-parita-di-genere/
-      published: 2026-02-26T08:54:52Z
     - blogName: Giap
       title: Le destre, i ricchi, i complotti. Lezioni dagli Epstein Files, 1a parte
       url: https://www.wumingfoundation.com/giap/2026/02/internazionale-epstein-files-qanon-1/
@@ -628,10 +668,6 @@ ita-discuss:
       title: A chi appartengono le idee?
       url: https://www.iltascabile.com/linguaggi/chi-appartengono-idee/
       published: 2026-02-26T07:27:44Z
-    - blogName: Le parole e le cose
-      title: Socialismo di Metà-Terra
-      url: https://www.leparoleelecose.it/socialismo-di-meta-terra/
-      published: 2026-02-26T06:51:44Z
     - blogName: Snaporaz
       title: L’enigma della Sfinge di Gabriele Di Fronzo
       url: https://www.snaporaz.online/lenigma-della-sfinge-di-gabriele-di-fronzo/
@@ -656,14 +692,6 @@ ita-discuss:
       title: Novecento maggiore. Saggi e lezioni di letteratura italiana contemporanea. Federico Masci e Niccolò Amelii dialogano con Bruno Pischedda
       url: https://laletteraturaenoi.it/2026/02/25/novecento-maggiore-saggi-e-lezioni-di-letteratura-italiana-contemporanea-federico-masci-e-niccolo-amelii-dialogano-con-bruno-pischedda/
       published: 2026-02-25T06:00:00Z
-    - blogName: Snaporaz
-      title: Omaggio a Giovanni Mariotti
-      url: https://www.snaporaz.online/omaggio-a-giovanni-mariotti/
-      published: 2026-02-25T00:01:23Z
-    - blogName: Francesco Sylos Labini
-      title: Two Different Universes from the Same Data
-      url: https://francescosyloslabini.info/2026/02/24/two-different-universes-from-the-same-data/
-      published: 2026-02-24T08:41:45Z
     - blogName: Fata Morgana Web
       title: La professione dell’attore
       url: https://www.fatamorganaweb.it/in-ricordo-di-robert-duvall/
@@ -700,10 +728,6 @@ ita-discuss:
       title: L’epoca del brutalismo
       url: https://www.ilprimoamore.com/lepoca-del-brutalismo/
       published: 2026-02-23T03:08:48Z
-    - blogName: Effimera
-      title: Di me cosa rimane? Intorno a “Spettri Domestici” di Massimo Filippi – di Bianca Nogara Notarianni
-      url: https://effimera.org/di-me-cosa-rimane-intorno-a-spettri-domestici-di-massimo-filippi-di-bianca-nogara-notarianni/
-      published: 2026-02-21T15:49:38Z
     - blogName: Leonardo Tondelli
       title: Il bonus docente è davvero fantastico (nel senso che non l'ha visto ancora nessuno)
       url: http://leonardo.blogspot.com/2026/02/il-bonus-docente-e-davvero-fantastico.html
@@ -712,18 +736,10 @@ ita-discuss:
       title: 'Marco Rubio a Monaco: il ritorno del suprematismo civilizzazionale'
       url: https://tempofertile.blogspot.com/2026/02/marco-rubio-monaco-il-ritorno-del.html
       published: 2026-02-18T00:25:00.002Z
-    - blogName: Leonardo Tondelli
-      title: Dovevamo aspettarcela, l'inquisizione sionista
-      url: http://leonardo.blogspot.com/2026/02/dovevamo-aspettarcela-linquisizione.html
-      published: 2026-02-17T23:37:00Z
     - blogName: Giap
       title: «Piaceri e legami che resistono» | Quinto dispaccio da Mensaleri.
       url: https://www.wumingfoundation.com/giap/2026/02/piaceri-e-legami-che-resistono-quinto-dispaccio-da-mensaleri/
       published: 2026-02-17T08:24:03Z
-    - blogName: Leonardo Tondelli
-      title: 'Ճանաչել զիմաստութիւն եւ զխրատ, իմանալ զբանս հանճարոյ:'
-      url: http://leonardo.blogspot.com/2026/02/blog-post.html
-      published: 2026-02-16T23:32:00.004Z
     - blogName: NOT | Nero
       title: Il copyright non salverà gli artisti
       url: https://not.neroeditions.com/il-copyright-non-salvera-gli-artisti/
@@ -772,10 +788,6 @@ ita-discuss:
       title: Oltre la spettacolarizzazione della militanza
       url: https://not.neroeditions.com/oltre-la-spettacolarizzazione-della-militanza/
       published: 2026-02-03T13:29:11Z
-    - blogName: Giap
-      title: «L’acqua è crollata». Prosciugamenti, terraformazione e apocalissi culturali nel Delta padano
-      url: https://www.wumingfoundation.com/giap/2026/02/terraformazione-padana/
-      published: 2026-02-02T23:00:22Z
     - blogName: Franco Berardi Bifo
       title: L'ulcera di Giorgia
       url: https://francoberardi.substack.com/p/lulcera-di-giorgia
@@ -784,23 +796,19 @@ ita-discuss:
       title: 'Link Molto Belli: Microdrama'
       url: https://linkmoltobelli.substack.com/p/link-molto-belli-microdrama
       published: 2026-01-31T07:37:15Z
-    - blogName: Claudio Giunta
-      title: Sulle indicazioni nazionali del primo ciclo (Letteratura), molto in breve
-      url: https://claudiogiunta.it/2026/01/sulle-indicazioni-nazionali-del-primo-ciclo-letteratura-molto-in-breve/
-      published: 2026-01-30T17:11:24Z
 language:
     - blogName: Language Log
-      title: Unifying Arabic topolects through AI
-      url: https://languagelog.ldc.upenn.edu/nll/?p=72894&utm_source=rss&utm_medium=rss&utm_campaign=unifying-arabic-topolects-through-ai
-      published: 2026-02-28T20:29:16Z
+      title: 'The Chinese Computer: Competition or Cooperation?'
+      url: https://languagelog.ldc.upenn.edu/nll/?p=72879&utm_source=rss&utm_medium=rss&utm_campaign=the-chinese-computer-competition-or-cooperation
+      published: 2026-03-01T06:35:34Z
     - blogName: Language Log
-      title: What's (still) wrong with AI text-to-speech?
-      url: https://languagelog.ldc.upenn.edu/nll/?p=72892&utm_source=rss&utm_medium=rss&utm_campaign=whats-still-wrong-with-ai-text-to-speech
-      published: 2026-02-28T20:13:55Z
+      title: Planes, patches, pilots, and propaganda
+      url: https://languagelog.ldc.upenn.edu/nll/?p=72853&utm_source=rss&utm_medium=rss&utm_campaign=planes-patches-pilots-and-propaganda
+      published: 2026-03-01T06:26:58Z
     - blogName: Language Log
-      title: Tariffs
-      url: https://languagelog.ldc.upenn.edu/nll/?p=72876&utm_source=rss&utm_medium=rss&utm_campaign=tariffs
-      published: 2026-02-28T11:31:01Z
+      title: Hanging a trans flag from El Capitan
+      url: https://languagelog.ldc.upenn.edu/nll/?p=72856&utm_source=rss&utm_medium=rss&utm_campaign=hanging-a-trans-flag-from-el-capitan
+      published: 2026-03-01T06:23:53Z
     - blogName: arxiv.org>cs.CL
       title: 'pQuant: Towards Effective Low-Bit Language Models via Decoupled Linear Quantization-Aware Training'
       url: https://arxiv.org/abs/2602.22592
@@ -1079,42 +1087,82 @@ pg/db:
       url: https://multigres.com/blog/ai-parser-engineering
       published: 2026-02-05T00:00:00Z
 programming:
+    - blogName: LWN.net
+      title: Kernel prepatch 7.0-rc2
+      url: https://lwn.net/Articles/1060802/
+      published: 2026-03-02T01:07:09Z
+    - blogName: jwz
+      title: Palantir Sues Swiss Magazine For Accurately Reporting That The Swiss Government Didn't Want Palantir
+      url: https://www.jwz.org/blog/2026/03/palantir-sues-swiss-magazine-for-accurately-reporting-that-the-swiss-government-didnt-want-palantir/
+      published: 2026-03-02T00:35:18Z
     - blogName: Hackaday
-      title: Have you ever used a Tick Stick?
-      url: https://hackaday.com/2026/02/28/have-you-ever-used-a-tick-stick/
-      published: 2026-03-01T00:00:32Z
+      title: 'Hackaday Links: March 1, 2026'
+      url: https://hackaday.com/2026/03/01/hackaday-links-march-1-2026/
+      published: 2026-03-02T00:00:55Z
+    - blogName: LWN.net
+      title: groff 1.24.0 released
+      url: https://lwn.net/Articles/1060786/
+      published: 2026-03-01T21:15:09Z
+    - blogName: Hackaday
+      title: Turning a Cast-Iron Radiator into a Water-Cooled PC
+      url: https://hackaday.com/2026/03/01/turning-a-cast-iron-radiator-into-a-water-cooled-pc/
+      published: 2026-03-01T21:00:48Z
+    - blogName: Hackaday
+      title: Fish Drives Tank
+      url: https://hackaday.com/2026/03/01/fish-drives-tank/
+      published: 2026-03-01T18:00:45Z
+    - blogName: Chaos Computer Club
+      title: WICMP11 - "Everyday carry" - das schweizer Taschenmesser neu gedacht
+      url: https://www.youtube.com/watch?v=kA9GATXO250
+      published: 2026-03-01T15:40:58Z
+    - blogName: Chaos Computer Club
+      title: WICMP11 (english translation) - "Everyday carry" - das schweizer Taschenmesser neu gedacht
+      url: https://www.youtube.com/watch?v=hVygFOmjZrg
+      published: 2026-03-01T15:40:58Z
+    - blogName: Chaos Computer Club
+      title: WICMP11 - Infrastructure Review
+      url: https://www.youtube.com/watch?v=-9JjyQg-Ee8
+      published: 2026-03-01T15:38:38Z
+    - blogName: Simon Willison
+      title: Quoting claude.com/import-memory
+      url: https://simonwillison.net/2026/Mar/1/claude-import-memory/#atom-everything
+      published: 2026-03-01T11:21:45Z
+    - blogName: Bert Hubert
+      title: Praatjes
+      url: https://berthub.eu/articles/praatjes/
+      published: 2026-03-01T10:22:53Z
+    - blogName: antirez
+      title: Redis patterns for coding
+      url: http://antirez.com/news/161
+      published: 2026-03-01T09:55:09Z
+    - blogName: Paolo Aliverti
+      title: Come invertire un segnale digitale con un solo transistor (mosfet o bipolare)
+      url: https://www.youtube.com/watch?v=CVL8GQ0JbNo
+      published: 2026-03-01T08:00:13Z
+    - blogName: Register Spill
+      title: 'Joy & Curiosity #76'
+      url: https://registerspill.thorstenball.com/p/joy-and-curiosity-76
+      published: 2026-03-01T07:21:43Z
+    - blogName: Eli Bendersky
+      title: Notes on Lagrange Interpolating Polynomials
+      url: https://eli.thegreenplace.net/2026/notes-on-lagrange-interpolating-polynomials/
+      published: 2026-03-01T02:58:00Z
+    - blogName: taylor.town
+      title: Lil' Fun Langs' Guts
+      url: https://taylor.town/scrapscript-001
+      published: 2026-03-01T00:00:00Z
+    - blogName: Xe Iaso
+      title: Killing my inner Necron
+      url: https://xeiaso.net/blog/2026/killing-my-inner-necron/
+      published: 2026-03-01T00:00:00Z
     - blogName: Simon Willison
       title: Interactive explanations
       url: https://simonwillison.net/guides/agentic-engineering-patterns/interactive-explanations/#atom-everything
       published: 2026-02-28T23:09:39Z
-    - blogName: Hackaday
-      title: Running a Desktop PC off AA Alkaline Cells
-      url: https://hackaday.com/2026/02/28/running-a-desktop-pc-off-aa-alkaline-cells/
-      published: 2026-02-28T21:00:09Z
-    - blogName: Hackaday
-      title: The Only Snail You Want In Your Garden Is a Seed-Starting Hack
-      url: https://hackaday.com/2026/02/28/the-only-snail-you-want-in-your-garden-is-a-seed-starting-hack/
-      published: 2026-02-28T18:00:48Z
-    - blogName: Chaos Computer Club
-      title: 'WICMP11 - OpenCloud: Unsere Learnings für eine einfache, stabile Filecloud'
-      url: https://www.youtube.com/watch?v=KAk1AUh2gfg
-      published: 2026-02-28T17:39:25Z
-    - blogName: Chaos Computer Club
-      title: 'WICMP11 (english translation) - OpenCloud: Unsere Learnings für eine einfache, stabile Filecloud'
-      url: https://www.youtube.com/watch?v=kuw4DEs3w-k
-      published: 2026-02-28T17:39:18Z
-    - blogName: Chaos Computer Club
-      title: WICMP11 - The GBA Music Player 2000
-      url: https://www.youtube.com/watch?v=b6nVkutzT_0
-      published: 2026-02-28T13:27:15Z
     - blogName: Simon Willison
       title: Please, please, please stop using passkeys for encrypting user data
       url: https://simonwillison.net/2026/Feb/27/passkeys/#atom-everything
       published: 2026-02-27T22:49:32Z
-    - blogName: Simon Willison
-      title: An AI agent coding skeptic tries AI agent coding, in excessive detail
-      url: https://simonwillison.net/2026/Feb/27/ai-agent-coding-in-excessive-detail/#atom-everything
-      published: 2026-02-27T20:43:41Z
     - blogName: ongoing by Tim Bray
       title: Kansas and AI
       url: https://www.tbray.org/ongoing/When/202x/2026/02/27/Kansas-and-GenAI
@@ -1127,14 +1175,6 @@ programming:
       title: '[$] The troubles with Boolean inversion in Python'
       url: https://lwn.net/Articles/1059177/
       published: 2026-02-27T16:21:11Z
-    - blogName: LWN.net
-      title: Two new stable kernels, possible regression
-      url: https://lwn.net/Articles/1060646/
-      published: 2026-02-27T14:36:33Z
-    - blogName: LWN.net
-      title: Security updates for Friday
-      url: https://lwn.net/Articles/1060645/
-      published: 2026-02-27T14:06:16Z
     - blogName: bunnie
       title: Name that Ware, February 2026
       url: https://www.bunniestudios.com/blog/2026/name-that-ware-february-2026/
@@ -1168,13 +1208,13 @@ programming:
       url: https://www.youtube.com/watch?v=97FV7kvG-s8
       published: 2026-02-26T19:02:03Z
     - blogName: Bert Hubert
-      title: Amerika runt binnenkort onze BTW
+      title: Amerika runt binnenkort onze btw
       url: https://berthub.eu/articles/posts/btw-as-an-american-service/
       published: 2026-02-26T13:44:09Z
     - blogName: Bert Hubert
-      title: Nevenfuncties / secondary positions
-      url: https://berthub.eu/articles/nevenfuncties/
-      published: 2026-02-26T10:22:53Z
+      title: Amerika runt binnenkort onze BTW
+      url: https://berthub.eu/articles/posts/btw-as-an-american-service/
+      published: 2026-02-26T13:44:09Z
     - blogName: daniel.haxx.se
       title: curl up 2026
       url: https://daniel.haxx.se/blog/2026/02/26/curl-up-2026/
@@ -1187,10 +1227,6 @@ programming:
       title: My Phone Will Spam You If I Fail To Exercise By 3PM
       url: https://taylor.town/tttl-000
       published: 2026-02-26T00:00:00Z
-    - blogName: jwz
-      title: 'DNA Lounge: Wherein we''ve got Spencer''s VHS tapes'
-      url: https://www.dnalounge.com/backstage/log/2026/02/25.html
-      published: 2026-02-25T23:48:51Z
     - blogName: Tsondig
       title: Insane Shadow Data Trick in C
       url: https://www.youtube.com/watch?v=gtk3RZHwJUA
@@ -1239,10 +1275,6 @@ programming:
       title: Crocuses of 2026
       url: https://www.tbray.org/ongoing/When/202x/2026/02/24/Crocuses-of-2026
       published: 2026-02-24T20:00:00Z
-    - blogName: antirez
-      title: Implementing a clear room Z80 / ZX Spectrum emulator with Claude Code
-      url: http://antirez.com/news/160
-      published: 2026-02-24T17:58:02Z
     - blogName: Martin Fowler
       title: Knowledge Priming
       url: https://martinfowler.com/articles/reduce-friction-ai/knowledge-priming.html
@@ -1323,10 +1355,6 @@ programming:
       title: The Go team debates AI-generated contributions
       url: https://golangweekly.com/issues/590
       published: 2026-02-20T00:00:00Z
-    - blogName: taylor.town
-      title: Lil' Fun Langs
-      url: https://taylor.town/scrapscript-000
-      published: 2026-02-20T00:00:00Z
     - blogName: Xe Iaso
       title: 'Life Update: On medical leave'
       url: https://xeiaso.net/notes/2026/life-update-medical-leave/
@@ -1359,14 +1387,6 @@ programming:
       title: Notes on clarifying man pages
       url: https://jvns.ca/blog/2026/02/18/man-pages/
       published: 2026-02-18T00:00:00Z
-    - blogName: Xe Iaso
-      title: 'Anubis v1.25.0: Necron'
-      url: https://github.com/TecharoHQ/anubis/releases/tag/v1.25.0
-      published: 2026-02-18T00:00:00Z
-    - blogName: Bert Hubert
-      title: 'De digitale coalitieplannen: gaat het ook echt gebeuren?'
-      url: https://berthub.eu/articles/posts/digitale-coalitieplannen/
-      published: 2026-02-17T19:50:00Z
     - blogName: Chris Siebenmann
       title: Understanding the limitation of 'do in new frame/window' in GNU Emacs
       url: https://utcc.utoronto.ca/~cks/space/blog/programming/EmacsNewWhateverLimitation
@@ -1403,10 +1423,6 @@ programming:
       title: Defer available in gcc and clang
       url: https://gustedt.wordpress.com/2026/02/15/defer-available-in-gcc-and-clang/
       published: 2026-02-15T10:58:11Z
-    - blogName: Paolo Aliverti
-      title: Display OLED con Attiny85 - Digispark
-      url: https://www.youtube.com/watch?v=Sbv_MU_6k1M
-      published: 2026-02-15T08:00:30Z
     - blogName: Register Spill
       title: 'Joy & Curiosity #74'
       url: https://registerspill.thorstenball.com/p/joy-and-curiosity-74
@@ -1467,10 +1483,6 @@ programming:
       title: A Language For Agents
       url: https://lucumr.pocoo.org/2026/2/9/a-language-for-agents/
       published: 2026-02-09T00:00:00Z
-    - blogName: Register Spill
-      title: 'Joy & Curiosity #73'
-      url: https://registerspill.thorstenball.com/p/joy-and-curiosity-73
-      published: 2026-02-08T06:39:28Z
     - blogName: Computers Are Bad
       title: forecourt networking
       url: https://computer.rip/2026-02-08-forecourt-networking.html
@@ -1567,31 +1579,23 @@ programming:
       title: “OpenZFS Mastery” device names options
       url: https://mwl.io/archives/24563
       published: 2026-01-31T13:24:57Z
-    - blogName: Fernando Borretti
-      title: Some Data Should Be Code
-      url: https://borretti.me/article/some-data-should-be-code
-      published: 2026-01-31T00:00:00Z
-    - blogName: Armin Ronacher's Thoughts and Writings
-      title: 'Pi: The Minimal Agent Within OpenClaw'
-      url: https://lucumr.pocoo.org/2026/1/31/pi/
-      published: 2026-01-31T00:00:00Z
-    - blogName: Modern C
-      title: Building a High-Performance JSON Parser in Go with Egg
-      url: https://modern-c.blogspot.com/2026/01/building-high-performance-json-parser.html
-      published: 2026-01-30T19:08:00Z
-    - blogName: see shy jo
-      title: the local weather
-      url: http://joeyh.name/blog/entry/the_local_weather/
-      published: 2026-01-30T13:05:23Z
 'security ':
+    - blogName: 'The Register - Security: Cyber-crime'
+      title: South Korea’s tax office apologizes for leaking seed phrase to seized crypto
+      url: https://go.theregister.com/feed/www.theregister.com/2026/03/02/south_korea_tax_office_cryptocurrency_leak/
+      published: 2026-03-02T00:51:38Z
+    - blogName: BleepingComputer
+      title: ClawJacked attack let malicious websites hijack OpenClaw to steal data
+      url: https://www.bleepingcomputer.com/news/security/clawjacked-attack-let-malicious-websites-hijack-openclaw-to-steal-data/
+      published: 2026-03-01T21:44:55Z
+    - blogName: BleepingComputer
+      title: Samsung TVs to stop collecting Texans’ data without express consent
+      url: https://www.bleepingcomputer.com/news/security/samsung-tvs-to-stop-collecting-texans-data-without-express-consent/
+      published: 2026-03-01T15:23:34Z
     - blogName: BleepingComputer
       title: QuickLens Chrome extension steals crypto, shows ClickFix attack
       url: https://www.bleepingcomputer.com/news/security/quicklens-chrome-extension-steals-crypto-shows-clickfix-attack/
       published: 2026-02-28T19:18:52Z
-    - blogName: BleepingComputer
-      title: $4.8M in crypto stolen after Korean tax agency exposes wallet seed
-      url: https://www.bleepingcomputer.com/news/security/48m-in-crypto-stolen-after-korean-tax-agency-exposes-wallet-seed/
-      published: 2026-02-28T15:17:23Z
     - blogName: Krebs on Security
       title: Who is the Kimwolf Botmaster “Dort”?
       url: https://krebsonsecurity.com/2026/02/who-is-the-kimwolf-botmaster-dort/
@@ -1604,18 +1608,10 @@ programming:
       title: 'Friday Squid Blogging: Squid Fishing in Peru'
       url: https://www.schneier.com/blog/archives/2026/02/friday-squid-blogging-squid-fishing-in-peru.html
       published: 2026-02-27T22:04:45Z
-    - blogName: BleepingComputer
-      title: Microsoft testing Windows 11 batch file security improvements
-      url: https://www.bleepingcomputer.com/news/microsoft/microsoft-testing-windows-11-batch-file-security-improvements/
-      published: 2026-02-27T20:00:27Z
     - blogName: 'The Register - Security: Cyber-crime'
       title: Suspected Nork digital intruders caught breaking into US healthcare, education orgs
       url: https://go.theregister.com/feed/www.theregister.com/2026/02/27/suspected_nork_digital_intruders_caught/
       published: 2026-02-27T19:59:20Z
-    - blogName: 'The Register - Security: Cyber-crime'
-      title: Ransomware payments cratered in 2025, but attacks surged to record highs
-      url: https://go.theregister.com/feed/www.theregister.com/2026/02/27/ransomware_chainalysis/
-      published: 2026-02-27T16:15:08Z
     - blogName: Schneier on Security
       title: Why Tehran’s Two-Tiered Internet Is So Dangerous
       url: https://www.schneier.com/blog/archives/2026/02/why-tehrans-two-tiered-internet-is-so-dangerous.html
@@ -1652,7 +1648,3 @@ programming:
       title: La disputa tra Agcom e Cloudflare è un assaggio del futuro della rete
       url: https://www.guerredirete.it/la-disputa-tra-agcom-e-cloudflare-e-un-assaggio-del-futuro-della-rete/
       published: 2026-02-05T13:00:00Z
-    - blogName: Project Zero
-      title: 'Breaking the Sound Barrier, Part II: Exploiting CVE-2024-54529'
-      url: https://projectzero.google/2026/01/sound-barrier-2.html
-      published: 2026-01-30T08:00:00Z
