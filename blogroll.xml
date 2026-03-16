@@ -135,6 +135,8 @@
         xmlUrl="https://9-eyes.com/rss" htmlUrl="https://9-eyes.com" />
     </outline>
     <outline text="programming" title="programming">
+      <outline text="Jack Lindamood" description="Jack Lindamood"
+      xmlUrl="https://cep.dev/posts/index.xml" htmlUrl="https://cep.dev/posts" />
       <outline text="Computers Are Bad" description="Computers Are Bad"
         xmlUrl="https://computer.rip/rss.xml" htmlUrl="https://computer.rip" />
       <outline text="Linus Åkesson" description="Linus Åkesson"
