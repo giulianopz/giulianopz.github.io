@@ -860,6 +860,8 @@
         xmlUrl="https://write-skew.blogspot.com/feeds/posts/default?alt=rss" />
     </outline>
     <outline text="security " title="security ">
+      <outline text="sockpuppet" description="sockpuppet"
+      xmlUrl="https://sockpuppet.org/blog/index.xml" htmlUrl="https://sockpuppet.org/blog" />
       <outline text="evilsocket" description="evilsocket"
         xmlUrl="https://www.evilsocket.net/atom.xml" htmlUrl="https://www.evilsocket.net" />
       <outline text="Krebs on Security" title="Krebs on Security" description="" type="rss"
