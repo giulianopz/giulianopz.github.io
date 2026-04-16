@@ -135,6 +135,10 @@
         xmlUrl="https://9-eyes.com/rss" htmlUrl="https://9-eyes.com" />
     </outline>
     <outline text="programming" title="programming">
+      <outline text="The Leo Zone" description="The Leo Zone"
+      xmlUrl="https://theleo.zone/index.xml" htmlUrl="https://theleo.zone" />
+      <outline text="Ivan Velichko" description="Ivan Velichko"
+      xmlUrl="https://iximiuz.com/feed.rss" htmlUrl="https://iximiuz.com/en/archive" />
       <outline text="Jack Lindamood" description="Jack Lindamood"
       xmlUrl="https://cep.dev/posts/index.xml" htmlUrl="https://cep.dev/posts" />
       <outline text="Computers Are Bad" description="Computers Are Bad"
