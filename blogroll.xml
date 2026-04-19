@@ -135,6 +135,8 @@
         xmlUrl="https://9-eyes.com/rss" htmlUrl="https://9-eyes.com" />
     </outline>
     <outline text="programming" title="programming">
+      <outline text="Andre Weissflog" description="Andre Weissflog"
+      xmlUrl="https://floooh.github.io/feed.xml" htmlUrl="https://floooh.github.io" />
       <outline text="The Leo Zone" description="The Leo Zone"
       xmlUrl="https://theleo.zone/index.xml" htmlUrl="https://theleo.zone" />
       <outline text="Ivan Velichko" description="Ivan Velichko"
