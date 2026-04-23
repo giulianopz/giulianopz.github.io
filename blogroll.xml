@@ -51,6 +51,8 @@
         xmlUrl="https://dlc.hypotheses.org/feed" htmlUrl="https://dlc.hypotheses.org" />
     </outline>
     <outline text="eng-discuss" title="eng-discuss">
+      <outline text="asterisk" description="asterisk"
+      xmlUrl="https://asteriskmag.com/feed" htmlUrl="https://asteriskmag.com" />
       <outline text="techdirt" description="techdirt"
         xmlUrl="https://www.techdirt.com/feed/" htmlUrl="https://www.techdirt.com/" />
       <outline text="Pluralistic" description="Pluralistic"
