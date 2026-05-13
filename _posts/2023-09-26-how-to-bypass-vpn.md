@@ -4,10 +4,9 @@ title:  "How to Bypass a Corporate VPN with an Android Phone"
 date:   2023-09-26
 categories: vpn socks proxy termux android
 permalink: /how-to-bypass-corporate-vpn
-comments_id: 1
 ---
 
-Organizations and businesses of all sizes use virtual private networks (VPNs) to provide secure access to their intranet for people working remotely without the risk of exposing their data to the internet. 
+Organizations and businesses of all sizes use virtual private networks (VPNs) to provide secure access to their intranet for people working remotely without the risk of exposing their data to the internet.
 
 Using a VPN client (e.g. Pulse Secure, Cisco AnyConnect, etc.) a device's internet connection is routed through a private server rather than the user's regular internet service provider (ISP), encrypting all the data that is transferred. The ISP will see that the user is sending and receiving data packets, but it won't be able to view their content.
 
@@ -25,7 +24,7 @@ In this configuration, the phone acts as a local SOCKS proxy server thanks to Op
 
 > Disclaimer: please, consider that this could represent a violation of the security policies of your company. Make sure you are not breaking any rules while at work.
 
-First things first, naturally for this mechanism to work the pc and the phone must be connected to the same network (e.g. your home router). 
+First things first, naturally for this mechanism to work the pc and the phone must be connected to the same network (e.g. your home router).
 
 Then, grab your Android phone and install Termux, a terminal emulator with a minimal GNU/Linux environment, on your phone from [F-Droid](https://wiki.termux.com/wiki/Installing_from_F-Droid).
 
@@ -38,13 +37,13 @@ $ pkg upgrade
 $ pkg install root-repo openssh
 ```
 
-Set a password for the current user by running `passwd` taking note of the password. 
+Set a password for the current user by running `passwd` taking note of the password.
 
 > Note: alternatively, you can use [public key authentication](https://wiki.termux.com/wiki/Remote_Access#Setting_up_public_key_authentication).
 
 Then, simply start the SSH server with `sshd`.
 
-> Note: default SSH port in Termux is `8022`. 
+> Note: default SSH port in Termux is `8022`.
 
 Now switch to your pc.
 To open an SSH tunnel with DPF, run the following from your pc:
@@ -58,7 +57,7 @@ $ ssh -D 1337 -q -C -N -f root@phone-ip -p 8022 -o StrictHostKeyChecking=no
 # -o StrictHostKeyChecking=no, ignores the host key
 
 # type the password set before
-root@phone-ip's password: 
+root@phone-ip's password:
 ```
 
 Configure your browser to use the SOCKS proxy. For example, you can configure the proxy access to the internet in Firefox from the Setting menu as follows:
@@ -88,12 +87,12 @@ You can use your Android phone as a SOCKS proxy to bypass a VPN filtering your n
 
 # To pass the password as an argument to ssh below, install `sshpass`:
 # $ sudo apt-get install sshpass
-# Please, remember that providing a password on the command line as 
+# Please, remember that providing a password on the command line as
 # plain text implies the risk of the password being captured in the user's shell history.
 # So, please consider other options to automate the ssh login process.
 
 set -e
- 
+
 if [ "$#" -ne 3 ]
 then
   echo "USAGE: <script> IP PWD PROFILE" && exit 1

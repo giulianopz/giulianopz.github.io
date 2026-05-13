@@ -5,7 +5,6 @@ date:   2024-11-19
 last_revision: 2024-11-19
 categories: acer aspire bios password
 permalink: /bios-pwd-recovery-laptops
-comments_id: 5
 ---
 
 Hi, this is mostly self-referential.
@@ -20,7 +19,7 @@ As it turns out, this series of Acer laptops requires you to select an UEFI file
 
 The real problem is that you have to remember the "supervisor password" to do it...
 
-I don't even think I've never set it... 
+I don't even think I've never set it...
 
 Many answers on StackOverflow tell you that there's absolutely no way to recover such password.
 
@@ -32,13 +31,13 @@ This is basically a collection of scripts that can generate the password you nee
 
 And [that's that](https://www.youtube.com/watch?v=bX4Hml7aUvU)!
 
-Thanks people of the web, as usual. 
+Thanks people of the web, as usual.
 
 Hopefully, this post can help other persons burden with the responsibility of being the sysadmins of their parents, just like me.
 
 ### a small side note
 
-Anyway, the RAM and SSD upgrade brought back to life this old piece of hardware. Especially, the SSD fixed the ~2 minute-long boot time. This is a good reminder for anyone reading: before buying new crap, spend some time fixing the current crap (some helpful link below). Do your part to save this small stupid planet!!!  
+Anyway, the RAM and SSD upgrade brought back to life this old piece of hardware. Especially, the SSD fixed the ~2 minute-long boot time. This is a good reminder for anyone reading: before buying new crap, spend some time fixing the current crap (some helpful link below). Do your part to save this small stupid planet!!!
 
 ---
 

@@ -5,7 +5,6 @@ date:   2025-08-27
 last_revision: 2025-09-07
 categories: zoom pwa gnome mime
 permalink: /join-zoom-meeting-pwa-1-click
-comments_id: 6
 ---
 
 Have you ever used the Zoom desktop app on Linux? If not, just [google](https://www.google.com/search?q=Zoom+desktop+app+on+Linux+cpu+memory&udm=14) it: it's basically a DoS attack.

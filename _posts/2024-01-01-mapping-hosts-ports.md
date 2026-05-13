@@ -4,10 +4,9 @@ title:  "What you can do instead of editing /etc/hosts"
 date:   2024-01-01
 categories: mapping hosts ports localhost
 permalink: /what-you-can-do-instead-of-editing-etc-hosts
-comments_id: 3
 ---
 
-When you develop a web application or work with processes exchanging data over a network interface on your local machine, you often stumble upon the issue of: 
+When you develop a web application or work with processes exchanging data over a network interface on your local machine, you often stumble upon the issue of:
 - resolving [hostnames and domain names](https://superuser.com/questions/59093/difference-between-host-name-and-domain-name) to localhost
 - and optionally, mapping a source port (usually 80, the default for HTTP) to the destination port (your server is listening to).
 
@@ -17,7 +16,7 @@ For example, imagine you have a small Kubernetes cluster (e.g. [k3d](https://k3d
 
 ## Quick and Dirty Solution
 
-Usually you would just add an entry to `/etc/hosts` (cf. [hosts(5)](https://linux.die.net/man/5/hosts)) mapping the name of the registry to `127.0.0.1` (i.e. the loopback interface address): 
+Usually you would just add an entry to `/etc/hosts` (cf. [hosts(5)](https://linux.die.net/man/5/hosts)) mapping the name of the registry to `127.0.0.1` (i.e. the loopback interface address):
 ```bash
 $ head -n3 /etc/hosts
 127.0.0.1	localhost
@@ -30,7 +29,7 @@ This is the first source checked by an application that needs to perform name re
 
 > Note: actually, the order these files are read depends on your Name Service Switch (NSS) configuration file, which is `/etc/nsswitch.conf` (cf. [nsswitch.conf(5)](https://linux.die.net/man/5/nsswitch.conf))
 
-> Note: some programming languages such as [Go](https://pkg.go.dev/net#hdr-Name_Resolution) can use a custom resolver with their own logic as well. 
+> Note: some programming languages such as [Go](https://pkg.go.dev/net#hdr-Name_Resolution) can use a custom resolver with their own logic as well.
 
 If you also want to redirect the traffic to a specific port, you have to use [`iptables`](https://www.frozentux.net/iptables-tutorial/iptables-tutorial.html) (or one of its front-ends: firewalld, ufw, etc.):
 ```bash
@@ -126,7 +125,7 @@ $ curl http://registry.lvh.me:5000/v2/_catalog
 
 It's quite popular but it has already [disappeared](https://news.ycombinator.com/item?id=27423225) in the past and nothing guaratees it will still be available in the near future. Interstingly, its author ([levicook](https://github.com/levicook)) does not even mention its existence except for few tweets on its account and a [gist](https://gist.github.com/levicook/563675) he shared 13 years ago... at least, as far as I could find out about it googling around.
 
-> Note: The same functionality is provided by another free service named [localtest.me](http://readme.localtest.me/). 
+> Note: The same functionality is provided by another free service named [localtest.me](http://readme.localtest.me/).
 
 ### nss-myhostname
 
@@ -143,7 +142,7 @@ In this way everything works with zero configuration on your local environment, 
 
 If you would rather redirect network packets at a lower level with your bare hands, you have (at least) two possibilities:
 
-- using [libnetfilter_queue](https://netfilter.org/projects/libnetfilter_queue/) API to hook your user-space program to a numbered netfilter queue (NFQUEUE) where packets are en-queued waiting for a verdict to progress further in the rules chain 
+- using [libnetfilter_queue](https://netfilter.org/projects/libnetfilter_queue/) API to hook your user-space program to a numbered netfilter queue (NFQUEUE) where packets are en-queued waiting for a verdict to progress further in the rules chain
 
 - using [eBPF](https://who.ldelossa.is/posts/ebpf-networking-technique-packet-redirection/) or [XDP](https://www.datadoghq.com/blog/xdp-intro/) to install packet processing programs directly into the kernel itself.
 

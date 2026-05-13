@@ -4,7 +4,6 @@ title:  "Reluctantly Switching to Wayland"
 date:   2026-05-13
 categories: wayland gnome x11
 permalink: /reluctantly-switching-wayland
-comments_id: 7
 ---
 
 In preparation of upgrading to the current Ubuntu LTS (26.04), I'm reluctantly switching to [Wayland](https://wayland.freedesktop.org/). This will indeed be the only protocol supported (see [release notes](https://documentation.ubuntu.com/release-notes/26.04/summary-for-lts-users/#wayland-session)) from now on. [Mutter](https://mutter.gnome.org/) will be the Wayland [compositor](https://wiki.archlinux.org/title/Wayland#Compositors) on GNOME.

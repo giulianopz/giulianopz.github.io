@@ -4,7 +4,6 @@ title:  "Full-duplex HTTP Streaming in Go"
 date:   2023-12-04
 categories: full-duplex http-streaming go web-speech-api
 permalink: /full-duplex-http-streaming-in-go
-comments_id: 2
 ---
 
 ### Wait! Backstory, first...
@@ -17,11 +16,11 @@ Unfortunately, its author, [Curt Grimes](https://curtgrimes.com), stopped runnin
 
 The webapp is a server-side rendered Nuxt/Vue.js app. Someone had already forked it removing major issues to have it running, so I've just commented out additonal features no longer needed and deployed it to a fly.io machine. Problem fixed for this girl who has now a web service running on the cloud for free, spinning up everytime she needs. But the problem remains for the rest of the WebCaptioner users who are unaware of my little hack. Since, apparently, this simple app had a quite significant audience according to its author:
 
-> Maintain high availability with 10,000 weekly users and over 40,000 account registrations while balancing affordability with AWS Fargate and ElastiCache. 
+> Maintain high availability with 10,000 weekly users and over 40,000 account registrations while balancing affordability with AWS Fargate and ElastiCache.
 >
 > (quote from his [résumé](https://curtgrimes.com/resume))
 
-I was surprised when I saw it even mentioned by [an Italian university](https://site.unibo.it/studenti-con-disabilita-e-dsa/it/per-studenti/presentazione-di-strumenti-automatici-per-la-sottotitolazione-e-o-dettatura-vocale) among recommended softwares that can be used by students suffering from hearing loss or learning disabilities. 
+I was surprised when I saw it even mentioned by [an Italian university](https://site.unibo.it/studenti-con-disabilita-e-dsa/it/per-studenti/presentazione-di-strumenti-automatici-per-la-sottotitolazione-e-o-dettatura-vocale) among recommended softwares that can be used by students suffering from hearing loss or learning disabilities.
 
 Clearly, there's a desperate need for this kind of web services which are so essential to these people that cannot be run by individuals like Curtis or private companies, they mus be owned and run by governments: the accessibility to this tools cannot be constrained by a paid subscription nor it can rely solely on the unstable willingness of FOSS developers. This topic is so crucial that it deserves its own post...
 
@@ -48,23 +47,23 @@ Wrapping up: the original implementation was limited to short audio samples, but
 $ strings /opt/google/chrome/chrome | grep AIzaSyBOti4mM-6x9WDnZIjIeyEU21OpBXqWBgw
 ```
 
-I guess this is the same service my Google Pixel connects to when [Live Caption](https://www.androidauthority.com/live-caption-pixel-3224653/) is enabled, but I had no chance to verify it so far. 
+I guess this is the same service my Google Pixel connects to when [Live Caption](https://www.androidauthority.com/live-caption-pixel-3224653/) is enabled, but I had no chance to verify it so far.
 
 Curb your enthusiasm, anyway: this is undocumented API that is not guaranteed to exist in the future. But as far as it works...
 
 ### Finally, Go
 
-So, looking at the above-linked analyses on this STT service, I couldn't understand at first how you can send unbounded streams of chunked data with a "simple" REST endpoint, mantaining a persistent TCP connection to receive back interim results representing transcripts of audio recorded straight from microphone. 
+So, looking at the above-linked analyses on this STT service, I couldn't understand at first how you can send unbounded streams of chunked data with a "simple" REST endpoint, mantaining a persistent TCP connection to receive back interim results representing transcripts of audio recorded straight from microphone.
 
 I thought HTTP was unsuitable for real-time streaming and that you have to use something like Websockets, WebRTC or WebTransport instead.
 
 But actually, altough HTTP was designed as a single request-response exchange (cfr. [rfc7540#8.1](https://datatracker.ietf.org/doc/html/rfc7540#section-8.1)), an Internet-Draft (cfr. [draft-zhu-http-fullduplex](https://datatracker.ietf.org/doc/html/draft-zhu-http-fullduplex-08)) was submitted to IETF to propose a way for adding full-duplex capabilities on top of HTTP semantics:
-> Full-duplex HTTP follows the basic HTTP request-response semantics but also allows the server to send response body to the client at the same time when the client is transmitting request body to the server. 
+> Full-duplex HTTP follows the basic HTTP request-response semantics but also allows the server to send response body to the client at the same time when the client is transmitting request body to the server.
 
 The draft is expired but it was incorporated by the HTTP/2 specification (cfr. [rfc7540#8.1](https://datatracker.ietf.org/doc/html/rfc7540#section-8.1)):
 > A server can send a complete response prior to the client sending an entire request if the response does not depend on any portion of the request that has not been sent and received.
 
-Just to clear up any doubts, full-duplex HTTP streaming has nothing to do with [Chunked Transfer Coding](https://datatracker.ietf.org/doc/html/rfc9112#section-7.1) nor with [HTTP Live Streaming](https://datatracker.ietf.org/doc/html/rfc8216). 
+Just to clear up any doubts, full-duplex HTTP streaming has nothing to do with [Chunked Transfer Coding](https://datatracker.ietf.org/doc/html/rfc9112#section-7.1) nor with [HTTP Live Streaming](https://datatracker.ietf.org/doc/html/rfc8216).
 
 Anyway, the Google Speech API is indeed a full-duplex HTTP streaming API, and this is immediately clear fron the service URL itself: `https://www.google.com/speech-api/full-duplex/v1/{direction}`. In this way the request and the response are transmitted between client and server simultaneously over the same TCP connection, i.e.:
 - a POST request to upload the audio content in chunks (direction=`up`)
@@ -76,11 +75,11 @@ Reading the result stream was easy since this what `json.Decoder` is supposed to
 
 I struggled a little bit for the upload part until I stumbled upon this [coversation](
 https://groups.google.com/g/golang-nuts/c/LTem1EEHopc) that reminded me that the idiomatic way for it was to use a `io.Pipe`:
-> [Pipe](https://pkg.go.dev/io#Pipe) creates a synchronous in-memory pipe. It can be used to connect code expecting an io.Reader with code expecting an io.Writer. 
+> [Pipe](https://pkg.go.dev/io#Pipe) creates a synchronous in-memory pipe. It can be used to connect code expecting an io.Reader with code expecting an io.Writer.
 
-That was enough to simply make the microphone input flow into the outgoing request body. 
+That was enough to simply make the microphone input flow into the outgoing request body.
 
-The following code snippet is an abridged version of the client I wrote to call the Google Speech API: 
+The following code snippet is an abridged version of the client I wrote to call the Google Speech API:
 ```go
 // create a channel to receive the transcription results
 responses := make(chan *transcription.Response)
@@ -166,11 +165,11 @@ for resp := range responses {
 
 ```
 
-You can find the complete code on [Github]((https://github.com/giulianopz/go-gstt)). I used the HTTP/3 RoundTripper offered the [QUIC implementation for Go](https://github.com/quic-go/quic-go) since this is what Chrome does under the hood when transcribing mic input via Google Web Speech API as you can see by inspecting the network traffic with the [Chromium tools](https://www.chromium.org/for-testers/providing-network-details/).  
+You can find the complete code on [Github]((https://github.com/giulianopz/go-gstt)). I used the HTTP/3 RoundTripper offered the [QUIC implementation for Go](https://github.com/quic-go/quic-go) since this is what Chrome does under the hood when transcribing mic input via Google Web Speech API as you can see by inspecting the network traffic with the [Chromium tools](https://www.chromium.org/for-testers/providing-network-details/).
 
 That's what happens on the client side. On the other end of the cable, the server must be doing something very similar, reading audio chunks from the POST request body and sending the corresponding text in the GET response body. A pair code attached to both client's requests is used to send back the trascripts to the correct client.
 
-I don't have any insights too share with respect to HTTP streaming vs. other streaming options. For sure, Google is using it in production. But remember: [you are not Google](https://blog.bradfieldcs.com/you-are-not-google-84912cf44afb). 
+I don't have any insights too share with respect to HTTP streaming vs. other streaming options. For sure, Google is using it in production. But remember: [you are not Google](https://blog.bradfieldcs.com/you-are-not-google-84912cf44afb).
 
 The quality of the trascripts is incredibly good, at least for English. Being able to use this service for free is hard to believe too. As long as you can, use this superpower for the good of all. With great power comes great responsibility...
 
