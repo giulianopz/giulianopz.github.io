@@ -5,8 +5,13 @@ layout: default
 <article>
 
     <h2>{{ page.title }}</h2>
-    <p style="padding-left: 0.2rem;font-size: 20px;">{{ page.date | date: "%B %-d, %Y" }} by giulianopz</p>
-
+    <p style="padding-left: 0.2rem;font-size: 20px;">
+        &#x205C; {{ page.date | date: "%Y-%m-%d" }}
+        {% if page.last_modified_at %}
+        (last updated: {{ page.last_modified_at | date: "%Y-%m-%d" }})
+        {% endif %}
+        by giulianopz
+    </p>
     {{ content }}
 
 </article>
