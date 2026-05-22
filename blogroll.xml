@@ -51,8 +51,10 @@
         xmlUrl="https://dlc.hypotheses.org/feed" htmlUrl="https://dlc.hypotheses.org" />
     </outline>
     <outline text="eng-discuss" title="eng-discuss">
+      <outline text="Branko Milanovic" description="Branko Milanovic"
+        xmlUrl="https://branko2f7.substack.com/feed" htmlUrl="https://branko2f7.substack.com" />
       <outline text="asterisk" description="asterisk"
-      xmlUrl="https://asteriskmag.com/feed" htmlUrl="https://asteriskmag.com" />
+        xmlUrl="https://asteriskmag.com/feed" htmlUrl="https://asteriskmag.com" />
       <outline text="techdirt" description="techdirt"
         xmlUrl="https://www.techdirt.com/feed/" htmlUrl="https://www.techdirt.com/" />
       <outline text="Pluralistic" description="Pluralistic"
@@ -138,13 +140,13 @@
     </outline>
     <outline text="programming" title="programming">
       <outline text="Andre Weissflog" description="Andre Weissflog"
-      xmlUrl="https://floooh.github.io/feed.xml" htmlUrl="https://floooh.github.io" />
+        xmlUrl="https://floooh.github.io/feed.xml" htmlUrl="https://floooh.github.io" />
       <outline text="The Leo Zone" description="The Leo Zone"
-      xmlUrl="https://theleo.zone/index.xml" htmlUrl="https://theleo.zone" />
+        xmlUrl="https://theleo.zone/index.xml" htmlUrl="https://theleo.zone" />
       <outline text="Ivan Velichko" description="Ivan Velichko"
-      xmlUrl="https://iximiuz.com/feed.rss" htmlUrl="https://iximiuz.com/en/archive" />
+        xmlUrl="https://iximiuz.com/feed.rss" htmlUrl="https://iximiuz.com/en/archive" />
       <outline text="Jack Lindamood" description="Jack Lindamood"
-      xmlUrl="https://cep.dev/posts/index.xml" htmlUrl="https://cep.dev/posts" />
+        xmlUrl="https://cep.dev/posts/index.xml" htmlUrl="https://cep.dev/posts" />
       <outline text="Computers Are Bad" description="Computers Are Bad"
         xmlUrl="https://computer.rip/rss.xml" htmlUrl="https://computer.rip" />
       <outline text="Linus Åkesson" description="Linus Åkesson"
@@ -619,9 +621,9 @@
     </outline>
     <outline text="pg/db" title="pg/db">
       <outline text="Keith Fiske" description="Keith Fiske"
-      xmlUrl="https://www.keithf4.com/index.xml" htmlUrl="https://www.keithf4.com" />
+        xmlUrl="https://www.keithf4.com/index.xml" htmlUrl="https://www.keithf4.com" />
       <outline text="Christophe Pettus" description="Christophe Pettus"
-      xmlUrl="https://thebuild.com/blog/feed/" htmlUrl="https://thebuild.com/blog/" />
+        xmlUrl="https://thebuild.com/blog/feed/" htmlUrl="https://thebuild.com/blog/" />
       <outline text="Jan Nidzwetzki" description="Jan Nidzwetzki"
         xmlUrl="https://jnidzwetzki.github.io/feed.xml" htmlUrl="https://jnidzwetzki.github.io" />
       <outline text="Multigres" description="Multigres"
@@ -871,7 +873,7 @@
     </outline>
     <outline text="security " title="security ">
       <outline text="sockpuppet" description="sockpuppet"
-      xmlUrl="https://sockpuppet.org/blog/index.xml" htmlUrl="https://sockpuppet.org/blog" />
+        xmlUrl="https://sockpuppet.org/blog/index.xml" htmlUrl="https://sockpuppet.org/blog" />
       <outline text="evilsocket" description="evilsocket"
         xmlUrl="https://www.evilsocket.net/atom.xml" htmlUrl="https://www.evilsocket.net" />
       <outline text="Krebs on Security" title="Krebs on Security" description="" type="rss"
