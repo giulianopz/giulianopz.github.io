@@ -2,7 +2,7 @@
 layout: post
 title:  "Reluctantly Switching to Wayland"
 date:   2026-05-13
-last_modified_at: 2026-05-15
+last_modified_at: 2026-05-23
 categories: wayland gnome x11
 permalink: /reluctantly-switching-wayland
 ---
@@ -21,7 +21,7 @@ This post is an attempt to document my journey to Wayland. It will come in handy
 
 The first thing I noticed is that Guake can't be opened up anymore with its standard keyboard shortcut (`F12`). But, luckily, this can be fixed by registering a new custom shortcut which runs the `toggle-guake` command.
 
-That said, it works decently, except it does not always open in the last active display (see [issue#2115](https://github.com/Guake/guake/issues/2115)). Which is really annoying if you work with an external monitor...
+That said, it works decently (since it still uses GTK3 and so XWayland, see below), except it does not always open in the last active display (see [issue#2115](https://github.com/Guake/guake/issues/2115)). Which is really annoying if you work with an external monitor...
 
 I've considered switching to `ghostty`, but guess what? They are still arguing on who should implement what (see [this](https://github.com/ghostty-org/ghostty/discussions/3459#discussioncomment-13474811) and [this](https://gitlab.gnome.org/GNOME/mutter/-/work_items/973#note_668502)). Probably, I should just try to switch compositor (Sway, Hyprland, niri, river, Wayfire, ...) since they all seem to implement the [wlr layer shell](https://wayland.app/protocols/wlr-layer-shell-unstable-v1) protocol, which clients can use to *create surfaces that are layers of the desktop* (like panels, lock screens, wallpapers, on-screen keyboards, notifications, launchers, drop-down terminals etc.).
 
@@ -39,7 +39,15 @@ But this only works when `rofi` is run from a terminal emulator; it will fail to
 
 Refusing to ditch `rofi` for any other launchers (or one of its forks), I dug into Wayland documentation, and I found out that there's actually an actionable second path for clients like `rofi` which cannot rely on the layer shell on GNOME: the [XDG shell](https://wayland.app/protocols/xdg-shell) protocol.
 
-Patching the `rofi` code would have meant for me to study in depth for weeks the complex choreography involved in interacting with the Wayland API (read [here](https://bugaevc.gitbooks.io/writing-wayland-clients/content/beyond-the-black-square/xdg-shell.html)). So, I tried to instruct Claude to patch `rofi`, and I was surprised to see it succeeding after a few attempts: what a time to be alive. Ye, I say this with both enthusiasm and skepticism. Anyway, the patch is [here](https://github.com/giulianopz/rofi-xdg-shell/tree/2214) in case you want to give it a try (please, send feedback). I will consider sending it to the upstream when I'm sure I can understand better what it does. But I've been using it for 2/3 days, and I can say that it works, at least.
+Patching the `rofi` code would have meant for me to study in depth for weeks the complex choreography involved in interacting with the Wayland API (read [here](https://bugaevc.gitbooks.io/writing-wayland-clients/content/beyond-the-black-square/xdg-shell.html)). So, I tried to instruct Claude to patch `rofi`, and I was surprised to see it succeeding after a few attempts: what a time to be alive. Ye, I say this with both enthusiasm and skepticism. Anyway, the patch is [here](https://github.com/giulianopz/rofi-xdg-shell/tree/2214) in case you want to give it a try (please, send feedback). I will consider sending it to the upstream when I'm sure I can understand better what it does. But I've been using it for a week, and I can say that it works, at least.
+
+## The Rest
+
+Surprisingly, I discovered that the previous two graphical programs are the only ones I really care about. Anyway, the rest of the software you may want to install is working, judging from this page: [ Are we Wayland yet?](https://wearewaylandnow.com/). With the notable exceptions of Orca and OBS, apparently.
+
+## Issues not yet resolved
+
+Working with two monitors, I see a lot of glitches and flikering. Firefox can't open popup windows. Sometimes, windows are minimized when I try to move them from one monitor to another. Slack reload itself fro no reason. But maybe these are all issues resolved in the latest releases (I'm still running Ubuntu 24.04, with GNOME 46 and `libmutter` 14).
 
 
 To be continued...
