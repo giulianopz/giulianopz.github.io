@@ -14,6 +14,7 @@ title: pg_links
 - [pg_chapter](https://www.db-book.com/online-chapters-dir/32.pdf)
 - [pg_glossary](https://www.postgresql.org/docs/current/glossary.html)
 - [pg_contrib](https://www.postgresql.org/community/contributors/)
+- [pg_commitfest](https://commitfest.postgresql.org/)
 - [pg_scripts](https://github.com/pgexperts/pgx_scripts)
 - [pg_utils](https://github.com/dataegret/pg-utils)
 - [pg_tutorials](https://www.crunchydata.com/developers/tutorials)
