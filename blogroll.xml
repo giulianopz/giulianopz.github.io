@@ -620,6 +620,8 @@
         xmlUrl="https://thesubmarine.it/feed/" htmlUrl="https://thesubmarine.it" />
     </outline>
     <outline text="pg/db" title="pg/db">
+      <outline text="Richard Yen" description="Richard Yen"
+      xmlUrl="http://richyen.com/feed.xml" htmlUrl="http://richyen.com" />
       <outline text="Keith Fiske" description="Keith Fiske"
         xmlUrl="https://www.keithf4.com/index.xml" htmlUrl="https://www.keithf4.com" />
       <outline text="Christophe Pettus" description="Christophe Pettus"
