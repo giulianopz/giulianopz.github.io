@@ -139,6 +139,8 @@
         xmlUrl="https://9-eyes.com/rss" htmlUrl="https://9-eyes.com" />
     </outline>
     <outline text="programming" title="programming">
+      <outline text="Beej" description="Beej"
+      xmlUrl="https://beej.us/blog/rss.xml" htmlUrl="https://beej.us/blog" />
       <outline text="Andre Weissflog" description="Andre Weissflog"
         xmlUrl="https://floooh.github.io/feed.xml" htmlUrl="https://floooh.github.io" />
       <outline text="The Leo Zone" description="The Leo Zone"
@@ -453,6 +455,8 @@
         htmlUrl="https://buttondown.com/justincormack" />
     </outline>
     <outline text="indiemedia" title="indiemedia">
+      <outline text="MilanoInMovimento" description="MilanoInMovimento"
+      xmlUrl="https://milanoinmovimento.com/feed" htmlUrl="https://milanoinmovimento.com" />
       <outline text="Sbilanciamoci" description="Sbilanciamoci"
         xmlUrl="https://sbilanciamoci.info/feed/" htmlUrl="https://sbilanciamoci.info/" />
       <outline text="Radio Onda Rossa" description="Radio Onda Rossa"
