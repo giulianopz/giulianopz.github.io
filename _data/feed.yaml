@@ -1,40 +1,76 @@
 eng-discuss:
+    - blogName: Our World in Data
+      title: 138 million children are in child labor. What does this actually mean?
+      url: https://ourworldindata.org/138-million-children-are-in-child-labor-what-does-this-actually-mean
+      published: 2026-08-10T00:00:00Z
     - blogName: The Guardian
-      title: ‘Explosive’ wildfire forces 20,000 people to flee as British Columbia declares state of emergency
-      url: https://www.theguardian.com/world/2026/aug/08/canada-wildfires-british-columbia
-      published: 2026-08-08T22:35:20Z
+      title: José Mourinho reveals he signed contract to succeed Alex Ferguson at Manchester United in 2013
+      url: https://www.theguardian.com/football/2026/aug/10/jose-mourinho-signed-contract-succeed-alex-ferguson-manchester-united-2013-netflix
+      published: 2026-08-09T23:24:04Z
     - blogName: The Guardian
-      title: Fifa launches new attack on media over alleged ‘concerted effort’ to undermine Gianni Infantino
-      url: https://www.theguardian.com/football/2026/aug/08/fifa-launches-new-attack-on-media-over-alleged-concerted-effort-to-undermine-gianni-infantino
-      published: 2026-08-08T22:17:25Z
+      title: 'Premier League 2026-27 preview No 1: Arsenal'
+      url: https://www.theguardian.com/football/2026/aug/10/premier-league-2026-27-preview-no-1-arsenal
+      published: 2026-08-09T23:01:27Z
+    - blogName: The Guardian
+      title: Alexandria Ocasio-Cortez announces decision to freeze her eggs
+      url: https://www.theguardian.com/us-news/2026/aug/09/alexandria-ocasio-cortez-eggs-fertility
+      published: 2026-08-09T22:06:49Z
     - blogName: The Verge
-      title: X replaces its revenue-sharing program with ‘Original Content Rewards’
-      url: https://www.theverge.com/tech/977143/x-revenue-sharing-original-content-rewards
-      published: 2026-08-08T21:15:12Z
-    - blogName: The Guardian
-      title: Iran issues tough demands to reopen strait of Hormuz as deal still out of reach
-      url: https://www.theguardian.com/world/2026/aug/08/iran-issues-tough-demands-to-reopen-strait-of-hormuz-as-deal-remains-out-of-reach
-      published: 2026-08-08T21:01:28Z
+      title: No Dogs in Space is a music history podcast for true obsessives
+      url: https://www.theverge.com/entertainment/977190/no-dogs-in-space-music-history-podcast
+      published: 2026-08-09T20:28:31Z
+    - blogName: phys.org
+      title: How dogs evolved differently across the globe to match human traits
+      url: https://phys.org/news/2026-08-dogs-evolved-differently-globe-human.html
+      published: 2026-08-09T19:10:01Z
+    - blogName: techdirt
+      title: Funniest/Most Insightful Comments Of The Week At Techdirt
+      url: https://www.techdirt.com/2026/08/09/funniest-most-insightful-comments-of-the-week-at-techdirt-220/
+      published: 2026-08-09T19:00:00Z
+    - blogName: The Verge
+      title: Zuckerberg&#8217;s yacht was closer, but someone else saved a stranded boat
+      url: https://www.theverge.com/tech/977161/mark-zuckerberg-yacht-wilderness-legacy-stranded-boat
+      published: 2026-08-09T17:20:30Z
+    - blogName: The Verge
+      title: 49ers coach says his Tesla was on Autopilot when he crashed
+      url: https://www.theverge.com/transportation/977155/49ers-coach-tesla-autopilot-crash
+      published: 2026-08-09T15:56:49Z
+    - blogName: phys.org
+      title: Controlled cracking technique prints quantum dots into tiny pixels for sharper displays
+      url: https://phys.org/news/2026-08-technique-quantum-dots-tiny-pixels.html
+      published: 2026-08-09T15:20:01Z
+    - blogName: The Atlantic
+      title: Stance
+      url: https://www.theatlantic.com/magazine/2026/09/deborah-garrison-stance/687961/?utm_source=feed
+      published: 2026-08-09T15:00:00Z
+    - blogName: phys.org
+      title: Hong Kong weather observatory posts record high temperature
+      url: https://phys.org/news/2026-08-hong-kong-weather-observatory-high.html
+      published: 2026-08-09T14:53:13Z
+    - blogName: The Atlantic
+      title: France’s Best Argument Against Racism Isn’t Working
+      url: https://www.theatlantic.com/ideas/2026/08/france-soccer-far-right-racism/688235/?utm_source=feed
+      published: 2026-08-09T13:00:00Z
+    - blogName: The Atlantic
+      title: Are Raccoons Evolving Into Pets?
+      url: https://www.theatlantic.com/ideas/2026/08/are-raccoons-evolving-pets/688231/?utm_source=feed
+      published: 2026-08-09T12:11:17Z
+    - blogName: Nautilus
+      title: Taxi Drivers Rarely Die of Alzheimer’s—How Complex Mental Maps and Spatial Reasoning Protect Your Brain
+      url: https://nautil.us/taxi-drivers-rarely-die-of-alzheimers-how-complex-mental-maps-and-spatial-reasoning-protect-your-brain-1283501/
+      published: 2026-08-09T12:00:00Z
+    - blogName: Scientific American
+      title: Europe's wildfires are igniting forgotten WWII and Cold War bombs
+      url: https://www.scientificamerican.com/article/europes-wildfires-are-igniting-forgotten-wwii-and-cold-war-bombs/
+      published: 2026-08-09T12:00:00Z
+    - blogName: Scientific American
+      title: How spaceflight changes astronauts' ability to eat and drink
+      url: https://www.scientificamerican.com/article/how-spaceflight-changes-astronauts-ability-to-eat-and-drink/
+      published: 2026-08-09T10:00:00Z
     - blogName: techdirt
       title: 'This Week In Techdirt History: August 2nd – 8th'
       url: https://www.techdirt.com/2026/08/08/this-week-in-techdirt-history-august-2nd-8th/
       published: 2026-08-08T19:00:00Z
-    - blogName: The Verge
-      title: An Amazon data center could have the worst polluting power plant in the country
-      url: https://www.theverge.com/ai-artificial-intelligence/977124/amazon-data-center-worst-polluting-power-plant
-      published: 2026-08-08T17:53:34Z
-    - blogName: The Verge
-      title: Buc-ee’s dodges John Oliver to sue another small business
-      url: https://www.theverge.com/business/977112/buc-ees-john-oliver-lawsuit-beaver-mini-mart
-      published: 2026-08-08T15:47:30Z
-    - blogName: phys.org
-      title: '''Flying focus'' laser overcomes key limitation in plasma-based particle accelerators'
-      url: https://phys.org/news/2026-08-flying-focus-laser-key-limitation.html
-      published: 2026-08-08T15:40:03Z
-    - blogName: The Atlantic
-      title: How Trump’s Priorities May Impact the Midterms
-      url: https://www.theatlantic.com/national/2026/08/trump-ballroom-midterms-washington-week/688234/?utm_source=feed
-      published: 2026-08-08T14:22:10Z
     - blogName: kottke.org
       title: ' Thing that I am now invested in:  this woman has spent 30... '
       url: https://kottke.org/26/08/0049465-this-woman-has-spent-30-w
@@ -43,42 +79,18 @@ eng-discuss:
       title: New Observatory Captures More Than Half a Million Galaxies in a Single Image
       url: https://nautil.us/new-observatory-captures-more-than-half-a-million-galaxies-in-a-single-image-1283526/
       published: 2026-08-08T14:00:00Z
-    - blogName: phys.org
-      title: Butterfly ranges shift worldwide amid climate change, with most species expanding their reach
-      url: https://phys.org/news/2026-08-butterfly-ranges-shift-worldwide-climate.html
-      published: 2026-08-08T13:40:04Z
     - blogName: Scientific American
       title: Hank Green AI controversy raises questions for science communicators
       url: https://www.scientificamerican.com/article/hank-green-ai-controversy-raises-questions-for-science-communicators/
       published: 2026-08-08T13:00:00Z
-    - blogName: phys.org
-      title: Pulsed radiofrequency magnetic fields may disorient migratory birds, experiments suggest
-      url: https://phys.org/news/2026-08-pulsed-radiofrequency-magnetic-fields-disorient.html
-      published: 2026-08-08T12:40:01Z
-    - blogName: The Atlantic
-      title: The Human-Origin Story Is Being Radically Revised
-      url: https://www.theatlantic.com/science/2026/08/human-origins-dna-tools-earthworks/688225/?utm_source=feed
-      published: 2026-08-08T12:00:00Z
-    - blogName: Scientific American
-      title: Monkeys keep pets and maintain friendships with other animals
-      url: https://www.scientificamerican.com/article/monkeys-keep-pets-and-maintain-friendships-with-other-animals/
-      published: 2026-08-08T12:00:00Z
     - blogName: Nautilus
       title: Inside the Not-So-Dumb Head of the Dodo Bird
       url: https://nautil.us/inside-the-not-so-dumb-head-of-the-dodo-bird-1283522/
-      published: 2026-08-08T12:00:00Z
-    - blogName: The Atlantic
-      title: Hard-Luck Men in Hardscrabble Towns
-      url: https://www.theatlantic.com/magazine/2026/09/richard-russo-fiction-under-the-falls/687958/?utm_source=feed
       published: 2026-08-08T12:00:00Z
     - blogName: 404 Media
       title: 'Crab Odyssey: Crustacean Wandered the Seas in a Bottle for Months, Scientists Find'
       url: https://www.404media.co/crab-odyssey-crustacean-wandered-the-seas-in-a-bottle-for-months-scientists-find/
       published: 2026-08-08T10:00:26Z
-    - blogName: Scientific American
-      title: Why loneliness and not social isolation may be making you sick
-      url: https://www.scientificamerican.com/article/why-loneliness-and-not-social-isolation-may-be-making-you-sick/
-      published: 2026-08-08T10:00:00Z
     - blogName: Pluralistic
       title: 'Pluralistic: Digital sewer socialism (08 Aug 2026)'
       url: https://pluralistic.net/2026/08/08/find-yourself-a-city/
@@ -95,14 +107,6 @@ eng-discuss:
       title: 30% of the world’s CO₂ emissions have a carbon price
       url: https://ourworldindata.org/data-insights/30-of-the-worlds-co2-emissions-have-a-carbon-price
       published: 2026-08-08T00:00:00Z
-    - blogName: techdirt
-      title: Farmers Are Getting Control Of Their Equipment Back
-      url: https://www.techdirt.com/2026/08/07/farmers-are-getting-control-of-their-equipment-back/
-      published: 2026-08-07T22:18:05Z
-    - blogName: Nautilus
-      title: Viagra May Slow the Spread of Cancer
-      url: https://nautil.us/viagra-may-slow-the-spread-of-cancer-1283519/
-      published: 2026-08-07T21:00:00Z
     - blogName: 404 Media
       title: 'Behind the Blog: Rare Books and Baseball Brain'
       url: https://www.404media.co/behind-the-blog-rare-books-and-baseball-brain/
@@ -127,6 +131,10 @@ eng-discuss:
       title: Sasquatch science
       url: https://aeon.co/essays/the-surprisingly-scientific-methods-of-bigfooters
       published: 2026-08-07T10:00:00Z
+    - blogName: Internazionale
+      title: È ancora possibile lasciarsi andare a letto?
+      url: https://www.internazionale.it/opinione/maia-mazaurette/2026/08/07/lasciarsi-andare-sesso
+      published: 2026-08-07T03:58:01Z
     - blogName: theneedledrop
       title: Chanel Beads - Your Day Will Come ALBUM REVIEW
       url: https://www.youtube.com/watch?v=wjlY1miNbhg
@@ -258,10 +266,6 @@ eng-discuss:
       title: Couple couldn’t find affordable high-end prefab, so they created their own
       url: https://www.youtube.com/watch?v=S2MH-3JauJM
       published: 2026-07-27T23:30:19Z
-    - blogName: Our World in Data
-      title: We published a new topic page on economic inequality
-      url: https://ourworldindata.org/we-published-a-new-topic-page-on-economic-inequality
-      published: 2026-07-27T00:00:00Z
     - blogName: ThePudding
       title: How the Words We Teach English Language Learners Changed
       url: https://pudding.cool/2026/07/essential-words
@@ -283,42 +287,54 @@ eng-discuss:
       url: https://www.scopeofwork.net/2026-07-14/
       published: 2026-07-14T13:32:18Z
 indiemedia:
+    - blogName: Altreconomia
+      title: Nuovi riscontri sull’impiego di gru italiane nelle azioni dell’esercito israeliano in Cisgiordania
+      url: https://altreconomia.it/nuovi-riscontri-sullimpiego-di-gru-italiane-nelle-azioni-dellesercito-israeliano-in-cisgiordania/
+      published: 2026-08-09T22:10:07Z
     - blogName: Osservatorio Repressione
-      title: '9 agosto 1945: Bomba atomica su Nagasaki'
-      url: https://www.osservatoriorepressione.info/9-agosto-1945-bomba-atomica-su-nagasaki/
-      published: 2026-08-08T22:01:25Z
+      title: Milano 10 agosto 1944, i quindici martiri di Piazzale Loreto
+      url: https://www.osservatoriorepressione.info/milano-10-agosto-1944-quindici-martiri-piazzale-loreto/
+      published: 2026-08-09T22:01:55Z
+    - blogName: Altreconomia
+      title: Fahrenheit Ai. Perché le aziende di intelligenza artificiale comprano (e distruggono) i libri rari
+      url: https://altreconomia.it/fahrenheit-ai-perche-le-aziende-di-intelligenza-artificiale-comprano-e-distruggono-i-libri/
+      published: 2026-08-09T22:01:07Z
     - blogName: Il Post
-      title: Almeno 20mila persone sono state evacuate a causa di un grave incendio nel sud-ovest del Canada
-      url: https://www.ilpost.it/2026/08/08/incendi-canada-evacuazioni-british-columbia/
-      published: 2026-08-08T21:34:10Z
+      title: È morto a 86 anni Don Nelson, uno degli allenatori di pallacanestro ad aver vinto più partite in NBA
+      url: https://www.ilpost.it/2026/08/09/don-nelson-nba-allenatore-morte/
+      published: 2026-08-09T20:40:46Z
     - blogName: Il Post
-      title: Un drone come quelli usati dall’esercito ucraino è arrivato in Bulgaria ed è esploso senza conseguenze
-      url: https://www.ilpost.it/2026/08/08/drone-bulgaria-esplosione-danni/
-      published: 2026-08-08T16:35:33Z
+      title: È morto a 87 anni Livio Berruti, che vinse la medaglia d’oro nei 200 metri alle Olimpiadi di Roma del 1960
+      url: https://www.ilpost.it/2026/08/09/livio-berruti-morte/
+      published: 2026-08-09T18:51:35Z
     - blogName: Il Post
-      title: Weekly Beasts
-      url: https://www.ilpost.it/2026/08/08/weekly-beasts-601/
-      published: 2026-08-08T15:55:40Z
+      title: Com’è che adesso il regime venezuelano incontra gli oppositori
+      url: https://www.ilpost.it/2026/08/09/incontro-opposizione-regime-venezuela/
+      published: 2026-08-09T17:25:56Z
+    - blogName: Osservatorio Repressione
+      title: Fra la via Emilia e il West
+      url: https://www.osservatoriorepressione.info/fra-la-via-emilia-e-il-west/
+      published: 2026-08-09T07:20:32Z
+    - blogName: Osservatorio Repressione
+      title: Trieste, «non respiro» durante un fermo di polizia
+      url: https://www.osservatoriorepressione.info/trieste-non-respiro-durante-un-fermo-di-polizia/
+      published: 2026-08-09T06:11:11Z
+    - blogName: Altreconomia
+      title: L’inedita coppia Anci e Ance vuole mandare all’aria il Piano di ripristino della natura
+      url: https://altreconomia.it/linedita-coppia-anci-e-ance-vuole-mandare-allaria-il-piano-di-ripristino-della-natura/
+      published: 2026-08-09T04:26:15Z
+    - blogName: Radio Onda Rossa
+      title: Voci dal corteo No Ponte
+      url: https://www.ondarossa.info/redazionali/2026/08/voci-dal-corteo-no-ponte
+      published: 2026-08-08T17:12:43Z
     - blogName: Jacobin Italia
       title: La guerra di Nolan
       url: https://jacobinitalia.it/la-guerra-di-nolan/
       published: 2026-08-08T12:15:01Z
-    - blogName: Osservatorio Repressione
-      title: Dalla parte sbagliata del mare
-      url: https://www.osservatoriorepressione.info/dalla-parte-sbagliata-del-mare/
-      published: 2026-08-08T10:01:35Z
     - blogName: Radio Onda Rossa
       title: Manifestazione No Ponte a Messina
       url: https://www.ondarossa.info/newsredazione/2026/08/manifestazione-no-ponte-messina
       published: 2026-08-08T09:30:00Z
-    - blogName: Osservatorio Repressione
-      title: Pastrogor, la prigione del nuovo Patto europeo
-      url: https://www.osservatoriorepressione.info/pastrogor-la-prigione-del-nuovo-patto-europeo/
-      published: 2026-08-08T06:29:57Z
-    - blogName: Altreconomia
-      title: La musica dal vivo non sta “crescendo”. Sta cambiando natura e ne beneficiano in pochi
-      url: https://altreconomia.it/la-musica-dal-vivo-non-sta-crescendo-sta-cambiando-natura-e-ne-beneficiano-in-pochi/
-      published: 2026-08-07T22:01:42Z
     - blogName: Radio Onda Rossa
       title: '[Notturno elettronico] Le esplorazioni musicali del venerdì notte'
       url: https://www.ondarossa.info/newstrasmissioni/notturno-elettronico/2026/08/esplorazioni-musicali-del-venerdi
@@ -339,18 +355,14 @@ indiemedia:
       title: 'Ci fermiamo per ripartire: DinamoPress va in pausa estiva'
       url: https://www.dinamopress.it/news/ci-fermiamo-per-ripartire-dinamopress-va-in-pausa-estiva/?utm_source=rss&utm_medium=rss&utm_campaign=ci-fermiamo-per-ripartire-dinamopress-va-in-pausa-estiva
       published: 2026-08-07T13:02:03Z
-    - blogName: Radio Onda Rossa
-      title: Guccini e Radio Ondarossa
-      url: https://www.ondarossa.info/redazionali/2026/08/guccini-e-radio-ondarossa
-      published: 2026-08-07T12:55:33Z
-    - blogName: Altreconomia
-      title: Che cosa succede ai minori in transito che cercano di attraversare il Canale della Manica
-      url: https://altreconomia.it/che-cosa-succede-ai-minori-in-transito-che-cercano-di-attraversare-il-canale-della-manica/
-      published: 2026-08-07T12:03:16Z
     - blogName: Jacobin Italia
       title: Il gigante Guccini e il suo album perfetto
       url: https://jacobinitalia.it/il-gigante-guccini-e-il-suo-album-perfetto/
       published: 2026-08-07T07:31:27Z
+    - blogName: Internazionale
+      title: Nessuna soluzione per Spin Time
+      url: https://www.internazionale.it/reportage/annalisa-camilli/2026/08/07/spin-time-sgombero-roma
+      published: 2026-08-07T03:46:01Z
     - blogName: Sbilanciamoci
       title: I mezzi e i fini di una politica di pace
       url: https://sbilanciamoci.info/i-mezzi-e-i-fini-di-una-politica-di-pace/
@@ -363,10 +375,6 @@ indiemedia:
       title: 15 vite per la libertà. Piazzale Loreto, 10 agosto 1944-2026
       url: https://milanoinmovimento.com/milano/15-vite-per-la-liberta-piazzale-loreto-10-agosto-1944-2026
       published: 2026-08-06T07:27:20Z
-    - blogName: Altreconomia
-      title: L’impressionante declino delle retribuzioni lorde reali nel settore privato in Italia
-      url: https://altreconomia.it/limpressionante-declino-delle-retribuzioni-lorde-reali-nel-settore-privato-in-italia/
-      published: 2026-08-05T22:01:42Z
     - blogName: MilanoInMovimento
       title: Il Comitato inquilini delle case ALER Lulli/Porpora presenta la proposta per una gestione partecipata della riqualificazione
       url: https://milanoinmovimento.com/milano/il-comitato-inquilini-delle-case-aler-lulli-porpora-presenta-la-proposta-per-una-gestione-partecipata-della-riqualificazione
@@ -391,18 +399,10 @@ indiemedia:
       title: Rivoluzione permanente
       url: https://www.internazionale.it/opinione/christian-raimo/2026/08/01/rivoluzione-permanente-teatro
       published: 2026-08-01T03:55:02Z
-    - blogName: Internazionale
-      title: Le domande e i miti sbagliati su Elena di Troia
-      url: https://www.internazionale.it/opinione/asha-salim/2026/08/01/elena-troia-odissea-nolan
-      published: 2026-08-01T03:44:01Z
     - blogName: IrpiMedia
       title: L’accordo con Israele che l’agenzia di polizia europea non dovrebbe fare
       url: https://irpimedia.irpi.eu/accordo-israele-europol-condivisione-dati/?utm_source=rss&utm_medium=rss&utm_campaign=accordo-israele-europol-condivisione-dati
       published: 2026-07-31T05:30:00Z
-    - blogName: Internazionale
-      title: Una giornata nei rifugi climatici di Napoli
-      url: https://www.internazionale.it/reportage/novella-gianfranceschi/2026/07/30/rifugi-climatici-italia
-      published: 2026-07-30T03:24:03Z
     - blogName: Romattiva
       title: MercoledìPoeta@LoSpigolo 29/7
       url: https://www.romattiva.org/mercoledipoetalospigolo-29-7/
@@ -452,6 +452,26 @@ indiemedia:
       url: https://crimethinc.com/2026/07/11/no-way-home-an-anarchist-ex-prisoners-response-to-fire-ant-movement-defense
       published: 2026-07-11T22:57:33Z
 ita-discuss:
+    - blogName: Leonardo Tondelli
+      title: Guccini portava sfiga?
+      url: http://leonardo.blogspot.com/2026/08/guccini-portava-sfiga.html
+      published: 2026-08-09T23:30:40.281Z
+    - blogName: Carmilla Online
+      title: Mitopoiesi nel nuovo disordine mondiale
+      url: https://www.carmillaonline.com/2026/08/09/mitopoiesi-nel-nuovo-disordine-mondiale/
+      published: 2026-08-09T20:00:59Z
+    - blogName: The Submarine
+      title: La corsa al riarmo degli Stati Uniti
+      url: https://www.thesubmarine.it/2026/08/09/la-corsa-al-riarmo-degli-stati-uniti/
+      published: 2026-08-09T08:55:29Z
+    - blogName: Paolo Nori
+      title: Annuncio
+      url: https://www.paolonori.it/annuncio/
+      published: 2026-08-09T07:57:05Z
+    - blogName: Nazione Indiana
+      title: Pasta asciutta
+      url: https://www.nazioneindiana.com/2026/08/09/pasta-asciutta/
+      published: 2026-08-09T05:00:00Z
     - blogName: Carmilla Online
       title: 'Et in arcade ego 2: L’ultimo metrò'
       url: https://www.carmillaonline.com/2026/08/08/et-in-arcade-ego-2-lultimo-metro/
@@ -524,10 +544,6 @@ ita-discuss:
       title: 'Crisi migratoria di Ceuta: cronaca di una tempesta in un bicchiere d’acqua'
       url: https://lavoce.info/archives/112234/crisi-migratoria-di-ceuta-cronaca-di-una-tempesta-in-un-bicchiere-dacqua/
       published: 2026-08-07T08:16:23Z
-    - blogName: Paolo Nori
-      title: Guerra e pace
-      url: https://www.paolonori.it/guerra-e-pace/
-      published: 2026-08-07T08:16:04Z
     - blogName: lavoce.info
       title: Perché le scuole al caldo sono un problema da risolvere
       url: https://lavoce.info/archives/112228/perche-le-scuole-al-caldo-sono-un-problema-da-risolvere/
@@ -544,10 +560,6 @@ ita-discuss:
       title: Diari alfabetici di Sheila Heti
       url: https://www.iltascabile.com/recensioni/diari-alfabetici-sheila-heti/
       published: 2026-08-07T05:01:17Z
-    - blogName: Nazione Indiana
-      title: Il prato
-      url: https://www.nazioneindiana.com/2026/08/07/il-prato/
-      published: 2026-08-07T05:00:26Z
     - blogName: La Letteratura e Noi
       title: Uno scambio di idee (interno) su Sanpa
       url: https://laletteraturaenoi.it/2026/08/07/uno-scambio-di-idee-interno-su-sanpa-2/
@@ -556,10 +568,6 @@ ita-discuss:
       title: 'In viaggio sul luogo del delitto: serie tv e dark tourism'
       url: https://www.snaporaz.online/in-viaggio-sul-luogo-del-delitto-serie-tv-e-dark-tourism/
       published: 2026-08-06T22:07:49Z
-    - blogName: Carmilla Online
-      title: Quando Dio non risponde alla chiamata
-      url: https://www.carmillaonline.com/2026/08/06/quando-dio-non-risponde-alla-chiamata/
-      published: 2026-08-06T20:00:12Z
     - blogName: Scienza in Rete
       title: Un piano per affrontare il caldo nelle scuole e come finanziarlo
       url: https://www.scienzainrete.it/articolo/piano-affrontare-caldo-nelle-scuole-e-come-finanziarlo/mario-borrata/2026-08-06
@@ -572,10 +580,6 @@ ita-discuss:
       title: Quando i fantasmi del calcio italiano erano le «formiche gialle»
       url: https://www.machina-deriveapprodi.com/post/quando-i-fantasmi-del-calcio-italiano-erano-le-formiche-gialle
       published: 2026-08-06T10:44:53Z
-    - blogName: The Submarine
-      title: Le chat segrete di Delmastro resteranno segrete
-      url: https://www.thesubmarine.it/2026/08/06/le-chat-segrete-di-delmastro-resteranno-segrete/
-      published: 2026-08-06T09:26:56Z
     - blogName: Link. Idee per la tv
       title: Niccolò Ammaniti tra la pagina e lo schermo
       url: https://www.linkideeperlatv.it/niccolo-ammaniti-tra-la-pagina-e-lo-schermo/
@@ -704,10 +708,6 @@ ita-discuss:
       title: Il potere di essere visti
       url: https://not.neroeditions.com/il-potere-di-essere-visti/
       published: 2026-07-29T08:42:01Z
-    - blogName: Leonardo Tondelli
-      title: Storia di un'antipatia (prima biliosa e antipatica, poi allegra)
-      url: http://leonardo.blogspot.com/2026/07/storia-di-unantipatia-prima-biliosa-e.html
-      published: 2026-07-27T22:50:08.279Z
     - blogName: Fata Morgana Web
       title: Nostalgia per un futuro che non verrà
       url: https://www.fatamorganaweb.it/postmodernismo-jameson/
@@ -780,10 +780,6 @@ ita-discuss:
       title: Nella guerra all’Iran alla fine vince Pechino
       url: https://francescosyloslabini.info/2026/07/14/nella-guerra-alliran-alla-fine-vince-pechino/
       published: 2026-07-14T07:44:52Z
-    - blogName: Il Primo Amore
-      title: AREA D’ARIA
-      url: https://www.ilprimoamore.com/area-daria/
-      published: 2026-07-10T10:53:05Z
 language:
     - blogName: Language Log
       title: A pun on a pun
@@ -843,6 +839,10 @@ language:
       published: 2026-07-14T18:19:45Z
 pg/db:
     - blogName: Christophe Pettus
+      title: 'All Your GUCs in a Row: integer_datetimes'
+      url: https://thebuild.com/blog/all-your-gucs-in-a-row-integer_datetimes/
+      published: 2026-08-10T01:00:00Z
+    - blogName: Christophe Pettus
       title: 'All Your GUCs in a Row: in_hot_standby'
       url: https://thebuild.com/blog/all-your-gucs-in-a-row-in_hot_standby/
       published: 2026-08-09T01:00:00Z
@@ -854,10 +854,6 @@ pg/db:
       title: MVCC
       url: https://share.transistor.fm/s/4e80c096
       published: 2026-08-07T13:00:00Z
-    - blogName: Christophe Pettus
-      title: 'All Your GUCs in a Row: ignore_invalid_pages'
-      url: https://thebuild.com/blog/all-your-gucs-in-a-row-ignore_invalid_pages/
-      published: 2026-08-07T01:00:00Z
     - blogName: Ben Dicken
       title: SSDs vs HDDs and why we need both
       url: https://www.youtube.com/watch?v=vhRqUrGjK2g
@@ -1034,43 +1030,71 @@ pg/db:
       title: (Belatedly) Announcing Release 21 of the PostgreSQL Buildfarm Client
       url: https://adpgtech.blogspot.com/2026/07/belatedly-announcing-release-21-of.html
       published: 2026-07-11T13:34:41Z
-    - blogName: Dave Stokes
-      title: Ever Run Into A PostgreSQL Query That You Can Figure Out What It Does??
-      url: https://stokerpostgresql.blogspot.com/2026/07/ever-run-into-postgresql-query-that-you.html
-      published: 2026-07-10T20:06:17.653Z
 programming:
-    - blogName: Hackaday
-      title: Track Bird Visitors With a Raspberry Pi and a USB Mic
-      url: https://hackaday.com/2026/08/08/track-bird-visitors-with-a-raspberry-pi-and-a-usb-mic/
-      published: 2026-08-08T23:00:53Z
     - blogName: Simon Willison
-      title: Auto mode is now the default in Claude Code for Pro, Max, and Team plans
-      url: https://simonwillison.net/2026/Aug/8/auto-mode/#atom-everything
-      published: 2026-08-08T22:36:03Z
+      title: Quoting Claude Opus 5 system prompt
+      url: https://simonwillison.net/2026/Aug/9/claude-opus-5-system-prompt/#atom-everything
+      published: 2026-08-09T23:31:39Z
     - blogName: Hackaday
-      title: Grading Tomatoes with an ESP32 and ML
-      url: https://hackaday.com/2026/08/08/grading-tomatoes-with-an-esp32-and-ml/
-      published: 2026-08-08T20:00:23Z
+      title: 'Hackaday Links: August 9, 2026'
+      url: https://hackaday.com/2026/08/09/hackaday-links-august-9-2026/
+      published: 2026-08-09T23:00:40Z
+    - blogName: Simon Willison
+      title: GitHub Models is now retired
+      url: https://simonwillison.net/2026/Aug/9/github-models-is-now-retired/#atom-everything
+      published: 2026-08-09T22:48:05Z
+    - blogName: LWN.net
+      title: Kernel prepatch 7.2-rc7
+      url: https://lwn.net/Articles/1087961/
+      published: 2026-08-09T22:39:56Z
+    - blogName: Simon Willison
+      title: SQLite compressed text-history prototypes
+      url: https://simonwillison.net/2026/Aug/9/sqlite-text-history-prototype/#atom-everything
+      published: 2026-08-09T22:05:00Z
+    - blogName: Hackaday
+      title: The Stages of Grief in Repairing a Trinitron Found in the Trash
+      url: https://hackaday.com/2026/08/09/the-stages-of-grief-in-repairing-a-trinitron-found-in-the-trash/
+      published: 2026-08-09T20:00:28Z
+    - blogName: LWN.net
+      title: Four weekend stable kernel updates
+      url: https://lwn.net/Articles/1087949/
+      published: 2026-08-09T19:24:41Z
+    - blogName: Hackaday
+      title: The Chinese Smart Glasses Proving that Smart Glasses can be Repairable
+      url: https://hackaday.com/2026/08/09/the-chinese-smart-glasses-proving-that-smart-glasses-can-be-repairable/
+      published: 2026-08-09T17:00:48Z
+    - blogName: antirez
+      title: Il paradosso di Fermi e l'AI
+      url: https://www.youtube.com/watch?v=cNYwbDI1QOY
+      published: 2026-08-09T15:02:11Z
+    - blogName: Anton Zhiyanov
+      title: Relying on Go
+      url: https://antonz.org/relying-on-go/
+      published: 2026-08-09T12:00:00Z
+    - blogName: Michael Stapelbergs
+      title: "Tracking down a Zsh history data loss bug \U0001F41E"
+      url: https://michael.stapelberg.ch/posts/2026-08-09-zsh-history-truncation-bug/
+      published: 2026-08-09T08:13:00Z
+    - blogName: Paolo Aliverti
+      title: 'Dal baffo di gatto al silicio: il diodo, una storia lunga 70 anni - Podcast Storie di Elettronica'
+      url: https://www.youtube.com/watch?v=gytF92kD4L8
+      published: 2026-08-09T07:00:01Z
+    - blogName: Loris Cro
+      title: Who Should Pay For Source Code Availability?
+      url: https://kristoff.it/blog/source-code-availability/
+      published: 2026-08-09T00:00:00Z
+    - blogName: ongoing by Tim Bray
+      title: Dununba, Sangban, Kenkini (and Stands)
+      url: https://www.tbray.org/ongoing/When/202x/2026/08/08/Kenkini-Sangban-Dununba
+      published: 2026-08-08T19:00:00Z
     - blogName: Register Spill
       title: 'Joy & Curiosity #94'
       url: https://registerspill.thorstenball.com/p/joy-and-curiosity-94
       published: 2026-08-08T17:29:15Z
-    - blogName: Hackaday
-      title: Robotic Screw and Bolt Sorter Seeks a New Challenge
-      url: https://hackaday.com/2026/08/08/robotic-screw-and-bolt-sorter-seeks-a-new-challenge/
-      published: 2026-08-08T17:00:01Z
-    - blogName: Simon Willison
-      title: Quoting John Gruber
-      url: https://simonwillison.net/2026/Aug/8/john-gruber/#atom-everything
-      published: 2026-08-08T00:10:40Z
     - blogName: Xe Iaso
       title: 'Anubis v1.27.0: Moenbryda Wilfsunnwyn'
       url: https://anubis.techaro.lol/blog/release/v1.27.0/
       published: 2026-08-08T00:00:00Z
-    - blogName: Simon Willison
-      title: Now we have a timeline of the OpenAI accidental attack against Hugging Face
-      url: https://simonwillison.net/2026/Aug/7/openai-timeline/#atom-everything
-      published: 2026-08-07T23:55:58Z
     - blogName: jwz
       title: Today in Mr. Choppy news
       url: https://www.jwz.org/blog/2026/08/today-in-mr-choppy-news/
@@ -1083,14 +1107,6 @@ programming:
       title: 'python venv: let''s read the source code!'
       url: https://www.youtube.com/watch?v=2c7OZYWrDSg
       published: 2026-08-07T15:24:02Z
-    - blogName: LWN.net
-      title: The Software Stewardship Lab launches
-      url: https://lwn.net/Articles/1087812/
-      published: 2026-08-07T14:12:42Z
-    - blogName: LWN.net
-      title: 'LightDM lives: version 1.33.0 released'
-      url: https://lwn.net/Articles/1087759/
-      published: 2026-08-07T13:52:54Z
     - blogName: jwz
       title: Outside Lands
       url: https://www.jwz.org/blog/2026/08/outside-lands-2/
@@ -1183,10 +1199,6 @@ programming:
       title: 'Review: Job-Less Utopia'
       url: https://borretti.me/article/review-job-less-utopia
       published: 2026-08-03T00:00:00Z
-    - blogName: antirez
-      title: 'Sviluppo AI responsabile, Kimi K3, DS4 Flash e la frontiera a fette: ZiP 3'
-      url: https://www.youtube.com/watch?v=IBqKnPrF7K4
-      published: 2026-08-02T11:03:01Z
     - blogName: Register Spill
       title: 'Joy & Curiosity #93'
       url: https://registerspill.thorstenball.com/p/joy-and-curiosity-93
@@ -1287,10 +1299,6 @@ programming:
       title: Fa Fa
       url: https://feed.tedium.co/link/15204/17388904/facebook-home-row-keyboard-trick
       published: 2026-07-27T17:45:21Z
-    - blogName: Paolo Aliverti
-      title: Come utilizzare gli ingressi del modulo modbus N4DIG08 tramite rs485 e arduino
-      url: https://www.youtube.com/watch?v=kt7XlzZ2RmA
-      published: 2026-07-27T07:00:38Z
     - blogName: Internals for Interns
       title: The Block Layer
       url: https://internals-for-interns.com/posts/linux-kernel-block-layer/
@@ -1439,30 +1447,10 @@ programming:
       title: Jurassic Park computers in excruciating detail
       url: https://fabiensanglard.net/jurrasic_park_computers/index.html
       published: 2026-07-13T00:00:00Z
-    - blogName: Anton Zhiyanov
-      title: On interactive Go tours
-      url: https://antonz.org/on-go-tours/
-      published: 2026-07-11T12:30:00Z
     - blogName: Eli Bendersky
       title: 'Dot product: Component vs. Geometric definition'
       url: https://eli.thegreenplace.net/2026/dot-product-component-vs-geometric-definition/
       published: 2026-07-11T01:42:00Z
-    - blogName: Fabien Sanglard
-      title: A dock that finally wakes up reliably
-      url: https://fabiensanglard.net/tb4/index.html
-      published: 2026-07-11T00:00:00Z
-    - blogName: taylor.town
-      title: -pede
-      url: https://taylor.town/pede
-      published: 2026-07-11T00:00:00Z
-    - blogName: ongoing by Tim Bray
-      title: Sports and Truth
-      url: https://www.tbray.org/ongoing/When/202x/2026/07/10/Summer-Sports
-      published: 2026-07-10T19:00:00Z
-    - blogName: gingerBill
-      title: Good Tools Are Invisible
-      url: https://www.gingerbill.org/article/2026/07/10/good-tools-are-invisible/
-      published: 2026-07-10T09:00:00Z
 'security ':
     - blogName: BleepingComputer
       title: Hackers breach TrueConf to trojanize client installers with backdoors
