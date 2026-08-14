@@ -2,7 +2,7 @@
 layout: post
 title:  "Before Arduino there was Lectron System 2000"
 date:   2024-11-01
-last_revision: 2024-11-02
+last_modified_at: 2024-11-02
 categories: arduino lectron-system-2000 inelco electronics
 permalink: /arduino-lectron-system-2000
 ---

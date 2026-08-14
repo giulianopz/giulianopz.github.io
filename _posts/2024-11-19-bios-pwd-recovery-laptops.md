@@ -2,7 +2,7 @@
 layout: post
 title:  "BIOS Password Recovery for Laptops"
 date:   2024-11-19
-last_revision: 2024-11-19
+last_modified_at: 2024-11-19
 categories: acer aspire bios password
 permalink: /bios-pwd-recovery-laptops
 ---
