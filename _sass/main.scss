@@ -169,6 +169,10 @@ blockquote {
     padding: 10px;
 }
 
+blockquote blockquote blockquote {
+    text-align: center;
+}
+
 .button {
     color: #ffffff;
     background-color: black;
