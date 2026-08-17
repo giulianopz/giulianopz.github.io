@@ -139,6 +139,8 @@
         xmlUrl="https://9-eyes.com/rss" htmlUrl="https://9-eyes.com" />
     </outline>
     <outline text="programming" title="programming">
+      <outline text="Phuong Le" description="Phuong Le"
+      xmlUrl="https://func25.dev/index.xml" htmlUrl="https://func25.dev" />
       <outline text="Beej" description="Beej"
       xmlUrl="https://beej.us/blog/rss.xml" htmlUrl="https://beej.us/blog" />
       <outline text="Andre Weissflog" description="Andre Weissflog"
