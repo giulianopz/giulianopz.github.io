@@ -2,7 +2,7 @@
 layout: post
 title:  "Against LLM Doomerism"
 date:   2026-08-14
-last_modified_at: 2026-08-16
+last_modified_at: 2026-08-21
 categories: llms doomers
 permalink: /against-llm-doomerism
 ---
@@ -25,7 +25,7 @@ They all seem to (involutarily or not) refer to some well-known essays from the 
 - [Reflections on Trusting Trust, Ken Thompson](https://dl.acm.org/doi/epdf/10.1145/358198.358210)
 - [Tools for Conviviality, Ivan Illich](https://www.davidtinapple.com/illich/1973_tools_for_convivality.html)
 
-A critical view of LLMs does not downplay the scientific significance of their discovery; their success is a severe comment on how most of linguistics has ignored probabilistic approaches to the study of language.
+A critical view of LLMs does not downplay the scientific significance of their discovery; their success is a severe comment on how most of linguistics has ignored probabilistic approaches to the study of language (Mr. Chomsky, the eminent scholar and imaginary anarchist, is not [blame](https://global.oup.com/academic/product/the-linguistics-wars-9780199740338) only for being friend with Epstein and Bannon).
 
 Instead, it should protect people (programmers and non-programmers) from cognitively surrendering to a consensual hallucination that presents LLMs as a God-like [Logos](https://en.wikipedia.org/wiki/Logos_(Christianity)) (an infinite wording that generates all the reality).
 
@@ -35,7 +35,7 @@ This already happened in history. Thousands of years ago, in an [Age of Anxiety]
 
 Everyone knows (or should know) the final outcome of this story.
 
-Knowing where to place our trust and how things work (do you remember the “build X from scratch/build your own X” frenzy raging just a few months ago?) remains relevant. LLMs are just a (powerful) tool to augment our [zone of proximal development](https://en.wikipedia.org/wiki/Zone_of_proximal_development), to put it into psychological terms. But no technology is neutral. It’s up to us to make it a convivial tool that can help humanity to advance in history as a whole towards a better future. This won't happen until LLMs are an external service that requires a subscription and high electricity consumption.
+Knowing where to place our trust and how things work (do you remember the “build X from scratch/build your own X” frenzy raging just a few months ago?) remains relevant. LLMs are just a (powerful) tool to augment our [zone of proximal development](https://en.wikipedia.org/wiki/Zone_of_proximal_development), to put it into psychological terms. But no technology is neutral. It’s up to us to make it a convivial tool that can help humanity to advance in history as a whole towards a better future. This won't happen until LLMs are an external service that requires a $ub$cription, high electricity consumption and computing power that only high-end hardware can support.
 
 <br>
 <br>
