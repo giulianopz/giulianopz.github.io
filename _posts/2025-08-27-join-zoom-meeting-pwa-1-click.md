@@ -2,7 +2,7 @@
 layout: post
 title:  "Join Zoom Meeting from PWA with One Click"
 date:   2025-08-27
-last_modified_at: 2025-09-07
+last_modified_at: 2026-08-25
 categories: zoom pwa gnome mime
 permalink: /join-zoom-meeting-pwa-1-click
 ---
@@ -16,7 +16,7 @@ That's really annoying… Most of the time, I have to manually copy the link and
 It turns out that it's not so difficult to intercept the click on the Zoom link and feed to the browser a modified version of the URL that directly throws you into the meeting.
 
 All you need to do is have a simple bash script:
-```
+```bash
 #!/bin/bash
 
 ACTION=$(echo $1 | grep -Po '(?<=zoom.us\/)(join|start)')
@@ -26,7 +26,7 @@ PWD=$(echo $1 | grep -Po '(?<=pwd=)[\w\.]+')
 ```
 
 Then, you need to create a [desktop entry](https://wiki.archlinux.org/title/Desktop_entries) for it:
-```
+```ini
 [Desktop Entry]
 Version=1.0
 Name=Join Zoom Meeting
@@ -44,7 +44,7 @@ Give this file a name with a `.desktop` extension and put it into `$HOME/.local/
 It will instruct the desktop environment to open links with the MIME type `zoommtg` with the script declared in the `Exec` field.
 
 What is left to do is just to associate them by default:
-```
+```bash
 $ xdg-mime default .local/share/applications/join-zoom-meeting.desktop x-scheme-handler/zoommtg
 # double-check
 $ xdg-mime query default x-scheme-handler/zoommtg
