@@ -140,9 +140,9 @@
     </outline>
     <outline text="programming" title="programming">
       <outline text="Phuong Le" description="Phuong Le"
-      xmlUrl="https://func25.dev/index.xml" htmlUrl="https://func25.dev" />
+        xmlUrl="https://func25.dev/index.xml" htmlUrl="https://func25.dev" />
       <outline text="Beej" description="Beej"
-      xmlUrl="https://beej.us/blog/rss.xml" htmlUrl="https://beej.us/blog" />
+        xmlUrl="https://beej.us/blog/rss.xml" htmlUrl="https://beej.us/blog" />
       <outline text="Andre Weissflog" description="Andre Weissflog"
         xmlUrl="https://floooh.github.io/feed.xml" htmlUrl="https://floooh.github.io" />
       <outline text="The Leo Zone" description="The Leo Zone"
@@ -457,8 +457,12 @@
         htmlUrl="https://buttondown.com/justincormack" />
     </outline>
     <outline text="indiemedia" title="indiemedia">
+      <outline text="GlobalProject" description="GlobalProject"
+        xmlUrl="https://globalproject.info/feed" htmlUrl="https://globalproject.info" />
+      <outline text="InfoAut" description="InfoAut"
+        xmlUrl="https://infoaut.org/feed.xml" htmlUrl="https://infoaut.org" />
       <outline text="MilanoInMovimento" description="MilanoInMovimento"
-      xmlUrl="https://milanoinmovimento.com/feed" htmlUrl="https://milanoinmovimento.com" />
+        xmlUrl="https://milanoinmovimento.com/feed" htmlUrl="https://milanoinmovimento.com" />
       <outline text="Sbilanciamoci" description="Sbilanciamoci"
         xmlUrl="https://sbilanciamoci.info/feed/" htmlUrl="https://sbilanciamoci.info/" />
       <outline text="Radio Onda Rossa" description="Radio Onda Rossa"
@@ -504,10 +508,6 @@
       <outline text="Osservatorio Repressione" title="Osservatorio Repressione" description=""
         type="rss" version="RSS" htmlUrl="https://www.osservatoriorepressione.info"
         xmlUrl="https://www.osservatoriorepressione.info/feed/" />
-      <outline text="Ricerche e riflessioni su Roma" title="Ricerche e riflessioni su Roma"
-        description="" type="rss" version="RSS"
-        htmlUrl="https://www.blogger.com/feeds/4642300764547079136/posts/default?start-index=26&amp;max-results=25"
-        xmlUrl="https://romaricerca.blogspot.com/feeds/posts/default" />
       <outline text="Romattiva" title="Romattiva" description="" type="rss" version="RSS"
         htmlUrl="https://www.romattiva.org/" xmlUrl="https://www.romattiva.org/?feed=rss2" />
       <outline text="S'è Destra" title="S'è Destra" description="" type="rss" version="RSS"
@@ -519,6 +519,10 @@
         htmlUrl="http://www.fascinazione.info/" />
     </outline>
     <outline text="ita-discuss" title="ita-discuss">
+      <outline text="Ricerche e riflessioni su Roma" title="Ricerche e riflessioni su Roma"
+        description="" type="rss" version="RSS"
+        htmlUrl="https://romaricerca.blogspot.com/"
+        xmlUrl="https://romaricerca.blogspot.com/feeds/posts/default" />
       <outline text="tempo fertile" description="tempo fertile"
         xmlUrl="https://tempofertile.blogspot.com/feeds/posts/default"
         htmlUrl="https://tempofertile.blogspot.com" />
@@ -627,7 +631,7 @@
     </outline>
     <outline text="pg/db" title="pg/db">
       <outline text="Richard Yen" description="Richard Yen"
-      xmlUrl="http://richyen.com/feed.xml" htmlUrl="http://richyen.com" />
+        xmlUrl="http://richyen.com/feed.xml" htmlUrl="http://richyen.com" />
       <outline text="Keith Fiske" description="Keith Fiske"
         xmlUrl="https://www.keithf4.com/index.xml" htmlUrl="https://www.keithf4.com" />
       <outline text="Christophe Pettus" description="Christophe Pettus"
