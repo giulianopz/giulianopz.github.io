@@ -139,6 +139,8 @@
         xmlUrl="https://9-eyes.com/rss" htmlUrl="https://9-eyes.com" />
     </outline>
     <outline text="programming" title="programming">
+      <outline text="Bryan Cantrill" description="Bryan Cantrill"
+        xmlUrl="https://bcantrill.dtrace.org/index.xml" htmlUrl="https://bcantrill.dtrace.org" />
       <outline text="Phuong Le" description="Phuong Le"
         xmlUrl="https://func25.dev/index.xml" htmlUrl="https://func25.dev" />
       <outline text="Beej" description="Beej"
