@@ -139,6 +139,10 @@
         xmlUrl="https://9-eyes.com/rss" htmlUrl="https://9-eyes.com" />
     </outline>
     <outline text="programming" title="programming">
+      <outline text="Mat Duggan" description="Mat Duggan"
+        xmlUrl="https://matduggan.com/rss/" htmlUrl="https://matduggan.com/" />
+      <outline text="Charity Majors" description="Charity Majors"
+        xmlUrl="https://charity.wtf/feed" htmlUrl="https://charity.wtf" />
       <outline text="Bryan Cantrill" description="Bryan Cantrill"
         xmlUrl="https://bcantrill.dtrace.org/index.xml" htmlUrl="https://bcantrill.dtrace.org" />
       <outline text="Phuong Le" description="Phuong Le"
