@@ -51,6 +51,8 @@
         xmlUrl="https://dlc.hypotheses.org/feed" htmlUrl="https://dlc.hypotheses.org" />
     </outline>
     <outline text="eng-discuss" title="eng-discuss">
+      <outline text="Terence Tao" description="Terence Tao"
+        xmlUrl="https://terrytao.wordpress.com/feed/" htmlUrl="https://terrytao.wordpress.com/" />
       <outline text="Branko Milanovic" description="Branko Milanovic"
         xmlUrl="https://branko2f7.substack.com/feed" htmlUrl="https://branko2f7.substack.com" />
       <outline text="asterisk" description="asterisk"
