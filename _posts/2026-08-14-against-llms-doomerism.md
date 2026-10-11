@@ -2,12 +2,12 @@
 layout: post
 title:  "Against LLM Doomerism"
 date:   2026-08-14
-last_modified_at: 2026-08-21
+last_modified_at: 2026-10-11
 categories: llms doomers
 permalink: /against-llm-doomerism
 ---
 
-In this age of great technological leaps and marketing hype, one has to carefully scrutinise his/her beliefs and opinions to preserve his/her mental stability. Programmers, especially, are among the most affected (although if privileged) categories, as [prosumers](https://en.wikipedia.org/wiki/Prosumer) of this AI/LLM revolution (which started not so long ago, in November 2025).
+In this age of great technological leaps and marketing hype, one has to carefully scrutinise their beliefs and opinions to preserve their mental stability. Programmers, especially, are among the most affected (although if privileged) categories, as [prosumers](https://en.wikipedia.org/wiki/Prosumer) of this AI/LLM revolution (which started not so long ago, in November 2025).
 
 One has to remember that LLMs are just another tool in the programmer’s toolbox, even if of a very different kind, and restrain oneself from both LLM haters and LLM evangelists.
 
@@ -19,13 +19,14 @@ The community of programmers has been sharing its thought to help navigate the u
 - [Understanding is the new bottleneck, Geoffrey Litt](https://web.archive.org/web/20260815214227/https://www.geoffreylitt.com/2026/07/02/understanding-is-the-new-bottleneck)
 - [“Code was never the hard part” is an insult to all programmers, Senko Rašić](https://web.archive.org/web/20260815005306/https://blog.senko.net/code-was-never-the-hard-part-is-an-insult-to-all-programmers)
 - [I costi del software: far emergere ciò che il mercato non prezza, Paolo Benanti](https://web.archive.org/web/20260814124059/https://www.quotidiano.ilsole24ore.com/art.php?t=S24&e=SOLE&i=20260812&artid=2106635) (from an Italian priest!!! worth clicking on `文/A` in your browser)
+- [No Man Is an Island, Fernando Borretti](https://borretti.me/article/no-man-is-an-island)
 
-They all seem to (involutarily or not) refer to some well-known essays from the past:
+They all seem to (involutarily or not) echo some well-known voices from the past:
 - [Programming as Theory Building, Peter Naur](https://pablo.rauzy.name/dev/naur1985programming.pdf)
 - [Reflections on Trusting Trust, Ken Thompson](https://dl.acm.org/doi/epdf/10.1145/358198.358210)
 - [Tools for Conviviality, Ivan Illich](https://www.davidtinapple.com/illich/1973_tools_for_convivality.html)
 
-A critical view of LLMs does not downplay the scientific significance of their discovery; their success is a severe comment on how most of linguistics has ignored probabilistic approaches to the study of language (Mr. Chomsky, the eminent scholar and imaginary anarchist, is not [blame](https://global.oup.com/academic/product/the-linguistics-wars-9780199740338) only for being friend with Epstein and Bannon).
+A critical view of LLMs does not downplay the scientific significance of their discovery; their success is a severe comment on how most of linguistics has ignored probabilistic approaches to the study of language (Mr. Chomsky, the eminent scholar and imaginary anarchist, is not to [blame](https://global.oup.com/academic/product/the-linguistics-wars-9780199740338) only for being friend with Epstein and Bannon).
 
 Instead, it should protect people (programmers and non-programmers) from cognitively surrendering to a consensual hallucination that presents LLMs as a God-like [Logos](https://en.wikipedia.org/wiki/Logos_(Christianity)) (an infinite wording that generates all the reality).
 
@@ -35,8 +36,9 @@ This already happened in history. Thousands of years ago, in an [Age of Anxiety]
 
 Everyone knows (or should know) the final outcome of this story.
 
-Knowing where to place our trust and how things work (do you remember the “build X from scratch/build your own X” frenzy raging just a few months ago?) remains relevant. LLMs are just a (powerful) tool to augment our [zone of proximal development](https://en.wikipedia.org/wiki/Zone_of_proximal_development), to put it into psychological terms. But no technology is neutral. It’s up to us to make it a convivial tool that can help humanity to advance in history as a whole towards a better future. This won't happen until LLMs are an external service that requires a $ub$cription, high electricity consumption and computing power that only high-end hardware can support.
+Knowing where to place our trust and how things work (do you remember the “build X from scratch/build your own X” frenzy raging just a few time ago?) remains relevant. LLMs are just a (powerful) tool to augment our [zone of proximal development](https://en.wikipedia.org/wiki/Zone_of_proximal_development), to put it into psychological terms. But no technology is neutral. It’s up to us to make it a convivial tool that can help humanity to advance in history as a whole towards a better future.
 
+This won't happen until LLMs are an external service that requires a $ub$cription, high electricity consumption and computing power that only high-end hardware can support. As things stand, LLMs only risk exacerbating the power asymmetry which separates governments and corporations from civil society.
 <br>
 <br>
 <br>
