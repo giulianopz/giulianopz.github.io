@@ -283,8 +283,8 @@
       <outline text="Anton Zhiyanov" title="Anton Zhiyanov"
         type="rss" xmlUrl="https://antonz.org/all/index.xml"
         htmlUrl="https://antonz.org" />
-      <outline text="AndreaS Kling"
-        title="AndreaS Kling" type="rss"
+      <outline text="Andreas Kling"
+        title="Andreas Kling" type="rss"
         xmlUrl="https://awesomekling.github.io/feed.xml"
         htmlUrl="https://awesomekling.github.io" />
       <outline text="rachelbythebay"
@@ -647,6 +647,10 @@
     </outline>
     <outline
       text="pg/db" title="pg/db">
+      <outline text="Jonathan Katz" description="Jonathan Katz"
+      xmlUrl="https://jkatz05.com/post/postgres/index.xml" htmlUrl="https://jkatz05.com/post/postgres/" />
+      <outline text="Andreas Freund" description="Andreas Freund"
+      xmlUrl="https://blog.anarazel.de/index.xml" htmlUrl="https://blog.anarazel.de/" />
       <outline text="Richard Yen" description="Richard Yen"
         xmlUrl="http://richyen.com/feed.xml" htmlUrl="http://richyen.com" />
       <outline text="Keith Fiske" description="Keith Fiske"
