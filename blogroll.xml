@@ -3,7 +3,8 @@
   <head>
     <title>feeds' subscriptions</title>
   </head>
-  <body>our fe <outline text="language" title="language">
+  <body>
+    <outline text="language" title="language">
       <!--
         * La Lingua Batte: https://www.raiplaysound.it/programmi/lalinguabatte
         * Annual Review of Linguistics: https://www.annualreviews.org/content/journals/linguistics
@@ -52,8 +53,10 @@
       <outline text="Martin Haspelmath" description="Martin Haspelmath"
         xmlUrl="https://dlc.hypotheses.org/feed" htmlUrl="https://dlc.hypotheses.org" />
     </outline>
-    <outline
-      text="eng-discuss" title="eng-discuss">
+    <outline text="eng-discuss" title="eng-discuss">
+      <outline text="Anna's Archive" description="Anna's Archive"
+        xmlUrl="https://annas-archive.gl/blog/rss.xml"
+        htmlUrl="https://annas-archive.gl/blog" />
       <outline text="Terence Tao" description="Terence Tao"
         xmlUrl="https://terrytao.wordpress.com/feed/" htmlUrl="https://terrytao.wordpress.com/" />
       <outline text="Branko Milanovic" description="Branko Milanovic"
@@ -140,8 +143,7 @@
       <outline text="9 eyes" description="9 eyes"
         xmlUrl="https://9-eyes.com/rss" htmlUrl="https://9-eyes.com" />
     </outline>
-    <outline
-      text="programming" title="programming">
+    <outline text="programming" title="programming">
       <outline text="Mat Duggan" description="Mat Duggan"
         xmlUrl="https://matduggan.com/rss/" htmlUrl="https://matduggan.com/" />
       <outline text="Charity Majors" description="Charity Majors"
@@ -465,8 +467,7 @@
         xmlUrl="https://buttondown.com/justincormack/rss"
         htmlUrl="https://buttondown.com/justincormack" />
     </outline>
-    <outline text="indiemedia"
-      title="indiemedia">
+    <outline text="indiemedia" title="indiemedia">
       <outline text="GlobalProject" description="GlobalProject"
         xmlUrl="https://globalproject.info/feed" htmlUrl="https://globalproject.info" />
       <outline text="InfoAut" description="InfoAut"
@@ -528,10 +529,9 @@
         xmlUrl="http://www.fascinazione.info/feeds/posts/default"
         htmlUrl="http://www.fascinazione.info/" />
     </outline>
-    <outline text="ita-discuss"
-      title="ita-discuss">
+    <outline text="ita-discuss" title="ita-discuss">
       <outline text="Stefano Quintarelli" description="Stefano Quintarelli"
-      xmlUrl="https://blog.quintarelli.it/feed/" htmlUrl="https://blog.quintarelli.it/" />
+        xmlUrl="https://blog.quintarelli.it/feed/" htmlUrl="https://blog.quintarelli.it/" />
       <outline text="Internazionale" description="Internazionale"
         xmlUrl="https://www.internazionale.it/sitemaps/rss.xml"
         htmlUrl="https://www.internazionale.it" />
@@ -645,12 +645,15 @@
       <outline text="The Submarine" title="The Submarine" type="rss"
         xmlUrl="https://thesubmarine.it/feed/" htmlUrl="https://thesubmarine.it" />
     </outline>
-    <outline
-      text="pg/db" title="pg/db">
+    <outline text="pg/db" title="pg/db">
+      <outline text="Adam Wright" description="Adam Wright"
+        xmlUrl="https://theadamwright.github.io/feed.xml"
+        htmlUrl="https://theadamwright.github.io" />
       <outline text="Jonathan Katz" description="Jonathan Katz"
-      xmlUrl="https://jkatz05.com/post/postgres/index.xml" htmlUrl="https://jkatz05.com/post/postgres/" />
+        xmlUrl="https://jkatz05.com/post/postgres/index.xml"
+        htmlUrl="https://jkatz05.com/post/postgres/" />
       <outline text="Andreas Freund" description="Andreas Freund"
-      xmlUrl="https://blog.anarazel.de/index.xml" htmlUrl="https://blog.anarazel.de/" />
+        xmlUrl="https://blog.anarazel.de/index.xml" htmlUrl="https://blog.anarazel.de/" />
       <outline text="Richard Yen" description="Richard Yen"
         xmlUrl="http://richyen.com/feed.xml" htmlUrl="http://richyen.com" />
       <outline text="Keith Fiske" description="Keith Fiske"
@@ -904,8 +907,7 @@
         htmlUrl="https://write-skew.blogspot.com/"
         xmlUrl="https://write-skew.blogspot.com/feeds/posts/default?alt=rss" />
     </outline>
-    <outline
-      text="security " title="security ">
+    <outline text="security " title="security ">
       <outline text="International Cyber Digest" description="International Cyber Digest"
         xmlUrl="https://www.internationalcyberdigest.com/rss/"
         htmlUrl="https://www.internationalcyberdigest.com/" />
