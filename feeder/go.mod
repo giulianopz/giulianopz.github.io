@@ -1,6 +1,6 @@
 module github.com/giulianopz/giulianopz.github.io/feeder
 
-go 1.25.3
+go 1.27.3
 
 require (
 	github.com/mmcdole/gofeed v1.3.0

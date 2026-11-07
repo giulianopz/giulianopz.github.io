@@ -80,15 +80,24 @@ var skip = func(s string) bool {
 
 var userAgent = "giulianopz/feeder/0.1 (+https://github.com/giulianopz/giulianopz.github.io/tree/gh-pages/feeder)"
 
+var logFile *os.File
+
 func init() {
 	feedParser = gofeed.NewParser()
 
 	httpClient = &http.Client{Timeout: 30 * time.Second}
 
 	cache = make(map[string]*metadata)
+
+	f, err := os.Create(".log")
+	if err != nil {
+		panic(err)
+	}
+	logFile = f
 }
 
 func main() {
+
 	var (
 		blogrollFilePath = os.Args[1]
 		feedYAMLPath     = os.Args[2]
@@ -149,25 +158,23 @@ func main() {
 		}
 	}
 
+	process := func(o outline, category string) func() {
+		return func() {
+			fmt.Println("processing feed:", o.Text)
+			articles := getArticles(o, &upperBound)
+			articlesMu.Lock()
+			articlesByCategory[category] = append(articlesByCategory[category], articles...)
+			articlesMu.Unlock()
+		}
+	}
+
 	wg := sync.WaitGroup{}
 	for _, o := range f.Body.Outlines {
 		if len(o.Outlines) == 0 {
-			wg.Go(func() {
-				fmt.Println("processing feed:", o.Text)
-				articles := getArticles(o, &upperBound)
-				articlesMu.Lock()
-				articlesByCategory["misc"] = append(articlesByCategory["misc"], articles...)
-				articlesMu.Unlock()
-			})
+			wg.Go(process(o, "misc"))
 		} else {
 			for _, child := range o.Outlines {
-				wg.Go(func() {
-					fmt.Println("processing feed:", child.Text)
-					articles := getArticles(child, &upperBound)
-					articlesMu.Lock()
-					articlesByCategory[o.Text] = append(articlesByCategory[o.Text], articles...)
-					articlesMu.Unlock()
-				})
+				wg.Go(process(child, o.Text))
 			}
 		}
 	}
@@ -213,6 +220,9 @@ func main() {
 		panic(err)
 	}
 	fmt.Println("cache updated")
+
+	logFile.Sync()
+	logFile.Close()
 }
 
 func getFeed(feedUrl string) (*gofeed.Feed, error) {
@@ -340,7 +350,10 @@ func match(filters []filter, article *gofeed.Item) bool {
 func getArticles(f outline, upperBound *time.Time) (articles []*article) {
 	feed, err := getFeed(f.XMLUrl)
 	if err != nil {
-		fmt.Printf("err: cannot parse feed %q: %s\n", f.XMLUrl, err)
+		fmt.Printf("err: cannot get feed %q: %s\n", f.XMLUrl, err)
+		logFile.WriteString(
+			fmt.Sprintf("%s: %q\n", f.Text, err),
+		)
 		return
 	}
 	if feed == nil {
