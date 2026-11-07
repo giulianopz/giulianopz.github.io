@@ -54,6 +54,8 @@
         xmlUrl="https://dlc.hypotheses.org/feed" htmlUrl="https://dlc.hypotheses.org" />
     </outline>
     <outline text="eng-discuss" title="eng-discuss">
+      <outline text="Ed Yong" description="Ed Yong"
+        xmlUrl="https://buttondown.com/edyong209/rss" htmlUrl="https://buttondown.com/edyong209" />
       <outline text="Anna's Archive" description="Anna's Archive"
         xmlUrl="https://annas-archive.gl/blog/rss.xml"
         htmlUrl="https://annas-archive.gl/blog" />
