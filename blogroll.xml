@@ -146,6 +146,8 @@
         xmlUrl="https://9-eyes.com/rss" htmlUrl="https://9-eyes.com" />
     </outline>
     <outline text="programming" title="programming">
+      <outline text="joshua stein" description="joshua stein"
+        xmlUrl="https://jcs.org/rss" htmlUrl="https://jcs.org" />
       <outline text="Mat Duggan" description="Mat Duggan"
         xmlUrl="https://matduggan.com/rss/" htmlUrl="https://matduggan.com/" />
       <outline text="Charity Majors" description="Charity Majors"
@@ -208,9 +210,6 @@
       <outline text="Kay Lack" description="Kay Lack"
         xmlUrl="https://www.youtube.com/feeds/videos.xml?channel_id=UC7UukP_hxrOsrwHrcHxOxxg"
         htmlUrl="https://www.youtube.com/@neoeno4242" />
-      <outline text="LaurieWired" description="LaurieWired"
-        xmlUrl="https://www.youtube.com/feeds/videos.xml?channel_id=UCJXa3_WNNmIpewOtCHf3B0g"
-        htmlUrl="https://www.youtube.com/@lauriewired" />
       <outline text="Tsondig" description="Tsoding"
         xmlUrl="https://www.youtube.com/feeds/videos.xml?channel_id=UCEbYhDd6c6vngsF5PQpFVWg"
         htmlUrl="https://www.youtube.com/@Tsoding" />
@@ -223,8 +222,6 @@
         xmlUrl="https://simonwillison.net/atom/everything/" htmlUrl="https://simonwillison.net" />
       <outline text="Yossi Kreinin" description="Yossi Kreinin"
         xmlUrl="https://www.yosefk.com/blog/feed" htmlUrl="https://www.yosefk.com/blog" />
-      <outline text="Filippo Valsorda" title="Filippo Valsorda" description="" type="rss"
-        version="RSS" htmlUrl="https://words.filippo.io/" xmlUrl="https://words.filippo.io/rss" />
       <outline text="Ardan Labs" title="Ardan Labs"
         type="rss" version="RSS"
         htmlUrl="https://www.ardanlabs.com/blog/"
@@ -909,7 +906,30 @@
         htmlUrl="https://write-skew.blogspot.com/"
         xmlUrl="https://write-skew.blogspot.com/feeds/posts/default?alt=rss" />
     </outline>
-    <outline text="security " title="security ">
+    <outline text="security" title="security">
+      <outline text="Malwarebytes" description="Malwarebytes"
+        xmlUrl="https://www.malwarebytes.com/feed" htmlUrl="https://www.malwarebytes.com" />
+      <outline text="PortSwigger" description="PortSwigger"
+        xmlUrl="https://portswigger.net/research/rss" htmlUrl="https://portswigger.net" />
+      <outline text="Filippo Valsorda" title="Filippo Valsorda" description="" type="rss"
+        version="RSS" htmlUrl="https://words.filippo.io/" xmlUrl="https://words.filippo.io/rss" />
+      <outline text="DEFCON" description="DEFCON"
+        xmlUrl="https://www.youtube.com/feeds/videos.xml?channel_id=UC6Om9kAkl32dWlDSNlDS9Iw"
+        htmlUrl="https://www.youtube.com/@DEFCONConference" />
+      <outline text="LaurieWired" description="LaurieWired"
+        xmlUrl="https://www.youtube.com/feeds/videos.xml?channel_id=UCJXa3_WNNmIpewOtCHf3B0g"
+        htmlUrl="https://www.youtube.com/@lauriewired" />
+      <outline text="Mathy Vanhoef" description="Mathy Vanhoef"
+        xmlUrl="https://www.mathyvanhoef.com/feeds/posts/default"
+        htmlUrl="https://www.mathyvanhoef.com/" />
+      <outline text="Orange Tsai" description="Orange Tsai"
+        xmlUrl="https://blog.orange.tw/atom.xml" htmlUrl="https://blog.orange.tw" />
+      <outline text="Gynvael Coldwind" description="Gynvael Coldwind"
+        xmlUrl="https://gynvael.coldwind.pl/rss_en.php"
+        htmlUrl="https://gynvael.coldwind.pl" />
+      <outline text="cvemon.intruder.io" description="cvemon.intruder.io"
+        xmlUrl="https://cvemon.intruder.io/rss/cvetrends/latest"
+        htmlUrl="https://cvemon.intruder.io" />
       <outline text="International Cyber Digest" description="International Cyber Digest"
         xmlUrl="https://www.internationalcyberdigest.com/rss/"
         htmlUrl="https://www.internationalcyberdigest.com/" />
