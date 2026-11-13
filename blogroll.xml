@@ -927,9 +927,9 @@
       <outline text="Gynvael Coldwind" description="Gynvael Coldwind"
         xmlUrl="https://gynvael.coldwind.pl/rss_en.php"
         htmlUrl="https://gynvael.coldwind.pl" />
-      <outline text="cvemon.intruder.io" description="cvemon.intruder.io"
+      <outline text="CVE Trending Now" description="CVE Trending Now"
         xmlUrl="https://cvemon.intruder.io/rss/cvetrends/latest"
-        htmlUrl="https://cvemon.intruder.io" />
+        htmlUrl="https://cvemon.intruder.io/trending" />
       <outline text="International Cyber Digest" description="International Cyber Digest"
         xmlUrl="https://www.internationalcyberdigest.com/rss/"
         htmlUrl="https://www.internationalcyberdigest.com/" />
